@@ -1,0 +1,162 @@
+{
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T18:00:00+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "今天是 A 股交易日；估值使用最近已收盘的 2026-08-04 数据。"
+  },
+  "advice": {
+    "book": "《简单致富》《简单致富2》《指数基金投资指南》与 J.L. Collins Stock Series",
+    "principle": "纪律不是保证买在最低点，而是让现金流安全、行为可重复：低估时按计划投入，高估时按计划降风险，其余时间把精力留给工作、健康和家庭。",
+    "do": "先把未来三年的刚性支出与应急资金和权益账户分开。若你已有书面再平衡方案，今天只执行其中对中证500、沪深300预定的减仓或再平衡步骤；纳指100与标普500按规则持有。",
+    "dont": "不要把 A 股景气数据回落直接推演成“马上暴跌”，也不要把卖出的 A 股仓位一次性追进 PB 已处历史高位的美股指数；更不要借钱加仓。",
+    "context": "事实：7月中国制造业、非制造业和综合 PMI 均低于50；美联储7月29日维持联邦基金利率目标区间不变并称通胀仍高。推断：增长与贴现率的不确定性都不低，今天更该执行预案，而不是扩大主观押注。"
+  },
+  "reading": {
+    "status": "valid",
+    "selectionId": "2026-08-05:1162810736",
+    "sourceType": "blog",
+    "title": "把财富自由变成一条可自动执行的路径",
+    "originalTitle": "Case Study #I: Putting the Simple Path to Wealth into Action",
+    "sourceName": "J.L. Collins Stock Series",
+    "locator": "官网案例文章，发布于 2012-09-17",
+    "fit": [
+      "FIRE 与现金流",
+      "行为纪律与保持简单",
+      "专业知识讲解"
+    ],
+    "summary": "这篇案例把“简单致富”从理念落到资金流：先处理债务与安全垫，再确定可持续储蓄率，把长期资金自动投入低成本宽基指数，最后让时间而不是频繁决策承担复利工作。真正决定路径能否走通的，不是每次择时有多聪明，而是系统是否简单、费用是否足够低、下跌时能否继续执行。",
+    "takeaways": [
+      "积累期的第一杠杆通常是储蓄率与持续投入：控制消费升级，比猜下一次涨跌更可控。",
+      "宽基指数、低费用和自动转入共同减少选择数量，让正确动作在忙碌或恐慌时仍能发生。",
+      "文章中的 VTSAX、403(b) 和 Roth IRA 属于美国工具；可迁移的是资金分层与自动化原则，不是账户名称或百分之百股票配置。"
+    ],
+    "concept": {
+      "title": "两种“定投”不是一回事",
+      "explanation": "工资按月到账后立即投资，是把新增现金流持续投入；已有一笔可长期投资的现金却故意分批入场，是一次性资金的分批建仓。前者并没有长期闲置资金，后者则用现金仓位换取较小的短期择时压力。",
+      "applicability": "稳定工资适合按发薪周期自动投入；一次性资金是否分批，应结合风险承受力、目标期限与既定资产配置，而不是只看近期涨跌。",
+      "misconception": "不要把 Collins 对一次性资金分批建仓的保留意见，误读成反对用每月工资持续投资。"
+    },
+    "application": "今天写下自己的四级资金瀑布：日常支出、应急金目标、每月自动投入额、超出目标后的再平衡去向；让发薪后的转账顺序自动执行。",
+    "dont": "不要照抄美国税务账户和单一美股基金，也不要因今天某个指数处于高分位就推翻长期资产配置；规则调整应基于目标、现金流和风险承受力。",
+    "quote": "The correct minimal effort actually produces better results than labor intensive strategies.",
+    "sourceUrl": "https://jlcollinsnh.com/2012/09/17/putting-the-simple-path-to-wealth-into-action/",
+    "sourceLabel": "阅读官网原文",
+    "images": [
+      {
+        "filename": "reading-simple-path-comic-labeled.png",
+        "alt": "标有收入分流、应急缓冲、自动投入、穿越波动、时间复利和选择自由的六格分镜",
+        "caption": "这篇文章有六个连续动作，适合用分镜展示资金系统如何逐步形成。",
+        "steps": [
+          "收入分流：先明确生活、应急与长期投资的边界。",
+          "安全垫：用可承受的储备吸收意外，不被迫在低点卖出。",
+          "自动投入：按现金流周期买入广泛分散、低成本的生产性资产。",
+          "穿越波动：下跌时不临时改规则，让自动投入继续。",
+          "时间复利：小额、持续、低摩擦地积累多年。",
+          "获得选择权：财富自由不是炫耀消费，而是可以选择如何使用时间。"
+        ]
+      }
+    ]
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "action": "卖出",
+      "dataDate": "2026-08-04",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "pe": 35.6153,
+      "pePercentile": 0.8805825242718447,
+      "pb": 2.4115,
+      "pbPercentile": 0.8009708737864077,
+      "temperature": 0.8407766990291262,
+      "reason": "当前 PE 位于近10年历史的 88.1% 分位，高于80%，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "action": "卖出",
+      "dataDate": "2026-08-04",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "pe": 14.2115,
+      "pePercentile": 0.8145631067961165,
+      "pb": 1.4496,
+      "pbPercentile": 0.45728155339805826,
+      "temperature": 0.6359223300970874,
+      "reason": "当前 PE 位于近10年历史的 81.5% 分位，高于80%，命中“卖出”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-08-04",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "pe": 31.6647,
+      "pePercentile": 0.5194931773879142,
+      "pb": 9.4916,
+      "pbPercentile": 0.8567251461988304,
+      "temperature": 0.6881091617933723,
+      "reason": "当前 PE 位于近10年历史的 51.9% 分位，处于40%-80%，命中“持有”区间；PB 分位较高，只作风险提示。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-08-04",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "pe": 26.3227,
+      "pePercentile": 0.6611650485436893,
+      "pb": 5.6897,
+      "pbPercentile": 0.9796116504854369,
+      "temperature": 0.8203883495145631,
+      "reason": "当前 PE 位于近10年历史的 66.1% 分位，处于40%-80%，命中“持有”区间；PB 分位接近历史高位，只作风险提示。"
+    }
+  ],
+  "events": [
+    {
+      "market": "A股",
+      "headline": "7月制造业 PMI 为49.2%，非制造业商务活动指数为49.0%",
+      "implication": "两项均低于50，说明环比景气回落；这是盈利环境的风险信息，不是单独的买卖按钮。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html"
+    },
+    {
+      "market": "美股",
+      "headline": "美联储7月29日维持3.50%-3.75%目标区间",
+      "implication": "声明称通胀仍高于2%目标，且三名委员主张加息25个基点；高估值资产仍面对贴现率约束。",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    }
+  ],
+  "sources": [
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-08-05T17:49:35+08:00"
+    },
+    {
+      "label": "国家统计局：2026年7月中国采购经理指数运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html",
+      "accessedAt": "2026-08-05T17:55:00+08:00"
+    },
+    {
+      "label": "美联储：2026年7月29日 FOMC 声明",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "accessedAt": "2026-08-05T17:55:00+08:00"
+    },
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-08-05T17:55:00+08:00"
+    },
+    {
+      "label": "J.L. Collins Stock Series：Putting the Simple Path to Wealth into Action",
+      "url": "https://jlcollinsnh.com/2012/09/17/putting-the-simple-path-to-wealth-into-action/",
+      "accessedAt": "2026-08-05T18:45:00+08:00"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设 PE 分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
