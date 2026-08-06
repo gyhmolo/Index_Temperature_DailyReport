@@ -1,0 +1,209 @@
+{
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-06T08:05:54+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年8月6日为星期四，且不在上交所、深交所公布的2026年节假日休市区间内，今天是A股交易日。A股估值使用最近已完成交易日2026年8月5日数据；美股最近已完成交易日同为2026年8月5日，但估值源仍停在8月4日，故美股暂不判断。"
+  },
+  "advice": {
+    "book": "J.L. Collins Stock Series 第三十四篇",
+    "principle": "卖出之前先盘点当前持有、写清目标配置并核算迁移成本；机械估值信号只说明规则所处区间，不等于立即清空全部仓位。",
+    "do": "把中证500和沪深300的机械“卖出”信号记入既有检查清单，先核对持仓、目标配置以及账户内的交易与税务摩擦；美股估值未更新到最近已完成交易日，今天不据此新增行为。",
+    "dont": "不要把两个A股“卖出”信号扩大成全仓清算，也不要用8月4日的美股旧数据代替8月5日数据作决定；不要借钱、加杠杆或因一条宏观消息改变长期配置。",
+    "context": "事实：7月中国制造业PMI为49.2%，非制造业商务活动指数为49.0%；美国6月职位空缺为740万、招聘为530万、离职总数为540万，均较前月变化不大；美联储7月29日维持3.50%-3.75%的联邦基金利率目标区间，并称通胀仍高于2%目标。推断：A股盈利环境仍需观察，美股劳动力需求没有出现骤变，但贴现率约束仍在；这些事实用于解释风险背景，不替代PE分位规则。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "action": "卖出",
+      "dataDate": "2026-08-05",
+      "fetchedAt": "2026-08-06T00:02:36.458Z",
+      "source": "雪球基金（静态PE/PB；近10年历史样本由项目本地重算分位）",
+      "pe": 36.5173,
+      "pePercentile": 0.8902912621359224,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-10",
+      "pb": 2.4751,
+      "pbPercentile": 0.8184466019417476,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-10",
+      "temperature": 0.854368932038835,
+      "reason": "PE位于近10年历史89.0%分位，高于80%，机械规则输出“卖出”；PB为81.8%分位，只辅助说明温度。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "action": "卖出",
+      "dataDate": "2026-08-05",
+      "fetchedAt": "2026-08-06T00:02:36.545Z",
+      "source": "雪球基金（静态PE/PB；近10年历史样本由项目本地重算分位）",
+      "pe": 14.3017,
+      "pePercentile": 0.841747572815534,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-10",
+      "pb": 1.4591,
+      "pbPercentile": 0.48349514563106794,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-10",
+      "temperature": 0.662621359223301,
+      "reason": "PE位于近10年历史84.2%分位，高于80%，机械规则输出“卖出”；PB为48.3%分位，只辅助说明温度。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "invalid",
+      "action": "暂不判断",
+      "dataDate": "2026-08-04",
+      "fetchedAt": "2026-08-06T00:02:36.500Z",
+      "source": "雪球基金（旧快照，仅作透明披露，不用于触发行为）",
+      "pe": 31.6647,
+      "pePercentile": 0.5194931773879142,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-08-09",
+      "pb": 9.4916,
+      "pbPercentile": 0.8567251461988304,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-08-09",
+      "temperature": null,
+      "reason": "最近已完成的美股交易日是2026年8月5日，但估值源仍为8月4日；旧快照PE分位51.9%、PB分位85.7%，本次均不触发行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "invalid",
+      "action": "暂不判断",
+      "dataDate": "2026-08-04",
+      "fetchedAt": "2026-08-06T00:02:36.415Z",
+      "source": "雪球基金（旧快照，仅作透明披露，不用于触发行为）",
+      "pe": 26.3227,
+      "pePercentile": 0.6611650485436893,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-09",
+      "pb": 5.6897,
+      "pbPercentile": 0.9796116504854369,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-09",
+      "temperature": null,
+      "reason": "最近已完成的美股交易日是2026年8月5日，但估值源仍为8月4日；旧快照PE分位66.1%、PB分位98.0%，本次均不触发行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "A股",
+      "headline": "7月制造业PMI为49.2%，非制造业商务活动指数为49.0%",
+      "implication": "事实：两项均低于50，制造业新订单指数为48.5%。推断：企业收入与盈利环境仍需观察，但该数据不是独立买卖按钮。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html"
+    },
+    {
+      "market": "美股",
+      "headline": "美国6月职位空缺、招聘与离职总数均变化不大",
+      "implication": "事实：职位空缺740万、招聘530万、离职总数540万。推断：劳动力需求未显著转弱，不能仅凭该项数据推导降息或追涨。",
+      "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+    },
+    {
+      "market": "美股",
+      "headline": "美联储维持3.50%-3.75%目标区间",
+      "implication": "事实：7月29日FOMC维持利率，称通胀仍高于2%目标，三名委员主张加息25个基点。推断：高估值资产仍受贴现率约束。",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "sourceType": "blog",
+    "title": "先盘点，再迁移：如何处理不再需要的股票和基金",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "Stocks–Part XXXIV，官网文章，发布于2018年6月28日",
+    "sourceUrl": "https://jlcollinsnh.com/2018/06/28/stocks-part-xxxiv-how-to-unload-your-unwanted-stocks-and-funds/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：从复杂旧组合走向简单目标组合时，先看清自己拥有什么、目标是什么以及迁移要付出什么，再决定交易顺序；目标更简单，不代表应该冲动地一次性卖光。",
+    "takeaways": [
+      "先列出全部股票、基金、费用与用途，判断每项资产是否还能服务未来计划。",
+      "先在家庭整体与全部账户层面确定目标资产配置，再决定哪项资产放在哪个账户。",
+      "出售前核算税费、持有期限、亏损抵扣和账户限制；如果摩擦较高，分步迁移可能比一次性切换更稳妥。"
+    ],
+    "fit": [
+      "指数投资与市场纪律",
+      "风险控制与组合简化",
+      "机械卖出信号的执行边界"
+    ],
+    "concept": {
+      "title": "组合迁移成本",
+      "explanation": "组合调整不是从一张理想配置图直接跳到终点，而是从当前持仓出发；税费、交易成本、账户限制和暂时偏离目标配置都会影响迁移路径。",
+      "applicability": "适用于组合简化、再平衡或规则触发卖出时。先按家庭整体盘点资产，再核对每个账户的可交易范围、费用与税务处理，最后决定是否分步执行。",
+      "misconception": "常见误区是把“目标组合更合理”理解为“现在必须全部卖出”。文章中的IRA、401(k)、资本利得税和亏损抵扣属于美国且会随规则变化，不能直接套入中国账户；A股、跨境证券与基金的税费和交易制度应按当前官方规则及账户条件另行核验。"
+    },
+    "quote": "The first order of business is to get a grasp on exactly what you currently own.",
+    "application": "今天中证500与沪深300触发机械“卖出”信号，先用文章的方法确认当前持仓、目标配置与摩擦；没有仓位、税费和再配置目标时，不把信号扩展成全仓清算。",
+    "dont": "不要只看单个产品的盈亏或今天的信号就立刻清空，也不要把美国税收账户的操作细节照搬到中国市场。",
+    "images": [
+      {
+        "filename": "reading-unload-portfolio.png",
+        "alt": "从盘点持仓到分步迁移的四阶段示意图",
+        "caption": "四个分镜对应文章的四个实际论证单元：",
+        "steps": [
+          "盘点当前持有的股票、基金、费用与用途。",
+          "从家庭整体和全部账户确定目标资产配置。",
+          "核对税费、交易成本与账户制度边界；美国税收账户规则不能直接套用于中国。",
+          "按既有计划分步迁移，避免把机械卖出信号理解为立即全仓清算。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市区间）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-08-06T08:01:30+08:00",
+      "dataDate": "2026-08-06",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市区间）",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-06T08:01:45+08:00",
+      "dataDate": "2026-08-06",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值（数据日期：A股2026-08-05、美股2026-08-04；口径：静态PE/PB，项目按近10年有效样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-08-06T08:02:36+08:00",
+      "dataDate": "2026-08-05 / 2026-08-04",
+      "metricDefinition": "静态PE、PB及近10年历史分位；美股旧快照不触发行为"
+    },
+    {
+      "label": "国家统计局：2026年7月中国采购经理指数运行情况（数据日期：2026年7月；口径：经季节调整PMI）",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html",
+      "accessedAt": "2026-08-06T08:04:30+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "制造业PMI与非制造业商务活动指数"
+    },
+    {
+      "label": "美国劳工统计局：2026年6月职位空缺与劳动力流动（数据日期：2026年6月；口径：非农职位空缺、招聘与离职，经季节调整）",
+      "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
+      "accessedAt": "2026-08-06T08:04:30+08:00",
+      "dataDate": "2026-06",
+      "metricDefinition": "JOLTS非农职位空缺、招聘和离职总量"
+    },
+    {
+      "label": "美联储：2026年7月29日FOMC声明（数据日期：2026-07-29；口径：联邦基金利率目标区间）",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "accessedAt": "2026-08-06T08:04:30+08:00",
+      "dataDate": "2026-07-29",
+      "metricDefinition": "联邦基金利率目标区间与政策声明"
+    },
+    {
+      "label": "J.L. Collins：How to unload your unwanted stocks and funds（文章日期：2018-06-28；口径：官网完整论证单元）",
+      "url": "https://jlcollinsnh.com/2018/06/28/stocks-part-xxxiv-how-to-unload-your-unwanted-stocks-and-funds/",
+      "accessedAt": "2026-08-06T08:03:00+08:00",
+      "dataDate": "2018-06-28",
+      "metricDefinition": "官网文章完整论证单元"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
