@@ -1,0 +1,284 @@
+{
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T16:24:38+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年8月7日为星期五，且不在上交所、深交所公布的2026年节假日休市区间内，今天是A股交易日。四个指数均使用最近已完成交易日2026年8月6日的单日估值；纳斯达克100和标普500在14:30截止时间后的最后一次抓取已更新到预期数据日，未启用三交易日窗口兜底。"
+  },
+  "advice": {
+    "book": "J.L. Collins Stock Series 第六篇",
+    "principle": "资产配置应由资金用途、期限、支取需求和风险承受力决定；积累期与保全期需要的工具不同，机械估值信号不能替代家庭层面的目标配置。",
+    "do": "先核对未来三年刚性支出和应急金是否已与权益资产分开，再把中证500、沪深300的机械“卖出”与美股两个“持有”信号填入既有再平衡清单，只执行事先写好的步骤。",
+    "dont": "不要把A股两个“卖出”信号扩大为全仓清算，也不要因美股恢复为“持有”就把A股资金临时转去追涨；不借钱、不加杠杆。",
+    "context": "事实：7月中国制造业PMI为49.2%，非制造业商务活动指数为49.0%；美国二季度非农商业劳动生产率按年率增长1.4%，单位劳动成本增长1.3%；美联储7月29日维持3.50%-3.75%的联邦基金利率目标区间，并称通胀相对2%目标仍偏高。推断：国内需求与企业盈利环境仍需观察；美国生产率改善对利润率有支撑，但利率区间仍对高估值资产形成贴现率约束。这些事实只用于解释风险背景，不替代PE分位规则。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-06",
+      "expectedDataDate": "2026-08-06",
+      "fetchedAt": "2026-08-07T00:04:43.702Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-06"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-06",
+          "pe": 36.6211,
+          "pb": 2.483,
+          "fetchedAt": "2026-08-07T00:04:43.702Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 36.6211,
+      "pePercentile": 0.8902912621359224,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-08",
+      "pb": 2.483,
+      "pbPercentile": 0.8203883495145631,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-08",
+      "temperature": 0.8553398058252427,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 89.0% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-06",
+      "expectedDataDate": "2026-08-06",
+      "fetchedAt": "2026-08-07T00:04:44.118Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-06"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-06",
+          "pe": 14.3232,
+          "pb": 1.4612,
+          "fetchedAt": "2026-08-07T00:04:44.118Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 14.3232,
+      "pePercentile": 0.8475728155339806,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-08",
+      "pb": 1.4612,
+      "pbPercentile": 0.4941747572815534,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-08",
+      "temperature": 0.670873786407767,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 84.8% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-06",
+      "expectedDataDate": "2026-08-06",
+      "fetchedAt": "2026-08-07T08:20:41.255Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 1,
+      "observationDates": [
+        "2026-08-06"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-06",
+          "pe": 30.9769,
+          "pb": 9.3699,
+          "fetchedAt": "2026-08-07T08:20:41.255Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.9769,
+      "pePercentile": 0.5,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-08-08",
+      "pb": 9.3699,
+      "pbPercentile": 0.817738791423002,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-08-08",
+      "temperature": 0.658869395711501,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 50.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-06",
+      "expectedDataDate": "2026-08-06",
+      "fetchedAt": "2026-08-07T08:20:41.306Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 1,
+      "observationDates": [
+        "2026-08-06"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-06",
+          "pe": 25.9323,
+          "pb": 5.621,
+          "fetchedAt": "2026-08-07T08:20:41.306Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.9323,
+      "pePercentile": 0.6262135922330098,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-08",
+      "pb": 5.621,
+      "pbPercentile": 0.9699029126213592,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-08",
+      "temperature": 0.7980582524271844,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 62.6% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "A股",
+      "headline": "7月制造业PMI为49.2%，非制造业商务活动指数为49.0%",
+      "implication": "事实：两项均低于50，制造业新订单指数为48.5%。推断：企业收入与盈利环境仍需观察，但该数据不是独立买卖按钮。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html"
+    },
+    {
+      "market": "美股",
+      "headline": "美国二季度非农商业劳动生产率增长1.4%",
+      "implication": "事实：美国劳工统计局报告产出增长1.7%、工时增长0.3%，单位劳动成本增长1.3%，均为经季调折年率。推断：生产率改善有利于利润率，但不能单独得出指数应追涨的结论。",
+      "url": "https://www.bls.gov/news.release/prod2.nr0.htm"
+    },
+    {
+      "market": "美股",
+      "headline": "美联储维持3.50%-3.75%目标区间",
+      "implication": "事实：7月29日FOMC维持利率，称通胀相对2%目标仍偏高，三名委员主张加息25个基点。推断：高估值资产仍受贴现率约束。",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "sourceType": "blog",
+    "title": "没有万能组合：让资产配置服务人生阶段",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "Stocks–Part VI，官网文章，发布于2012年5月12日",
+    "sourceUrl": "https://jlcollinsnh.com/2012/05/12/stocks-part-vi-portfolio-ideas-to-build-and-keep-your-wealth/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：不存在脱离个人条件的万能组合。积累期、临近支取期和需要现金缓冲时的配置功能不同，但低成本、宽基分散、少交易与持续执行是共同底层。",
+    "takeaways": [
+      "在积累期，较长时间地平线和可持续新增现金流能提高对权益波动的承受力；这不是说回撤消失，而是尚无近期被迫卖出的支取压力。",
+      "临近保全或支取期时，现金与低波动资产的作用是减少恶劣市场中被迫卖出权益资产的风险，代价是机会成本和通胀侵蚀。",
+      "文章的“现金保险”组合是作者当时尚未说服自己的试验性想法，应当作设计组合的问题意识，不能当作可复制的固定公式。"
+    ],
+    "fit": [
+      "FIRE与家庭现金流",
+      "长期指数投资",
+      "资产配置与风险控制"
+    ],
+    "concept": {
+      "title": "收益顺序风险",
+      "explanation": "当组合已开始对外支取时，相同的长期平均收益如果出现顺序不同，结果也会显著不同；早期回撤叠加持续支取会迫使在低位卖出更多份额，现金缓冲的价值在于降低这种被迫卖出。",
+      "applicability": "适用于临近退休、已有刚性支取或未来数年收入不稳定的资金。缓冲尺寸应由支出弹性、其他收入、保险和风险承受力共同决定，不由年龄或市场点位单独决定。",
+      "misconception": "常见误区是把“多持现金”当成无条件更安全；现金同样受通胀与机会成本影响。文中基金、税收账户和支取示例属于美国语境，不能直接映射到A股、中国基金账户或跨境账户；实际税务、费用与交易限制需另行核验。"
+    },
+    "quote": "Your personal situation is likely different from ours.",
+    "application": "今天A股两个指数触发机械“卖出”，美股两个指数为“持有”。先按资金用途和时间地平线确认目标配置，然后只执行既有再平衡步骤；不用市场间的信号差异临时追涨换仓。",
+    "dont": "不要把作者的组合比例、美国基金代码或现金缓冲年限当成个人化处方，也不要因为资产配置变得“更保守”就忽略通胀与长期目标。",
+    "images": [
+      {
+        "filename": "reading-portfolio-purposes.png",
+        "alt": "积累期、保全期与现金缓冲试验的三格示意图",
+        "caption": "三格分镜对应原文的三个实际论证单元：",
+        "steps": [
+          "积累期：持续新增现金流，用简单宽基工具承接长期增长，同时预先接受权益回撤。",
+          "保全与支取期：在增长、稳定和日常支出之间分配功能，用再平衡维持既定边界。",
+          "现金缓冲试验：让近期支出不必在风暴中卖出权益资产，但把它保留为需要个人现金流验证的方案，不当固定公式。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市区间）",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+      "accessedAt": "2026-08-07T08:04:08+08:00",
+      "dataDate": "2026-08-07",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市区间）",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-07T08:04:08+08:00",
+      "dataDate": "2026-08-07",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值（数据日期：四指数均为2026-08-06；口径：静态PE/PB，项目按近10年有效样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-08-07T16:20:41+08:00",
+      "dataDate": "2026-08-06",
+      "metricDefinition": "静态PE、PB及近10年历史分位；行为仅由PE分位触发"
+    },
+    {
+      "label": "国家统计局：2026年7月中国采购经理指数运行情况（数据日期：2026年7月；口径：经季节调整PMI）",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html",
+      "accessedAt": "2026-08-07T16:22:30+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "制造业PMI、新订单指数与非制造业商务活动指数"
+    },
+    {
+      "label": "美国劳工统计局：2026年二季度生产率与成本初值（数据日期：2026年二季度；口径：非农商业部门经季调折年率）",
+      "url": "https://www.bls.gov/news.release/prod2.nr0.htm",
+      "accessedAt": "2026-08-07T16:22:00+08:00",
+      "dataDate": "2026-Q2",
+      "metricDefinition": "劳动生产率、产出、工时与单位劳动成本"
+    },
+    {
+      "label": "美联储：2026年7月29日FOMC声明（数据日期：2026-07-29；口径：联邦基金利率目标区间）",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "accessedAt": "2026-08-07T16:22:00+08:00",
+      "dataDate": "2026-07-29",
+      "metricDefinition": "联邦基金利率目标区间与政策声明"
+    },
+    {
+      "label": "J.L. Collins：Portfolio Ideas to Build and Keep Your Wealth（文章日期：2012-05-12；口径：官网完整论证单元）",
+      "url": "https://jlcollinsnh.com/2012/05/12/stocks-part-vi-portfolio-ideas-to-build-and-keep-your-wealth/",
+      "accessedAt": "2026-08-07T16:21:20+08:00",
+      "dataDate": "2012-05-12",
+      "metricDefinition": "官网文章完整论证单元"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
