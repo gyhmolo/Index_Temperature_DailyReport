@@ -1,0 +1,197 @@
+{
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T16:24:58+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年8月8日为星期六。根据上交所、深交所公布的2026年休市安排，周六属于周末休市；今天不抓取四个指数估值、不创建估值重试状态，也不发出新的交易行为。"
+  },
+  "advice": {
+    "book": "《简单致富》第一章：债务——不能接受的负担",
+    "principle": "债务不只是利息成本，也是对未来现金流的固定索取；降低高成本债务，实质上是在恢复家庭对工作、时间和生活选择的控制权。",
+    "do": "非交易日对外内容不展示行动建议，本字段仅用于数据结构兼容。",
+    "dont": "非交易日对外内容不展示禁止事项，本字段仅用于数据结构兼容。",
+    "context": "事实：7月中国制造业PMI为49.2%，非制造业商务活动指数为49.0%；美国7月非农就业减少2.3万，失业率为4.1%。边界：这些数据描述经营与就业环境，不构成休市日交易信号。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，今天不发出新的交易行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，今天不发出新的交易行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股周末休市日报规则",
+      "metricDefinition": "休市日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股周末休市日报，不发出新的交易行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股周末休市日报规则",
+      "metricDefinition": "休市日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股周末休市日报，不发出新的交易行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "A股",
+      "headline": "7月制造业PMI为49.2%，非制造业商务活动指数为49.0%",
+      "implication": "事实：两项景气指标均低于50，制造业新订单指数为48.5%。边界：这是对经营环境的描述，不是休市日的交易信号。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html"
+    },
+    {
+      "market": "美股",
+      "headline": "美国7月非农就业减少2.3万，失业率为4.1%",
+      "implication": "事实：5月和6月就业增幅合计下修10.3万；平均时薪同比增长3.2%。边界：就业降温与工资增长并存，不能用单月数据替代完整的盈利、通胀和政策判断。",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-08:1380919783",
+    "sourceType": "book",
+    "title": "债务先拿走的，不只是利息",
+    "sourceName": "《简单致富》",
+    "author": "J.L. 柯林斯",
+    "locator": "第1章“债务：不能接受的负担”完整论证单元",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：债务会先占用未来收入，再压缩生活方式、工作选择和心理空间。清理高成本债务的价值不仅是少付利息，更是建立低消费、高储蓄的现金流习惯，为财务独立恢复可选择性。",
+    "takeaways": [
+      "最低还款额容易把注意力停留在“本月能否过关”，真正需要盘点的是全部余额、实际利率、期限和总现金流负担。",
+      "作者建议先保证各项最低还款，再把新增偿还能力集中到成本最高的债务；解决一项后，再按顺序处理下一项。",
+      "还债过程中形成的低消费、高储蓄习惯不会在债务清零后失效；同一股现金流可以转向储蓄和长期投资。"
+    ],
+    "fit": [
+      "FIRE与家庭现金流",
+      "风险控制",
+      "行为纪律"
+    ],
+    "concept": {
+      "title": "债务雪崩法",
+      "explanation": "在每项债务都满足最低还款的前提下，把额外现金优先用于实际成本最高的一项。因为提前偿还节省的利息近似一项确定的税后回报，先处理高成本债务通常能降低总利息与固定现金流压力。",
+      "applicability": "适用于利率、余额、最低还款和提前还款条件可核验，且家庭保留了必要应急现金的情形。排序应看实际综合成本，不只看名义利率；固定与浮动利率、手续费和违约成本也要计入。",
+      "misconception": "常见误区是把它理解成“任何债务都要立即清零”，或把书中旧利率阈值当成当前通用答案。中美在住房贷款税务、学生贷款救济、退休账户和提前还款合同上存在制度差异；需按所在地税法、账户和合同核验，不能直接照搬美国案例。"
+    },
+    "quote": "简单，确实很简单。轻松，肯定不会轻松。",
+    "application": "把债务看成对未来现金流的优先索取，可以解释为什么同样收入下，有固定高成本还款的人拥有更少的职业与生活选择。",
+    "dont": "不要把“反对债务”简化成不顾流动性地立即清偿所有负债；合同、实际综合成本和应急现金仍是适用条件。",
+    "images": [
+      {
+        "filename": "reading-debt-choice-funnel.png",
+        "alt": "债务闸门先分走现金流并压缩生活选择的单幅隐喻图",
+        "caption": "单幅图把债务对选择权的影响压缩成一条因果链：",
+        "steps": [
+          "左侧宽流代表每月可支配现金流，图标对应住房、学习、健康与家庭等普通用途。",
+          "中间沉重闸门代表必须优先支付的本金、利息和最低还款，先从现金流中分走固定份额。",
+          "闸门后的流道明显变窄，表示留给家庭时间、学习、健康和职业弹性的选择空间随之减少。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+      "accessedAt": "2026-08-08T13:00:00+08:00",
+      "dataDate": "2026-08-08",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-08T13:04:00+08:00",
+      "dataDate": "2026-08-08",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "国家统计局：2026年7月中国采购经理指数运行情况（数据日期：2026年7月；口径：经季节调整PMI）",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html",
+      "accessedAt": "2026-08-08T13:04:00+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "制造业PMI、新订单指数与非制造业商务活动指数"
+    },
+    {
+      "label": "美国劳工统计局：2026年7月就业形势（数据日期：2026-07；口径：非农就业、失业率与平均时薪）",
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "accessedAt": "2026-08-08T16:20:00+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "非农就业人数、失业率、修订值与平均时薪"
+    },
+    {
+      "label": "J.L. 柯林斯：《简单致富》第一章（口径：本地原书完整论证单元）",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-08-08T13:08:00+08:00",
+      "dataDate": "2016",
+      "metricDefinition": "债务、现金流与财务独立的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
