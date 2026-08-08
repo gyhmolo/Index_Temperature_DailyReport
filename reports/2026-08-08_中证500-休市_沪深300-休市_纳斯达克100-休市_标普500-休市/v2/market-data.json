@@ -1,0 +1,197 @@
+{
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T13:18:14+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年8月8日为星期六。根据上交所、深交所公布的2026年休市安排，周六属于周末休市；今天不抓取四个指数估值、不创建估值重试状态，也不发出新的交易行为。"
+  },
+  "advice": {
+    "book": "《简单致富》第一章：债务——不能接受的负担",
+    "principle": "债务不只是利息成本，也是对未来现金流的固定索取；降低高成本债务，实质上是在恢复家庭对工作、时间和生活选择的控制权。",
+    "do": "利用休市日列一张家庭负债清单，记录余额、实际年化成本、最低还款额和提前还款条件；若存在负债，先识别成本最高的一项，再按合同和现金缓冲安排下一步。",
+    "dont": "不要把有风险的投资预期收益当成确定收益，借此为消费借款或加杠杆投资辩护；也不要为了提前还款耗尽应急现金。",
+    "context": "事实：7月中国制造业PMI为49.2%，非制造业商务活动指数为49.0%，制造业新订单指数为48.5%；美联储7月29日维持3.50%-3.75%的联邦基金利率目标区间，并称通胀相对2%目标仍偏高。推断：企业收入环境仍需观察，美元贴现率约束也未消失；而家庭债务偿付是确定性现金流义务，周末更适合先盘点负债和流动性，不据宏观消息做交易。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，今天不发出新的交易行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，今天不发出新的交易行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股周末休市日报规则",
+      "metricDefinition": "休市日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股周末休市日报，不发出新的交易行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股周末休市日报规则",
+      "metricDefinition": "休市日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股周末休市日报，不发出新的交易行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "A股",
+      "headline": "7月制造业PMI为49.2%，非制造业商务活动指数为49.0%",
+      "implication": "事实：两项指数均低于50，制造业新订单指数为48.5%。推断：企业收入与盈利环境仍需观察，但休市日不据此发出交易行为。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html"
+    },
+    {
+      "market": "美股",
+      "headline": "美联储维持3.50%-3.75%目标区间",
+      "implication": "事实：7月29日FOMC维持利率，称通胀相对2%目标仍偏高，三名委员主张加息25个基点。推断：高估值资产的贴现率约束仍在，但该事实不是独立买卖按钮。",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-08:1380919783",
+    "sourceType": "book",
+    "title": "债务先拿走的，不只是利息",
+    "sourceName": "《简单致富》",
+    "author": "J.L. 柯林斯",
+    "locator": "第1章“债务：不能接受的负担”完整论证单元",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：债务会先占用未来收入，再压缩生活方式、工作选择和心理空间。清理高成本债务的价值不仅是少付利息，更是建立低消费、高储蓄的现金流习惯，为财务独立恢复可选择性。",
+    "takeaways": [
+      "最低还款额容易把注意力停留在“本月能否过关”，真正需要盘点的是全部余额、实际利率、期限和总现金流负担。",
+      "作者建议先保证各项最低还款，再把新增偿还能力集中到成本最高的债务；解决一项后，再按顺序处理下一项。",
+      "还债过程中形成的低消费、高储蓄习惯不会在债务清零后失效；同一股现金流可以转向储蓄和长期投资。"
+    ],
+    "fit": [
+      "FIRE与家庭现金流",
+      "风险控制",
+      "行为纪律"
+    ],
+    "concept": {
+      "title": "债务雪崩法",
+      "explanation": "在每项债务都满足最低还款的前提下，把额外现金优先用于实际成本最高的一项。因为提前偿还节省的利息近似一项确定的税后回报，先处理高成本债务通常能降低总利息与固定现金流压力。",
+      "applicability": "适用于利率、余额、最低还款和提前还款条件可核验，且家庭保留了必要应急现金的情形。排序应看实际综合成本，不只看名义利率；固定与浮动利率、手续费和违约成本也要计入。",
+      "misconception": "常见误区是把它理解成“任何债务都要立即清零”，或把书中旧利率阈值当成当前通用答案。中美在住房贷款税务、学生贷款救济、退休账户和提前还款合同上存在制度差异；需按所在地税法、账户和合同核验，不能直接照搬美国案例。"
+    },
+    "quote": "简单，确实很简单。轻松，肯定不会轻松。",
+    "application": "今天没有新的指数交易行为，正好把注意力从行情转向家庭资产负债表：先看哪些固定付款正在减少应急能力与职业选择，再决定是否需要调整偿还顺序。",
+    "dont": "不要因为作者强烈反对债务就忽略流动性、提前还款条款和本地税务；也不要把心理上“先清一笔小债”的满足感误当成最低总成本方案。",
+    "images": [
+      {
+        "filename": "reading-debt-narrows-choice.png",
+        "alt": "债务闸门先分走现金流并压缩生活选择的单幅隐喻图",
+        "caption": "单幅图把债务对选择权的影响压缩成一条因果链：",
+        "steps": [
+          "左侧宽流代表每月可支配现金流，图标对应住房、学习、健康与家庭等普通用途。",
+          "中间沉重闸门代表必须优先支付的本金、利息和最低还款，先从现金流中分走固定份额。",
+          "闸门后的流道明显变窄，表示留给家庭时间、学习、健康和职业弹性的选择空间随之减少。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+      "accessedAt": "2026-08-08T13:00:00+08:00",
+      "dataDate": "2026-08-08",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-08T13:04:00+08:00",
+      "dataDate": "2026-08-08",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "国家统计局：2026年7月中国采购经理指数运行情况（数据日期：2026年7月；口径：经季节调整PMI）",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html",
+      "accessedAt": "2026-08-08T13:04:00+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "制造业PMI、新订单指数与非制造业商务活动指数"
+    },
+    {
+      "label": "美联储：2026年7月29日FOMC声明（数据日期：2026-07-29；口径：联邦基金利率目标区间）",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "accessedAt": "2026-08-08T13:03:00+08:00",
+      "dataDate": "2026-07-29",
+      "metricDefinition": "联邦基金利率目标区间与政策声明"
+    },
+    {
+      "label": "J.L. 柯林斯：《简单致富》第一章（口径：本地原书完整论证单元）",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-08-08T13:08:00+08:00",
+      "dataDate": "2016",
+      "metricDefinition": "债务、现金流与财务独立的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
