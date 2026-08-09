@@ -1,0 +1,197 @@
+{
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T14:17:14+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年8月9日为星期日。根据上交所、深交所公布的2026年休市安排，星期日属于周末休市；今天不抓取四个指数估值、不创建估值重试状态。对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国经济",
+      "headline": "7月制造业PMI降至49.2%，制造业新订单指数为48.5%",
+      "implication": "事实：国家统计局披露，7月制造业PMI为49.2%，比上月下降1.1个百分点；非制造业商务活动指数为49.0%。推断：生产与需求景气度回落，企业收入和盈利修复仍需后续数据验证。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html"
+    },
+    {
+      "market": "美国经济",
+      "headline": "美国二季度非农商业劳动生产率增长1.4%",
+      "implication": "事实：美国劳工统计局初值显示，劳动生产率按季调折年率增长1.4%，单位劳动成本增长1.3%，实际小时报酬下降3.1%。推断：生产率改善有利于控制单位成本，但实际报酬回落提醒收入端压力不能被忽略。",
+      "url": "https://www.bls.gov/news.release/prod2.nr0.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-09:1364142164",
+    "sourceType": "blog",
+    "title": "真正的乐观，不是假设风平浪静",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "Stocks — Part XXXIII: Optimism，官网文章，发布于2018年6月7日",
+    "sourceUrl": "https://jlcollinsnh.com/2018/06/07/stocks-part-xxxiii-optimism/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：长期投资隐含着对社会、制度和生产能力能够继续适应冲击的基本乐观，但这不等于预期未来没有战争、衰退或技术风险。无法预测黑天鹅的具体形状时，比精确押注灾难剧本更可靠的是保留应变能力。",
+    "takeaways": [
+      "作者把乐观定义为相信长期经济与制度仍能延续和修复，而不是把未来想成没有危机的直线增长。",
+      "若彻底否定经济体系的延续性，持有广泛市场资产就失去逻辑基础；因此长期投资首先要求把自己的前提说清楚。",
+      "极端事件的类型和时间无法事先穷举，针对单一灾难打造的刚性方案可能失效；文章更重视灵活性、可迁移能力和选择余地。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "风险控制",
+      "行为纪律"
+    ],
+    "concept": {
+      "title": "适应性选择权",
+      "explanation": "当风险的具体形式不可预测时，能够在多个未来状态间切换的资源和能力具有选择权价值。它不要求先猜中哪一种冲击发生，而是通过可逆决策、流动性、分散和可迁移能力，降低被单一路径锁死的代价。",
+      "applicability": "适用于期限很长、情景分支很多且概率难以可靠估计的问题。它强调保留调整空间，而不是为每个想象中的灾难分别下注；已知且可量化的风险仍应使用保险、合同或明确限额处理。",
+      "misconception": "常见误区是把适应性等同于频繁交易，或把乐观等同于美国市场必然持续领先。文章的美国百年历史、美国全市场基金和账户语境不能直接外推到A股、跨境账户或不同税制；中国与美国的市场结构、税务和资本流动边界都需单独核验。"
+    },
+    "quote": "You Must be Optimistic.",
+    "application": "今天的两组数据一边呈现需求回落，一边呈现生产率改善，正好说明现实常由相反信号同时构成；文章提供的不是行情判断，而是区分长期前提、可核验事实与未知风险的方法。",
+    "dont": "不要把作者对美国长期发展的信心当成跨市场收益保证，也不要把任何一条宏观数据扩大成对未来制度与市场的终局判断。",
+    "images": [
+      {
+        "filename": "reading-disciplined-optimism.png",
+        "alt": "风暴、错误的刚性预测与适应性选择权的三格精读插图",
+        "caption": "三格分镜对应文章的三个实际论证单元：",
+        "steps": [
+          "第一格：旅人和幼树穿过风雨，远处城市仍在运转，表示长期乐观并不否认危机和波动。",
+          "第二格：雾中的风暴有许多可能形状，按单一预言修建的刚性石桥已经开裂，表示黑天鹅无法被精确预演。",
+          "第三格：可调整的木桥、开放岔路和能随风弯曲的树保留多种去路，表示灵活性比押中唯一剧本更有用。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+      "accessedAt": "2026-08-09T14:08:00+08:00",
+      "dataDate": "2026-08-09",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-09T14:17:00+08:00",
+      "dataDate": "2026-08-09",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "国家统计局：2026年7月中国采购经理指数运行情况（数据日期：2026年7月；口径：经季节调整PMI）",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260731_1964253.html",
+      "accessedAt": "2026-08-09T14:09:00+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "制造业PMI、新订单指数与非制造业商务活动指数"
+    },
+    {
+      "label": "美国劳工统计局：2026年二季度生产率与成本初值（数据日期：2026年二季度；口径：非农商业部门经季调折年率）",
+      "url": "https://www.bls.gov/news.release/prod2.nr0.htm",
+      "accessedAt": "2026-08-09T14:09:00+08:00",
+      "dataDate": "2026-Q2",
+      "metricDefinition": "劳动生产率、单位劳动成本与实际小时报酬"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XXXIII: Optimism（文章日期：2018-06-07；口径：官网完整论证单元）",
+      "url": "https://jlcollinsnh.com/2018/06/07/stocks-part-xxxiii-optimism/",
+      "accessedAt": "2026-08-09T14:11:00+08:00",
+      "dataDate": "2018-06-07",
+      "metricDefinition": "长期乐观、黑天鹅与适应性选择权的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
