@@ -1,0 +1,293 @@
+{
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T10:04:22+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年8月14日为星期五。上交所、深交所2026年休市安排未将今天列为休市日；四个指数均使用最近已完成交易日2026年8月13日的数据。"
+  },
+  "advice": {
+    "book": "《简单致富》第10、11、18、23—25章；《指数基金投资指南》第3章",
+    "principle": "简单不是信息少，而是先明确指数规则、分散边界和成本，让长期计划只保留少数真正需要决策的变量。",
+    "do": "核对现有工具是否真实跟踪目标宽基指数，并机械记录今天的信号：中证500、沪深300为卖出，纳斯达克100、标普500为持有；卖出只代表规则区间，金额仍按既定计划处理。",
+    "dont": "不要因单个行业近期更强就临时把宽基配置换成集中行业，也不要把两个A股指数的卖出信号解释成全仓清算；不借钱、不追加计划外风险。",
+    "context": "事实：四个指数的数据日期均为2026年8月13日；中证500与沪深300的PE分位高于80%，纳斯达克100与标普500处于40%至80%的持有区间。推断：当估值信号分化时，先确认工具暴露和既定规则，比追逐短期行业表现更接近长期纪律。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-13",
+      "expectedDataDate": "2026-08-13",
+      "fetchedAt": "2026-08-14T00:02:45.425Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-13"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-13",
+          "pe": 36.8884,
+          "pb": 2.5299,
+          "fetchedAt": "2026-08-14T00:02:45.425Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 36.8884,
+      "pePercentile": 0.8941747572815534,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-15",
+      "pb": 2.5299,
+      "pbPercentile": 0.8378640776699029,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-15",
+      "temperature": 0.8660194174757281,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 89.4% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-13",
+      "expectedDataDate": "2026-08-13",
+      "fetchedAt": "2026-08-14T00:02:45.466Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-13"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-13",
+          "pe": 14.3134,
+          "pb": 1.4656,
+          "fetchedAt": "2026-08-14T00:02:45.466Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 14.3134,
+      "pePercentile": 0.8436893203883495,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-15",
+      "pb": 1.4656,
+      "pbPercentile": 0.5155339805825243,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-15",
+      "temperature": 0.6796116504854369,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 84.4% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-13",
+      "expectedDataDate": "2026-08-13",
+      "fetchedAt": "2026-08-14T01:33:03.706Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 6,
+      "observationDates": [
+        "2026-08-13"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-13",
+          "pe": 31.5714,
+          "pb": 9.4908,
+          "fetchedAt": "2026-08-14T01:33:03.706Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 31.5714,
+      "pePercentile": 0.5184824902723736,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-08-17",
+      "pb": 9.4908,
+      "pbPercentile": 0.8567251461988304,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-08-15",
+      "temperature": 0.687603818235602,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 51.8% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-13",
+      "expectedDataDate": "2026-08-13",
+      "fetchedAt": "2026-08-14T02:01:21.146Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 7,
+      "observationDates": [
+        "2026-08-13"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-13",
+          "pe": 26.057,
+          "pb": 5.6483,
+          "fetchedAt": "2026-08-14T02:01:21.146Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 26.057,
+      "pePercentile": 0.6359223300970874,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-15",
+      "pb": 5.6483,
+      "pbPercentile": 0.9757281553398058,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-15",
+      "temperature": 0.8058252427184467,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 63.6% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国流动性与融资成本",
+      "headline": "央行二季度报告延续适度宽松取向，企业贷款利率保持低位",
+      "implication": "事实：中国人民银行披露，上半年GDP同比增长4.7%，6月末社会融资规模存量和M2同比分别增长7.4%和8.0%，6月新发放企业贷款利率约3.0%。推断：流动性与融资成本环境仍对企业现金流形成支持，但不能单独抵消高估值或行业盈利差异。",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081218034520348/index.html"
+    },
+    {
+      "market": "美国通胀与贴现率",
+      "headline": "美国7月CPI同比上涨3.4%，PPI最终需求同比上涨4.7%",
+      "implication": "事实：美国劳工统计局披露，7月CPI环比上涨0.1%、同比上涨3.4%，核心CPI同比上涨2.5%；7月最终需求PPI环比持平、同比上涨4.7%。推断：消费端通胀略有降温但生产端同比压力仍高，贴现率快速下降并非确定路径。",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-14:1212996498",
+    "sourceType": "book",
+    "title": "先看指数规则，再看产品名字",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第3章，PDF 55—159页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：指数基金不是同一种风险的不同包装。宽基指数分散行业冲击，行业指数集中暴露于特定需求、成本和周期；真正的选择顺序应是先看指数如何选样与加权，再看基金能否低成本、稳定地跟踪。",
+    "takeaways": [
+      "宽基指数覆盖多个行业，单一行业的盈利冲击通常不会决定全部结果；行业指数则需要额外判断行业特征与周期位置。",
+      "跟踪同一指数的产品高度相似，单位净值高低不决定收益率，费用、跟踪误差、规模和流动性更接近真实差异。",
+      "跨境指数产品还叠加汇率、额度、申赎与本地制度约束，不能把美国本土基金经验直接照搬到中国账户。"
+    ],
+    "fit": [
+      "指数投资与市场纪律",
+      "资产配置",
+      "风险控制"
+    ],
+    "concept": {
+      "title": "风险暴露",
+      "explanation": "指数规则决定资金最终暴露于哪些公司、行业、规模和加权因子。宽基分散的是个别行业和个股风险，不会消除整体市场、估值或汇率风险；行业指数则把更多结果集中到同一组盈利驱动上。",
+      "applicability": "适用于比较宽基与行业指数、不同加权方法及跨境产品。先写清希望承担的风险来源，再检查指数编制、费用、跟踪误差、规模和交易渠道。",
+      "misconception": "常见误区是把指数数量多等同于充分分散，或用近期涨幅和单位净值判断产品。书中具体产品名单与规模数据主要截至2017年，今天只能使用其分析框架；中国QDII额度、税务和申赎规则也不能套用美国本土账户。"
+    },
+    "quote": "行业有自己的投资特点，不能一概而论。",
+    "application": "今天中证500与沪深300处于卖出区间，纳斯达克100与标普500处于持有区间。章节与今天的连接是：机械信号只描述各指数在既定估值规则下的位置，不能据此把宽基仓位临时换成近期更强的行业。",
+    "dont": "不要只看产品名字、单位净值或近期排名，也不要把行业指数当成更高收益版本的宽基指数。",
+    "images": [
+      {
+        "filename": "reading-index-map.png",
+        "alt": "宽基指数与行业指数风险路径对比插图",
+        "caption": "左侧由多行业模块组成的宽桥表示宽基分散了个股与单一行业冲击；右侧单色窄路表示行业指数将结果集中于同一组盈利驱动。两条路都通向市场风险，分散并不等于没有波动。",
+        "steps": [
+          "先识别指数覆盖的公司、行业和加权规则。",
+          "再判断这些规则形成的是分散暴露还是集中暴露。",
+          "最后比较基金的费用、跟踪误差、规模、流动性与跨境限制。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+      "accessedAt": "2026-08-14T08:01:23+08:00",
+      "dataDate": "2026-08-14",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-14T08:01:23+08:00",
+      "dataDate": "2026-08-14",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq：2026年美国股票市场休市安排（日期口径：美国交易所假日与交易日）",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "accessedAt": "2026-08-14T08:01:23+08:00",
+      "dataDate": "2026-08-14",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间（日期口径：美国交易所假日与核心交易时段）",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-08-14T08:01:23+08:00",
+      "dataDate": "2026-08-14",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心（数据日期：2026-08-13；口径：静态PE/PB，近10年历史样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-08-14T10:01:21+08:00",
+      "dataDate": "2026-08-13",
+      "metricDefinition": "四指数PE、PB与近10年历史分位"
+    },
+    {
+      "label": "中国人民银行：2026年第二季度中国货币政策执行报告",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081218034520348/index.html",
+      "accessedAt": "2026-08-14T10:04:22+08:00",
+      "dataDate": "2026-Q2",
+      "metricDefinition": "经济增长、社会融资、货币供应量与贷款利率"
+    },
+    {
+      "label": "美国劳工统计局：2026年7月消费者价格指数",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "accessedAt": "2026-08-14T10:04:22+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "CPI与核心CPI"
+    },
+    {
+      "label": "美国劳工统计局：2026年7月生产者价格指数",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "accessedAt": "2026-08-14T10:04:22+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "最终需求PPI"
+    },
+    {
+      "label": "银行螺丝钉《指数基金投资指南》第3章（口径：本地原书完整论证单元）",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-08-14T10:04:22+08:00",
+      "dataDate": "书籍第3章",
+      "metricDefinition": "宽基、行业指数与产品筛选框架"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
