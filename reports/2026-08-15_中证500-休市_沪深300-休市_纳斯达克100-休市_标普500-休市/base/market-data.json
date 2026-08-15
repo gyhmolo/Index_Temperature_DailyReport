@@ -1,0 +1,197 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T09:10:00+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年8月15日为星期六。根据上交所、深交所公布的2026年休市安排，星期六属于周末休市；今天不抓取四个指数估值、不创建估值重试状态。对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国通胀",
+      "headline": "美国7月CPI环比上涨0.1%，同比上涨3.4%",
+      "implication": "事实：美国劳工统计局披露，7月CPI经季调环比上涨0.1%，未季调同比上涨3.4%；核心CPI环比上涨0.2%、同比上涨2.5%，能源价格环比下降1.5%。推断：消费端月度通胀有所缓和，但能源同比仍高，利率与贴现率路径仍需结合后续数据判断。",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+      "market": "美国企业成本",
+      "headline": "美国7月最终需求PPI环比持平，同比上涨4.7%",
+      "implication": "事实：美国劳工统计局披露，7月最终需求PPI经季调环比持平、未季调同比上涨4.7%；最终需求服务上涨0.2%，商品下降0.7%，剔除食品、能源和贸易服务后环比上涨0.4%。推断：商品成本回落与服务成本上升并存，企业利润率压力仍呈结构性分化。",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-15:1229774117",
+    "sourceType": "book",
+    "title": "指数基金的力量，不是猜中赢家",
+    "sourceName": "《简单致富2》",
+    "author": "J.L. 柯林斯",
+    "locator": "第5章“投资”，PDF 101—130页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：广泛、低成本的指数投资把选中下一家赢家的问题，转化为持有整个市场并接受其持续更新。市值加权让成长公司的权重自然上升、衰退公司的权重下降或退出，但这一机制只有在投资者能够承受波动、控制成本并坚持长期持有时才有意义。",
+    "takeaways": [
+      "持有广泛指数相当于同时拥有大量企业的一小部分，避免把长期结果押在少数公司或一次预测上。",
+      "市值加权会随企业价值变化自动调整权重：胜者扩大影响，弱者缩小乃至被替换，组合因此持续更新。",
+      "低费用是确定性更高的优势；真正困难的不是理解策略，而是在回调、熊市和崩盘中避免情绪化退出。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "风险控制",
+      "行为纪律"
+    ],
+    "concept": {
+      "title": "市值加权的自我更新",
+      "explanation": "市值加权指数按成分公司的可计量市场价值分配权重。公司市值增长时权重上升，市值萎缩时权重下降，退市或不再满足编制条件时被替换，因此组合无需预先识别赢家，也能把更多权重逐步交给已经被市场验证的企业。",
+      "applicability": "适用于编制规则透明、覆盖面足够广、调样与交易成本可控的长期组合。它解决的是个股选择与持续维护问题，不消除整体市场下跌、估值过高、行业集中或单一国家风险。",
+      "misconception": "常见误区是把自动更新理解成自动低买高卖或收益保证。A股与美股指数在成分准入、自由流通市值、涨跌停和调样规则上不同；美国养老金账户中的税收递延、基金费率与交易便利也不能直接套用到中国账户或跨境投资。"
+    },
+    "quote": "不要在干草堆中寻针，直接买下干草堆即可。",
+    "application": "今天的CPI与PPI同时出现商品、服务和能源方向不一的信号，说明单条宏观数据很难稳定指向某一类赢家；本章更关心如何用分散、低成本和规则化持有降低持续预测的依赖。",
+    "dont": "不要把作者针对美国市场与美国退休账户的经验直接当成跨市场收益结论，也不要把指数的自动更新误解为没有回撤、集中度或制度差异。",
+    "images": [
+      {
+        "filename": "reading-index-self-renewal.png",
+        "alt": "用持续前行并自然分流的船队解释市值加权指数自我更新",
+        "caption": "单幅连续场景对应本章的一条核心因果链：",
+        "steps": [
+          "上游不断加入的新船代表新进入指数的企业，说明成分并非永久固定。",
+          "中央水道中逐渐壮大的船队代表市值增长后权重自然上升，弱船则向侧港分流，表示权重下降或退出。",
+          "整支船队继续前行而没有人挑选唯一赢家，表示广泛持有依靠规则更新，而不是依靠持续预测。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-08-15T08:20:00+08:00",
+      "dataDate": "2026-08-15",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-15T08:20:00+08:00",
+      "dataDate": "2026-08-15",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "美国劳工统计局：2026年7月消费者价格指数（数据日期：2026年7月；口径：CPI-U，经季调月率与未季调年率）",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "accessedAt": "2026-08-15T09:02:00+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "CPI、核心CPI与能源分项"
+    },
+    {
+      "label": "美国劳工统计局：2026年7月生产者价格指数（数据日期：2026年7月；口径：最终需求PPI，经季调月率与未季调年率）",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "accessedAt": "2026-08-15T09:02:00+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "最终需求PPI及商品、服务和核心分项"
+    },
+    {
+      "label": "J.L. 柯林斯：《简单致富2》第5章“投资”（原书PDF 101—130页；口径：完整论证单元）",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-08-15T09:05:00+08:00",
+      "dataDate": "第5章",
+      "metricDefinition": "广泛低成本指数投资、市值加权自我更新、费用与行为纪律"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
