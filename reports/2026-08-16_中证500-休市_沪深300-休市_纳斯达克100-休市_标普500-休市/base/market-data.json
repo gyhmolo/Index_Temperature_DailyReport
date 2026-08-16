@@ -1,0 +1,197 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T08:34:00+08:00",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年8月16日为星期日。根据上交所、深交所公布的2026年休市安排，星期日属于周末休市；今天不抓取四个指数估值、不创建估值重试状态。对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国流动性",
+      "headline": "7月末社融存量同比增长7.4%，M2同比增长7.7%",
+      "implication": "事实：中国人民银行披露，7月末社会融资规模存量为463.27万亿元，同比增长7.4%；M2同比增长7.7%。前七个月人民币贷款增加10.38万亿元，其中住户贷款减少8271亿元，企（事）业单位贷款增加11万亿元。推断：流动性总量仍在增长，但居民与企业信贷结构分化，不能仅凭总量判断私人部门现金流已经同步改善。",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081414193264304/index.html"
+    },
+    {
+      "market": "美国消费",
+      "headline": "美国7月零售及餐饮销售额环比下降0.6%",
+      "implication": "事实：美国人口普查局初值显示，7月零售及餐饮销售额经季节、节假日和交易日调整后环比下降0.6%，同比增长5.0%；该口径未剔除价格变化。推断：名义消费月度动能回落，但同比仍为正，实际消费强弱还需结合价格与后续修订判断。",
+      "url": "https://www.census.gov/retail/sales.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-16:1179441260",
+    "sourceType": "blog",
+    "title": "卖出只是第一步，难的是何时回来",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2025年5月12日",
+    "sourceUrl": "https://jlcollinsnh.com/2025/05/12/the-one-thing-that-will-determine-whether-the-market-makes-you-wealthy-or-leaves-you-bleeding-on-the-side-of-the-road/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：市场回调、熊市与崩盘会反复出现，长期结果往往取决于下跌时的行为。恐慌退出不仅把浮动回撤变成已经实现的损失，还会制造第二个更难的问题——何时重新进入；对仍有稳定新增现金流的长期积累者，按计划持续投入与试图猜底是两种完全不同的行为。",
+    "takeaways": [
+      "作者把不同程度的下跌视为市场历史中反复出现的状态，目的不是预测下一次时间，而是提前承认波动属于过程。",
+      "择时需要连续做对两次决定：在下跌前退出，并在反弹前回来；只猜中其中一次，仍可能长期落后于原计划。",
+      "同一场下跌对积累期与支取期的人含义不同：前者可能用新增现金买到更低价格，后者若被迫卖出则会面临更高的顺序风险。"
+    ],
+    "fit": [
+      "行为纪律",
+      "风险控制",
+      "长期指数投资"
+    ],
+    "concept": {
+      "title": "双重择时门槛",
+      "explanation": "一次完整择时并不是判断市场会跌这么简单，而是同时完成退出与再进入。退出太早会放弃继续上涨，再进入太晚会错过反弹；两次判断都受噪声、情绪和交易摩擦影响，因此连续成功的难度远高于一次猜中方向。",
+      "applicability": "适用于评估因短期宏观新闻改变长期持仓的决策。前提是讨论广泛、流动性较好的权益市场，并且持有人没有近期刚性用钱或被迫卖出的压力；预先约定的再平衡、支出计划和风险上限属于另一类问题。",
+      "misconception": "常见误区是把不择时理解成任何情况下都不能卖，或认为所有下跌都会迅速修复。文章引用的是美国股市历史，不能直接推导A股下跌频率；中美交易制度、资本利得税、退休账户税务和资金跨境边界也会改变退出与再进入的实际成本。"
+    },
+    "quote": "Don’t just do something, stand there.",
+    "application": "今天的中国信贷结构与美国零售数据各自只描述一部分现金流环境，既不能单独证明风险已经结束，也不能自动生成买卖时点；文章提醒的是，在把新闻变成退出决定前，先看是否同时具备可验证的再进入规则。",
+    "dont": "不要把作者对美国市场长期修复的经验理解成收益保证，也不要忽视近期开支、收入稳定性、资产配置与账户税务对承受回撤能力的约束。",
+    "images": [
+      {
+        "filename": "reading-two-timing-decisions.png",
+        "alt": "同一场风暴中恐慌离开路径与按计划前行的两格对照图",
+        "caption": "两格分镜对应文章的两条实际行为分支：",
+        "steps": [
+          "左格：旅人在风暴最强时离开原有路径并跑入迷雾，远处道路随后恢复光亮，表示恐慌卖出之后还必须解决何时重新进入。",
+          "右格：旅人使用护栏和规则化踏步继续沿既定路径前行，表示行为纪律来自事先设计的流程，而不是临场预测。",
+          "两格共享同一座山谷与远处桥梁，强调外部冲击相同，长期差异更多来自应对方式；光亮只表示风暴可能过去，不构成收益承诺。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-08-16T08:14:00+08:00",
+      "dataDate": "2026-08-16",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-16T08:14:00+08:00",
+      "dataDate": "2026-08-16",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "中国人民银行：2026年7月金融统计数据报告（数据日期：2026年7月；口径：初步统计）",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026081414193264304/index.html",
+      "accessedAt": "2026-08-16T08:24:00+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "社会融资规模存量、M2与人民币贷款部门结构"
+    },
+    {
+      "label": "美国人口普查局：2026年7月零售及餐饮销售初值（数据日期：2026年7月；口径：经季节、节假日和交易日调整，未剔除价格变化）",
+      "url": "https://www.census.gov/retail/sales.html",
+      "accessedAt": "2026-08-16T08:23:00+08:00",
+      "dataDate": "2026-07",
+      "metricDefinition": "零售及餐饮销售额环比与同比变化"
+    },
+    {
+      "label": "J.L. Collins：The one thing that will determine whether the market makes you wealthy or leaves you bleeding on the side of the road（文章日期：2025-05-12；口径：官网完整论证单元）",
+      "url": "https://jlcollinsnh.com/2025/05/12/the-one-thing-that-will-determine-whether-the-market-makes-you-wealthy-or-leaves-you-bleeding-on-the-side-of-the-road/",
+      "accessedAt": "2026-08-16T08:28:00+08:00",
+      "dataDate": "2025-05-12",
+      "metricDefinition": "市场下跌、双重择时门槛与积累期行为纪律"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
