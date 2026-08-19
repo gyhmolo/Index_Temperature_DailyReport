@@ -1,0 +1,300 @@
+{
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T01:57:32.631Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年8月19日为星期三。上交所、深交所2026年休市安排未将今天列为休市日；四个指数均使用最近已完成交易日2026年8月18日的数据。"
+  },
+  "advice": {
+    "book": "J.L. Collins《Stocks — Part IV》；《简单致富2》第6章",
+    "principle": "风险承受力既包括面对回撤时不恐慌的意愿，也包括不会因收入中断、刚性支出或取现需求被迫卖出的客观能力；同一场下跌对不同人生阶段的后果并不相同。",
+    "do": "先列出近期确定支出、流动储备和收入稳定性，确认长期权益资金不会因短期现金需求被迫退出；随后只记录机械信号：中证500、沪深300为卖出，纳斯达克100、标普500为持有。",
+    "dont": "不要借钱或加杠杆执行任何指数信号，也不要把两个A股指数的卖出信号解释成崩盘预测或全仓清算；不因一日涨跌改变长期资金边界。",
+    "context": "事实：四个指数的数据日期均为2026年8月18日；中证500与沪深300的PE分位高于80%，纳斯达克100与标普500处于40%至80%的持有区间。中国1—7月投资与房地产数据偏弱，美国通胀仍高于美联储目标。推断：盈利与贴现率约束仍在，但它们不能替代既定PE分位规则；执行前更应确认现金流阶段与被迫卖出的风险。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-18",
+      "expectedDataDate": "2026-08-18",
+      "fetchedAt": "2026-08-19T00:02:22.278Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-18"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-18",
+          "pe": 37.492,
+          "pb": 2.5819,
+          "fetchedAt": "2026-08-19T00:02:22.278Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 37.492,
+      "pePercentile": 0.9058252427184466,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-23",
+      "pb": 2.5819,
+      "pbPercentile": 0.8631067961165049,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-23",
+      "temperature": 0.8844660194174757,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 90.6% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-18",
+      "expectedDataDate": "2026-08-18",
+      "fetchedAt": "2026-08-19T00:02:22.362Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-18"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-18",
+          "pe": 14.464,
+          "pb": 1.4781,
+          "fetchedAt": "2026-08-19T00:02:22.362Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 14.464,
+      "pePercentile": 0.8766990291262136,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-23",
+      "pb": 1.4781,
+      "pbPercentile": 0.5728155339805825,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-23",
+      "temperature": 0.724757281553398,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 87.7% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-18",
+      "expectedDataDate": "2026-08-18",
+      "fetchedAt": "2026-08-19T01:52:44.319Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 7,
+      "observationDates": [
+        "2026-08-18"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-18",
+          "pe": 30.9848,
+          "pb": 9.3144,
+          "fetchedAt": "2026-08-19T01:52:44.319Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.9848,
+      "pePercentile": 0.49610136452241715,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-08-23",
+      "pb": 9.3144,
+      "pbPercentile": 0.8001949317738791,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-08-23",
+      "temperature": 0.6481481481481481,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 49.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-18",
+      "expectedDataDate": "2026-08-18",
+      "fetchedAt": "2026-08-19T01:52:44.360Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 7,
+      "observationDates": [
+        "2026-08-18"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-18",
+          "pe": 25.6984,
+          "pb": 5.5701,
+          "fetchedAt": "2026-08-19T01:52:44.360Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.6984,
+      "pePercentile": 0.6106796116504855,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-23",
+      "pb": 5.5701,
+      "pbPercentile": 0.9563106796116505,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-23",
+      "temperature": 0.7834951456310679,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 61.1% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国投资与企业现金流",
+      "headline": "1—7月固定资产投资同比下降6.7%，房地产开发投资下降19.2%",
+      "implication": "事实：国家统计局披露，1—7月全国固定资产投资（不含农户）同比下降6.7%，民间投资下降9.4%；房地产开发投资下降19.2%，房地产企业到位资金下降20.3%。推断：总需求和房地产链现金流仍承压，不同行业盈利修复会继续分化，不能把单一指数估值当作盈利确定性。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965054.html"
+    },
+    {
+      "market": "美国通胀与贴现率",
+      "headline": "美国7月CPI同比上涨3.4%，美联储维持3.5%—3.75%目标区间",
+      "implication": "事实：美国劳工统计局披露，7月CPI环比上涨0.1%、同比上涨3.4%，核心CPI同比上涨2.5%；美联储7月会议维持联邦基金利率目标区间，并称通胀仍高于2%目标。推断：月度通胀动能缓和不等于贴现率会快速下降，美股持有信号仍需与较高PB温度分开理解。",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-19:1296884593",
+    "sourceType": "blog",
+    "title": "同一场暴跌，为什么人生阶段决定后果",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "Stocks—Part IV，官网文章，发布于2012年4月29日",
+    "sourceUrl": "https://jlcollinsnh.com/2012/04/29/stocks-part-iv-the-big-ugly-event/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：极端下跌虽然罕见，却不能靠“长期会上涨”四个字忽略。真正决定家庭能否穿越下跌的，不只是心理是否坚定，还包括是否使用杠杆、收入是否持续、是否正在取用资产，以及有没有足够流动性避免在低位被迫卖出。",
+    "takeaways": [
+      "同一场下跌对刚进入积累期、仍有稳定新增现金流的人，与已经依靠资产支取生活的人，影响方向和严重程度都不同。",
+      "长期平均回报会掩盖路径差异；下跌发生在持续投入期，新增现金可以降低成本，下跌发生在持续支取期，卖出资产会削弱后续恢复基础。",
+      "杠杆会把可等待的价格波动变成追加保证金、被动平仓或永久损失，因此风险边界应在上涨时提前写清。"
+    ],
+    "fit": [
+      "风险控制",
+      "资产配置",
+      "行为纪律"
+    ],
+    "concept": {
+      "title": "收益顺序风险",
+      "explanation": "长期平均收益相同的两条路径，只要上涨和下跌出现的先后次序不同，在持续取现时就可能产生完全不同的结局。下跌早到会迫使投资者以更低价格卖出更多份额，剩余资产即使随后反弹，也可能失去足够本金参与恢复。",
+      "applicability": "最适用于退休、职业转换、教育支出或其他需要从投资组合持续取现的阶段。应把近期刚性支出、流动储备、收入来源和权益风险预算放在一起评估，避免把必须使用的钱暴露在无法等待的波动中。",
+      "misconception": "常见误区是只看长期平均收益，或把美国历史样本直接当成中国家庭的支取答案。中美账户、税务、社保、医疗和市场制度不同；可迁移的是资金期限分层与避免被迫卖出，具体比例不能照搬。"
+    },
+    "quote": "Never buy stocks on margin.",
+    "application": "今天两个A股指数处于卖出区间，两只美股指数处于持有区间。文章提醒的是：机械信号只描述相对估值区域，执行前仍要确认这笔钱处于积累、过渡还是支取阶段，并确保没有杠杆或短期现金缺口迫使你在不利价格成交。",
+    "dont": "不要借钱执行指数信号，也不要把A股卖出信号当成下一次极端下跌的预测；没有仓位、税费、账户与再配置目标时，不把机械信号扩展成全仓动作。",
+    "images": [
+      {
+        "filename": "reading-sequence-risk.png",
+        "alt": "同一市场下跌中积累期家庭继续投入而支取期家庭消耗储备并以断裂杠杆警示借款风险的对比插图",
+        "caption": "插图把同一场市场下跌放在两种现金流阶段中对比：左侧仍有收入和新增投入，右侧需要从资产中支取生活费；底部断裂的杠杆提示，借款会把可等待的波动变成被迫退出。",
+        "steps": [
+          "先看左侧积累期：稳定收入和流动储备让家庭仍有时间与新增现金穿越下跌。",
+          "再看右侧支取期：持续取现会在低价时消耗更多资产份额，削弱后续恢复基础。",
+          "最后看断裂杠杆：保证金或还款约束可能取消等待权，把账面波动固化为永久损失。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20251222_10802507.shtml",
+      "accessedAt": "2026-08-19T08:01:18.796+08:00",
+      "dataDate": "2026-08-19",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-19T08:01:18.796+08:00",
+      "dataDate": "2026-08-19",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq：2026年美国股票市场休市安排（日期口径：美国交易所假日与交易日）",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "accessedAt": "2026-08-19T08:01:18.796+08:00",
+      "dataDate": "2026-08-18",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间（日期口径：美国交易所假日与核心交易时段）",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "accessedAt": "2026-08-19T08:01:18.796+08:00",
+      "dataDate": "2026-08-18",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心（数据日期：2026-08-18；口径：静态PE/PB，近10年历史样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-08-19T01:52:44.360Z",
+      "dataDate": "2026-08-18",
+      "metricDefinition": "四指数PE、PB与近10年历史分位"
+    },
+    {
+      "label": "国家统计局：2026年1—7月份全国固定资产投资基本情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965054.html",
+      "accessedAt": "2026-08-19T01:57:32.631Z",
+      "dataDate": "2026-01至2026-07",
+      "metricDefinition": "固定资产投资、民间投资与行业投资增速"
+    },
+    {
+      "label": "国家统计局：2026年1—7月份全国房地产市场基本情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965053.html",
+      "accessedAt": "2026-08-19T01:57:32.631Z",
+      "dataDate": "2026-01至2026-07",
+      "metricDefinition": "房地产开发投资、销售与到位资金"
+    },
+    {
+      "label": "美国劳工统计局：2026年7月消费者价格指数",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "accessedAt": "2026-08-19T01:57:32.631Z",
+      "dataDate": "2026-07",
+      "metricDefinition": "CPI与核心CPI"
+    },
+    {
+      "label": "美联储：2026年7月联邦公开市场委员会声明",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "accessedAt": "2026-08-19T01:57:32.631Z",
+      "dataDate": "2026-07-29",
+      "metricDefinition": "联邦基金利率目标区间与通胀判断"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part IV（口径：官网完整文章）",
+      "url": "https://jlcollinsnh.com/2012/04/29/stocks-part-iv-the-big-ugly-event/",
+      "accessedAt": "2026-08-19T01:57:32.631Z",
+      "dataDate": "2012-04-29，2023-11-16修订",
+      "metricDefinition": "极端下跌、杠杆、人生阶段与现金流风险"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
