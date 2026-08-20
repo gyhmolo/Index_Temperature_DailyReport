@@ -1,0 +1,286 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T03:45:00.000Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年8月20日为星期四。上交所、深交所2026年休市安排未将今天列为休市日；四个指数均使用最近已完成交易日2026年8月19日的数据。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》第5章",
+    "principle": "定投的时间与金额应先服从现金流和资金期限；在长期收益差异很小的频率之间，选择最能减少情绪干扰、最容易长期执行的一种。",
+    "do": "先确认近期刚性支出、应急储备与长期闲置资金的边界，再按既定清单记录机械信号：中证500、沪深300为卖出，纳斯达克100、标普500为持有；频率与金额仍按原计划执行。",
+    "dont": "不要因一天的涨跌或一则宏观消息临时改变定投频率，也不要把两个A股指数的卖出信号解释成崩盘预测或全仓清算；不借钱、不追加计划外风险。",
+    "context": "事实：四个指数的数据日期均为2026年8月19日；中证500与沪深300的PE分位高于80%，纳斯达克100与标普500处于40%至80%的持有区间。中国7月工业生产者购进价格同比上涨5.5%，美联储7月会议纪要显示通胀与贴现率约束仍在。推断：成本与贴现率环境可能继续影响企业盈利和估值，但不替代既定PE分位规则；今天更需要把市场信号与家庭现金流计划分开处理。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-19",
+      "expectedDataDate": "2026-08-19",
+      "fetchedAt": "2026-08-20T00:03:47.772Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-19",
+          "pe": 35.7775,
+          "pb": 2.4638,
+          "fetchedAt": "2026-08-20T00:03:47.772Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 35.7775,
+      "pePercentile": 0.8805825242718447,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-24",
+      "pb": 2.4638,
+      "pbPercentile": 0.8145631067961165,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-24",
+      "temperature": 0.8475728155339806,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 88.1% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-19",
+      "expectedDataDate": "2026-08-19",
+      "fetchedAt": "2026-08-20T00:03:47.811Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-19",
+          "pe": 14.1989,
+          "pb": 1.4539,
+          "fetchedAt": "2026-08-20T00:03:47.811Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 14.1989,
+      "pePercentile": 0.8067961165048544,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-24",
+      "pb": 1.4539,
+      "pbPercentile": 0.46601941747572817,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-24",
+      "temperature": 0.6364077669902912,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 80.7% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-19",
+      "expectedDataDate": "2026-08-19",
+      "fetchedAt": "2026-08-20T03:40:05.238Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 1,
+      "observationDates": [
+        "2026-08-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-19",
+          "pe": 30.9436,
+          "pb": 9.3076,
+          "fetchedAt": "2026-08-20T03:40:05.238Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.9436,
+      "pePercentile": 0.4922027290448343,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-08-24",
+      "pb": 9.3076,
+      "pbPercentile": 0.8001949317738791,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-08-24",
+      "temperature": 0.6461988304093567,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 49.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-19",
+      "expectedDataDate": "2026-08-19",
+      "fetchedAt": "2026-08-20T03:40:05.282Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 1,
+      "observationDates": [
+        "2026-08-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-19",
+          "pe": 25.7459,
+          "pb": 5.5826,
+          "fetchedAt": "2026-08-20T03:40:05.282Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.7459,
+      "pePercentile": 0.612621359223301,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-24",
+      "pb": 5.5826,
+      "pbPercentile": 0.9563106796116505,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-24",
+      "temperature": 0.7844660194174757,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 61.3% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国成本与企业现金流",
+      "headline": "7月工业生产者购进价格同比上涨5.5%，环比下降1.0%",
+      "implication": "事实：国家统计局披露，7月PPI同比上涨3.5%、环比下降0.7%，工业生产者购进价格同比上涨5.5%、环比下降1.0%；生产资料出厂价格同比上涨4.8%。推断：同比成本压力与月度回落并存，企业利润率影响会因行业议价能力而分化，不能把PPI单项变化直接等同于全部A股盈利方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260809_1965007.html"
+    },
+    {
+      "market": "美国贴现率与估值约束",
+      "headline": "美联储7月会议维持3.5%—3.75%利率区间，三名成员主张加息",
+      "implication": "事实：8月19日公布的会议纪要显示，7月会议以9比3维持联邦基金利率目标区间，多数与会者支持不变，数名与会者主张上调25个基点；纪要同时称资产估值压力偏高。推断：通胀若不回落，贴现率与估值压缩风险仍会约束美股，但这不改变今天由PE分位触发的持有结果。",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-20:3729389085",
+    "sourceType": "book",
+    "title": "定投不是择日游戏：先让现金流与纪律匹配",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第5章《如何买卖指数基金：懒人定投法》，PDF第202—261页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：定投的价值不在于猜中某个最佳日期，而在于把周期性收入转化为可持续的投资纪律。先确认资金在较长时间内不会被生活支出调用，再确定金额与频率；按周还是按月，关键是能否减少情绪干扰并长期执行。",
+    "takeaways": [
+      "定投计划先回答两个问题：资金什么时候投入、每次投入多少；金额必须给近期支出和应急储备留出空间。",
+      "长期持有期足够长时，按周与按月的收益差异通常不是主要矛盾；频率更重要的作用是匹配工资现金流和行为习惯。",
+      "交易渠道、费用、分红和税务会影响净结果，但书中的具体费率与规则具有时代性，执行前必须按当前账户制度重新核验。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "家庭财务"
+    ],
+    "concept": {
+      "title": "现金流匹配的定投频率",
+      "explanation": "这一概念指的是先按收入到账节奏、近期支出和可投资结余确定可持续投入，再在按周、按月等频率中选择最容易稳定执行的一种。频率的首要价值是降低临时判断次数和情绪干扰，而不是制造更高的预期收益。",
+      "applicability": "适用于有周期性收入、投资资金在较长时间内无需支取、并已预留应急现金的人。若收入不稳定、近期有刚性大额支出，或正从组合中持续取现，应先调整资金期限与流动性安排，再谈定投频率。",
+      "misconception": "常见误区是把更高频率等同于更高收益，或照搬书中的费率、赎回与年龄配置公式。A股场内外基金的交易、税费与结算规则可能已变化；美国应税账户和退休账户的税务、汇率与交易制度也不同，只能迁移现金流匹配原则，不能照抄参数。"
+    },
+    "quote": "定投需要确定两个因素：定投的时间和定投的金额。",
+    "application": "今天两个A股指数处于卖出区间，两只美股指数处于持有区间。章节提醒我们：机械信号描述的是估值区域，定投频率描述的是现金流和行为安排，两者不要混成临时择时；先记录信号，再按既定资金边界处理。",
+    "dont": "不要因为今天的估值分位或一则宏观消息临时提高投入频率，也不要把书中早期历史回测、费率或账户规则当作当前承诺；没有资金期限和流动性边界时，不启动新计划。",
+    "images": [
+      {
+        "filename": "reading-cashflow-frequency.png",
+        "alt": "先让家庭现金流分流到应急储备、近期支出与长期投资，再以固定节律执行并避开情绪化岔路的三段插图",
+        "caption": "插图把定投设计拆成三个实际论证单元：稳定现金流进入家庭后，先划出流动性边界，再选择固定且能坚持的执行节律；右侧模糊岔路代表被短期涨跌牵引的临时决策。",
+        "steps": [
+          "先确认收入与现金结余：只有不会影响日常生活的部分才进入下一步。",
+          "再做资金分流：应急储备和近期刚性支出优先，长期闲置资金才进入投资计划。",
+          "最后选执行频率：按工资节奏和行为习惯固定下来，不让市场涨跌临时改写计划。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-08-20T00:01:28.479Z",
+      "dataDate": "2026-08-20",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-08-20T00:01:28.479Z",
+      "dataDate": "2026-08-20",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场休市安排（日期口径：美国交易所假日与交易日）",
+      "url": "https://www.nasdaqtrader.com/trader.aspx?id=calendar",
+      "accessedAt": "2026-08-20T00:01:28.479Z",
+      "dataDate": "2026-08-19",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间（日期口径：美国交易所假日与核心交易时段）",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-08-20T00:01:28.479Z",
+      "dataDate": "2026-08-19",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心（数据日期：2026-08-19；口径：静态PE/PB，近10年历史样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-08-20T03:40:05.282Z",
+      "dataDate": "2026-08-19",
+      "metricDefinition": "四指数PE、PB与近10年历史分位"
+    },
+    {
+      "label": "国家统计局：2026年7月份工业生产者价格",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260809_1965007.html",
+      "accessedAt": "2026-08-20T03:45:00.000Z",
+      "dataDate": "2026-07",
+      "metricDefinition": "工业生产者出厂价格与购进价格"
+    },
+    {
+      "label": "美联储：2026年7月联邦公开市场委员会会议纪要",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+      "accessedAt": "2026-08-20T03:45:00.000Z",
+      "dataDate": "2026-07-28至2026-07-29，2026-08-19发布",
+      "metricDefinition": "联邦基金利率目标区间、通胀判断与金融稳定风险"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第5章（口径：本地原书完整论证单元）",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-08-20T03:45:00.000Z",
+      "dataDate": "第5章，PDF第202—261页",
+      "metricDefinition": "定投时间、金额、频率、费用与账户边界"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
