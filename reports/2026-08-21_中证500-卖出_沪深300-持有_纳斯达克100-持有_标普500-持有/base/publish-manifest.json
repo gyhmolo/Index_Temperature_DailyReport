@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceReport": "daily/2026-08-21_中证500-卖出_沪深300-持有_纳斯达克100-持有_标普500-持有/base",
+  "repository": "gyhmolo/Index_Temperature_DailyReport",
+  "branch": "main",
+  "publishedAt": "2026-08-21T06:32:16.475Z",
+  "localPathsRemoved": true,
+  "files": [
+    {
+      "path": "assets/feature-reading.css",
+      "sha256": "3bc2bcb4382728c8619f793422aa87c54c9c1cd066767ad8f786026dec2fb342",
+      "bytes": 2513
+    },
+    {
+      "path": "assets/reading-fund-horizon.png",
+      "sha256": "842956ad90f87029020bc99fd688dc6db7b46ddd26a379c6f98d33c8601623b5",
+      "bytes": 1527765
+    },
+    {
+      "path": "assets/report.css",
+      "sha256": "e8ab493b6e8c27622dd300ca8b51eb9749f03a1df49645621078f2be0f7c8adc",
+      "bytes": 5551
+    },
+    {
+      "path": "index.html",
+      "sha256": "07d4296f160745b5c9015c556bdf3f7534a6887df4da0fdd963f59e820cebbdb",
+      "bytes": 11526
+    },
+    {
+      "path": "market-data.json",
+      "sha256": "63386f24807f9403fe4a2c0a3cb2874ff51082c00a6d422b2c20cd76147b5a63",
+      "bytes": 14517
+    },
+    {
+      "path": "sources.md",
+      "sha256": "37319cdfa23c0a1f6499583f5983f683080b340d6cada4119c4206f108baeed9",
+      "bytes": 3177
+    },
+    {
+      "path": "summary.md",
+      "sha256": "798a48ca1c10a5ee728f166290d63b8b27c5bf75c83e09b375736869ed3914e2",
+      "bytes": 1961
+    }
+  ]
+}
