@@ -1,0 +1,197 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T00:06:34.914Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年8月22日为星期六。根据上交所、深交所公布的2026年休市安排与交易规则，星期六属于周末休市；今天不抓取四个指数估值、不创建估值重试状态。对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国粮食供给与价格",
+      "headline": "2026年全国早稻总产量同比下降0.8%，播种面积略有增加",
+      "implication": "事实：国家统计局公布，2026年全国早稻总产量为2829.2万吨，同比减少22.2万吨、下降0.8%；播种面积略增，单位面积产量下降0.8%。推断：早稻供给总体稳定但单产受到极端天气影响，可能边际影响稻米价格与种植收益；单一季节、单一品种数据不能直接推断整体食品通胀或上市公司盈利。",
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202608/t20260821_1965086.html"
+    },
+    {
+      "market": "美国贴现率与估值约束",
+      "headline": "美联储7月会议维持3.5%—3.75%利率区间，政策分歧扩大",
+      "implication": "事实：8月19日发布的会议纪要显示，7月会议以9比3维持联邦基金利率目标区间，三名成员主张上调25个基点；纪要同时提到资产估值压力偏高。推断：贴现率与估值压缩风险仍会影响企业融资和美股定价，但会议分歧不能单独预测下一次政策动作或市场方向。",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-22:3695833847",
+    "sourceType": "book",
+    "title": "定投账面赚了多少，为什么不等于年化收益",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第5章《如何买卖指数基金：懒人定投法》，PDF第202—261页；概念单元位于第235—239页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：定投由多笔不同时间进入的现金流组成，期末盈利除以累计本金只能描述总收益，不能直接变成年化收益。要比较每笔资金实际工作了多久，需要使用资金加权收益率；等间隔现金流可用IRR，不规则日期则更适合XIRR。",
+    "takeaways": [
+      "第一笔投入可能工作了数月，最后一笔可能只工作了几天；把它们视为同一天投入，会扭曲资金效率。",
+      "IRR寻找一个能让全部现金流现值相互抵消的周期收益率，再按周期换算；XIRR则直接使用每笔现金流的实际日期。",
+      "收益率口径只解决计量问题，不自动扣除费用、税务、汇率或机会成本，也不能把历史结果变成未来承诺。"
+    ],
+    "fit": [
+      "专业知识讲解",
+      "长期指数投资",
+      "风险控制"
+    ],
+    "concept": {
+      "title": "资金加权收益率：让每笔钱按实际工作时间计权",
+      "explanation": "资金加权收益率把每次投入视为负现金流，把期末资产或赎回金额视为正现金流，寻找一个使这些现金流折现后净值为零的收益率。投入越早、金额越大，对结果的影响越大，因此它回答的是投资者实际资金经历了什么。",
+      "applicability": "IRR适合金额按固定周期发生、周期长度一致的定投记录；现金流日期不规则、临时加减仓或分红到账时，应使用带实际日期的XIRR。若要评价基金经理而不是个人资金体验，还需使用时间加权收益率等不同口径。",
+      "misconception": "常见误区是把总收益率直接按月份线性放大，或把IRR当成产品未来年化承诺。A股与美股账户的交易费、资本利得税、分红税、汇率和退休账户税务不同，税后结果必须按各自现行规则另算；书中旧费率与收益示例不能照搬。"
+    },
+    "quote": "资金的投入时间各不相同。",
+    "application": "休市日没有新的指数动作，这个概念提供的是一把核对历史记录的尺子：同样的期末盈利，在一次性投入与持续定投中代表的资金效率可能完全不同。",
+    "dont": "不要把简单总收益率直接年化，也不要把书中的历史回测、费率、税制或产品示例理解为当前条件下的收益承诺。",
+    "images": [
+      {
+        "filename": "reading-irr-cashflow-timing.png",
+        "alt": "错误忽略现金流时间与正确按每笔资金工作时间计权的双栏对照插图",
+        "caption": "两栏对照对应概念的两个论证单元：左栏把不同时间进入的资金直接汇总，忽略每笔钱实际工作的时长；右栏为每笔投入保留独立时钟和路径，再汇入期末资产。",
+        "steps": [
+          "先列出每笔投入和取出的金额；投入记为流出，赎回、分红或期末资产记为流入。",
+          "再保留时间信息：等间隔记录使用相同周期，日期不规则时保留每笔现金流的实际日期。",
+          "最后选择对应口径：IRR或XIRR描述个人资金体验；若评价资产本身，应另用不受申赎时点影响的口径。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-08-22T00:06:34.914Z",
+      "dataDate": "2026-08-22",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日规则与休市安排（日期口径：周末休市）",
+      "url": "https://www.szse.cn/English/services/trading/calendar/index.html",
+      "accessedAt": "2026-08-22T00:06:34.914Z",
+      "dataDate": "2026-08-22",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "国家统计局：2026年早稻产量数据公告",
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202608/t20260821_1965086.html",
+      "accessedAt": "2026-08-22T00:06:34.914Z",
+      "dataDate": "2026年早稻，2026-08-21发布",
+      "metricDefinition": "早稻播种面积、单位面积产量与总产量"
+    },
+    {
+      "label": "美联储：2026年7月联邦公开市场委员会会议纪要",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+      "accessedAt": "2026-08-22T00:06:34.914Z",
+      "dataDate": "2026-07-28至2026-07-29，2026-08-19发布",
+      "metricDefinition": "联邦基金利率目标区间、投票分歧与资产估值压力"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第5章（口径：本地原书完整论证单元）",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-08-22T00:06:34.914Z",
+      "dataDate": "第5章，PDF第202—261页；IRR概念单元第235—239页",
+      "metricDefinition": "定投现金流、总收益率、IRR与XIRR口径"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
