@@ -1,0 +1,287 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T05:08:43Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年8月26日为星期三。上交所、深交所2026年休市安排未将今天列为休市日；四个指数均使用最近已完成交易日2026年8月25日的数据。"
+  },
+  "advice": {
+    "book": "J.L. Collins《Stocks — Part XXXI: Too hot. Too cold. Not pure enough.》",
+    "principle": "简单投资的重点不是保证成为表现最好的策略，而是减少无法持续验证的选择，让费用、分散和行为纪律长期可控。",
+    "do": "先记录四个机械信号，再检查现有计划是否增加了不必要的窄主题、频繁择时或追逐上一阶段赢家；继续按已经写下的规则处理，而不是临时增加判断。",
+    "dont": "不要把高PE分位解释成市场马上下跌，也不要把上一阶段涨得最好的风格当成下一阶段必然赢家；中证500的卖出信号只报告机械结果，不解释为全仓清算，不借钱追加风险。",
+    "context": "事实：四个指数的数据日期均为2026年8月25日，中证500的PE分位高于80%，沪深300、纳斯达克100和标普500处于40%至80%的持有区间。国家统计局披露8月中旬50种重要生产资料中33种价格上涨；美联储H.15显示8月24日美国10年期国债名义收益率为4.70%，较前一交易日下降0.04个百分点。推断：投入品涨价范围可能影响部分企业利润，长端利率回落则略减高久期资产的折现压力，但两者都不能替代PE分位规则，也不能预测短期涨跌。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-25",
+      "expectedDataDate": "2026-08-25",
+      "fetchedAt": "2026-08-26T05:03:48.333Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-25"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-25",
+          "pe": 34.0973,
+          "pb": 2.4208,
+          "fetchedAt": "2026-08-26T05:03:48.333Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 34.0973,
+      "pePercentile": 0.8378640776699029,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-30",
+      "pb": 2.4208,
+      "pbPercentile": 0.8029126213592233,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-30",
+      "temperature": 0.8203883495145631,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 83.8% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-25",
+      "expectedDataDate": "2026-08-25",
+      "fetchedAt": "2026-08-26T05:03:48.248Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-25"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-25",
+          "pe": 14.0087,
+          "pb": 1.4446,
+          "fetchedAt": "2026-08-26T05:03:48.248Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 14.0087,
+      "pePercentile": 0.7504854368932039,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-30",
+      "pb": 1.4446,
+      "pbPercentile": 0.4475728155339806,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-30",
+      "temperature": 0.5990291262135923,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 75.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-25",
+      "expectedDataDate": "2026-08-25",
+      "fetchedAt": "2026-08-26T05:03:48.290Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-25"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-25",
+          "pe": 30.7542,
+          "pb": 9.2329,
+          "fetchedAt": "2026-08-26T05:03:48.290Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.7542,
+      "pePercentile": 0.48635477582846004,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-08-30",
+      "pb": 9.2329,
+      "pbPercentile": 0.7884990253411306,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-08-30",
+      "temperature": 0.6374269005847953,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 48.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-25",
+      "expectedDataDate": "2026-08-25",
+      "fetchedAt": "2026-08-26T05:03:48.205Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-25"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-25",
+          "pe": 25.6476,
+          "pb": 5.5641,
+          "fetchedAt": "2026-08-26T05:03:48.205Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.6476,
+      "pePercentile": 0.6087378640776699,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-30",
+      "pb": 5.5641,
+      "pbPercentile": 0.9563106796116505,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-30",
+      "temperature": 0.7825242718446602,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 60.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国企业投入成本",
+      "headline": "8月中旬50种重要生产资料中33种价格上涨",
+      "implication": "事实：国家统计局监测显示，2026年8月中旬与上旬相比，9大类50种重要生产资料中33种价格上涨、14种下降、3种持平。推断：涨价范围扩大可能抬升部分企业采购成本，也可能带来上游库存收益；能否转嫁成本仍取决于需求和行业竞争，不能据此判断全部A股利润方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260821_1965093.html"
+    },
+    {
+      "market": "美国贴现率",
+      "headline": "8月24日美国10年期国债收益率回落至4.70%",
+      "implication": "事实：美联储8月25日发布的H.15显示，8月24日美国10年期国债名义收益率为4.70%，低于8月21日的4.74%；10年期通胀保值国债收益率由2.40%降至2.38%，有效联邦基金利率保持3.63%。推断：长端名义与实际利率小幅回落，意味着长期现金流的折现压力边际缓和；单日变动不能证明利率趋势，也不能预测美股短期涨跌。",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-26:3628723371",
+    "sourceType": "blog",
+    "title": "估值很热，不等于明天就会降温",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2017年8月21日",
+    "sourceUrl": "https://jlcollinsnh.com/2017/08/21/stocks-part-xxxi-too-hot-too-cold-not-pure-enough/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：广泛分散、低成本的简单指数路径并不保证每年成为表现最好的方案，它的优势是减少对市场时点、未来赢家和基金经理持续性的猜测；股票比例还必须匹配持有者承受深度回撤并继续执行的能力。",
+    "takeaways": [
+      "高股票暴露只有在现金期限、风险承受力和行为纪律都能跨过严重下跌时才可持续；理论上的高回报不能替代现实中的持有能力。",
+      "高CAPE或高PE描述当前估值状态，却不能给出调整发生的时间和路径；价格、盈利与经济环境会同时变化。",
+      "小盘、主动经理或特定筛选在过去表现更好，并不能让我们提前识别未来赢家；增加专门化也会增加波动、费用或选择错误的风险。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "风险控制",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "历史估值分位的职责边界：温度计不是天气预报",
+      "explanation": "历史估值分位回答的是：当前PE在同口径历史样本中处于什么相对位置。它适合把模糊的“贵或便宜”转成可重复执行的区间规则，却不包含价格何时回归、盈利将怎样变化或市场下一步往哪走的信息。",
+      "applicability": "适用于指标口径稳定、历史样本可比，并且目的在于按预先写下的分位区间约束行为的场景。执行前仍要确认资金期限与风险承受力；今天使用的是近10年静态PE分位和既定40%/80%边界，只用于机械分类，不用于短期预测。",
+      "misconception": "常见误区是把高分位等同于马上下跌，把低分位等同于迅速反弹，或只凭PE判断盈利质量。美国市场常见的CAPE、总市场基金和退休账户示例不能直接移植到A股；指数编制、盈利周期、税务和账户制度不同，只能迁移“描述估值而不预测时点”的原则。"
+    },
+    "quote": "P/E ratios rise and fall based on many factors in the market and in the economy.",
+    "application": "今天中证500处于卖出区间，另外三个指数处于持有区间。分位先帮助我们识别相对温度，再由既定区间触发动作；它没有告诉我们明天会跌还是会涨，因此不要为机械信号追加短期预测。",
+    "dont": "不要把文章对择时局限的提醒误读成估值完全无用，也不要把用户自定的分位规则说成J.L. Collins的建议；中美指数、税务和账户制度不同，不能照搬具体配置。",
+    "images": [
+      {
+        "filename": "reading-valuation-thermometer.png",
+        "alt": "估值温度表、分位规则笔记与雾中道路组成的单幅插图",
+        "caption": "单幅图把三步放在同一场景：温度表表示分位只测量当前相对位置，三色规则笔记表示先按写下的边界执行，雾中道路表示未来方向仍不可见。",
+        "steps": [
+          "先把PE分位读作当前估值在同口径历史中的相对位置。",
+          "再按预先写下的区间规则触发机械行为，不临时修改边界。",
+          "最后核对资金期限和风险承受力，不把当前温度延伸成短期涨跌预测。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-08-26T05:02:00.168Z",
+      "dataDate": "2026-08-26",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.szse.cn/English/services/trading/calendar/index.html",
+      "accessedAt": "2026-08-26T05:02:00.168Z",
+      "dataDate": "2026-08-26",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场休市安排（日期口径：美国交易所假日与交易日）",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-08-26T05:02:00.168Z",
+      "dataDate": "2026-08-25",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间（日期口径：美国交易所假日与核心交易时段）",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-08-26T05:02:00.168Z",
+      "dataDate": "2026-08-25",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心（数据日期：2026-08-25；口径：静态PE/PB，近10年历史样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-08-26T05:03:48.333Z",
+      "dataDate": "2026-08-25",
+      "metricDefinition": "四指数PE、PB与近10年历史分位"
+    },
+    {
+      "label": "国家统计局：2026年8月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260821_1965093.html",
+      "accessedAt": "2026-08-26T05:08:43Z",
+      "dataDate": "2026-08中旬，2026-08-24发布",
+      "metricDefinition": "9大类50种重要生产资料价格上涨、下降与持平数量"
+    },
+    {
+      "label": "美联储：2026年8月25日H.15每日利率",
+      "url": "https://www.federalreserve.gov/releases/h15/",
+      "accessedAt": "2026-08-26T05:08:43Z",
+      "dataDate": "2026-08-24，2026-08-25发布",
+      "metricDefinition": "有效联邦基金利率与美国国债名义、实际恒定期限收益率"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XXXI: Too hot. Too cold. Not pure enough.（口径：官网文章完整论证单元）",
+      "url": "https://jlcollinsnh.com/2017/08/21/stocks-part-xxxi-too-hot-too-cold-not-pure-enough/",
+      "accessedAt": "2026-08-26T05:08:43Z",
+      "dataDate": "2017-08-21",
+      "metricDefinition": "估值择时、简单指数路径与风险承受力边界"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
