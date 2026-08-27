@@ -1,0 +1,288 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T05:07:47Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年8月27日为星期四。上交所、深交所2026年休市安排未将今天列为休市日；四个指数均使用最近已完成交易日2026年8月26日的数据。"
+  },
+  "advice": {
+    "book": "J.L. Collins《Stocks — Part XVIII: Investing in a Raging Bull》",
+    "principle": "资产配置不是寻找“无风险”资产，而是让现金、债券和权益各自承担与家庭资金期限、支出和回撤承受力相匹配的风险。",
+    "do": "先记录四个机械信号，再按用途和期限区分应急现金、短期支出与长期资金分别承担的购买力风险、利率风险和价格波动风险；任何动作前先核对现金储备、负债与回撤承受力。",
+    "dont": "不要因为最近上涨或单条新闻，就把全部资金在现金、债券和权益之间来回搬动；不要借钱投资。中证500的卖出信号只报告机械结果，不解释为全仓清算。",
+    "context": "事实：四个指数的数据日期均为2026年8月26日，中证500的PE分位高于80%，沪深300、纳斯达克100和标普500处于40%至80%的持有区间。国家统计局披露1—7月规模以上工业企业利润同比增长17.6%，美国人口普查局披露7月耐用品新订单初值环比增长1.1%。推断：中国工业利润恢复支持企业盈利分子，但增长存在行业集中；美国订单增长提示商品和企业需求仍有支撑，但运输设备贡献较大。两者都不能替代PE分位规则或预测短期涨跌。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-08-26",
+      "expectedDataDate": "2026-08-26",
+      "fetchedAt": "2026-08-27T05:03:43.363Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-26"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-26",
+          "pe": 34.1769,
+          "pb": 2.4355,
+          "fetchedAt": "2026-08-27T05:03:43.363Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 34.1769,
+      "pePercentile": 0.841747572815534,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-31",
+      "pb": 2.4355,
+      "pbPercentile": 0.8106796116504854,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-31",
+      "temperature": 0.8262135922330097,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 84.2% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-26",
+      "expectedDataDate": "2026-08-26",
+      "fetchedAt": "2026-08-27T05:03:43.320Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-26"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-26",
+          "pe": 14.0955,
+          "pb": 1.4539,
+          "fetchedAt": "2026-08-27T05:03:43.320Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 14.0955,
+      "pePercentile": 0.7640776699029126,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-31",
+      "pb": 1.4539,
+      "pbPercentile": 0.4679611650485437,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-31",
+      "temperature": 0.6160194174757281,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 76.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-26",
+      "expectedDataDate": "2026-08-26",
+      "fetchedAt": "2026-08-27T05:03:43.270Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-26"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-26",
+          "pe": 30.0221,
+          "pb": 9.1546,
+          "fetchedAt": "2026-08-27T05:03:43.270Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.0221,
+      "pePercentile": 0.44346978557504874,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-08-31",
+      "pb": 9.1546,
+      "pbPercentile": 0.7709551656920078,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-08-31",
+      "temperature": 0.6072124756335283,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 44.3% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-08-26",
+      "expectedDataDate": "2026-08-26",
+      "fetchedAt": "2026-08-27T05:03:43.407Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-08-26"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-08-26",
+          "pe": 25.3051,
+          "pb": 5.5413,
+          "fetchedAt": "2026-08-27T05:03:43.407Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.3051,
+      "pePercentile": 0.5621359223300971,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-08-31",
+      "pb": 5.5413,
+      "pbPercentile": 0.9485436893203884,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-08-31",
+      "temperature": 0.7553398058252427,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 56.2% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国企业盈利",
+      "headline": "1—7月规上工业企业利润同比增长17.6%",
+      "implication": "事实：国家统计局披露，2026年1—7月规模以上工业企业营业收入同比增长6.5%，利润总额增长17.6%，7月利润增长11.2%，营业收入利润率为5.66%；制造业利润增长18.8%，高技术制造业利润增长50.1%，但电力、热力、燃气及水生产和供应业利润下降5.8%。推断：利润和利润率恢复支持A股企业盈利分子，但增长受到电子、高技术制造等行业较强贡献，不能据此判断全部行业已经同步改善。",
+      "url": "https://www.stats.gov.cn/sj/sjjd/202608/t20260827_1965127.html"
+    },
+    {
+      "market": "美国企业需求",
+      "headline": "美国7月耐用品新订单环比增长1.1%",
+      "implication": "事实：美国人口普查局8月26日发布的初值显示，7月耐用品新订单增加36亿美元至3393亿美元，环比增长1.1%；剔除运输设备增长0.4%，剔除国防增长1.3%，运输设备订单增长2.3%。推断：订单增长提示商品与企业需求仍有支撑，并可能影响后续生产与现金流；但运输设备贡献较大且数据为初值，不能据此推断广泛盈利改善或美股方向。",
+      "url": "https://www.census.gov/manufacturing/m3/adv/current/index.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-08-27:3611945752",
+    "sourceType": "blog",
+    "title": "不投资也不是没有风险，只是换了一种风险",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2013年5月22日",
+    "sourceUrl": "https://jlcollinsnh.com/2013/05/22/stocks-part-xviii-investing-in-a-raging-bull/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：现金、债券和股票都承担不同风险，资产配置的任务不是把风险清零，而是选择与资金期限、现金需求和回撤承受力相匹配的风险组合；择时则要求同时正确判断离场与回场，难以持续做到。",
+    "takeaways": [
+      "现金避开了价格波动，却承担通胀侵蚀购买力的风险；不持有风险资产不等于没有风险。",
+      "债券可以缓冲股票波动，但仍会受到利率上升与通胀的影响；降低一种风险往往是在接受另一种风险。",
+      "股票可能经历深度回撤，只有期限足够长、现金流稳定且能继续执行的人，才适合承担这类波动风险。"
+    ],
+    "fit": [
+      "资产配置",
+      "风险控制",
+      "FIRE",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "风险替代：资产配置不是消灭风险",
+      "explanation": "所谓风险替代，是指我们在现金、债券和股票之间转换时，并没有让不确定性消失，而是把它分别放在购买力、利率敏感度和价格波动上。资产配置真正决定的是：为了同一个家庭目标，我们愿意承担哪一种风险、承担多久。",
+      "applicability": "适用于比较服务同一目标、期限与计价货币的资产。先明确应急现金和短期支出，再核对负债、收入稳定性与可承受回撤，最后讨论长期资金怎样分担不同风险；不能只看单一资产的名义波动。",
+      "misconception": "常见误区是把现金等同于零风险、把债券等同于不会亏损，或因为股票长期回报较高就认为所有资金都应提高股票暴露。文章中的美国基金、75/20/5配置、4%提取与退休账户案例受美国税务和账户制度约束，不能直接移植到中国；可迁移的是风险分类与期限匹配框架。"
+    },
+    "quote": "Having money means having risk. You only get to choose what kind.",
+    "application": "今天四个指数给出一个卖出、三个持有的机械信号。我们先按规则记录，不凭单日新闻跨资产追涨杀跌；再把家庭资金按用途和期限分开，检查每一部分实际承担的是购买力、利率还是价格波动风险。",
+    "dont": "不要把“没有无风险资产”当成提高股票暴露的理由，不要借钱投资，也不要照搬文章中的美国基金、具体配置和提取规则；中美税务、账户、指数与家庭现金流条件不同。",
+    "images": [
+      {
+        "filename": "reading-risk-substitution.png",
+        "alt": "现金、债券与股票分别承担不同风险的三联画插图",
+        "caption": "左侧表示现金面临购买力侵蚀，中间表示债券价格对利率变化敏感，右侧表示权益用长期增长潜力交换较大波动；三者都不是零风险。",
+        "steps": [
+          "先区分现金、债券和权益分别承担的购买力、利率与价格波动风险。",
+          "再按家庭目标、资金期限、负债和现金需求判断哪类风险可以承受。",
+          "最后从家庭整体风险出发配置，而不是只追求某一种资产的低波动或高回报。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-08-27T05:01:25.387Z",
+      "dataDate": "2026-08-27",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.szse.cn/English/services/trading/calendar/index.html",
+      "accessedAt": "2026-08-27T05:01:25.387Z",
+      "dataDate": "2026-08-27",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场休市安排（日期口径：美国交易所假日与交易日）",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-08-27T05:01:25.387Z",
+      "dataDate": "2026-08-26",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间（日期口径：美国交易所假日与核心交易时段）",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-08-27T05:01:25.387Z",
+      "dataDate": "2026-08-26",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心（数据日期：2026-08-26；口径：静态PE/PB，近10年历史样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-08-27T05:03:43.407Z",
+      "dataDate": "2026-08-26",
+      "metricDefinition": "四指数PE、PB与近10年历史分位"
+    },
+    {
+      "label": "国家统计局：2026年1—7月份规模以上工业企业利润（口径：营业收入、利润总额、利润率及行业利润同比）",
+      "url": "https://www.stats.gov.cn/sj/sjjd/202608/t20260827_1965127.html",
+      "accessedAt": "2026-08-27T05:07:47Z",
+      "dataDate": "2026-01至2026-07，2026-08-27发布",
+      "metricDefinition": "规模以上工业企业营业收入、利润总额、营业收入利润率与分行业利润"
+    },
+    {
+      "label": "美国人口普查局：2026年7月耐用品新订单初值（口径：经季节调整、未按价格变化调整）",
+      "url": "https://www.census.gov/manufacturing/m3/adv/current/index.html",
+      "accessedAt": "2026-08-27T05:07:47Z",
+      "dataDate": "2026-07，2026-08-26发布",
+      "metricDefinition": "耐用品新订单总额、剔除运输、剔除国防及运输设备订单环比"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XVIII: Investing in a Raging Bull（口径：官网文章完整论证单元）",
+      "url": "https://jlcollinsnh.com/2013/05/22/stocks-part-xviii-investing-in-a-raging-bull/",
+      "accessedAt": "2026-08-27T05:07:47Z",
+      "dataDate": "2013-05-22",
+      "metricDefinition": "择时难度、资产类别风险与资产配置边界"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
