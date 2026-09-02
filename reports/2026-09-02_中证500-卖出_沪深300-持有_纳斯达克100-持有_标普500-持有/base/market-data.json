@@ -1,0 +1,275 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T05:09:43Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月2日为星期三。上交所、深交所2026年休市安排未将今天列为休市日；四个指数均使用最近已完成交易日2026年9月1日的数据。"
+  },
+  "advice": {
+    "book": "J.L. Collins Stock Series",
+    "principle": "工资到账后持续投入，与已经持有一笔可投资现金却故意分批入场，是两个问题；后者实际上改变了现金与风险资产的当前配置。",
+    "do": "先把中证500的“卖出”和其余三个指数的“持有”记入既定清单。如果今天有新增资金，再标明它是工资结余，还是原本就在账户中等待投资的大额现金，不要用同一个“定投”标签处理。",
+    "dont": "不要把中证500的“卖出”扩展为全仓清算，也不要因害怕单次入场就在没有配置理由时长期留出大额现金；不因一项美国就业数据猜测降息或改写长期计划，不借钱投资。",
+    "context": "事实：四个指数的数据日期均为2026年9月1日，中证500的PE分位高于80%，沪深300、纳斯达克100和标普500处于40%至80%的持有区间。美国劳工统计局报告7月职位空缺为730万，招聘与总离职均为510万，整体变化不大。推断：美国劳动需求尚未出现明显断层，但这份数据不能单独决定美联储利率路径或宽基指数短期方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-09-01",
+      "expectedDataDate": "2026-09-01",
+      "fetchedAt": "2026-09-02T05:03:45.657Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-01"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-01",
+          "pe": 33.5879,
+          "pb": 2.434,
+          "fetchedAt": "2026-09-02T05:03:45.657Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 33.5879,
+      "pePercentile": 0.8145631067961165,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-06",
+      "pb": 2.434,
+      "pbPercentile": 0.8106796116504854,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-06",
+      "temperature": 0.8126213592233009,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 81.5% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-01",
+      "expectedDataDate": "2026-09-01",
+      "fetchedAt": "2026-09-02T05:03:45.786Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-01"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-01",
+          "pe": 13.7784,
+          "pb": 1.4514,
+          "fetchedAt": "2026-09-02T05:03:45.786Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.7784,
+      "pePercentile": 0.7077669902912621,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-06",
+      "pb": 1.4514,
+      "pbPercentile": 0.46601941747572817,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-06",
+      "temperature": 0.5868932038834951,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 70.8% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-01",
+      "expectedDataDate": "2026-09-01",
+      "fetchedAt": "2026-09-02T05:03:45.744Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-01"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-01",
+          "pe": 30.0153,
+          "pb": 9.1532,
+          "fetchedAt": "2026-09-02T05:03:45.744Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.0153,
+      "pePercentile": 0.4415204678362573,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-06",
+      "pb": 9.1532,
+      "pbPercentile": 0.7690058479532164,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-06",
+      "temperature": 0.6052631578947368,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 44.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-01",
+      "expectedDataDate": "2026-09-01",
+      "fetchedAt": "2026-09-02T05:03:45.701Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-01"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-01",
+          "pe": 25.0828,
+          "pb": 5.4971,
+          "fetchedAt": "2026-09-02T05:03:45.701Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.0828,
+      "pePercentile": 0.5504854368932038,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-06",
+      "pb": 5.4971,
+      "pbPercentile": 0.9349514563106797,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-06",
+      "temperature": 0.7427184466019418,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 55.0% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国劳动市场",
+      "headline": "7月职位空缺、招聘与离职整体变化不大",
+      "implication": "事实：美国劳工统计局9月1日发布的JOLTS显示，7月职位空缺为730万，招聘与总离职均为510万，自愿离职为310万，裁员和解雇为170万，整体环比变化不大。专业和商业服务业招聘减少18.8万。推断：劳动需求尚未出现明显断层，但部分行业的招聘活力偏弱。不能据此判断：一份劳动市场流量数据不能单独确定美联储利率路径，也不能预告纳斯达克100或标普500的短期方向。",
+      "url": "https://www.bls.gov/news.release/jolts.nr0.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-02:984491268",
+    "sourceType": "blog",
+    "title": "同样叫定投，其实是两笔不同的钱",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2014年11月12日，2024年1月8日更新",
+    "sourceUrl": "https://jlcollinsnh.com/2014/11/12/stocks-part-xxvii-why-i-dont-like-dollar-cost-averaging/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：工资到账后立即投入的持续现金流，与手中已有大额现金却为规避短期下跌而故意分批入场，不应被同一个“定投”标签掩盖。后者不是消除风险，而是用踏空和现金占比偏高的风险，交换买入后立即下跌的风险。",
+    "takeaways": [
+      "已有大额现金时，分批入场必须同时选择总时长和每次投入频率；这本身就是对市场路径的一组判断。",
+      "等待入场的现金会让实际资产配置偏离目标；如果现金就是计划中的缓冲，这不是问题，如果不是，就要承认配置已被改变。",
+      "工资结余的持续投入是新现金不断到来；它与已有存量资金故意留在场外的决策条件不同。"
+    ],
+    "fit": [
+      "FIRE",
+      "长期指数投资",
+      "资产配置",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "定投口径：现金流分批与存量资金择时",
+      "explanation": "判断关键是资金什么时候真正可投资。工资结余每月才产生，就按现金流节奏入场；大额现金已经存在却分批投入，则会主动增加等待期的现金仓位，实际资产配置也随之改变。",
+      "applicability": "用于制定新增现金和存量资金的入场计划。前提是家庭已分清应急资金、近期刚性支出和可承担权益回撤的长期资金，并且资产配置和风险能力能解释为何要保留现金。",
+      "misconception": "把所有分批投入都当成同一种行为，或把原文中美国历史市场的统计直接当成今后的胜率。中美市场的交易、税务和账户制度不同，原文的VTSAX、401(k)和当时利率也不能直接移植；可迁移的是先辨认资金性质，再评估现金等待的成本与心理价值。"
+    },
+    "quote": "DCA alters your asset allocation strategy.",
+    "application": "今天中证500给出卖出，其余三个指数给出持有。我们只记录这组估值规则结果；若另有资金入场问题，先区分它是陆续产生的工资结余，还是已在账户中的存量现金。",
+    "dont": "不要用“定投总是更安全”遮住对现金仓位的选择，也不要把原文的历史统计当作未来保证；不照搬美国的基金、税务账户或资产配置。",
+    "images": [
+      {
+        "filename": "reading-dca-distinction.png",
+        "alt": "工资结余持续投入与已有大额现金分批入场的对照插图",
+        "caption": "左侧是新现金随时间逐步到来，到账后即进入长期资产；右侧是大额现金一开始已经存在，却在门外分批等待。两边都有“分批”的外观，但只有右边主动改变了当前现金占比。",
+        "steps": [
+          "先确认资金是未来每月产生，还是当下已经可以投资。",
+          "再把应急资金和近期刚性支出留在长期权益资金之外。",
+          "最后检查分批入场是否符合目标配置；如果只为缓解焦虑，就要明确承认踏空成本是买来心理安全感的代价。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-09-02T05:00:42.346Z",
+      "dataDate": "2026-09-02",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.szse.cn/www/aboutus/calendar/index.html",
+      "accessedAt": "2026-09-02T05:00:42.346Z",
+      "dataDate": "2026-09-02",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场休市安排（日期口径：美国交易所假日与交易日）",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-02T05:00:42.346Z",
+      "dataDate": "2026-09-01",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间（日期口径：美国交易所假日与核心交易时段）",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "accessedAt": "2026-09-02T05:00:42.346Z",
+      "dataDate": "2026-09-01",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心（数据日期：2026-09-01；口径：静态PE/PB，近10年历史样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-02T05:03:45.786Z",
+      "dataDate": "2026-09-01",
+      "metricDefinition": "四指数PE、PB与近10年历史分位"
+    },
+    {
+      "label": "美国劳工统计局：2026年7月职位空缺与劳动流动调查（口径：季调后职位空缺、招聘、离职及行业变化）",
+      "url": "https://www.bls.gov/news.release/jolts.nr0.htm",
+      "accessedAt": "2026-09-02T05:09:43Z",
+      "dataDate": "2026-07，2026-09-01发布",
+      "metricDefinition": "美国劳动需求与人员流动"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XXVII（口径：官网文章完整论证单元及后续更新）",
+      "url": "https://jlcollinsnh.com/2014/11/12/stocks-part-xxvii-why-i-dont-like-dollar-cost-averaging/",
+      "accessedAt": "2026-09-02T05:09:43Z",
+      "dataDate": "2014-11-12发布，2024-01-08更新",
+      "metricDefinition": "大额现金分批入场、现金流持续投入与资产配置"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
