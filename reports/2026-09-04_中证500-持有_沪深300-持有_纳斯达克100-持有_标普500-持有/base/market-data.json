@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T05:07:01Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月4日为星期五。上交所、深交所2026年休市安排未将今天列为休市日；四个指数均使用最近已完成交易日2026年9月3日的数据。"
+  },
+  "advice": {
+    "book": "J.L. Collins Stock Series",
+    "principle": "市场下跌本身是权益投资会反复遇到的过程，真正需要提前准备的是下跌时的动作。长期持有只适用于期限足够长、现金流和流动储备能承受波动、底层资产足够分散的资金。",
+    "do": "四个指数今天都记录为“持有”，先不交易。花几分钟写下下一次明显回撤时的检查顺序：先看应急资金和近期刚性支出，再核对持仓是否仍符合原计划，最后才决定是否需要动作。",
+    "dont": "不要把四个“持有”理解成市场已经安全，也不要预设自己能在下跌前卖出、最低点买回；不把单一个股、主题资产或短期要用的钱套进长期宽基的历史经验，更不借钱投资。",
+    "context": "事实：四个指数的数据日期均为2026年9月3日，PE分位都处于40%至80%的持有区间。工信部等十部门发布中小企业“十五五”规划，提出研发、数智化、融资与账款支付方面的目标和行动；美国劳工统计局修订数据显示，2026年第二季度非农商业部门劳动生产率按年率增长1.4%，单位劳动力成本增长1.2%。推断：政策支持与效率改善都可能影响企业中期现金流和成本，但一份规划和一季修订数据不足以推导宽基指数短期方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-03",
+      "expectedDataDate": "2026-09-03",
+      "fetchedAt": "2026-09-04T05:04:18.424Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-03"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-03",
+          "pe": 33.1543,
+          "pb": 2.4028,
+          "fetchedAt": "2026-09-04T05:04:18.424Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 33.1543,
+      "pePercentile": 0.7990291262135922,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-05",
+      "pb": 2.4028,
+      "pbPercentile": 0.8009708737864077,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-05",
+      "temperature": 0.8,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 79.9% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-03",
+      "expectedDataDate": "2026-09-03",
+      "fetchedAt": "2026-09-04T05:04:18.460Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-03"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-03",
+          "pe": 13.6252,
+          "pb": 1.4353,
+          "fetchedAt": "2026-09-04T05:04:18.460Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.6252,
+      "pePercentile": 0.6883495145631068,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-05",
+      "pb": 1.4353,
+      "pbPercentile": 0.4300970873786408,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-05",
+      "temperature": 0.5592233009708738,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 68.8% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-03",
+      "expectedDataDate": "2026-09-03",
+      "fetchedAt": "2026-09-04T05:04:18.531Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-03"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-03",
+          "pe": 30.4147,
+          "pb": 9.3075,
+          "fetchedAt": "2026-09-04T05:04:18.531Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.4147,
+      "pePercentile": 0.46296296296296297,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-05",
+      "pb": 9.3075,
+      "pbPercentile": 0.8001949317738791,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-05",
+      "temperature": 0.631578947368421,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 46.3% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-03",
+      "expectedDataDate": "2026-09-03",
+      "fetchedAt": "2026-09-04T05:04:18.496Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-03"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-03",
+          "pe": 25.4454,
+          "pb": 5.5909,
+          "fetchedAt": "2026-09-04T05:04:18.496Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.4454,
+      "pePercentile": 0.579611650485437,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-05",
+      "pb": 5.5909,
+      "pbPercentile": 0.958252427184466,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-05",
+      "temperature": 0.7689320388349514,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 58.0% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国中小企业政策",
+      "headline": "十部门发布中小企业“十五五”规划",
+      "implication": "事实：工信部等十部门9月3日发布规划，提出到2030年规模以上工业中小企业研发费用内部支出年均增长8%以上，并建设全国中小企业服务“一张网”、拓宽多元融资渠道、建立防范化解拖欠账款长效机制。推断：研发、融资和回款环境若逐步改善，可能影响中小企业的现金流与投资能力。不能据此判断：规划目标不等于已经形成当期利润，也不能直接映射为某个指数短期涨跌。",
+      "url": "https://www.miit.gov.cn/jgsj/qyj/gzdt/art/2026/art_7d898f9702124499aa651da5c9c4d66f.html"
+    },
+    {
+      "market": "美国生产率与成本",
+      "headline": "二季度劳动生产率修订值增长，单位劳动力成本仍上升",
+      "implication": "事实：美国劳工统计局9月3日公布修订数据，2026年第二季度非农商业部门劳动生产率按年率增长1.4%，产出增长1.7%、工时增长0.3%；单位劳动力成本增长1.2%，同比增长1.4%。推断：效率改善能部分抵消薪酬带来的成本压力，但实际利润还取决于需求、定价和行业结构。不能据此判断：一季修订数据不能单独决定美联储利率路径或美股指数方向。",
+      "url": "https://www.bls.gov/news.release/archives/prod2_09032026.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-04:950936030",
+    "sourceType": "blog",
+    "title": "市场下跌时，先别急着证明自己聪明",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2025年5月12日，2025年5月13日更新",
+    "sourceUrl": "https://jlcollinsnh.com/2025/05/12/the-one-thing-that-will-determine-whether-the-market-makes-you-wealthy-or-leaves-you-bleeding-on-the-side-of-the-road/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：投资结果常常不取决于能否预判下一次下跌，而取决于下跌真正发生时是否会打乱原计划。作者把回撤看成股票长期增长必须承受的波动成本，反对先卖出、等最低点再买回的双重择时。",
+    "takeaways": [
+      "调整、熊市和崩盘之所以都有固定称呼，是因为它们会反复出现；把下跌当成异常，会让临场恐慌代替原先的长期计划。",
+      "先卖出再抄底需要连续猜对离场和回场两个时点。作者据长期观察认为，这种做法很难稳定重复。",
+      "对仍在积累、收入持续且资金期限足够长的人，下跌可以让同样的新资金买到更多份额；但这个结论不适用于近期要用的钱。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "风险控制",
+      "行为纪律",
+      "FIRE",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "下跌应对预案：把临场情绪改成事前规则",
+      "explanation": "预案的核心不是猜跌幅，而是提前规定检查顺序。先确认生活现金、债务和近期支出没有被打乱，再检查底层资产与原计划是否仍成立；只有条件改变，才进入交易决策。这样能减少恐慌时同时判断行情、仓位和生活压力的错误。",
+      "applicability": "适用于持有分散权益资产、资金期限足够长、应急流动性与刚性支出已单独安排，并且能承受账面回撤的积累期投资者。若持有的是单一个股、集中主题、杠杆产品，或资金短期内要使用，就不具备直接套用“等待风暴过去”的条件。",
+      "misconception": "常见误区是把历史上的宽基修复经验写成“任何资产都会回来”。原文主要来自美国市场经验，不能替中国市场、跨境额度、汇率和账户规则背书；无论中美，长期持有都不能替代对资产质量、分散程度、费用和个人现金流的检查。"
+    },
+    "quote": "Don’t just do something, stand there.",
+    "application": "今天四个指数都在“持有”区间，正好适合在平静时写下下跌预案。等真正波动时，我们只需按顺序核对条件，不必临场发明一套新办法。",
+    "dont": "不要把“保持航向”理解为忽略所有变化，也不要照搬美国市场历史去保证A股、行业指数或单一个股必然修复；现金流条件不够时，先处理生活端而不是强撑持仓。",
+    "images": [
+      {
+        "filename": "reading-market-drop.png",
+        "alt": "市场风暴中恐慌离开与留在安全处按计划检查的双场景插图",
+        "caption": "画面用同一场风暴做对照：左边的人在慌乱中冲出安全处，右边的人留在屋内按计划检查。它不是说任何持仓都该死守，而是提醒我们先确认现金流、资金期限和底层资产，再决定是否需要交易。",
+        "steps": [
+          "平静时先写好下跌预案，列明应急资金、近期支出和持仓条件。",
+          "波动出现后按顺序核对，不同时处理行情预测、生活压力和交易冲动。",
+          "只有资金用途、风险能力或底层资产发生实质变化时，才进入调整决策。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-09-04T05:01:45.262Z",
+      "dataDate": "2026-09-04",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历（日期口径：交易所年度休市及周末休市）",
+      "url": "https://www.szse.cn/www/aboutus/calendar/index.html",
+      "accessedAt": "2026-09-04T05:01:45.262Z",
+      "dataDate": "2026-09-04",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场休市安排（日期口径：美国交易所假日与交易日）",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-04T05:01:45.262Z",
+      "dataDate": "2026-09-03",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间（日期口径：美国交易所假日与核心交易时段）",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "accessedAt": "2026-09-04T05:01:45.262Z",
+      "dataDate": "2026-09-03",
+      "metricDefinition": "美国交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心（数据日期：2026-09-03；口径：静态PE/PB，近10年历史样本本地重算分位）",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-04T05:04:18.531Z",
+      "dataDate": "2026-09-03",
+      "metricDefinition": "四指数PE、PB与近10年历史分位"
+    },
+    {
+      "label": "工业和信息化部：《促进中小企业发展“十五五”规划》解读（2026-09-03发布）",
+      "url": "https://www.miit.gov.cn/jgsj/qyj/gzdt/art/2026/art_7d898f9702124499aa651da5c9c4d66f.html",
+      "accessedAt": "2026-09-04T05:07:01Z",
+      "dataDate": "2026-09-03发布",
+      "metricDefinition": "中小企业研发、数智化、融资与账款支付政策目标"
+    },
+    {
+      "label": "美国劳工统计局：2026年第二季度生产率与成本修订值（季率均为季调年率）",
+      "url": "https://www.bls.gov/news.release/archives/prod2_09032026.htm",
+      "accessedAt": "2026-09-04T05:07:01Z",
+      "dataDate": "2026-Q2，2026-09-03发布",
+      "metricDefinition": "非农商业部门劳动生产率、产出、工时与单位劳动力成本"
+    },
+    {
+      "label": "J.L. Collins：The one thing that will determine whether the market makes you wealthy or leaves you bleeding on the side of the road（口径：官网文章完整论证单元）",
+      "url": "https://jlcollinsnh.com/2025/05/12/the-one-thing-that-will-determine-whether-the-market-makes-you-wealthy-or-leaves-you-bleeding-on-the-side-of-the-road/",
+      "accessedAt": "2026-09-04T05:07:01Z",
+      "dataDate": "2025-05-12发布，2025-05-13更新",
+      "metricDefinition": "市场下跌、双重择时与事前行为纪律"
+    }
+  ],
+  "disclaimer": "行为仅是用户预设PE分位规则的机械结果，不构成个性化投资建议；未指定仓位、金额、ETF、税费与账户条件，因此“卖出”不代表全仓清算。"
+}
