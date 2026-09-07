@@ -1,0 +1,262 @@
+{
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T05:00:58.796Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月7日为星期一。上交所、深交所交易规则明确周一至周五为交易日；今日为A股交易日。美国市场当日为劳工节休市，四个指数的最近已完成交易日均为2026年9月4日。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "估值方法要与指数的盈利、资产和流动性特征匹配；低PE、低PB或低历史分位都不是脱离口径的通用结论。",
+    "do": "把四个“持有”信号记入既定清单，不据此交易。在估值记录旁保留PE、PB的口径、数据日期和适用条件，便于后续核对。",
+    "dont": "不要把“持有”解读为市场已经安全，也不要因金融机构补充资本就推断信贷、利润或指数必然上涨；不借钱投资。",
+    "context": "事实：四个指数的数据日期均为2026年9月4日，PE分位均位于40%至80%的“持有”区间。财政部宣布将发行3000亿元特别国债，支持8家中央金融企业补充核心一级资本。推断：资本补充可以增强损失吸收能力和服务实体经济的资本空间，但不能单独确定信贷扩张速度、金融机构利润或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-04",
+      "expectedDataDate": "2026-09-04",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-04"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-04",
+          "pe": 32.7216,
+          "pb": 2.3714,
+          "fetchedAt": "2026-09-07T05:08:55.472Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 32.7216,
+      "pePercentile": 0.7815533980582524,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-05",
+      "pb": 2.3714,
+      "pbPercentile": 0.7932038834951456,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-05",
+      "temperature": 0.787378640776699,
+      "reason": "当前 PE 位于近10年历史的 78.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-04",
+      "expectedDataDate": "2026-09-04",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-04"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-04",
+          "pe": 13.6272,
+          "pb": 1.4356,
+          "fetchedAt": "2026-09-07T05:08:55.424Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.6272,
+      "pePercentile": 0.6902912621359223,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-05",
+      "pb": 1.4356,
+      "pbPercentile": 0.4300970873786408,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-05",
+      "temperature": 0.5601941747572815,
+      "reason": "当前 PE 位于近10年历史的 69.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-04",
+      "expectedDataDate": "2026-09-04",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-04"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-04",
+          "pe": 30.3066,
+          "pb": 9.2744,
+          "fetchedAt": "2026-09-07T05:08:55.517Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.3066,
+      "pePercentile": 0.4551656920077973,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-05",
+      "pb": 9.2744,
+      "pbPercentile": 0.7923976608187134,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-05",
+      "temperature": 0.6237816764132553,
+      "reason": "当前 PE 位于近10年历史的 45.5% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-04",
+      "expectedDataDate": "2026-09-04",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-04"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-04",
+          "pe": 25.3304,
+          "pb": 5.5653,
+          "fetchedAt": "2026-09-07T05:08:55.382Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.3304,
+      "pePercentile": 0.5679611650485437,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-05",
+      "pb": 5.5653,
+      "pbPercentile": 0.9563106796116505,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-05",
+      "temperature": 0.7621359223300971,
+      "reason": "当前 PE 位于近10年历史的 56.8% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国财政与金融机构资本",
+      "headline": "财政部将发行3000亿元特别国债支持8家中央金融企业补充核心一级资本",
+      "implication": "事实：财政部9月7日公告，近期将发行3000亿元特别国债，支持工商银行、农业银行等8家中央金融企业补充核心一级资本，工作将按市场化、法治化原则推进。推断：资本补充可以增强金融机构的损失吸收能力和服务实体经济的资本空间。不能据此判断：该事实不能单独确定信贷扩张速度、金融机构利润或股指方向。",
+      "url": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202609/t20260904_3996751.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-07:934158411",
+    "sourceType": "book",
+    "title": "估值指标使用前要核对条件",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第4章，PDF 160-201页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：估值指标不是通用尺子。市盈率依赖盈利稳定和流动性，市净率依赖资产可衡量性与净资产稳定性；历史区间还要随指数成分、规则和市场制度变化重新校验。",
+    "takeaways": [
+      "市盈率把市值与盈利联系起来。流动性不足、盈利剧烈波动或亏损会让这个比率失真。",
+      "市净率把市值与净资产联系起来。无形资产比例、负债变化和持续亏损会改变账面价值的参考性。",
+      "书中的估值阈值、费率、税务与回测样本带有成书时点。当期使用需要核对指数规则、盈利口径、产品披露和市场制度。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "估值口径",
+      "风险控制",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "估值口径匹配",
+      "explanation": "原理：估值是分子与分母的比较。指标只有在分母可解释、可比较时才能衡量价格。市盈率要求盈利具有参考性，市净率要求净资产能够表达企业的资产基础。",
+      "applicability": "适用条件：市盈率适用于流动性充足、盈利口径一致且盈利不被周期极值扭曲的组合。市净率适用于资产可衡量、净资产未被持续亏损侵蚀的组合。历史分位还要求指数编制和数据口径具有可比性。",
+      "misconception": "常见误区：低市盈率不自动等于低估，高市盈率也不自动证明泡沫。中国A股、港股和美国市场的行业结构、会计准则、指数编制、税务和账户制度不同，同一阈值不能跨市场搬用。"
+    },
+    "quote": "熟悉它们的优点和局限，才能更好地为我们自己所用。",
+    "application": "财政部补充金融机构核心一级资本，会改变其净资产与风险吸收能力，但不直接等同于盈利增长。这个事例说明：资本、盈利与市值属于不同度量。",
+    "dont": "边界：不能把低PE、低PB或低历史分位单独解读为价值低估，也不能用书中的旧阈值代替当期数据与规则校验。",
+    "images": [
+      {
+        "filename": "reading-valuation-conditions.png",
+        "alt": "估值指标适用条件与历史区间校验的三格插图",
+        "caption": "三格对应章节的三个论证单元：第一格表示市盈率需要流动性和稳定盈利；第二格表示周期盈利与账面资产要分别度量；第三格表示指数成分或市场制度变化后，旧历史标尺需要重新校验。画面不对应具体阈值或收益。",
+        "steps": [
+          "核对指标分子、分母与数据口径。",
+          "区分稳定盈利、周期盈利与账面资产。",
+          "在指数规则或市场制度变化后重新校验历史区间。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排及周末交易日规则",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-09-07T05:00:58.796Z",
+      "dataDate": "2026-09-07",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：《深圳证券交易所交易规则（2026年修订）》",
+      "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+      "accessedAt": "2026-09-07T05:00:58.796Z",
+      "dataDate": "2026-09-07",
+      "metricDefinition": "A股交易日判定：每周一至周五为交易日"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场休市安排",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-07T05:00:58.796Z",
+      "dataDate": "2026-09-07劳工节休市",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "accessedAt": "2026-09-07T05:00:58.796Z",
+      "dataDate": "2026-09-07劳工节休市",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-07T05:08:55.517Z",
+      "dataDate": "2026-09-04",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "财政部：积极支持有关中央金融企业补充核心一级资本",
+      "url": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202609/t20260904_3996751.htm",
+      "accessedAt": "2026-09-07T05:00:58.796Z",
+      "dataDate": "2026-09-07",
+      "metricDefinition": "特别国债规模、支持对象及核心一级资本补充安排"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第4章（口径：本地原书完整论证单元）",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-07T05:00:58.796Z",
+      "dataDate": "第4章，PDF 160-201页",
+      "metricDefinition": "估值指标的原理、适用条件、局限及中美市场制度边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
