@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T05:06:59.697Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年9月5日为星期六。上交所交易规则和深交所2026年交易日历均明确周末休市；今天不抓取四个指数估值，不创建估值重试状态。新闻已与9月4日日报比较，未重复收录中小企业规划和美国生产率数据。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易日历",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易日历",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国就业与收入",
+      "headline": "美国8月非农就业增加16.2万，失业率保持4.1%",
+      "implication": "事实：美国劳工统计局9月4日发布数据，8月非农就业增加16.2万，失业率为4.1%；私营部门平均时薪环比上涨0.3%、同比上涨3.1%。信息业减少2.3万个岗位，制造业增加1.6万个岗位。推断：就业增长与工资增速共同影响家庭收入、企业成本和利率预期。不能据此判断：单月数据无法单独确定美联储政策或股指方向。",
+      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-05:967713649",
+    "sourceType": "blog",
+    "title": "ETF与共同基金，先分清底层资产与交易外壳",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2020年4月14日，2023年11月7日更新",
+    "sourceUrl": "https://jlcollinsnh.com/2020/04/14/part-xvii-b-etf-vs-mutual-fund-whats-the-difference/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：同一指数组合可以通过ETF或共同基金持有。底层组合决定持有什么，交易、自动投入、门槛和费用决定怎样持有；这是两类问题。",
+    "takeaways": [
+      "文章使用跟踪同一美国债券市场指数的两种产品说明：基金形式不同，底层组合可以相同。",
+      "ETF提供盘中价格，共同基金使用收盘净值。自动投入、份额门槛、佣金、买卖价差和管理费会改变使用体验与总成本。",
+      "文章的具体产品、经纪商和税务语境属于美国。其他市场需要重新核对产品准入、交易规则、费用、税务和流动性。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "产品选择",
+      "总成本",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "资产暴露与产品载体分离",
+      "explanation": "资产暴露回答组合持有哪些证券、各占多少权重。产品载体回答如何申购、赎回、交易和收费。两个产品可以提供相同的底层资产暴露，却采用不同的交易机制。",
+      "applicability": "该概念适用于比较跟踪同一指数或持有相同组合的基金载体。成立条件是底层证券、权重、跟踪方法和法律结构已经核对；名称相似不足以证明功能等价。",
+      "misconception": "常见误区是把ETF理解成独立的资产类别，或认为共同基金必然比ETF昂贵。美国产品可能允许零股交易或自动投入，文章中的旧门槛和费率不能代替当期披露；中国的场内ETF、场外基金、联接基金和跨境产品也有不同的申赎、结算和额度规则。"
+    },
+    "quote": "VBTLX and BND both hold exactly the same Total Bond Market Index portfolio.",
+    "application": "就业数据讨论家庭收入、企业成本和贴现率，文章讨论产品实现方式。宏观环境与产品载体属于不同分析层次。",
+    "dont": "边界：文章不能证明ETF或共同基金存在普适优势，也不能把美国市场的具体产品、费率、税务和账户规则移植到中国。",
+    "images": [
+      {
+        "filename": "reading-etf-vs-fund.png",
+        "alt": "同一资产篮子进入两种基金载体的三格对比插图",
+        "caption": "三格对应文章的三个论证单元：第一格表示同一底层资产篮可以进入两种载体；第二格对比盘中交易与自动投入等使用机制；第三格表示选择取决于账户准入、总成本和操作习惯。画面不对应具体产品或收益。",
+        "steps": [
+          "底层组合决定资产暴露。",
+          "交易、自动投入、门槛和费用构成载体差异。",
+          "账户准入、总成本和使用需求构成选择依据。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排及周末交易日规则",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-09-05T05:06:59.697Z",
+      "dataDate": "2026-09-05",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历（周末休市）",
+      "url": "https://www.szse.cn/www/English/services/trading/calendar/",
+      "accessedAt": "2026-09-05T05:06:59.697Z",
+      "dataDate": "2026-09-05",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "美国劳工统计局：2026年8月就业形势（口径：家庭调查与建制调查）",
+      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+      "accessedAt": "2026-09-05T05:06:59.697Z",
+      "dataDate": "2026-08，2026-09-04发布",
+      "metricDefinition": "非农就业、失业率、时薪、行业就业变化"
+    },
+    {
+      "label": "J.L. Collins：Part XVII-B: ETF vs. Mutual Fund — What’s the Difference?（口径：官网文章完整论证单元）",
+      "url": "https://jlcollinsnh.com/2020/04/14/part-xvii-b-etf-vs-mutual-fund-whats-the-difference/",
+      "accessedAt": "2026-09-05T05:06:59.697Z",
+      "dataDate": "2020-04-14发布，2023-11-07更新",
+      "metricDefinition": "同一底层组合的ETF与共同基金载体差异及美国制度边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
