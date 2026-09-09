@@ -1,0 +1,262 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T05:11:10Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月9日为星期三，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月8日。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "书面规则把估值触发、允许动作和停止条件写清，市场波动不替代规则判断。",
+    "do": "记录中证500的“卖出”信号。核对书面规则中的触发条件、动作范围和停止条件；其余三个指数保留“持有”记录。",
+    "dont": "不要把中证500的机械“卖出”信号解释为清空全部持仓。不要用一天的波动或一条新闻改写规则；不借钱投资。",
+    "context": "事实：中证500的PE分位为80.1%，规则输出“卖出”；沪深300、纳斯达克100和标普500仍处于“持有”区间。美联储公布的7月消费者信贷年化增速为4.2%。推断：信贷扩张会影响消费现金流与利息负担，不能单独确定企业利润、通胀路径或股指方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "action": "卖出",
+      "dataDate": "2026-09-08",
+      "expectedDataDate": "2026-09-08",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-08"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-08",
+          "pe": 33.1522,
+          "pb": 2.4029,
+          "fetchedAt": "2026-09-09T05:05:40.378Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 33.1522,
+      "pePercentile": 0.8009708737864077,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-13",
+      "pb": 2.4029,
+      "pbPercentile": 0.8029126213592233,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-13",
+      "temperature": 0.8019417475728154,
+      "reason": "当前 PE 位于近10年历史的 80.1% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-08",
+      "expectedDataDate": "2026-09-08",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-08"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-08",
+          "pe": 13.5653,
+          "pb": 1.429,
+          "fetchedAt": "2026-09-09T05:05:41.179Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.5653,
+      "pePercentile": 0.6786407766990291,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-13",
+      "pb": 1.429,
+      "pbPercentile": 0.4223300970873786,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-13",
+      "temperature": 0.5504854368932038,
+      "reason": "当前 PE 位于近10年历史的 67.9% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-08",
+      "expectedDataDate": "2026-09-08",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-08"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-08",
+          "pe": 30.2828,
+          "pb": 9.2672,
+          "fetchedAt": "2026-09-09T05:05:40.292Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.2828,
+      "pePercentile": 0.45321637426900585,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-13",
+      "pb": 9.2672,
+      "pbPercentile": 0.7904483430799221,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-13",
+      "temperature": 0.621832358674464,
+      "reason": "当前 PE 位于近10年历史的 45.3% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-08",
+      "expectedDataDate": "2026-09-08",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-08"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-08",
+          "pe": 25.2003,
+          "pb": 5.5367,
+          "fetchedAt": "2026-09-09T05:05:40.336Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.2003,
+      "pePercentile": 0.5524271844660195,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-13",
+      "pb": 5.5367,
+      "pbPercentile": 0.9446601941747573,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-13",
+      "temperature": 0.7485436893203884,
+      "reason": "当前 PE 位于近10年历史的 55.2% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国消费信贷",
+      "headline": "美联储公布7月消费者信贷数据",
+      "implication": "事实：美联储9月8日发布G.19，7月消费者信贷按季调年率增长4.2%，循环信贷增长2.5%，非循环信贷增长4.8%。推断：信贷扩张可能支撑部分消费现金流，也会增加利息负担。不能据此判断企业利润、通胀路径或股指方向。",
+      "url": "https://www.federalreserve.gov/releases/g19/current/"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-09:900603173",
+    "sourceType": "book",
+    "title": "书面投资规则约束临场反应",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第8章，PDF 322-362页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：书面规则把触发条件、允许动作和停止条件分开。估值信号回答规则是否触发，不预测短期涨跌。",
+    "takeaways": [
+      "低估或高估代表一个区域，不是一个精确点位。估值与价格走势可能出现时间差。",
+      "投资计划需要写明时间、金额、买卖条件和复核标准。市场波动不构成修改规则的充分理由。",
+      "持续投入依赖现金流。工资、健康和职业变化都会影响供款能力，收入不能当成无风险资产。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "风险控制",
+      "家庭现金流"
+    ],
+    "concept": {
+      "title": "书面投资规则",
+      "explanation": "书面投资规则由触发条件、允许动作和停止条件组成。它把估值信号与短期方向判断分开，给执行留下一份可核对的记录。",
+      "applicability": "这套方法要求应急现金独立、投资期限匹配、持仓不含杠杆、数据口径有效。账户与产品规则须匹配所在市场。",
+      "misconception": "规则不是收益保证。PE分位越过阈值只产生指定动作，不等于清空持仓。中国和美国的税务、结算、账户与跨境约束不同，旧阈值不能跨市场照搬。"
+    },
+    "quote": "低估是一个区域，而不是一个点。",
+    "application": "中证500的PE分位越过80%阈值，规则输出卖出。这个信号回答“规则是否触发”，不回答“明天是否下跌”。",
+    "dont": "不要因一次触发改写整个投资计划；不要把书中旧数据当成当期保证。",
+    "images": [
+      {
+        "filename": "reading-written-rule.png",
+        "alt": "书面投资规则面对市场波动的三格插图",
+        "caption": "三格对应书面规则的执行路径：第一格写明触发条件、允许动作和停止条件；第二格让市场波动与情绪出现，但不做临场改写；第三格核对规则，只执行被触发的动作，并把生活现金与长期投资分开。画面不对应具体点位或收益。",
+        "steps": [
+          "写下触发条件、动作范围和停止条件。",
+          "市场波动时读取规则，不猜短期方向。",
+          "执行被触发的动作，保留生活现金边界。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-09T05:01:17.922Z",
+      "dataDate": "2026-09-09",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-09T05:01:17.922Z",
+      "dataDate": "2026-09-09",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-09T05:01:17.922Z",
+      "dataDate": "2026-09-08",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-09T05:01:17.922Z",
+      "dataDate": "2026-09-08",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-09T05:05:41.179Z",
+      "dataDate": "2026-09-08",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美联储：Consumer Credit - G.19",
+      "url": "https://www.federalreserve.gov/releases/g19/current/",
+      "accessedAt": "2026-09-09T05:11:10Z",
+      "dataDate": "2026-09-08发布，2026年7月数据",
+      "metricDefinition": "经季节调整的消费者信贷、循环信贷与非循环信贷年化增速"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第8章（口径：本地原书完整论证单元）",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-09T05:11:10Z",
+      "dataDate": "第8章，PDF 322-362页",
+      "metricDefinition": "长期投资心理建设、书面计划、现金流与卖出规则的适用边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
