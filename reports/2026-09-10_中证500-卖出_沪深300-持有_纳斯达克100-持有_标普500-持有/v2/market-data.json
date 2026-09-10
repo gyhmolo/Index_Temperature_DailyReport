@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T05:08:39Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月10日为星期四，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月9日。"
+  },
+  "advice": {
+    "book": "读书与来源记忆",
+    "principle": "个人经验、历史样本和可验证事实属于不同证据层级；迁移结论前需要核对市场、产品、期限和现金流条件。",
+    "do": "记录中证500的“卖出”信号与其余三项“持有”信号。把文章中的美国市场经验标为来源主张，再核对持仓底层、产品结构、资金期限、应急现金和杠杆。",
+    "dont": "不要把“市场总会恢复”写成保证。不要因恐慌临时清仓，也不要把中证500的机械卖出信号扩展为全仓退出；不借钱投资。",
+    "context": "事实：中证500的PE分位为80.1%，规则输出“卖出”；沪深300、纳斯达克100和标普500仍处于“持有”区间。国家统计局公布8月CPI同比上涨0.8%、PPI同比上涨3.8%。推断：生产端价格压力的利润影响取决于行业成本传导和议价能力，单月数据不能单独确定企业利润、货币政策路径或股指方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "action": "卖出",
+      "dataDate": "2026-09-09",
+      "expectedDataDate": "2026-09-09",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-09"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-09",
+          "pe": 33.1881,
+          "pb": 2.4056,
+          "fetchedAt": "2026-09-10T05:02:53.009Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 33.1881,
+      "pePercentile": 0.8009708737864077,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-14",
+      "pb": 2.4056,
+      "pbPercentile": 0.8029126213592233,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-14",
+      "temperature": 0.8019417475728154,
+      "reason": "当前 PE 位于近10年历史的 80.1% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-09",
+      "expectedDataDate": "2026-09-09",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-09"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-09",
+          "pe": 13.614,
+          "pb": 1.4342,
+          "fetchedAt": "2026-09-10T05:02:53.097Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.614,
+      "pePercentile": 0.6883495145631068,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-14",
+      "pb": 1.4342,
+      "pbPercentile": 0.42815533980582526,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-14",
+      "temperature": 0.558252427184466,
+      "reason": "当前 PE 位于近10年历史的 68.8% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-09",
+      "expectedDataDate": "2026-09-09",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-09"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-09",
+          "pe": 30.063,
+          "pb": 9.1999,
+          "fetchedAt": "2026-09-10T05:02:52.827Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.063,
+      "pePercentile": 0.4395711500974659,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-14",
+      "pb": 9.1999,
+      "pbPercentile": 0.7748538011695907,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-14",
+      "temperature": 0.6072124756335283,
+      "reason": "当前 PE 位于近10年历史的 44.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-09",
+      "expectedDataDate": "2026-09-09",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-09"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-09",
+          "pe": 25.0487,
+          "pb": 5.5041,
+          "fetchedAt": "2026-09-10T05:02:53.053Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.0487,
+      "pePercentile": 0.5485436893203883,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-14",
+      "pb": 5.5041,
+      "pbPercentile": 0.933009708737864,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-14",
+      "temperature": 0.7407766990291262,
+      "reason": "当前 PE 位于近10年历史的 54.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国物价与企业成本",
+      "headline": "8月CPI同比上涨0.8%，PPI同比上涨3.8%",
+      "implication": "事实：国家统计局9月9日公布，8月CPI同比上涨0.8%、环比上涨0.4%，核心CPI同比上涨1.0%；PPI同比上涨3.8%、环比上涨0.4%。推断：居民价格保持温和，生产端价格压力抬升，企业利润影响取决于行业成本传导与议价能力。不能据此判断：单月物价数据不能单独确定企业利润、货币政策路径或股指方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-10:581975507",
+    "sourceType": "blog",
+    "title": "市场下跌时，先核对持有条件",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，页面显示发布于2025-05-13",
+    "sourceUrl": "https://jlcollinsnh.com/2025/05/12/the-one-thing-that-will-determine-whether-the-market-makes-you-wealthy-or-leaves-you-bleeding-on-the-side-of-the-road/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：市场回撤时的行为会影响长期结果。不因恐慌卖出只在底层暴露、产品结构、资金期限、现金流和杠杆条件仍成立时适用。",
+    "takeaways": [
+      "回撤是美国股票市场历史中反复出现的现象，恐慌卖出会把账面亏损固化为已实现亏损。",
+      "卖出后再精准买回要求连续判断下跌起点、幅度和底部，文章不认为这种择时能够稳定复制。",
+      "定期储蓄与投入者可能在价格下降时获得更多份额，前提是未受短期支出和杠杆逼迫。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "风险控制",
+      "家庭现金流"
+    ],
+    "concept": {
+      "title": "持有条件审计",
+      "explanation": "持有条件审计把“愿意承受回撤”与“客观上能够持有”分开。它核对底层指数与产品、投资期限、应急现金、杠杆和被迫卖出风险。",
+      "applicability": "适用条件是底层持仓保持分散、产品与交易渠道可用、资金期限充足、应急现金独立且不含杠杆。这些条件需要逐项成立。",
+      "misconception": "“坚持”不适用于个股、集中主题、规则已变的指数、失去流动性的产品或必须支出的资金。美国市场历史不保证中国市场或其他市场重复同样路径；税务、账户、结算与跨境约束也不同。"
+    },
+    "quote": "What you do when the market drops.",
+    "application": "今日有一项机械“卖出”信号与三项“持有”信号。信号只回答规则是否触发，不预测下一个交易日的方向，也不授权全仓清空。",
+    "dont": "不要把作者对美国市场的历史经验写成普遍恢复保证；不要用“坚持”为杠杆投资或已失效的持有条件辩护。",
+    "images": [
+      {
+        "filename": "reading-holding-conditions.png",
+        "alt": "市场回撤中核对持有条件的三格插图",
+        "caption": "三格对应持有条件的核对路径：第一格准备分散暴露、应急现金和无杠杆边界；第二格让市场回撤与情绪出现，不立即交易；第三格核对底层、期限、流动性和杠杆，条件成立时按计划继续，条件失效时停止并复核。画面不表示必然恢复或收益。",
+        "steps": [
+          "确认持仓底层、产品结构与交易渠道。",
+          "核对资金期限、应急现金和杠杆。",
+          "条件成立时执行计划，条件失效时停止并复核。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-10T05:00:54.522Z",
+      "dataDate": "2026-09-10",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-10T05:00:54.522Z",
+      "dataDate": "2026-09-10",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-10T05:00:54.522Z",
+      "dataDate": "2026-09-09",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-10T05:00:54.522Z",
+      "dataDate": "2026-09-09",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-10T05:02:53.097Z",
+      "dataDate": "2026-09-09",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年8月居民消费价格",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html",
+      "accessedAt": "2026-09-10T05:08:39Z",
+      "dataDate": "2026-09-09发布，2026年8月数据",
+      "metricDefinition": "CPI同比、环比及不包括食品和能源的核心CPI同比"
+    },
+    {
+      "label": "国家统计局：2026年8月工业生产者价格",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202609/t20260909_1965262.html",
+      "accessedAt": "2026-09-10T05:08:39Z",
+      "dataDate": "2026-09-09发布，2026年8月数据",
+      "metricDefinition": "PPI同比与环比"
+    },
+    {
+      "label": "国家统计局：2026年8月CPI和PPI数据解读",
+      "url": "https://www.stats.gov.cn/sj/sjjd/202609/t20260909_1965261.html",
+      "accessedAt": "2026-09-10T05:08:39Z",
+      "dataDate": "2026-09-09发布，2026年8月数据",
+      "metricDefinition": "CPI与PPI变动结构的官方解读"
+    },
+    {
+      "label": "J.L. Collins：The one thing that will determine whether the market makes you wealthy or leaves you bleeding on the side of the road",
+      "url": "https://jlcollinsnh.com/2025/05/12/the-one-thing-that-will-determine-whether-the-market-makes-you-wealthy-or-leaves-you-bleeding-on-the-side-of-the-road/",
+      "accessedAt": "2026-09-10T05:08:39Z",
+      "dataDate": "官网页面显示发布于2025-05-13",
+      "metricDefinition": "美国股票市场回撤中的行为选择与持有条件边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
