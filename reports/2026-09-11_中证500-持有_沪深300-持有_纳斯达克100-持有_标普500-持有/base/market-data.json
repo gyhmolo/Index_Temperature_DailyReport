@@ -1,0 +1,262 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T05:06:07Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月11日为星期五，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月10日。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "简单投资不是买了带“指数”名称的产品就结束；先分清指数规则、基金载体和账户约束，再判断它是否承载了目标资产暴露。",
+    "do": "记录四项“持有”信号。检查现有产品追踪的指数规则、持仓覆盖、全成本、流动性和账户约束；把四个日报指数视为四条独立观察。",
+    "dont": "不要把基金数量当成分散程度，不要只看指数名称或历史点位挑产品，也不要用书中的旧费率、收益和美国账户规则替代当前披露；不借钱投资。",
+    "context": "事实：中证500、沪深300、纳斯达克100和标普500的PE分位均处于“持有”区间。美国劳工统计局公布8月最终需求PPI环比上涨0.4%、同比上涨5.4%。推断：生产端价格压力会影响企业成本与通胀预期，行业利润取决于成本传导和议价能力。一份PPI数据不能单独确定美联储利率路径、企业利润或股指方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-10",
+      "expectedDataDate": "2026-09-10",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-10"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-10",
+          "pe": 32.9884,
+          "pb": 2.3904,
+          "fetchedAt": "2026-09-11T05:02:34.079Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 32.9884,
+      "pePercentile": 0.7893203883495146,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-12",
+      "pb": 2.3904,
+      "pbPercentile": 0.8009708737864077,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-12",
+      "temperature": 0.7951456310679612,
+      "reason": "当前 PE 位于近10年历史的 78.9% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-10",
+      "expectedDataDate": "2026-09-10",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-10"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-10",
+          "pe": 13.5867,
+          "pb": 1.4323,
+          "fetchedAt": "2026-09-11T05:02:33.993Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.5867,
+      "pePercentile": 0.6844660194174758,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-12",
+      "pb": 1.4323,
+      "pbPercentile": 0.42815533980582526,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-12",
+      "temperature": 0.5563106796116505,
+      "reason": "当前 PE 位于近10年历史的 68.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-10",
+      "expectedDataDate": "2026-09-10",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-10"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-10",
+          "pe": 29.911,
+          "pb": 9.1522,
+          "fetchedAt": "2026-09-11T05:02:33.950Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 29.911,
+      "pePercentile": 0.4298245614035088,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-12",
+      "pb": 9.1522,
+      "pbPercentile": 0.767056530214425,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-12",
+      "temperature": 0.5984405458089669,
+      "reason": "当前 PE 位于近10年历史的 43.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "action": "持有",
+      "dataDate": "2026-09-10",
+      "expectedDataDate": "2026-09-10",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-10"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-10",
+          "pe": 24.8986,
+          "pb": 5.464,
+          "fetchedAt": "2026-09-11T05:02:34.036Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 24.8986,
+      "pePercentile": 0.5388349514563107,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-12",
+      "pb": 5.464,
+      "pbPercentile": 0.9213592233009709,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-12",
+      "temperature": 0.7300970873786408,
+      "reason": "当前 PE 位于近10年历史的 53.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国生产者价格",
+      "headline": "美国8月最终需求PPI环比上涨0.4%",
+      "implication": "事实：美国劳工统计局9月10日公布，8月最终需求PPI经季节调整后环比上涨0.4%，未经季节调整的12个月涨幅为5.4%；最终需求商品环比上涨1.1%，服务上涨0.1%。推断：生产端价格压力会影响企业成本与通胀预期，行业利润取决于成本传导和议价能力。不能据此判断：一份PPI数据不能单独确定美联储利率路径、企业利润或股指方向。",
+      "url": "https://www.bls.gov/news.release/archives/ppi_09102026.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-11:565197888",
+    "sourceType": "book",
+    "title": "指数不是基金，基金也不是账户",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第2章，PDF 34-54页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：指数是选样与加权规则，基金是追踪规则的产品，账户决定产品如何持有。三者需要分层检查。",
+    "takeaways": [
+      "指数用公开规则选择一组公司，用一个数值表示这组资产的整体变化。",
+      "指数基金把抽象规则变成可交易产品，它能减少单一公司和主动管理人的风险，但仍有追踪、成本和流动性差异。",
+      "账户与市场制度决定税务、结算、跨境与可交易边界；书中的旧费率、收益和账户数据不能当作当前事实。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "资产配置",
+      "风险控制",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "指数—基金—账户三层检查",
+      "explanation": "这套检查把产品选择拆成三层。第一层看指数的选样、加权和资产暴露；第二层看基金的追踪、全成本和流动性；第三层看账户的税务、结算和跨境限制。",
+      "applicability": "适用条件是三层信息均为当前披露，指数规则公开，产品可交易，投资期限与风险预算匹配。任一层发生变化都需要重新核对。",
+      "misconception": "常见误区是把持有多只基金等同于分散，或认为带“指数”名称就意味着低风险、低成本。中美市场的税务、账户、结算和跨境约束不同，不能直接套用。"
+    },
+    "quote": "指数是一个选股规则。",
+    "application": "今日四个指数都给出“持有”信号。四条估值观察不等于一份家庭资产配置，具体产品仍需要完成三层检查。",
+    "dont": "不要只凭指数名称或历史点位挑选基金；不要用书中的旧费率、收益示例和美国账户规则代替当前披露。",
+    "images": [
+      {
+        "filename": "reading-index-fund-account.png",
+        "alt": "指数、基金与账户三层结构插图",
+        "caption": "画面把三个对象分层呈现：上层是按规则选出的一组资产；中层是追踪这组资产的基金载体，需要检查追踪、成本和流动性；下层是容纳产品的账户边界，需要检查税务、结算和跨境限制。三层对齐后才能判断产品是否承载了目标暴露。",
+        "steps": [
+          "识别指数的选样、加权和目标暴露。",
+          "核对基金的追踪、全成本和流动性。",
+          "核对账户的税务、结算和跨境限制。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-11T05:01:14.759Z",
+      "dataDate": "2026-09-11",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-11T05:01:14.759Z",
+      "dataDate": "2026-09-11",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-11T05:01:14.759Z",
+      "dataDate": "2026-09-10",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-11T05:01:14.759Z",
+      "dataDate": "2026-09-10",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-11T05:02:34.079Z",
+      "dataDate": "2026-09-10",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美国劳工统计局：2026年8月生产者价格指数",
+      "url": "https://www.bls.gov/news.release/archives/ppi_09102026.htm",
+      "accessedAt": "2026-09-11T05:06:07Z",
+      "dataDate": "2026-09-10发布，2026年8月数据",
+      "metricDefinition": "最终需求PPI环比、同比及商品和服务分项"
+    },
+    {
+      "label": "《指数基金投资指南》：为什么要选指数基金",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-11T05:06:07Z",
+      "dataDate": "第2章，PDF 34-54页",
+      "metricDefinition": "指数、指数基金与产品检查框架"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
