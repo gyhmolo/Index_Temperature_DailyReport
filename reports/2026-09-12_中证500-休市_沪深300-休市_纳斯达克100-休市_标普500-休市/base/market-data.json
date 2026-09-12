@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T05:05:00Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年9月12日为星期六。上海证券交易所2026年休市安排与交易日规则表明周末休市。今天不抓取四个指数估值，不创建估值重试状态。新闻已与9月11日日报比较，美国消费者价格与前一日生产者价格同属通胀主题，本期不重复收录。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所2026年交易日历",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所2026年交易日历",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国银行监管",
+      "headline": "美国多家银行监管机构就第三方风险管理指引征求意见",
+      "implication": "事实：美联储、美国联邦存款保险公司、国家信用合作社管理局与货币监理署9月11日对拟议指引征求意见。指引面向金融机构的第三方关系风险管理，采用原则导向，属于非约束性监管指导。监管机构计划在定稿后替换现有指引，意见期为联邦公报刊登后60天。推断：如果指引定稿，银行、信用合作社与核心服务商需要重新核对风险管理和责任分工，这可能影响合规成本和金融科技合作。不能据此判断：文件处于征求意见阶段，实施文本、时间和市场影响都没有确定。",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-12:615530745",
+    "sourceType": "blog",
+    "title": "同一篮子资产，两种持有载体",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2020年4月14日，2023年11月7日更新",
+    "sourceUrl": "https://jlcollinsnh.com/2020/04/14/part-xvii-b-etf-vs-mutual-fund-whats-the-difference/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：资产组合决定持有什么，基金形式决定如何交易、申购、赎回和收费。跟踪同一指数的ETF与共同基金可以持有相同底层组合，但使用方式不同。",
+    "takeaways": [
+      "文章用跟踪同一美国债券市场指数的两种产品说明：产品形式不同，底层资产组合可以相同。",
+      "ETF使用盘中价格，共同基金使用收盘净值。自动投入、份额门槛、佣金、买卖价差和管理费会改变使用体验与全成本。",
+      "文章的产品、经纪商和税务语境属于美国。中国市场需要核对产品准入、交易规则、费用、税务、流动性、结算和跨境额度。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "产品选择",
+      "全成本",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "资产暴露与产品载体分离",
+      "explanation": "资产暴露回答组合持有哪些证券、各占多少权重。产品载体回答投资者如何交易、申购、赎回和付费。两个产品可以提供相同的底层资产暴露，同时采用不同的交易机制。",
+      "applicability": "该概念适用于比较跟踪同一指数或持有相同组合的基金载体。适用条件是底层证券、权重、跟踪方法和法律结构已经核对；名称相似不足以证明功能等价。",
+      "misconception": "常见误区是把ETF理解成独立的资产类别，或认为共同基金必然比ETF昂贵。美国产品可能允许零股交易或自动投入，文章中的旧门槛和费率不能代替当期披露；中国的场内ETF、场外基金、联接基金和跨境产品也有不同的申赎、结算和额度规则。"
+    },
+    "quote": "VBTLX and BND both hold exactly the same Total Bond Market Index portfolio.",
+    "application": "金融机构的第三方风险指引关心制度约束，文章关心产品实现。两者都说明同一功能可以通过不同结构提供，结构会改变成本、责任和使用边界。",
+    "dont": "边界：文章不能证明ETF或共同基金存在普适优势，也不能把美国市场的产品、费率、税务和账户规则移植到中国。",
+    "images": [
+      {
+        "filename": "reading-same-basket-two-wrappers.png",
+        "alt": "同一资产篮子进入两种基金载体的对比插图",
+        "caption": "画面使用同一资产篮子作为起点，两条路径分别进入盘中交易载体和收盘净值载体。左侧通过交易门户、时钟和价差符号表示盘中交易；右侧通过时钟、日历和定额放入表示净值申购与自动投入。底部检查表提醒读者核对准入、交易机制、全成本、流动性和账户规则。画面不表示任一载体存在普适优势。",
+        "steps": [
+          "先确认两种产品的底层资产与权重是否一致。",
+          "再比较盘中价格、收盘净值、自动投入和份额机制。",
+          "最后核对准入、全成本、流动性、税务与账户限制。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-12T05:02:03.048Z",
+      "dataDate": "2026-09-12",
+      "metricDefinition": "A股周末休市判定"
+    },
+    {
+      "label": "美联储等四家监管机构：第三方风险管理拟议指引",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
+      "accessedAt": "2026-09-12T05:05:00Z",
+      "dataDate": "2026-09-11发布",
+      "metricDefinition": "征求意见的监管指导、适用范围、法律性质和评论期"
+    },
+    {
+      "label": "J.L. Collins：Part XVII-B: ETF vs. Mutual Fund — What’s the Difference?",
+      "url": "https://jlcollinsnh.com/2020/04/14/part-xvii-b-etf-vs-mutual-fund-whats-the-difference/",
+      "accessedAt": "2026-09-12T05:05:00Z",
+      "dataDate": "2020-04-14发布，2023-11-07更新",
+      "metricDefinition": "跟踪同一底层组合的ETF与共同基金载体差异及美国制度边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
