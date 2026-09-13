@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T05:04:39Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年9月13日为星期日。上海证券交易所2026年休市安排与交易日规则表明周末休市。今天不抓取四个指数估值，不创建估值重试状态。新闻已与9月12日日报比较，前一日使用的银行第三方风险管理拟议指引不再收录；本期保留尚未使用的社区银行检查周期规则。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所2026年交易日历",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所2026年交易日历",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国银行监管",
+      "headline": "美国社区银行现场检查周期适用范围扩大",
+      "implication": "事实：美联储、美国联邦存款保险公司与货币监理署9月10日发布临时最终规则。规则把部分受监管机构适用18个月现场检查周期的资产门槛从30亿美元提高到60亿美元。符合资格的机构仍须具有良好管理、充足资本、良好评级和较低风险，监管机构仍保留两次现场检查之间的非现场监测。规则在联邦公报刊登后立即生效，评论期为30天。推断：符合条件的社区银行可能减少现场检查占用的时间与资源。不能据此判断：资格条件与非现场监测没有取消，规则也不能单独证明银行利润、信贷增长或市场方向。",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-13:598753126",
+    "sourceType": "blog",
+    "title": "人生条件与资产配置",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2014年6月10日，2025年5月12日更新",
+    "sourceUrl": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：资产配置取决于人生阶段、心理承受意愿、支出弹性、职业现金流和执行能力。年龄只能提供期限线索，不能代替这些条件。",
+    "takeaways": [
+      "积累阶段存在工资与新增储蓄，保全阶段依赖资产提供生活现金流。两个阶段面对的波动承受能力不同，阶段边界也可能反复变化。",
+      "股票承担增长与波动，债券承担稳定作用。配置比例需要接受心理承受意愿、支出弹性、资产规模和职业回归能力的约束。",
+      "再平衡会占用时间，也可能产生税费。文章中的Vanguard基金、IRA、401(k)与美国税收规则属于美国制度，不能移植到中国账户。"
+    ],
+    "fit": [
+      "资产配置",
+      "风险控制",
+      "FIRE",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "风险承受意愿与风险承受能力",
+      "explanation": "风险承受意愿描述面对市场下跌时的心理反应。风险承受能力描述家庭现金流、支出刚性、流动储备、债务和职业选择能否容纳损失。配置需要同时满足两类条件。",
+      "applicability": "该概念适用于设定或复核长期资产配置。使用条件包括明确资金期限、生活支出、收入稳定性、流动储备、债务和职业回归可能性；单一年龄或问卷分数不足以完成判断。",
+      "misconception": "常见误区是把不害怕下跌等同于有能力承受损失，或把年龄公式当作完整配置答案。作者的个人比例、美国基金与税务账户属于个案和制度语境；中国市场需要核对境内产品、税务、流动性和账户规则。"
+    },
+    "quote": "Life is balance and choice.",
+    "application": "社区银行检查周期规则保留资本、管理、评级和风险条件。资产配置也需要条件约束；一个身份标签不能代替风险能力检查。",
+    "dont": "边界：文章不能证明某个股债比例适合所有人，也不能把作者的美国基金、退休账户和税务处理当作中国方案。",
+    "images": [
+      {
+        "filename": "reading-life-conditions-allocation.png",
+        "alt": "人生条件影响资产配置的对比插图",
+        "caption": "画面左半包含工资流、工作场景和成长型资产符号，代表积累阶段。画面右半包含生活支出、安全储备和防护符号，代表保全阶段。中央三个图标代表波动承受意愿、支出弹性和职业回归能力。天平表达配置选择需要接受多项条件约束，不表达比例建议。",
+        "steps": [
+          "收入来源与资金使用期限构成第一项检查。",
+          "支出弹性与职业回归能力构成第二项检查。",
+          "心理承受意愿、产品成本和再平衡能力构成第三项检查。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-13T05:00:44.770Z",
+      "dataDate": "2026-09-13",
+      "metricDefinition": "A股周末休市判定"
+    },
+    {
+      "label": "美联储等三家监管机构：扩大社区银行18个月检查周期适用范围",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
+      "accessedAt": "2026-09-13T05:04:39Z",
+      "dataDate": "2026-09-10发布",
+      "metricDefinition": "资产门槛、资格条件、现场检查周期、非现场监测和生效安排"
+    },
+    {
+      "label": "J.L. Collins：Stocks—Part XXIII: Selecting Your Asset Allocation",
+      "url": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
+      "accessedAt": "2026-09-13T05:04:39Z",
+      "dataDate": "2014-06-10发布，2025-05-12更新",
+      "metricDefinition": "人生阶段、风险承受条件、执行成本与美国制度边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
