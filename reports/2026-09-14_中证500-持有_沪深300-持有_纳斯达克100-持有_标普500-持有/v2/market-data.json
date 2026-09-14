@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T05:07:21Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月14日为星期一，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月11日。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "家庭现金流和用钱期限界定定投金额；估值信号决定规则内动作。二者各司其职。",
+    "do": "记录四项“持有”信号。核对日常开支、备用金、未来用钱、资金到账时间和费用；保持原计划，等待规则触发。",
+    "dont": "不要把“持有”解释成加码，不要把生活备用金投入长周期资产，也不要因一组生产资料价格改变配置；不借钱投资。",
+    "context": "事实：中证500、沪深300、纳斯达克100和标普500的PE分位均处于“持有”区间。国家统计局公布，2026年9月上旬监测的50种重要生产资料中，37种价格上涨、9种下降、4种持平。推断：批发与销售环节的价格变化会影响部分企业的采购成本、库存和现金流。不能据此判断：这组旬度数据不能单独确定企业利润、通胀趋势或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-11",
+      "expectedDataDate": "2026-09-11",
+      "fetchedAt": "2026-09-14T05:03:25.991Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-11"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-11",
+          "pe": 32.4533,
+          "pb": 2.3516,
+          "fetchedAt": "2026-09-14T05:03:25.991Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 32.4533,
+      "pePercentile": 0.7718446601941747,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-12",
+      "pb": 2.3516,
+      "pbPercentile": 0.7873786407766991,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-12",
+      "temperature": 0.7796116504854369,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 77.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-11",
+      "expectedDataDate": "2026-09-11",
+      "fetchedAt": "2026-09-14T05:03:26.122Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-11"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-11",
+          "pe": 13.4959,
+          "pb": 1.4228,
+          "fetchedAt": "2026-09-14T05:03:26.122Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4959,
+      "pePercentile": 0.6611650485436893,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-12",
+      "pb": 1.4228,
+      "pbPercentile": 0.40679611650485437,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-12",
+      "temperature": 0.5339805825242718,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 66.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-11",
+      "expectedDataDate": "2026-09-11",
+      "fetchedAt": "2026-09-14T05:03:26.078Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-11"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-11",
+          "pe": 30.2307,
+          "pb": 9.2501,
+          "fetchedAt": "2026-09-14T05:03:26.078Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.2307,
+      "pePercentile": 0.449317738791423,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-12",
+      "pb": 9.2501,
+      "pbPercentile": 0.7865497076023392,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-12",
+      "temperature": 0.6179337231968811,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 44.9% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-11",
+      "expectedDataDate": "2026-09-11",
+      "fetchedAt": "2026-09-14T05:03:26.033Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-11"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-11",
+          "pe": 25.1408,
+          "pb": 5.5176,
+          "fetchedAt": "2026-09-14T05:03:26.033Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.1408,
+      "pePercentile": 0.5485436893203883,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-12",
+      "pb": 5.5176,
+      "pbPercentile": 0.9349514563106797,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-12",
+      "temperature": 0.741747572815534,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 54.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国生产资料价格",
+      "headline": "9月上旬37种重要生产资料价格上涨",
+      "implication": "事实：国家统计局9月14日公布，2026年9月上旬监测的9大类50种重要生产资料中，37种价格上涨、9种下降、4种持平。该指标反映批发和销售价格，包含流通费用、利润和税费，不等同于出厂价格。推断：相关价格变化会影响部分企业的采购成本、库存和现金流。不能据此判断：一组旬度数据不能单独确定企业利润、通胀趋势或指数方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260914_1965293.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-14:649085983",
+    "sourceType": "book",
+    "title": "现金流给定投资金划边界",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第5章，PDF 202-261页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：定投是一条现金流规则。自动扣款属于执行方式，收益保证不在规则之中。日常开支、备用金和未来用钱决定金额边界。",
+    "takeaways": [
+      "定投的定义是定期买入，手动执行与自动执行属于不同渠道；规则减少临场情绪干扰。",
+      "投入金额取决于收入、开支、备用金和未来用钱安排。若资金期限不匹配，市场波动会把计划变成被迫卖出。",
+      "场内与场外渠道在成交、到账和费用上不同。书中的旧费率、产品示例和历史收益不构成当前承诺。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "家庭财务",
+      "风险控制"
+    ],
+    "concept": {
+      "title": "定投资金的流动性约束",
+      "explanation": "现金流分为日常开支、备用金、未来用钱和投资计划。投资计划使用可长期占用的余额。估值规则决定计划动作，交易费用和到账安排决定执行成本。",
+      "applicability": "适用前提包括收入稳定、持有期能够承受波动，并为日常开支、意外支出和未来大额用钱留出资金。产品费率、赎回到账和税务依据当前披露核对；中国与美国的账户、税务和结算制度不同。",
+      "misconception": "常见误区是把定投当成收益保证，或把“持有”信号理解为闲钱都应进场。定投能分散买入时点，不能消除估值、产品和流动性风险。"
+    },
+    "quote": "定投指的是“定期买入”这个操作。",
+    "application": "今日四个指数都给出“持有”信号。这表示规则没有触发新的机械买卖动作，不表示剩余现金必须投入市场。",
+    "dont": "不要拿备用金追逐估值变化，也不要照搬书中的旧收益、旧费率和产品操作示例。",
+    "images": [
+      {
+        "filename": "reading-cash-flow-rule.png",
+        "alt": "定投现金流规则插图",
+        "caption": "画面呈现家庭现金流。收入分为日常开支、备用金和计划投入。计划投入经过估值规则与成本检查，目标资产篮子接收通过检查的资金。画面省略收益曲线；这套方法约束资金来源和执行过程，结果没有保证。",
+        "steps": [
+          "日常开支、备用金和未来用钱占据独立账户。",
+          "估值规则判断计划是否执行。",
+          "费用与到账安排完成核对，目标资产接收计划资金。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-14T05:01:59.434Z",
+      "dataDate": "2026-09-14",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-14T05:01:59.434Z",
+      "dataDate": "2026-09-14",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-14T05:01:59.434Z",
+      "dataDate": "2026-09-11",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-14T05:01:59.434Z",
+      "dataDate": "2026-09-11",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-14T05:03:26.122Z",
+      "dataDate": "2026-09-11",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年9月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260914_1965293.html",
+      "accessedAt": "2026-09-14T05:07:21Z",
+      "dataDate": "2026-09-14发布，2026年9月上旬数据",
+      "metricDefinition": "全国流通领域9大类50种重要生产资料批发和销售价格监测"
+    },
+    {
+      "label": "《指数基金投资指南》：如何买卖指数基金",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-14T05:07:21Z",
+      "dataDate": "第5章，PDF 202-261页",
+      "metricDefinition": "定投定义、资金期限、渠道费用与收益计算边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
