@@ -1,0 +1,267 @@
+{
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T05:06:29Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月15日为星期二，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月14日。"
+  },
+  "advice": {
+    "book": "《简单致富》",
+    "principle": "现金缓冲购买选择时间。收入中断会缩短决策窗口，生活资金与投资资金需要分账。",
+    "do": "记录四项“持有”信号。我们为日常开支、应急资金和长期投资建立三份账；收入中断后的生活期限进入核对清单。",
+    "dont": "“持有”不是加码。应急资金不承担长周期波动；指数估值不替代家庭现金流检查；借钱投资不进入计划。",
+    "context": "事实：中证500、沪深300、纳斯达克100和标普500的PE分位均处于“持有”区间。截至本次访问，国家统计局数据发布页没有9月15日的新条目，9月14日的生产资料价格信息进入前一日报。推断：今日没有新增且不重复的重要官方事件。不能据此判断：新闻留空不代表市场风险消失，新闻留空不提供指数方向判断。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-14",
+      "expectedDataDate": "2026-09-14",
+      "fetchedAt": "2026-09-15T05:03:30.345Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-14"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-14",
+          "pe": 32.4895,
+          "pb": 2.3517,
+          "fetchedAt": "2026-09-15T05:03:30.345Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 32.4895,
+      "pePercentile": 0.7733463035019456,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 2.3517,
+      "pbPercentile": 0.7889105058365758,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.7811284046692607,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 77.3% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-14",
+      "expectedDataDate": "2026-09-14",
+      "fetchedAt": "2026-09-15T05:03:30.276Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-14"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-14",
+          "pe": 13.4477,
+          "pb": 1.4189,
+          "fetchedAt": "2026-09-15T05:03:30.276Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4477,
+      "pePercentile": 0.6527237354085603,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 1.4189,
+      "pbPercentile": 0.3959143968871595,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.52431906614786,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 65.3% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-14",
+      "expectedDataDate": "2026-09-14",
+      "fetchedAt": "2026-09-15T05:03:30.418Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-14"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-14",
+          "pe": 30.0296,
+          "pb": 9.2766,
+          "fetchedAt": "2026-09-15T05:03:30.418Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.0296,
+      "pePercentile": 0.4384765625,
+      "peSampleCount": 512,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 9.2766,
+      "pbPercentile": 0.7919921875,
+      "pbSampleCount": 512,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.615234375,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 43.8% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-14",
+      "expectedDataDate": "2026-09-14",
+      "fetchedAt": "2026-09-15T05:03:31.012Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-14"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-14",
+          "pe": 25.0783,
+          "pb": 5.5039,
+          "fetchedAt": "2026-09-15T05:03:31.012Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.0783,
+      "pePercentile": 0.5476653696498055,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 5.5039,
+      "pbPercentile": 0.9328793774319066,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.7402723735408561,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 54.8% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-15:632308364",
+    "sourceType": "book",
+    "title": "一笔钱怎样换来选择时间",
+    "sourceName": "《简单致富》",
+    "author": "J.L. 柯林斯",
+    "locator": "第2章",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：独立自由保证金是一笔生活缓冲。收入中断会压缩选择，缓冲资金保留选择时间。投资回报不是这笔钱的首要任务。",
+    "takeaways": [
+      "稳定工作不能保证收入延续。工资依赖会压缩收入中断后的决策时间。",
+      "现金缓冲支付生活开支。家庭获得比较工作、照护和休整安排的时间。",
+      "缓冲金额取决于家庭支出、收入稳定性和资金可得性。美国经历不等于中国家庭的账户、税务或保障制度。"
+    ],
+    "fit": [
+      "FIRE与现金流",
+      "家庭财务",
+      "生活决策",
+      "风险控制"
+    ],
+    "concept": {
+      "title": "现金缓冲的选择权价值",
+      "explanation": "现金缓冲把收入中断与被迫决策隔开。家庭保留长周期资产和比较工作机会的时间。时间成为一项选择资源。",
+      "applicability": "这个概念适用于依赖工资或单一收入、承担固定开支，或面临职业转换和家庭照护安排的家庭。缓冲资金需要可用性，高波动资产不能承诺短期变现结果。",
+      "misconception": "常见误区是把缓冲资金当成低收益投资，或把它等同于退休资产。缓冲资金服务短期生活和决策，长期资产服务增长；两者任务不同。美国书中的税优账户、社保和医疗条件不适用于中国。"
+    },
+    "quote": "金钱可以买到很多东西，其中最宝贵的就是自由。",
+    "application": "今日四个指数给出“持有”信号。机械信号没有新增买卖动作，家庭现金流承担独立的检查任务。",
+    "dont": "应急资金不追逐估值变化。作者的家庭经历不构成统一的现金目标。",
+    "images": [
+      {
+        "filename": "reading-freedom-buffer.png",
+        "alt": "现金缓冲换来选择时间的三段插图",
+        "caption": "三幅画对应三段论证：工资维持生活；工作中断后，现金缓冲承担日常支出；家庭获得比较工作、照护和休整安排的时间。画面没有收益曲线，这笔钱承担生活连续性。",
+        "steps": [
+          "工资收入维持日常安排。",
+          "工作中断，现金缓冲接住生活开支。",
+          "时间压力下降，选择空间扩大。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-15T05:02:47Z",
+      "dataDate": "2026-09-15",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-15T05:02:47Z",
+      "dataDate": "2026-09-15",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-15T05:02:47Z",
+      "dataDate": "2026-09-14",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-15T05:02:47Z",
+      "dataDate": "2026-09-14",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-15T05:03:31.012Z",
+      "dataDate": "2026-09-14",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：数据发布页",
+      "url": "https://www.stats.gov.cn/sj/zxfb/",
+      "accessedAt": "2026-09-15T05:06:29Z",
+      "dataDate": "访问时最新发布为2026-09-14",
+      "metricDefinition": "筛选当日新增且不重复的重要官方事实"
+    },
+    {
+      "label": "《简单致富》：你为什么需要独立自由保证金",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-15T05:06:29Z",
+      "dataDate": "第2章",
+      "metricDefinition": "现金缓冲、职业选择与家庭生活连续性"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
