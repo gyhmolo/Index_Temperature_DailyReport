@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T05:05:46Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月17日为星期四，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月16日。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "估值指标不是万能尺子。PE需要市场流动性和盈利稳定性；PB承担资产温度说明，不承担行为触发。",
+    "do": "记录四项“持有”信号。我们核对指数盈利口径、历史样本和执行计划。",
+    "dont": "不把低PE等同于低估，不用PB改写PE触发的行为，不因一次加息消息追涨杀跌，不借钱投资。",
+    "context": "事实：四个指数的PE分位均处于“持有”区间；美联储上调联邦基金利率目标区间。推断：美元贴现率约束上升，估值扩张需要更强盈利支撑。不能据此判断：一次政策会议不能决定指数短期方向，也不改写既定PE规则。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-16",
+      "expectedDataDate": "2026-09-16",
+      "fetchedAt": "2026-09-17T05:03:15.859Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-16"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-16",
+          "pe": 32.9038,
+          "pb": 2.382,
+          "fetchedAt": "2026-09-17T05:03:15.859Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 32.9038,
+      "pePercentile": 0.7873786407766991,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 2.382,
+      "pbPercentile": 0.7990291262135922,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.7932038834951456,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 78.7% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-16",
+      "expectedDataDate": "2026-09-16",
+      "fetchedAt": "2026-09-17T05:03:15.734Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-16"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-16",
+          "pe": 13.3688,
+          "pb": 1.4124,
+          "fetchedAt": "2026-09-17T05:03:15.734Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.3688,
+      "pePercentile": 0.6436893203883495,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 1.4124,
+      "pbPercentile": 0.3737864077669903,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.5087378640776699,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 64.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-16",
+      "expectedDataDate": "2026-09-16",
+      "fetchedAt": "2026-09-17T05:03:15.776Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-16"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-16",
+          "pe": 29.8148,
+          "pb": 9.2103,
+          "fetchedAt": "2026-09-17T05:03:15.776Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 29.8148,
+      "pePercentile": 0.4220272904483431,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 9.2103,
+      "pbPercentile": 0.776803118908382,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.5994152046783625,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 42.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-16",
+      "expectedDataDate": "2026-09-16",
+      "fetchedAt": "2026-09-17T05:03:15.818Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-16"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-16",
+          "pe": 24.8382,
+          "pb": 5.4512,
+          "fetchedAt": "2026-09-17T05:03:15.818Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 24.8382,
+      "pePercentile": 0.5310679611650485,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 5.4512,
+      "pbPercentile": 0.9194174757281554,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.7252427184466019,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 53.1% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国货币政策",
+      "headline": "美联储上调联邦基金利率目标区间",
+      "implication": "事实：美联储将联邦基金利率目标区间上调0.25个百分点至3.75%—4%，表决结果为12票赞成、0票反对。推断：美元无风险利率上升，提高股票现金流的贴现约束。不能据此判断：利率变化不决定指数短期涨跌，也不构成估值收缩结论。",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-17:665863602",
+    "sourceType": "book",
+    "title": "PE不是万能尺子",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第4章，PDF 160-201页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：指标是否适用，是数值比较的前提。PE要求流动性和盈利稳定，PB适合资产密集、盈利波动的场景。",
+    "takeaways": [
+      "价格围绕价值波动，但价值需要能力圈和可验证口径，一个数字不能给出价值。",
+      "PE适合流动性好、盈利稳定的宽基或企业；周期、成长和亏损阶段会让盈利分母失真。",
+      "PB观察价格与净资产的关系。资产可计量、负债稳定时，PB补充PE；无形资产占比高或持续亏损时，PB会失效。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "估值方法",
+      "风险控制",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "估值指标的适用边界",
+      "explanation": "估值是测量工具。PE用价格除以盈利，盈利失真时结果失真；PB用价格除以净资产，资产难以计量时结果失真。分母质量决定倍数意义。",
+      "applicability": "PE用于流动性好、盈利稳定的宽基指数或成熟企业；PB用于资产可计量、负债结构稳定，且盈利存在周期波动的场景。数据需保持同口径、同频率和可追溯。",
+      "misconception": "常见误区是把低PE等同于便宜，或把低PB等同于安全。A股与美股采用相同数学定义，但行业结构、会计披露、分红税和账户制度不同；书中旧阈值与案例不承担今天的交易规则。"
+    },
+    "quote": "流通性好、盈利稳定的品种，就可以使用市盈率为其估值。",
+    "application": "今日四个宽基指数的同口径PE历史分位落入“持有”区间。PB负责资产温度说明，不负责行为触发。",
+    "dont": "不把单日PE、PB当成内在价值，不跨市场套用旧阈值，不用PB推翻本报告的PE规则。",
+    "images": [
+      {
+        "filename": "reading-valuation-conditions.png",
+        "alt": "三幅插图展示PE、PB的适用条件与失效边界",
+        "caption": "三幅画对应三个判断：左图用PE观察流动性较好、盈利稳定的一篮子公司；中图遇到盈利波动且资产可计量的行业，加入PB辅助；右图遇到持续亏损、资产受损的对象，停止依赖这两把尺子。",
+        "steps": [
+          "流动性和盈利稳定性决定PE是否可用。",
+          "盈利波动且资产可计量时，PB提供补充观察。",
+          "持续亏损或资产失真时，指标失效；报告保留不判断。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-17T05:02:29Z",
+      "dataDate": "2026-09-17",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-17T05:02:29Z",
+      "dataDate": "2026-09-17",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-17T05:02:29Z",
+      "dataDate": "2026-09-16",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-17T05:02:29Z",
+      "dataDate": "2026-09-16",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-17T05:03:15.859Z",
+      "dataDate": "2026-09-16",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美联储：2026年9月16日FOMC声明",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "accessedAt": "2026-09-17T05:05:46Z",
+      "dataDate": "2026-09-16",
+      "metricDefinition": "联邦基金利率目标区间与表决结果"
+    },
+    {
+      "label": "《指数基金投资指南》：如何挑选适合投资的指数基金",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-17T05:05:46Z",
+      "dataDate": "第4章，PDF 160-201页",
+      "metricDefinition": "估值指标原理、适用条件、局限与市场制度边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
