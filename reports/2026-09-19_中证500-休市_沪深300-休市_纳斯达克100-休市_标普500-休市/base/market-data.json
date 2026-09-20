@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-20T03:16:25Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年9月19日为星期六。上交所、深交所2026年休市安排和交易日历表明周末休市。今天不抓取四个指数估值，不创建估值重试状态。新闻已与9月18日日报比较，前一日使用的美联储经济预测不再收录；本期保留9月18日发布的证监会吹哨人奖励公告。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易日历",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易日历",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国资本市场监管",
+      "headline": "证监会拟对17起案件线索的“吹哨人”给予奖励",
+      "implication": "事实：证监会9月18日公告，拟依据证券法等规则，对17起案件线索的“吹哨人”给予奖励，申领登记期至12月18日。推断：奖励机制强化违法线索供给和信息披露约束，可能提高违规成本。不能据此判断：公告不代表案件数量、处罚力度或市场短期方向将按固定幅度变化。",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7659506/content.shtml"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-19:699418840",
+    "sourceType": "blog",
+    "title": "分清两种“定投”",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2014年11月12日，2024年1月8日更新",
+    "sourceUrl": "https://jlcollinsnh.com/2014/11/12/stocks-part-xxvii-why-i-dont-like-dollar-cost-averaging/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：手中已有的大额存量现金故意分期入场，与工资到账后持续投入不是同一个问题。前者改变资产配置并交换风险，后者按现金流节奏投入。",
+    "takeaways": [
+      "存量现金分批入场把买入后立刻下跌的风险，换成等待期间市场上涨的机会成本。风险没有消失，只是换了形态。",
+      "资金留在现金中等待时，实际资产配置已经改变，也会改变市场暴露、分红参与和持有成本。",
+      "工资到账后投入属于新增现金流的自然节奏。资金此前尚不存在，不能用这种做法证明已有存量现金必须延后入场。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "资产配置",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "存量现金分批与新增现金流定投",
+      "explanation": "原理：存量现金已经存在，分批入场会让一部分资金继续留在现金中，交换的是两类风险。新增现金流尚未产生，工资到账后投入只是按收入节奏执行，不存在故意等待同一笔存量现金的问题。",
+      "applicability": "适用条件：先确认资金是否已经到手，再核对使用期限、流动性需求和风险承受能力。存量现金也可以因心理承受和既定计划选择分批执行，但这属于行为取舍，不是消除风险。",
+      "misconception": "常见误区：把两种现金来源当成同一策略，或把文章中的美国历史频率、基金和退休账户当成今天的普遍证据。中美市场的产品、费用、税务和账户规则不同；本项目按PE分位给出的“定投”规则也不是存量现金最优入场时点判断。"
+    },
+    "quote": "You are, basically, trading one risk with another.",
+    "application": "吹哨人奖励机制与文章处理的是不同问题，但都要求先定义规则对象：监管奖励针对可核验线索，定投讨论先区分存量现金与新增现金流。",
+    "dont": "不把两种现金来源混成同一策略，不用旧美国统计证明今天的市场概率，不把文章转写成具体产品或比例建议。",
+    "images": [
+      {
+        "filename": "reading-dca-two-cases.png",
+        "alt": "存量现金分批与新增现金流投入的双栏对比插图",
+        "caption": "左侧把已经到手的一罐资金拆入多个小罐，并保留一部分等待，表示存量现金分批会改变资产配置。右侧按工资到账节奏把新收入投入成长篮，表示新增现金流此前并不存在。两栏对比现金来源，不表达收益预测。",
+        "steps": [
+          "第一步确认资金是否已经到手。",
+          "第二步识别等待现金承担的机会成本和买入后的波动风险。",
+          "第三步根据资金期限、流动需求和承受能力选择执行方式。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-19T05:59:31.632Z",
+      "dataDate": "2026-09-19",
+      "metricDefinition": "A股周末休市判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://www.szse.cn/www/aboutus/calendar/index.html",
+      "accessedAt": "2026-09-19T05:59:31.632Z",
+      "dataDate": "2026-09-19",
+      "metricDefinition": "A股周末休市判定"
+    },
+    {
+      "label": "中国证监会：拟对17起案件线索的‘吹哨人’给予奖励",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7659506/content.shtml",
+      "accessedAt": "2026-09-19T06:03:00Z",
+      "dataDate": "2026-09-18发布",
+      "metricDefinition": "奖励线索范围、申领登记期与制度约束"
+    },
+    {
+      "label": "J.L. Collins：Stocks—Part XXVII: Why I Don't Like Dollar Cost Averaging",
+      "url": "https://jlcollinsnh.com/2014/11/12/stocks-part-xxvii-why-i-dont-like-dollar-cost-averaging/",
+      "accessedAt": "2026-09-19T06:06:00Z",
+      "dataDate": "2014-11-12发布，2024-01-08更新",
+      "metricDefinition": "存量现金分批、新增现金流投入、机会成本与美国制度边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
