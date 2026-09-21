@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T05:05:19Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月21日为星期一，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月18日。新闻已与9月20日日报比较，前一日使用的中秋节、国庆节休市安排不再收录；本期保留上交所发布的ETF期权到期提醒。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "定投频率服务于现金流和行为纪律，不是择时工具。先确定可持续金额，再让时间表执行计划。",
+    "do": "记录中证500“卖出”及其余三项“持有”信号。我们核对既定处置流程、费用和资金用途，并让定投日期与收入现金流对齐。",
+    "dont": "不要把“卖出”解释成全仓清算，不因一日涨跌提高定投频率，不动用应急资金，不借钱投资。",
+    "context": "事实：中证500的PE分位进入“卖出”区间，沪深300、纳斯达克100和标普500处于“持有”区间；上交所提醒五类ETF期权的2026年9月到期合约将在9月23日到期并行权。推断：临近到期的期权持有人需要提前核对资金、标的和交收安排。不能据此判断：期权到期提醒不预测指数方向，也不改写既定PE规则。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-09-18",
+      "expectedDataDate": "2026-09-18",
+      "fetchedAt": "2026-09-21T05:02:28.173Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-18"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-18",
+          "pe": 33.3375,
+          "pb": 2.4153,
+          "fetchedAt": "2026-09-21T05:02:28.173Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 33.3375,
+      "pePercentile": 0.8048543689320389,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 2.4153,
+      "pbPercentile": 0.8048543689320389,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.8048543689320389,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 80.5% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-18",
+      "expectedDataDate": "2026-09-18",
+      "fetchedAt": "2026-09-21T05:02:28.224Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-18"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-18",
+          "pe": 13.3797,
+          "pb": 1.4138,
+          "fetchedAt": "2026-09-21T05:02:28.224Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.3797,
+      "pePercentile": 0.6456310679611651,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 1.4138,
+      "pbPercentile": 0.38058252427184464,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.5131067961165049,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 64.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-18",
+      "expectedDataDate": "2026-09-18",
+      "fetchedAt": "2026-09-21T05:02:28.271Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-18"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-18",
+          "pe": 30.4817,
+          "pb": 9.4163,
+          "fetchedAt": "2026-09-21T05:02:28.271Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.4817,
+      "pePercentile": 0.46881091617933723,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 9.4163,
+      "pbPercentile": 0.827485380116959,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.6481481481481481,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 46.9% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-18",
+      "expectedDataDate": "2026-09-18",
+      "fetchedAt": "2026-09-21T05:02:28.621Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-18"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-18",
+          "pe": 25.1626,
+          "pb": 5.5219,
+          "fetchedAt": "2026-09-21T05:02:28.621Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.1626,
+      "pePercentile": 0.5504854368932038,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-19",
+      "pb": 5.5219,
+      "pbPercentile": 0.9368932038834952,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-19",
+      "temperature": 0.7436893203883495,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 55.0% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "上交所ETF期权",
+      "headline": "上交所提醒五类ETF期权合约9月23日到期行权",
+      "implication": "事实：上交所公告，五类ETF期权品种的2026年9月到期合约，其最后交易日、行权日和到期日均为9月23日。认购期权权利方行权需准备足额资金，认沽期权权利方需准备足额标的；信用账户转入证券账户的标的不能用于当日行权交收。推断：持有临近到期合约的投资者需要核对资金、标的和交收流程。不能据此判断：到期提醒只说明制度节点，不预测相关指数方向。",
+      "url": "https://www.sse.com.cn/assortment/options/disclo/update/c/c_20260915_10832235.shtml"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-21:2980630571",
+    "sourceType": "book",
+    "title": "定投频率不是择时工具",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第5章，PDF 202-261页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：定投把现金流写进时间表，作用是减少临时判断。频率应与收入节奏和行为习惯匹配，金额必须服从生活开支、备用资金和用钱期限。",
+    "takeaways": [
+      "定投是定期投入，不等同于某个平台的自动扣款。场内手动买入和场外自动计划都可能实现同一行为。",
+      "按周或按月的选择主要影响操作体验。作者的历史比较认为，期限拉长后两种频率的收益差异缩小，但这属于特定样本，不构成未来保证。",
+      "定投金额来自可持续结余。近期要用的钱、应急资金和承担不了回撤的钱，不应因为市场波动被提前投入。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "家庭财务",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "定投频率的行为功能",
+      "explanation": "原理：固定节奏把决策从行情现场移到事前计划。频率越贴合收入到账和个人耐心，越容易避免下跌时停手、上涨时抢跑或提前耗尽后续资金。",
+      "applicability": "适用条件：有持续现金流、已保留应急资金、投入资金在计划期限内无需动用，并且费用和产品规则允许按该频率执行。频率只管理执行，不替代估值、资产配置和风险预算。",
+      "misconception": "常见误区：把更高频率当作更高收益来源，或用年龄公式直接决定家庭权益比例。书中的回测、费率、税务、平台、到账规则和产品代码带有成书时点；中国当期产品需核对最新披露，美国账户制度也不能直接移植。"
+    },
+    "quote": "定投这个概念很简单，就是定期投资的意思。",
+    "application": "今天出现一项“卖出”和三项“持有”。混合信号更需要把估值动作与现金流节奏分开：规则决定当期行为，收入和资金期限决定下一笔资金何时进入计划。",
+    "dont": "边界：本章不能证明按周优于按月，也不能证明估值分位可以预测短期涨跌。书中的历史收益、费用和操作渠道不能代替当前披露。",
+    "images": [
+      {
+        "filename": "reading-cadence.png",
+        "alt": "固定节奏将收入结余投入分散资产，同时保留应急资金的插图",
+        "caption": "信封代表收入现金流，节拍器与日历代表事前确定的执行节奏，装有多类企业的篮子代表分散资产，右侧玻璃罐代表不参与长期投资的应急储备。背景市场曲线起伏，但投入节奏不跟随短期波动改变。",
+        "steps": [
+          "先分出生活开支和应急储备，确定可持续投入金额。",
+          "再把执行日期与收入到账节奏对齐，减少临时判断。",
+          "最后按估值规则决定当期动作，不用市场情绪改变后续频率。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/list/",
+      "accessedAt": "2026-09-21T05:01:47Z",
+      "dataDate": "2026-09-21",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-21T05:01:47Z",
+      "dataDate": "2026-09-21",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-21T05:01:47Z",
+      "dataDate": "2026-09-18",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-21T05:01:47Z",
+      "dataDate": "2026-09-18",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-21T05:02:28.621Z",
+      "dataDate": "2026-09-18",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "上海证券交易所：ETF期权合约最后交易日、行权日、到期日提醒",
+      "url": "https://www.sse.com.cn/assortment/options/disclo/update/c/c_20260915_10832235.shtml",
+      "accessedAt": "2026-09-21T05:05:19Z",
+      "dataDate": "2026-09-21发布，2026-09-23到期",
+      "metricDefinition": "五类ETF期权的最后交易日、行权日、到期日与行权交收约束"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第5章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-21T05:05:19Z",
+      "dataDate": "本地原书第5章，PDF 202-261页",
+      "metricDefinition": "定投频率、金额、现金流边界、操作渠道与证据时点"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
