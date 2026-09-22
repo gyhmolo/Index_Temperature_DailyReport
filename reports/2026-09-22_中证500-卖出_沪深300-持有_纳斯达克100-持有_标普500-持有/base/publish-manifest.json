@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceReport": "daily/2026-09-22_中证500-卖出_沪深300-持有_纳斯达克100-持有_标普500-持有/base",
+  "repository": "gyhmolo/Index_Temperature_DailyReport",
+  "branch": "main",
+  "publishedAt": "2026-09-22T05:22:13.832Z",
+  "localPathsRemoved": true,
+  "files": [
+    {
+      "path": "assets/feature-reading.css",
+      "sha256": "3bc2bcb4382728c8619f793422aa87c54c9c1cd066767ad8f786026dec2fb342",
+      "bytes": 2513
+    },
+    {
+      "path": "assets/reading-dividend-total-return.png",
+      "sha256": "a65c6d02aa9d259a10c9372f029da5bce1f5cee3418ee9ef236304ec82acf457",
+      "bytes": 1287042
+    },
+    {
+      "path": "assets/report.css",
+      "sha256": "e8ab493b6e8c27622dd300ca8b51eb9749f03a1df49645621078f2be0f7c8adc",
+      "bytes": 5551
+    },
+    {
+      "path": "index.html",
+      "sha256": "0b66f70108ce63bd54e3256682083c723c7f93280030ef75b2d75b697a834371",
+      "bytes": 10229
+    },
+    {
+      "path": "market-data.json",
+      "sha256": "cca6e29d3c503cbf07f26d1d950667156b508c84c4a6a651a5e23c33ad0a745d",
+      "bytes": 12420
+    },
+    {
+      "path": "sources.md",
+      "sha256": "4f92b3c70c44da5b792fd593a7ed48942d61950d6b86e1f63293b866bc7c2a7e",
+      "bytes": 2167
+    },
+    {
+      "path": "summary.md",
+      "sha256": "6d9d71c55e0482b119087ea624ff3a42088c9377c819f558a517b7f2e3cf49af",
+      "bytes": 1768
+    }
+  ]
+}

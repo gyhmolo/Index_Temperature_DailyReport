@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T05:11:52Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月22日为星期二，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月21日。新闻已与9月21日日报比较；上交所ETF期权到期提醒与前一日内容相同，本期不再收录。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "基金分红属于总回报的一部分，不是额外增加的财富。分红如何处理，应服从估值规则、资金用途和当期制度。",
+    "do": "记录中证500“卖出”和其余三项“持有”信号。我们整理现金分红、申购赎回和期末市值，用同一口径检查总回报。",
+    "dont": "不要把“卖出”解释成全仓清算，不把分红当成免费收益，不用书中的旧费率和税务规则代替当期披露，不借钱投资。",
+    "context": "事实：中证500的PE分位进入“卖出”区间，沪深300、纳斯达克100和标普500处于“持有”区间；美国劳工统计局称，2026年8月有8个州和哥伦比亚特区失业率下降，42个州基本不变，4个州非农就业增加，其余46个州和哥伦比亚特区基本不变。推断：州级劳动力市场存在差异，整体读数没有给出单一方向。不能据此判断：州级数据不能替代全国就业数据，也不能预测美联储决定或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-09-21",
+      "expectedDataDate": "2026-09-21",
+      "fetchedAt": "2026-09-22T05:07:09.452Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-21"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-21",
+          "pe": 33.59,
+          "pb": 2.4337,
+          "fetchedAt": "2026-09-22T05:07:09.452Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 33.59,
+      "pePercentile": 0.8200389105058365,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-09-26",
+      "pb": 2.4337,
+      "pbPercentile": 0.8142023346303502,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-09-26",
+      "temperature": 0.8171206225680934,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 82.0% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-21",
+      "expectedDataDate": "2026-09-21",
+      "fetchedAt": "2026-09-22T05:07:09.360Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-21"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-21",
+          "pe": 13.4853,
+          "pb": 1.4249,
+          "fetchedAt": "2026-09-22T05:07:09.360Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4853,
+      "pePercentile": 0.6605058365758755,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-09-26",
+      "pb": 1.4249,
+      "pbPercentile": 0.4095330739299611,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-09-26",
+      "temperature": 0.5350194552529183,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 66.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-21",
+      "expectedDataDate": "2026-09-21",
+      "fetchedAt": "2026-09-22T05:07:09.408Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-21"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-21",
+          "pe": 31.2309,
+          "pb": 9.6477,
+          "fetchedAt": "2026-09-22T05:07:09.408Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 31.2309,
+      "pePercentile": 0.5009765625,
+      "peSampleCount": 512,
+      "peHistoryStartDate": "2016-09-26",
+      "pb": 9.6477,
+      "pbPercentile": 0.8876953125,
+      "pbSampleCount": 512,
+      "pbHistoryStartDate": "2016-09-26",
+      "temperature": 0.6943359375,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 50.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-21",
+      "expectedDataDate": "2026-09-21",
+      "fetchedAt": "2026-09-22T05:07:09.310Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-21"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-21",
+          "pe": 25.5628,
+          "pb": 5.6202,
+          "fetchedAt": "2026-09-22T05:07:09.310Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.5628,
+      "pePercentile": 0.5982490272373541,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-09-26",
+      "pb": 5.6202,
+      "pbPercentile": 0.9678988326848249,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-09-26",
+      "temperature": 0.7830739299610895,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 59.8% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国州级就业",
+      "headline": "8月多数州失业率与非农就业人数基本不变",
+      "implication": "事实：美国劳工统计局称，2026年8月有8个州和哥伦比亚特区失业率下降，42个州基本不变；4个州非农就业增加，46个州和哥伦比亚特区基本不变。推断：州级劳动力市场存在差异，整体数据没有给出单一方向。不能据此判断：州级估计不能替代全国就业数据，也不能预测美联储决定或指数方向。",
+      "url": "https://www.bls.gov/sae/"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-22:2997408190",
+    "sourceType": "book",
+    "title": "分红不是多出来的钱",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第5章，PDF 202-261页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：指数基金收到成分股现金股息后，可以发放分红，也可以留在基金净值中。除权把同一份价值从基金净值移到现金账户，分红去向才会影响后续复利路径。",
+    "takeaways": [
+      "基金分红来自底层公司的现金分配。基金不分红时，这部分现金会进入净值，不会凭空消失。",
+      "分红除权后，持有人得到现金，基金净值减少。判断收益需要同时看基金市值和现金，而不是只看除权后的价格。",
+      "现金分红是否再投入，取决于当期估值、资金用途、费用和制度。书中的历史税费和渠道规则需要用当前披露复核。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "资产配置",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "总回报",
+      "explanation": "投资结果由价格变化和现金分配共同组成。分红发生时，基金净值下调，现金进入账户；两部分合并，才是持有人拥有的价值。",
+      "applicability": "适用于会产生现金分配的基金或股票。计算时需要统一估值日，计入现金分红、再投资份额、交易费用和税费，并确认产品披露中的除权与到账规则。",
+      "misconception": "把分红视为免费收益，或只看价格跌幅认定分红造成亏损。高分红也不等于低风险。中国和美国的税务、账户、到账和再投资规则不同，书中旧规则不能直接沿用。"
+    },
+    "quote": "如果指数基金不分红，收到的现金股息，就直接归入到基金净值中。",
+    "application": "今天出现一项“卖出”和三项“持有”。处理现金分红时，我们继续使用同一套估值规则：现金去向由当期条件决定，机械信号不等于全仓处置。",
+    "dont": "边界：本章不能证明分红能提高短期收益，也不能证明高股息就是低估。书中的费率、税率、渠道和产品示例带有成书时点，不能替代当前披露。",
+    "images": [
+      {
+        "filename": "reading-dividend-total-return.png",
+        "alt": "基金分红把组合中的部分价值转为现金并可按规则再投入的插图",
+        "caption": "左侧篮子代表分散的企业资产，流向信封的现金代表基金分红。分红离开组合后，基金净值会同步调整；现金是否回到组合，是另一项需要按估值、用途和制度决定的操作。",
+        "steps": [
+          "先把基金市值和现金分红放在同一张总回报表里。",
+          "再核对除权、到账、费用和税务口径。",
+          "最后按估值规则和资金用途决定现金去向。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-09-22T05:04:17Z",
+      "dataDate": "2026-09-22",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-22T05:04:17Z",
+      "dataDate": "2026-09-22",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-22T05:04:17Z",
+      "dataDate": "2026-09-21",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-22T05:04:17Z",
+      "dataDate": "2026-09-21",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-22T05:07:09.452Z",
+      "dataDate": "2026-09-21",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美国劳工统计局：State Employment and Unemployment",
+      "url": "https://www.bls.gov/sae/",
+      "accessedAt": "2026-09-22T05:10:00Z",
+      "dataDate": "2026年8月数据，2026-09-18发布",
+      "metricDefinition": "州级失业率与非农就业人数变化"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第5章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-22T05:11:52Z",
+      "dataDate": "本地原书第5章，PDF 202-261页",
+      "metricDefinition": "基金分红、除权、再投资、费用与税务证据时点"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
