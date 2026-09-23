@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T05:10:00Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月23日为星期三，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月22日。新闻已与9月22日日报比较；本期没有重复收录前一日的美国州级就业数据。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "价格会围绕价值波动，估值规则用于保留安全边际，不负责预测转折时点。先确认自己理解指数和估值口径，再执行机械信号。",
+    "do": "记录中证500“卖出”和其余三项“持有”信号。我们核对指数盈利、估值口径和历史样本边界，再按既定规则留存行动记录。",
+    "dont": "不要把“卖出”解释成全仓清算，不用历史分位预测短期涨跌，不把PB温度当成行为触发器，不借钱投资。",
+    "context": "事实：中证500的PE分位进入“卖出”区间，沪深300、纳斯达克100和标普500处于“持有”区间；美联储发布的2026年第二季度家庭偿债比率为11.11%，低于第一季度的11.16%。推断：家庭偿债占可支配收入的比例略有下降。不能据此判断：单季变化不能证明消费加速，也不能预测美联储决定或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-09-22",
+      "expectedDataDate": "2026-09-22",
+      "fetchedAt": "2026-09-23T05:03:15.724Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-22"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-22",
+          "pe": 33.5083,
+          "pb": 2.4282,
+          "fetchedAt": "2026-09-23T05:03:15.724Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 33.5083,
+      "pePercentile": 0.816504854368932,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-27",
+      "pb": 2.4282,
+      "pbPercentile": 0.8106796116504854,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-27",
+      "temperature": 0.8135922330097087,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 81.7% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-22",
+      "expectedDataDate": "2026-09-22",
+      "fetchedAt": "2026-09-23T05:03:15.633Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-22"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-22",
+          "pe": 13.5011,
+          "pb": 1.4269,
+          "fetchedAt": "2026-09-23T05:03:15.633Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.5011,
+      "pePercentile": 0.6611650485436893,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-27",
+      "pb": 1.4269,
+      "pbPercentile": 0.4184466019417476,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-27",
+      "temperature": 0.5398058252427185,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 66.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-22",
+      "expectedDataDate": "2026-09-22",
+      "fetchedAt": "2026-09-23T05:03:15.769Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-22"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-22",
+          "pe": 31.3596,
+          "pb": 9.6875,
+          "fetchedAt": "2026-09-23T05:03:15.769Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 31.3596,
+      "pePercentile": 0.5116959064327485,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-27",
+      "pb": 9.6875,
+      "pbPercentile": 0.8918128654970761,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-27",
+      "temperature": 0.7017543859649122,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 51.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-22",
+      "expectedDataDate": "2026-09-22",
+      "fetchedAt": "2026-09-23T05:03:15.679Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-22"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-22",
+          "pe": 25.564,
+          "pb": 5.6175,
+          "fetchedAt": "2026-09-23T05:03:15.679Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.564,
+      "pePercentile": 0.5990291262135923,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-27",
+      "pb": 5.6175,
+      "pbPercentile": 0.9660194174757282,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-27",
+      "temperature": 0.7825242718446602,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 59.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国家庭现金流",
+      "headline": "第二季度家庭偿债比率降至11.11%",
+      "implication": "事实：美联储9月22日发布的家庭偿债比率显示，2026年第二季度总偿债支出占可支配个人收入的11.11%，第一季度为11.16%；其中按揭与消费偿债比率分别为5.83%和5.28%。推断：家庭偿债占收入的比例略有下降。不能据此判断：单季变化不能证明消费加速，也不能预测美联储决定或指数方向。",
+      "url": "https://www.federalreserve.gov/releases/DSR/"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-23:3014185809",
+    "sourceType": "book",
+    "title": "价格会跑，价值走自己的路",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第4章，PDF 160-201页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：价格会在短期偏离价值，投资者需要先划清能力圈，再用适配的估值指标判断安全边际。估值提供行动条件，不提供转折日期。",
+    "takeaways": [
+      "价格的波动速度常常快于企业经营和指数盈利的变化。历史分位描述当前所处位置，不等于未来路径。",
+      "能力圈的重点不是覆盖多少品种，而是知道边界。无法解释指数盈利来源和估值条件时，热点也不能补足判断。",
+      "安全边际来自价格与价值的差距。不同指数的盈利、资产和周期特征不同，同一指标不能脱离适用条件使用。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "风险控制",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "安全边际",
+      "explanation": "价值判断存在误差。安全边际用价格与估计价值之间的距离吸收误差和波动，使行动不依赖对短期转折的精确预测。",
+      "applicability": "适用于能够解释盈利或资产价值、具备可比历史口径且流动性充足的指数。中美市场都需要先核对指数编制、盈利口径和产品费用；税务、账户、交易和分红制度应按当地现行规则核验。",
+      "misconception": "把低价格当成安全边际，或把历史低分位当成必涨信号。价格下跌可能来自价值变化，历史区间也可能因指数规则和盈利结构改变而失效。"
+    },
+    "quote": "股票有其内在价值，股票的价格围绕其内在价值上下波动。",
+    "application": "今天出现一项“卖出”和三项“持有”。我们只让PE分位触发行为，PB用于补充温度；机械信号不回答明天涨跌，也不等于全仓处置。",
+    "dont": "边界：本章不能证明历史分位会回到均值，也不能给出转折时间。书中的区间、税费和产品示例带有成书时点，不能替代当前指数规则与产品披露。",
+    "images": [
+      {
+        "filename": "reading-price-value-margin.png",
+        "alt": "小狗在稳定道路两侧奔跑，标尺与缓冲带表示安全边际的插图",
+        "caption": "道路代表缓慢变化的长期价值，小狗的曲折路线代表短期价格。起点的标尺与留白缓冲带提醒我们：先确认估值条件，再决定是否有足够安全边际。",
+        "steps": [
+          "先确认指数盈利来源、资产特征和估值口径。",
+          "再比较当前估值与同口径历史样本。",
+          "最后执行预先写下的阈值，不猜转折日期。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-09-23T05:00:48Z",
+      "dataDate": "2026-09-23",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-23T05:00:48Z",
+      "dataDate": "2026-09-23",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-23T05:00:48Z",
+      "dataDate": "2026-09-22",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-23T05:00:48Z",
+      "dataDate": "2026-09-22",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-23T05:03:15.769Z",
+      "dataDate": "2026-09-22",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美联储：Household Debt Service Ratios",
+      "url": "https://www.federalreserve.gov/releases/DSR/",
+      "accessedAt": "2026-09-23T05:06:00Z",
+      "dataDate": "2026年第二季度数据，2026-09-22发布",
+      "metricDefinition": "家庭偿债支出占可支配个人收入比例，季调"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第4章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-23T05:10:00Z",
+      "dataDate": "本地原书第4章，PDF 160-201页",
+      "metricDefinition": "价格与价值、能力圈、安全边际及估值指标适用条件"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
