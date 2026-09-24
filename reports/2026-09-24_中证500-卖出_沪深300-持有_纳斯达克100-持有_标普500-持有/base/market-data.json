@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T05:12:00Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月24日为星期四，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月23日。新闻已与9月23日日报比较；本期没有重复收录前一日的美国家庭偿债数据。"
+  },
+  "advice": {
+    "book": "J.L. Collins Stock Series",
+    "principle": "卖出不是一个完整决策。退出与重新进入是两次独立判断；机械估值信号负责提示动作，不负责预测顶部、底部或短期方向。",
+    "do": "记录中证500“卖出”和其余三项“持有”信号。我们在解释卖出信号前，写清资金去向、重新进入条件和适用口径。",
+    "dont": "不要把“卖出”解释成全仓清算，不因一次高分位猜测顶部，不把PB温度当成行为触发器，不借钱投资。",
+    "context": "事实：中证500的PE分位进入“卖出”区间，沪深300、纳斯达克100和标普500处于“持有”区间；美国证监会公布，2026年上半年美国市场完成208宗IPO，融资超过1370亿美元，数量比上年同期增加约16%，融资额增加近400%。推断：美国公开股权融资活动扩张。不能据此判断：发行数量和融资额不能证明企业盈利改善、定价合理或指数将上涨。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "卖出",
+      "dataDate": "2026-09-23",
+      "expectedDataDate": "2026-09-23",
+      "fetchedAt": "2026-09-24T05:02:15.027Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-23"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-23",
+          "pe": 33.3409,
+          "pb": 2.4167,
+          "fetchedAt": "2026-09-24T05:02:15.027Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 33.3409,
+      "pePercentile": 0.8048543689320389,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-28",
+      "pb": 2.4167,
+      "pbPercentile": 0.8048543689320389,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-28",
+      "temperature": 0.8048543689320389,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 80.5% 分位，命中“卖出”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-23",
+      "expectedDataDate": "2026-09-23",
+      "fetchedAt": "2026-09-24T05:02:14.979Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-23"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-23",
+          "pe": 13.4155,
+          "pb": 1.4178,
+          "fetchedAt": "2026-09-24T05:02:14.979Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4155,
+      "pePercentile": 0.6456310679611651,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-28",
+      "pb": 1.4178,
+      "pbPercentile": 0.38932038834951455,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-28",
+      "temperature": 0.5174757281553398,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 64.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-23",
+      "expectedDataDate": "2026-09-23",
+      "fetchedAt": "2026-09-24T05:02:15.074Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-23"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-23",
+          "pe": 30.9298,
+          "pb": 9.5553,
+          "fetchedAt": "2026-09-24T05:02:15.074Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.9298,
+      "pePercentile": 0.4902534113060429,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-09-28",
+      "pb": 9.5553,
+      "pbPercentile": 0.868421052631579,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-09-28",
+      "temperature": 0.6793372319688109,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 49.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-23",
+      "expectedDataDate": "2026-09-23",
+      "fetchedAt": "2026-09-24T05:02:14.926Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-23"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-23",
+          "pe": 25.317,
+          "pb": 5.5649,
+          "fetchedAt": "2026-09-24T05:02:14.926Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.317,
+      "pePercentile": 0.5640776699029126,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-09-28",
+      "pb": 5.5649,
+      "pbPercentile": 0.9524271844660194,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-09-28",
+      "temperature": 0.758252427184466,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 56.4% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国资本形成",
+      "headline": "上半年IPO融资超过1370亿美元",
+      "implication": "事实：美国证监会9月23日发布市场统计。2026年上半年，美国市场完成208宗IPO，融资超过1370亿美元；上年同期为180宗、融资超过270亿美元。IPO数量增加约16%，融资额增加近400%。同期后续发行完成557宗，融资超过1110亿美元；上年同期为505宗、融资近840亿美元。推断：美国公开股权融资活动扩张，更多企业借助资本市场补充资金。不能据此判断：发行数量和融资额不能证明企业盈利改善、定价合理或指数将上涨。",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-24:3030963428",
+    "sourceType": "blog",
+    "title": "卖出只是第一道门",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2013-05-22",
+    "sourceUrl": "https://jlcollinsnh.com/2013/05/22/stocks-part-xviii-investing-in-a-raging-bull/",
+    "sourceLabel": "打开官网原文",
+    "summary": "核心主张：等待所谓正确时点，本质是择时。退出市场只完成第一步，投资者还要决定何时重新进入；两次判断缺一不可。资产配置应服从期限、目标和承受回撤的能力。",
+    "takeaways": [
+      "退出和重新进入是两次独立判断。第一次判断正确，第二次判断错误，资金仍可能长期停在场外。",
+      "股票、债券和现金承担不同风险。离开股票并不等于风险消失，通胀、利率和机会成本会改变结果。",
+      "配置应匹配资金期限、生活目标和回撤承受力。文章讨论的是纪律与选择成本，不是顶部或底部预测。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "资产配置",
+      "风险控制",
+      "行为纪律"
+    ],
+    "concept": {
+      "title": "双重择时",
+      "explanation": "卖出决定资金何时离场，重新进入决定资金何时恢复市场暴露。完整策略必须同时给出两项条件；只写退出条件，会把下一次临时判断留给情绪。",
+      "applicability": "适用于主动退出并计划重新进入的策略，不适用于按现金流定期投入或按书面规则再平衡的动作。A股与美股的交易、结算、税费和账户制度不同，执行前应核对当地现行规则与产品披露。",
+      "misconception": "把卖出当成风险问题的终点，或认为一次猜对高点就完成任务。资金去向、机会成本和重新进入条件都会影响最终结果。"
+    },
+    "quote": "To play this market timing game well even once, you need to be right twice.",
+    "application": "今天出现一项“卖出”和三项“持有”。这套估值规则提供预先写下的行为信号，不是短期择时预测；若解释卖出信号，我们也要记录资金去向和重新进入条件。",
+    "dont": "边界：文章基于美国市场语境，文中的基金、账户和提取规则不能直接移植到A股或中国税务环境。它也不能证明任何指数已经见顶。",
+    "images": [
+      {
+        "filename": "reading-double-timing.png",
+        "alt": "两个相连关口表示退出与重新进入两次决策的插图",
+        "caption": "左侧关口代表退出，右侧关口代表重新进入。两者之间的长路说明：卖出没有结束决策，只把问题移到资金去向和下一次进入条件。",
+        "steps": [
+          "写下退出信号采用的指标与口径。",
+          "确定离场资金承担的任务和风险。",
+          "写下重新进入条件，再判断策略是否完整。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-09-24T05:00:54Z",
+      "dataDate": "2026-09-24",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-24T05:00:54Z",
+      "dataDate": "2026-09-24",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-24T05:00:54Z",
+      "dataDate": "2026-09-23",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-24T05:00:54Z",
+      "dataDate": "2026-09-23",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-24T05:02:15.074Z",
+      "dataDate": "2026-09-23",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美国证监会：2026年上半年市场统计",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
+      "accessedAt": "2026-09-24T05:06:00Z",
+      "dataDate": "2026年上半年数据，2026-09-23发布",
+      "metricDefinition": "美国注册发行活动数量与融资额"
+    },
+    {
+      "label": "J.L. Collins：Investing in a Raging Bull",
+      "url": "https://jlcollinsnh.com/2013/05/22/stocks-part-xviii-investing-in-a-raging-bull/",
+      "accessedAt": "2026-09-24T05:10:00Z",
+      "dataDate": "官网文章，发布于2013-05-22",
+      "metricDefinition": "退出、重新进入与资产配置的完整论证"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
