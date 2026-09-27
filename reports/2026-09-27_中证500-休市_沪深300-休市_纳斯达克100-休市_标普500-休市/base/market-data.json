@@ -1,0 +1,207 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T05:07:05Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年9月27日为星期日，也在沪深交易所公布的中秋节休市期内。今天不抓取四个指数估值，不创建估值日历或重试状态。新闻已与9月26日日报比较：商务部9月26日公布的中美八点成果与前一日中美经贸安排属于同一事件，不再重复；前一日生产资料价格调查也不再收录。本期保留审计条例与企业境外反垄断合规草案两项制度变化。"
+  },
+  "advice": {
+    "book": "非交易日不生成建议",
+    "principle": "非交易日不生成投资建议或生活建议。",
+    "do": "非交易日不生成建议。",
+    "dont": "非交易日不生成建议。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染建议区。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末及节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末及节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末及节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "周末及节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国审计制度",
+      "headline": "修订后的审计法实施条例明确审计范围与整改责任",
+      "implication": "事实：国务院9月24日公布修订后的《中华人民共和国审计法实施条例》，自12月1日起施行。条例细化财政收支审计范围，将国有资源管理使用纳入专项审计调查，并明确被审计单位的整改主体责任及整改不到位的法律责任。推断：涉及国有资本、政府投资项目和公共资金的单位需要面对更明确的资料、程序与整改约束。不能据此判断：条例不等于具体单位存在审计问题，也不能直接量化企业利润或市场影响。",
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7081972.htm"
+    },
+    {
+      "market": "企业境外合规",
+      "headline": "市场监管总局就企业境外反垄断合规指引修订草案征求意见",
+      "implication": "事实：市场监管总局9月22日发布修订草案，意见反馈截至9月29日。总局9月24日说明，草案补充数字经济境外执法动向、不同司法辖区规则、维权救济渠道、15个典型案例和6个附录工具。推断：草案若形成正式指引，出海企业在交易、并购与平台经营中需要增加境外反垄断风险识别和材料准备。不能据此判断：征求意见稿尚非生效规则，也不证明任何企业已经违法或任何交易必然受阻。",
+      "url": "https://www.samr.gov.cn/hd/zjdc/art/2026/art_b417f77da67d45ab99242f19058171ab.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-27:3081296285",
+    "sourceType": "book",
+    "title": "现金、现金流和流动性不是一回事",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第1章，PDF 17-33页：投资新手的建议",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：章节强调把部分收入转化为能产生现金流的资产，但‘现金不是资产’只是特定分析口径。完整判断需要区分资产身份、现金流能力、流动性和风险。",
+    "takeaways": [
+      "现金在会计上属于资产，并承担结算和流动性任务。它不产生经营现金流，不等于它没有经济作用。",
+      "现金流的规模与稳定性会影响资产价值，但不是唯一因素。风险、贴现率、期限、流动性和权利结构也会改变价格。",
+      "章节中的产品清单、收益数字和美国长期样本带有写作时点与市场边界，不能替代当前中国制度、产品披露或未来回报证据。"
+    ],
+    "fit": [
+      "FIRE",
+      "长期指数投资",
+      "资产配置",
+      "风险控制",
+      "家庭财务",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "经济角色分类",
+      "explanation": "原理：同一项资产可以承担流动性、收入或长期增值任务。分类应回答它在资产负债表中解决什么问题，而不是只看它是否立即产生现金流。",
+      "applicability": "适用条件：这一概念用于分析现金储备、短期支出资金与长期风险资产。判断时需要同时说明用途、期限、流动性、风险和权利结构。",
+      "misconception": "常见误区：把‘现金不生钱’理解为现金不是资产，或把书中旧产品清单当作当前选择。美国历史收益、旧版国内产品和账户规则都不能直接移植到中国当期环境。"
+    },
+    "quote": "看收益，更要看风险。",
+    "application": "本章用现金流解释资产差异。当天两项制度新闻则说明，审计范围和境外合规规则也会改变企业面对的资料、程序与责任约束。",
+    "dont": "边界：不能因为现金存在通胀拖累，就否认它的流动性价值；也不能因为某类资产能产生现金流，就假定其回报稳定或风险较低。",
+    "images": [
+      {
+        "filename": "reading-cash-roles.png",
+        "alt": "现金储备、现金流和长期资产承担不同经济任务的插图",
+        "caption": "同一场景放置三种角色。左侧透明储备箱表示现金与流动性；中央水流表示收入、支出和储备之间的现金流；右侧树木与波动曲线表示长期资产可能增长，也会经历价格波动。",
+        "steps": [
+          "左侧储备箱表示现金在结算与流动性中的作用。",
+          "中央管道表示资金在收入、支出和储备之间流动。",
+          "右侧树木表示长期资产承担增值任务，背景曲线保留风险与波动。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml",
+      "accessedAt": "2026-09-27T05:02:41Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股周末、节假日休市及开市日期判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.szse.cn/www/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-09-27T05:02:41Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股周末、节假日休市及清算交收安排"
+    },
+    {
+      "label": "中国政府网：中华人民共和国审计法实施条例",
+      "url": "https://www.gov.cn/zhengce/content/202609/content_7081972.htm",
+      "accessedAt": "2026-09-27T05:04:06Z",
+      "dataDate": "2026-09-24发布，2026-12-01施行",
+      "metricDefinition": "审计范围、程序与整改责任的制度变化"
+    },
+    {
+      "label": "市场监管总局：企业境外反垄断合规指引修订草案征求意见",
+      "url": "https://www.samr.gov.cn/hd/zjdc/art/2026/art_b417f77da67d45ab99242f19058171ab.html",
+      "accessedAt": "2026-09-27T05:04:51Z",
+      "dataDate": "2026-09-22发布，意见反馈截至2026-09-29",
+      "metricDefinition": "企业境外反垄断合规指引修订草案的法律状态与征求意见期限"
+    },
+    {
+      "label": "市场监管总局：2026年三季度例行新闻发布会",
+      "url": "https://www.samr.gov.cn/hd/zxft/art/2026/art_04263710361c489d8c2a2e34d89e15c5.html",
+      "accessedAt": "2026-09-27T05:04:51Z",
+      "dataDate": "2026-09-24发布",
+      "metricDefinition": "境外反垄断合规指引修订内容、案例和附录数量"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第1章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-27T05:05:28Z",
+      "dataDate": "本地原书第1章，PDF 17-33页",
+      "metricDefinition": "资产、现金流、收益风险与指数基金入门论证"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
