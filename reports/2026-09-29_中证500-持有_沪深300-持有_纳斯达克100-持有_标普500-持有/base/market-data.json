@@ -1,0 +1,287 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T05:07:34Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月29日为星期二，不在上交所、深交所公布的2026年休市安排内。四个指数的最近已完成交易日均为2026年9月28日。新闻已与9月27日日报比较；本期没有重复收录前一日的审计法实施条例修订和境外反垄断合规指引征求意见。"
+  },
+  "advice": {
+    "book": "J.L. Collins Stock Series",
+    "principle": "资产配置先看风险能力，再看风险意愿。年龄只能提示期限，不能替代现金流、刚性支出、家庭责任与回到工作的能力。",
+    "do": "记录四个指数的“持有”信号。我们把资金期限、流动储备、刚性支出和收入韧性写进同一张风险清单，再核对既定配置是否仍能承受回撤。",
+    "dont": "不要把四个“持有”解释成配置适合所有人，不照搬作者的美国产品、股债比例或税务账户，不因单条利润数据追涨，不借钱投资。",
+    "context": "事实：四个指数的PE分位均处于“持有”区间；国家统计局公布，2026年1—8月规模以上工业企业利润同比增长15.7%，8月增长4.2%，但应收账款和产成品存货也在增长。推断：工业企业利润总量改善，行业分化和现金转换压力仍在。不能据此判断：总量数据不能证明每家企业盈利同步改善，也不能预测指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-28",
+      "expectedDataDate": "2026-09-28",
+      "fetchedAt": "2026-09-29T05:02:30.985Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-28"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-28",
+          "pe": 31.7401,
+          "pb": 2.3006,
+          "fetchedAt": "2026-09-29T05:02:30.985Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 31.7401,
+      "pePercentile": 0.7519455252918288,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 2.3006,
+      "pbPercentile": 0.7714007782101168,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.7616731517509727,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 75.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-28",
+      "expectedDataDate": "2026-09-28",
+      "fetchedAt": "2026-09-29T05:02:30.899Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-28"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-28",
+          "pe": 13.1274,
+          "pb": 1.3879,
+          "fetchedAt": "2026-09-29T05:02:30.899Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.1274,
+      "pePercentile": 0.5768482490272373,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 1.3879,
+      "pbPercentile": 0.32782101167315175,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.4523346303501945,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 57.7% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-28",
+      "expectedDataDate": "2026-09-28",
+      "fetchedAt": "2026-09-29T05:02:30.854Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-28"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-28",
+          "pe": 30.8329,
+          "pb": 9.5233,
+          "fetchedAt": "2026-09-29T05:02:30.854Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.8329,
+      "pePercentile": 0.4853515625,
+      "peSampleCount": 512,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 9.5233,
+      "pbPercentile": 0.8642578125,
+      "pbSampleCount": 512,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.6748046875,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 48.5% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-28",
+      "expectedDataDate": "2026-09-28",
+      "fetchedAt": "2026-09-29T05:02:30.941Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-28"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-28",
+          "pe": 25.244,
+          "pb": 5.5487,
+          "fetchedAt": "2026-09-29T05:02:30.941Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.244,
+      "pePercentile": 0.5496108949416343,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 5.5487,
+      "pbPercentile": 0.9484435797665369,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.7490272373540856,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 55.0% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国工业企业盈利",
+      "headline": "前八个月规上工业企业利润增长15.7%",
+      "implication": "事实：国家统计局9月28日公布，2026年1—8月规模以上工业企业利润总额为52719.8亿元，按可比口径增长15.7%；营业收入增长6.6%，营业成本增长6.1%，营业收入利润率为5.66%，提高0.44个百分点。8月利润增长4.2%。采矿业、制造业和电力热力燃气及水生产供应业利润分别增长35.1%、17.4%和下降12.0%；应收账款增长9.0%，产成品存货增长11.0%。推断：工业企业利润总量改善，但行业分化、回款和库存压力仍在。不能据此判断：总量数据不能证明每家企业盈利同步改善，也不能预测指数方向。",
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202609/t20260928_1965425.html"
+    },
+    {
+      "market": "中国宏观政策",
+      "headline": "国务院常务会议部署增量政策和有效投资",
+      "implication": "事实：国务院9月28日召开常务会议，要求加大宏观政策实施力度，优化财政支出，依法依规使用地方政府债务结存限额，综合运用和适时调整货币政策工具，增加科技创新、技术改造、支农支小再贷款额度，并研究房地产、就业和收入政策。推断：政策方向指向融资条件、有效投资和需求支持。不能据此判断：会议没有给出全部工具的规模、时点和行业受益排序，也不能预测短期指数方向。",
+      "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7082280.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-29:2846409619",
+    "sourceType": "blog",
+    "title": "风险能力和风险意愿，不是一回事",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2014-06-10",
+    "sourceUrl": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
+    "sourceLabel": "打开官网原文",
+    "summary": "核心主张：资产配置取决于人生阶段、目标、客观损失承受力和心理承受力。年龄只能提供期限线索，不能代替现金流、支出弹性和家庭责任的判断。",
+    "takeaways": [
+      "积累阶段和保全阶段面对的现金流不同。收入与新增投入可以吸收部分波动，提取资金时则更依赖配置的稳定性。",
+      "股票承担波动，债券可以缓和组合起伏。配置的任务不是消除风险，而是让风险与生活目标和资金期限匹配。",
+      "心理承受力与客观风险能力可能不一致。情绪上敢承担波动，不等于家庭现金流可以承受损失。"
+    ],
+    "fit": [
+      "资产配置",
+      "风险控制",
+      "家庭财务",
+      "行为纪律"
+    ],
+    "concept": {
+      "title": "风险能力与风险意愿",
+      "explanation": "风险能力描述生活和资产负债表能承受多大损失；风险意愿描述面对回撤时的心理反应。配置同时受两者约束，较弱的一侧会成为实际边界。",
+      "applicability": "适用于设定或复核长期配置。判断应纳入收入稳定性、流动储备、刚性支出、负债、家庭责任、资金期限和回到工作的能力。A股与美股产品、税务和账户制度不同，执行前要核对当地现行规则。",
+      "misconception": "把年龄、风险问卷或一次市场体验当成完整答案，或把情绪上的胆量当成财务上的承受力。作者的个人比例和美国产品也不是通用模板。"
+    },
+    "quote": "Life is balance and choice.",
+    "application": "四个指数今天均为“持有”。估值卡只回答机械规则落在哪个区间；家庭现金流、资金期限和心理承受力决定既定配置是否仍适合我们。",
+    "dont": "边界：文章基于美国市场和作者个人经历。文中的基金、股债比例、退休账户与税务示例不能直接移植到A股或中国家庭账户，也不能证明任何指数即将上涨。",
+    "images": [
+      {
+        "filename": "reading-risk-capacity.png",
+        "alt": "桥梁的生活支撑结构与情绪刻度共同表达风险能力和风险意愿的插图",
+        "caption": "桥下的食物、流动储备、家庭责任和保障代表客观风险能力；桥上的人物与情绪刻度代表主观风险意愿。两部分共同决定配置能承受多大波动。",
+        "steps": [
+          "列出资金期限、流动储备、刚性支出、负债和家庭责任。",
+          "记录回撤发生时的真实行为，而非问卷里的理想答案。",
+          "按两项判断中更弱的一侧复核既定配置，不照搬别人的比例。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-09-29T05:00:54Z",
+      "dataDate": "2026-09-29",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/t20251222_618087.html",
+      "accessedAt": "2026-09-29T05:00:54Z",
+      "dataDate": "2026-09-29",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-29T05:00:54Z",
+      "dataDate": "2026-09-28",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-29T05:00:54Z",
+      "dataDate": "2026-09-28",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-29T05:02:30.985Z",
+      "dataDate": "2026-09-28",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年1—8月份全国规模以上工业企业利润增长15.7%",
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202609/t20260928_1965425.html",
+      "accessedAt": "2026-09-29T05:04:00Z",
+      "dataDate": "2026年1—8月及8月数据，2026-09-28发布",
+      "metricDefinition": "规模以上工业企业利润、收入、成本、应收账款和产成品存货"
+    },
+    {
+      "label": "中国政府网：国务院常务会议部署增量政策和有效投资",
+      "url": "https://www.gov.cn/yaowen/liebiao/202609/content_7082280.htm",
+      "accessedAt": "2026-09-29T05:05:00Z",
+      "dataDate": "2026-09-28会议",
+      "metricDefinition": "宏观政策、财政支出、货币工具和有效投资部署"
+    },
+    {
+      "label": "J.L. Collins：Selecting Your Asset Allocation",
+      "url": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
+      "accessedAt": "2026-09-29T05:06:00Z",
+      "dataDate": "官网文章，发布于2014-06-10",
+      "metricDefinition": "资产配置、人生阶段、风险能力和风险意愿"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
