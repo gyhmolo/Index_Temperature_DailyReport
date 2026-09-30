@@ -1,0 +1,287 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T06:56:52Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年9月30日为星期三。上交所、深交所公告显示，中秋节休市后9月28日起照常开市，国庆节休市从10月1日开始，因此当日为A股交易日。四个指数的最近已完成交易日均为2026年9月29日。新闻已与9月29日日报比较；本期没有重复收录工业企业利润和国务院常务会议。"
+  },
+  "advice": {
+    "book": "《指数基金投资指南》",
+    "principle": "收益没有保证，交易成本会发生。持有信号意味着规则没有要求换手；纪律也包括不交易。",
+    "do": "记录四个指数的“持有”信号。我们核对账户中的申购费、赎回费、佣金与税费口径，并保留下一次动作需要满足的PE分位条件。",
+    "dont": "不要为获得行动感增加交易，不把PB温度改成行为触发器，不因PMI回到扩张区间或职位空缺稳定就预测指数方向，不借钱投资。",
+    "context": "事实：四个指数的PE分位均处于“持有”区间；国家统计局公布9月制造业PMI为50.1%，美国劳工统计局公布8月职位空缺为710万。推断：中国制造业活动略过荣枯线，美国劳动力需求和流动指标没有突变。不能据此判断：单月数据不能证明利润进入持续上行，也不能确定利率路径或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-29",
+      "expectedDataDate": "2026-09-29",
+      "fetchedAt": "2026-09-30T05:30:40.117Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-29"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-29",
+          "pe": 31.9247,
+          "pb": 2.3128,
+          "fetchedAt": "2026-09-30T05:30:40.117Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 31.9247,
+      "pePercentile": 0.7563106796116504,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 2.3128,
+      "pbPercentile": 0.7757281553398059,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.7660194174757282,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 75.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-29",
+      "expectedDataDate": "2026-09-29",
+      "fetchedAt": "2026-09-30T05:30:40.031Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-29"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-29",
+          "pe": 13.1306,
+          "pb": 1.3884,
+          "fetchedAt": "2026-09-30T05:30:40.031Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.1306,
+      "pePercentile": 0.579611650485437,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 1.3884,
+      "pbPercentile": 0.33106796116504855,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.45533980582524275,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 58.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-29",
+      "expectedDataDate": "2026-09-29",
+      "fetchedAt": "2026-09-30T05:30:40.074Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-29"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-29",
+          "pe": 30.8325,
+          "pb": 9.5232,
+          "fetchedAt": "2026-09-30T05:30:40.074Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.8325,
+      "pePercentile": 0.4844054580896686,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 9.5232,
+      "pbPercentile": 0.8625730994152047,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.6734892787524367,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 48.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-09-29",
+      "expectedDataDate": "2026-09-29",
+      "fetchedAt": "2026-09-30T05:30:40.160Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-09-29"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-09-29",
+          "pe": 25.1952,
+          "pb": 5.5376,
+          "fetchedAt": "2026-09-30T05:30:40.160Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.1952,
+      "pePercentile": 0.5485436893203883,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 5.5376,
+      "pbPercentile": 0.9407766990291262,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.7446601941747573,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 54.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国制造业景气",
+      "headline": "9月制造业PMI回到扩张区间",
+      "implication": "事实：国家统计局9月30日公布，9月制造业采购经理指数为50.1%，比上月上升0.3个百分点；生产指数为51.7%，上升1.3个百分点；新订单指数为50.5%，下降0.1个百分点；大型企业为50.6%，中型和小型企业分别为49.7%和48.9%。推断：生产活动推动制造业景气略过荣枯线，企业规模之间仍有分化。不能据此判断：单月PMI不能证明盈利进入持续上行，也不能预测指数方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202609/t20260930_1965449.html"
+    },
+    {
+      "market": "美国劳动力市场",
+      "headline": "8月职位空缺和离职人数变化不大",
+      "implication": "事实：美国劳工统计局9月29日公布，8月职位空缺为710万，职位空缺率为4.3%；招聘人数为520万，总离职人数为510万，主动离职人数为310万，裁员和解雇人数为160万，上述指标均变化不大。推断：劳动力需求和人员流动没有出现突变。不能据此判断：这组数据不能单独确定工资、通胀、下一次美联储决策或股票指数方向。",
+      "url": "https://www.bls.gov/news.release/jolts.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-09-30:917233697",
+    "sourceType": "book",
+    "title": "费用会发生，收益未必到来",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第5章，PDF 202—261页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：定投解决执行纪律，不保证每次买入都便宜。估值决定动作区间，交易成本决定净收益与总收益之间的差距；规则没有触发时，减少无意义换手也是纪律。",
+    "takeaways": [
+      "定投把投资与现金流节奏连接起来，重点是计划能够持续，不是寻找一个神奇日期。",
+      "申购费、赎回费、佣金、价差和税费会从资产中扣除。交易次数增加，不会自动增加预期收益。",
+      "估值规则用于约束何时定投、持有或卖出。书中的历史回测、费率和税务口径不能当成今天的保证。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "风险控制",
+      "家庭财务"
+    ],
+    "concept": {
+      "title": "确定性成本",
+      "explanation": "投资者得到的是扣除基金费用、交易成本和适用税费后的净收益。未来收益不确定，成交产生的费用却会发生；增加换手需要额外收益覆盖新增成本。",
+      "applicability": "适用于比较同一策略的交易渠道、定投频率和再平衡频率。A股场内、场外基金与美国市场的佣金、价差、赎回规则、分红税和资本利得税不同，执行前应以基金合同、券商费率和现行税法为准。",
+      "misconception": "把低费率等同于好产品，或只看佣金，忽略跟踪误差、买卖价差、流动性、基金管理费和税务。减少交易也不等于永不按规则行动。"
+    },
+    "quote": "不要过于频繁交易，以免产生较高的费用。",
+    "application": "四个指数今天均为“持有”。估值规则没有要求换手；我们先记录信号，再核对账户成本和下一次动作条件。",
+    "dont": "边界：本章引用的是历史费率、税制和回测。A股与美股的交易机制、基金费用、税务和账户制度不同；旧数据不能代替今天的产品文件，也不能证明任何指数的未来收益。",
+    "images": [
+      {
+        "filename": "reading-cost-frequency.png",
+        "alt": "金币沿两条水道流向植物，频繁闸门让更多金币落入成本箱的插图",
+        "caption": "上方水道只有少量闸门，多数金币抵达生长端；下方水道增加了闸门，金币在每次通过时流入成本箱。图示表达：交易次数会累积成本，长期结果仍取决于资产与规则。",
+        "steps": [
+          "列出会从账户扣除的基金费用、交易费用、价差和适用税费。",
+          "把每次计划交易与既定触发条件逐项核对。",
+          "条件没有触发时保留记录，不为获得行动感增加换手。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml",
+      "accessedAt": "2026-09-30T05:12:41.246Z",
+      "dataDate": "2026-09-30",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.szse.cn/www/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-09-30T05:12:41.246Z",
+      "dataDate": "2026-09-30",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-09-30T05:12:41.246Z",
+      "dataDate": "2026-09-29",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-09-30T05:12:41.246Z",
+      "dataDate": "2026-09-29",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-09-30T05:30:40.160Z",
+      "dataDate": "2026-09-29",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年9月中国采购经理指数运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202609/t20260930_1965449.html",
+      "accessedAt": "2026-09-30T06:45:00Z",
+      "dataDate": "2026年9月数据，2026-09-30发布",
+      "metricDefinition": "制造业采购经理指数及分项指数"
+    },
+    {
+      "label": "美国劳工统计局：2026年8月职位空缺及劳动力流动调查",
+      "url": "https://www.bls.gov/news.release/jolts.htm",
+      "accessedAt": "2026-09-30T06:47:00Z",
+      "dataDate": "2026年8月数据，2026-09-29发布",
+      "metricDefinition": "职位空缺、招聘、离职、主动离职及裁员和解雇"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第5章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-09-30T06:42:00Z",
+      "dataDate": "第5章，PDF 202—261页",
+      "metricDefinition": "定投、估值、交易费用、分红、频率与收益率"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
