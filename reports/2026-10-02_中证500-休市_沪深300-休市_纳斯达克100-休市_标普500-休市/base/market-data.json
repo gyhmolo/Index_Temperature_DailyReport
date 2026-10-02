@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T05:28:12Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "上海证券交易所和深圳证券交易所的2026年中秋节、国庆节休市安排均显示，10月1日至10月7日休市，10月8日起照常开市。今天不抓取四个指数估值，不创建估值日历或重试状态。本期保留美联储副主席的经济与货币政策判断、美国大型银行eSLR调整的早期观察两项新事实。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国通胀、就业与货币政策",
+      "headline": "美联储副主席称通胀上行风险仍在",
+      "implication": "事实：美联储副主席菲利普·杰弗逊10月1日表示，上半年GDP增速为2.4%，8月失业率为4.1%，8月PCE价格指数同比上涨3.4%。他支持9月加25个基点，将联邦基金利率目标区间提至3.75%至4%，并称未来调整需要检查数据趋势、展望和风险平衡。推断：通胀返回目标的速度会影响贴现率环境，能源价格与需求的变化仍是利率判断变量。不能据此判断：这是一位官员的政策判断，不是委员会对下次利率决定或市场方向的承诺。",
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
+    },
+    {
+      "market": "美国国债市场与银行资本约束",
+      "headline": "美联储披露eSLR调整后的国债中介观察",
+      "implication": "事实：美联储副主席鲍曼10月1日表示，修订后的增强型补充杠杆率于2026年4月1日生效，8家美国全球系统重要性银行中有7家在一季度提前采用。她引用估算称，其中6家交易商母公司的eSLR额外空间合计接近5万亿美元；大型银行的国债头寸从调整期初约6000亿美元升至4月底超过7000亿美元。推断：银行资本约束会影响交易商承接国债与回购交易的资产负债表空间，也会影响市场流动性。不能据此判断：讲话的早期观察不足以证明所有变化均由该规则导致，也不能推出单家银行盈利或资产价格。",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-02:220614218",
+    "sourceType": "book",
+    "title": "价格在跳，价值没有同步跳",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第8章，PDF 322-362页：长期投资的心理建设",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：一套规则的难点常在执行，不在理解。价格会受短期供求和情绪影响，企业经营与现金流的变化速度不同；事先写下规则，可以减少当下情绪对决策的干扰。",
+    "takeaways": [
+      "书中把短期价格波动与标的经营价值分开：前者会受供求影响，后者需要通过盈利、现金流和长期经营评估。",
+      "纸面规则把时间、条件与处理方式写成可核对的标准。价格变化时，决策回到标准，而不是回到当下感受。",
+      "指数投资的复利来源不只有买卖价差，还包括企业留存盈利再投入和分红再投入。三种来源的权重因市场、税费、产品规则与时点而变。"
+    ],
+    "fit": [
+      "FIRE",
+      "长期指数投资",
+      "行为纪律",
+      "风险控制",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "预承诺",
+      "explanation": "原理：预承诺是在情绪刺激出现前，用可观察条件限制未来决策空间。它不消除波动，而是将决策依据从感受换成事先定义的事实。",
+      "applicability": "适用条件：规则需要有明确对象、可校验数据、复核周期与失效条件。它适合约束频繁反应，不适合用来否认基本面、制度或家庭现金流的实质变化。",
+      "misconception": "常见误区：把事先写下的规则当成收益保证，或把书中的旧估值阈值与历史回报直接移到今天。中国公募基金的交易、费率与税务边界，美国应税账户、退休账户与分红税务边界并不相同，具体决策需要依据当期文件。"
+    },
+    "quote": "凡事预则立，不预则废。",
+    "application": "杰弗逊的讲话把增长、就业和通胀放在同一判断框架中；鲍曼的eSLR观察则展示资本规则如何改变金融机构的行为空间。两者都说明，约束和数据口径会影响决策，单一信号不足以代替规则。",
+    "dont": "边界：不用书中的历史收益、旧估值阈值或个人案例替代当期产品文件、税费规则与可校验数据。",
+    "images": [
+      {
+        "filename": "reading-plan-versus-noise.png",
+        "alt": "企业经营、纸面规则与价格波动的关系插图",
+        "caption": "左侧的作坊与植物代表经营、产出和价值积累。中间的清单代表事先定义的判断条件。右侧的曲线与人群代表价格和供求情绪。",
+        "steps": [
+          "经营事实由盈利、现金流和制度约束构成。",
+          "纸面规则记录数据口径、复核周期和失效条件。",
+          "价格波动与经营事实分开核对。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml",
+      "accessedAt": "2026-10-02T05:28:12Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股节假日休市及开市日期判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.szse.cn/www/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-02T05:28:12Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股节假日休市及清算交收安排"
+    },
+    {
+      "label": "美联储：杰弗逊论美国经济与货币政策",
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+      "accessedAt": "2026-10-02T05:28:12Z",
+      "dataDate": "2026-10-01发布，引用数据截至2026年8月与上半年",
+      "metricDefinition": "GDP、失业率、PCE通胀、9月政策决定及未来政策判断"
+    },
+    {
+      "label": "美联储：鲍曼论eSLR调整的早期观察",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+      "accessedAt": "2026-10-02T05:28:12Z",
+      "dataDate": "2026-10-01发布，观察涉及2026年一季度及4月底",
+      "metricDefinition": "eSLR生效与提前采用、大型银行额外资本空间、国债头寸及市场中介观察"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第8章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-10-02T05:28:12Z",
+      "dataDate": "本地原书第8章，PDF 322-362页",
+      "metricDefinition": "短期价格与长期价值、纸面规则、复利来源与长期持有的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
