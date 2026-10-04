@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T05:01:19.947Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "上海证券交易所和深圳证券交易所的2026年中秋节、国庆节休市安排均显示，10月1日至10月7日休市，10月8日起照常开市。今天不抓取四个指数估值，不创建估值日历或重试状态。本期只保留美联储商业银行资产负债表这一项新事实。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国银行信贷",
+      "headline": "美国本土商业银行贷款租赁余额周增130亿美元",
+      "implication": "事实：美联储10月2日发布的H.8表4显示，经季节调整后，美国本土商业银行贷款和租赁余额从9月16日的12664.7亿美元增至9月23日的12677.7亿美元，增加130亿美元；同期银行信贷减少230亿美元，证券资产减少358亿美元。本期数据按2026年6月监管报表校准，并纳入底层数据修订。推断：贷款端变化进入企业融资条件和现金流的跟踪，资产结构变化与数据修订限制结论。不能据此判断：一周变化不能确认信贷宽松、企业盈利方向、利率决定或任何资产走势。",
+      "url": "https://www.federalreserve.gov/releases/h8/current/default.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-04:119948504",
+    "sourceType": "book",
+    "title": "指数名称不是风险说明书",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第3章，PDF 55-159页：常见指数基金品种",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：指数基金先决定持有什么，再决定用什么基金承载。宽基、行业、策略加权与增强指数回答的是风险暴露问题；场内、场外和联接基金回答的是交易与持有方式问题。",
+    "takeaways": [
+      "指数名称相近，成分范围、行业集中度和加权方法仍可能不同。持有多个基金也可能只是重复持有同一批公司。",
+      "同一指数可以由不同基金承载。基金净值高低不能说明贵贱，规模、费用、跟踪误差与流动性才影响执行质量。",
+      "行业指数比宽基指数多一层行业周期风险；增强指数还多一层管理人主动偏离风险。"
+    ],
+    "fit": [
+      "FIRE",
+      "长期指数投资",
+      "资产配置",
+      "风险控制",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "暴露与载体分层",
+      "explanation": "原理：先拆开指数持有什么、如何加权，再检查基金用什么方式复制。前一层决定主要收益与风险来源，后一层决定费用、跟踪、流动性和交易便利。",
+      "applicability": "适用条件：指数编制规则、成分与权重可核验，基金规模、费率、跟踪误差和交易机制有当期资料。组合还要检查基金之间的成分重合。",
+      "misconception": "常见误区：把指数等同于宽基，把基金单价等同于估值，把基金数量等同于分散。中美市场的ETF交易、申赎、折溢价、税务账户和跨境额度不同，书中截至2017年的产品、费率与制度描述不能当作当前事实。"
+    },
+    "quote": "指数基金最常见的一种分类，就是分为宽基指数和行业指数。",
+    "application": "H.8把银行资产拆成贷款、证券等项目。同一周里贷款增加，银行信贷却因证券减少而下降。总量标签不能替代成分检查，这与辨认指数暴露是同一个方法。",
+    "dont": "边界：不把书中截至2017年的基金名单、费率、门槛和监管安排当成当前信息，也不凭一个指数名称或一周银行数据下结论。",
+    "images": [
+      {
+        "filename": "reading-exposure-wrapper.png",
+        "alt": "相同资产篮子放进两种透明基金载体的插图",
+        "caption": "两个外壳装着同一篮子资产。载体改变交易方式，底层暴露来自资产篮子。",
+        "steps": [
+          "指数检查包含选样范围、行业分布与加权规则。",
+          "基金检查包含规模、费用、跟踪误差与流动性。",
+          "组合检查包含成分重合，基金数量不能代替分散证据。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml",
+      "accessedAt": "2026-10-04T05:01:19.947Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股节假日休市及开市日期判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.szse.cn/www/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-04T05:01:19.947Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股节假日休市及清算交收安排"
+    },
+    {
+      "label": "美联储：美国商业银行资产负债表H.8",
+      "url": "https://www.federalreserve.gov/releases/h8/current/default.htm",
+      "accessedAt": "2026-10-04T05:01:19.947Z",
+      "dataDate": "2026-10-02发布，周度数据截至2026-09-23",
+      "metricDefinition": "经季节调整的美国本土商业银行银行信贷、证券、贷款与租赁余额；周度估算值"
+    },
+    {
+      "label": "美联储：H.8数据说明",
+      "url": "https://www.federalreserve.gov/releases/h8/about.htm",
+      "accessedAt": "2026-10-04T05:01:19.947Z",
+      "dataDate": "访问时有效",
+      "metricDefinition": "H.8周度汇总估算、样本、基准化与适用边界"
+    },
+    {
+      "label": "银行螺丝钉：《指数基金投资指南》第3章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-10-04T05:01:19.947Z",
+      "dataDate": "本地原书第3章，PDF 55-159页",
+      "metricDefinition": "宽基、行业、策略加权、基金载体与行业风险的完整论证单元；产品与制度事实截至书中写作期"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
