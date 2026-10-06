@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T05:01:06.366Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "上海证券交易所和深圳证券交易所的2026年中秋节、国庆节休市安排均显示，10月1日至10月7日休市，10月8日起照常开市。今天不抓取四个指数估值，不创建估值日历或重试状态。本期保留美联储H.15利率数据这一项新事实。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国利率",
+      "headline": "美国十年期名义与实际国债收益率报5.28%和2.92%",
+      "implication": "事实：美联储10月5日发布的H.15显示，10月2日美国10年期名义国债固定期限收益率为5.28%，10年期通胀保值国债实际收益率为2.92%，较10月1日均上升4个基点；同期有效联邦基金利率为3.88%。推断：较高的长期实际利率会进入企业融资成本和资产贴现率。不能据此判断：单日变化不能确认利率趋势、企业盈利方向、货币政策路径或任何资产走势。",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-06:153503742",
+    "sourceType": "book",
+    "title": "独立自由保证金买的是选择时间",
+    "sourceName": "《简单致富》",
+    "author": "J.L. 柯林斯",
+    "locator": "第2章：你为什么需要独立自由保证金",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：独立自由保证金的价值不只在收益，而在收入中断时提供时间与谈判空间。它可以支持休整、照护和职业转换，但不等于永久退休资产。",
+    "takeaways": [
+      "作者用失业与家庭照护经历说明，缓冲资金把立即接受一份工作的压力改成可协商的时间。",
+      "选择权取决于资金可取性、固定支出、债务和家庭责任，不能只用账户总额衡量。",
+      "作者的案例属于个人经历，不能据此推出统一金额、固定月数或普适结果。"
+    ],
+    "fit": [
+      "FIRE",
+      "家庭财务",
+      "风险控制",
+      "职业现金流",
+      "生活决策",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "选择权缓冲",
+      "explanation": "原理：流动资金覆盖收入中断期的刚性支出，降低立刻出售长期资产、举债或接受不合适安排的压力。缓冲的产出是时间和选择，不是额外收益。",
+      "applicability": "适用条件：资金可以取用，规模与刚性支出、负债、家庭责任和收入恢复难度匹配。长期权益资产、应急资金和职业转换缓冲承担不同任务。",
+      "misconception": "常见误区：把缓冲资金等同于退休本金，把作者经历当成统一标准，或只比较现金与投资品的名义收益。中国与美国的医疗、失业保障、税务和账户制度不同，书中美国案例不能直接移植。"
+    },
+    "quote": "金钱可以买到很多东西，其中最宝贵的就是自由。",
+    "application": "H.15中的长期利率影响融资与贴现；本章讨论另一类约束：收入中断时能否拥有时间。两类信息回答不同问题，不能用市场收益率替代家庭流动性。",
+    "dont": "边界：不从作者个人案例推导统一现金月数，也不把账户余额直接等同于财务独立。",
+    "images": [
+      {
+        "filename": "reading-choice-buffer.png",
+        "alt": "钱罐承托日历桥并通向三扇门的插图",
+        "caption": "钱罐承托日历桥，表示流动缓冲提供时间；开放的门表示可协商的选择。",
+        "steps": [
+          "缓冲对象：失业、健康或职业转换造成的现金流中断。",
+          "衡量维度：刚性支出、可取性、负债与家庭责任。",
+          "制度边界：中国和美国的保障、税务、账户与医疗安排不同。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-06T05:01:06.366Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股节假日休市及开市日期判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.szse.cn/www/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-06T05:01:06.366Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股节假日休市及清算交收安排"
+    },
+    {
+      "label": "美联储：H.15每日利率",
+      "url": "https://www.federalreserve.gov/releases/h15/",
+      "accessedAt": "2026-10-06T05:01:06.366Z",
+      "dataDate": "2026-10-05发布，市场数据截至2026-10-02",
+      "metricDefinition": "美国国债名义与通胀保值固定期限收益率、有效联邦基金利率；年化百分比"
+    },
+    {
+      "label": "J.L. 柯林斯：《简单致富》第2章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-10-06T05:01:06.366Z",
+      "dataDate": "本地原书第2章",
+      "metricDefinition": "独立自由保证金、失业缓冲与选择权的完整论证单元；个人经历不代表统一标准"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
