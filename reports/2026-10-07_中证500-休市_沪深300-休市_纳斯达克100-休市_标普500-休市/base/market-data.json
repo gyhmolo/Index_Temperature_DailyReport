@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T05:01:11.492Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "上海证券交易所和深圳证券交易所的2026年中秋节、国庆节休市安排均显示，10月1日至10月7日休市，10月8日起照常开市。今天不抓取四个指数估值，不创建估值日历或重试状态。本期保留美国8月国际贸易数据这一项新事实。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "节假日休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股节假日休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国贸易",
+      "headline": "美国8月商品和服务贸易逆差扩大至1056亿美元",
+      "implication": "事实：美国经济分析局与人口普查局10月6日公布，8月商品和服务贸易逆差为1056亿美元，较修订后的7月增加127亿美元；出口3152亿美元，环比增加1.4%，进口4208亿美元，环比增加4.3%。数据经季节调整但未扣除价格变化。推断：净出口变化会进入GDP核算，进出口结构也影响企业外需与投入成本。不能据此判断：一个月的名义贸易数据不能单独确认企业盈利、通胀路径、利率方向或资产走势。",
+      "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-07:170281361",
+    "sourceType": "blog",
+    "title": "下跌不可控，行为缺口可以解释",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "Stocks — Part I，官网文章，发布于2012-04-15，更新于2023-10-10",
+    "sourceUrl": "https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：市场下跌并不自动破坏长期计划，投资者在恐慌中退出、在恢复后再进入，可能把波动转成行为造成的回报缺口。作者的美国市场经验不能外推为所有指数和产品必然恢复。",
+    "takeaways": [
+      "文章把金融危机和大幅回撤视为市场过程的一部分，强调计划应当预先容纳波动。",
+      "作者指出，策略的持有期回报与投资者因恐慌交易取得的实际结果可能不同。",
+      "文章关于市场总会恢复的表述依赖美国宽基历史，不能证明单一国家、行业、旧成份或具体产品都能恢复。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "风险控制",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "行为缺口",
+      "explanation": "原理：组合本身的持有期回报与投资者实际取得的回报可能不同。下跌时退出、恢复后再进入会改变持有区间和成本，从而形成由行为造成的差距。",
+      "applicability": "适用条件：底层暴露足够分散，产品结构正常，资产配置与资金期限匹配，没有杠杆或近期刚性支出迫使出售。缺少这些条件时，持有纪律不能替代风险复核。",
+      "misconception": "常见误区：把美国宽基历史中的恢复外推为所有市场和产品必然回升。中国市场还需检查指数成份调整、停复牌、涨跌停、基金申赎和跨境额度；美国税务账户、基金结构与交易制度也不能直接移植。"
+    },
+    "quote": "Correct premise, wrong conclusion.",
+    "application": "美国贸易逆差扩大是一项经济事实，不是资产方向信号。文章提供的连接是证据边界：新闻可以改变分析输入，但单月数据不足以支持临时改写长期规则。",
+    "dont": "边界：不把作者的美国市场经验当作普适定律，也不把一次数据发布改写成资产方向结论。",
+    "images": [
+      {
+        "filename": "reading-behavior-gap.png",
+        "alt": "市场下跌、恐慌退出、错过恢复与结果差距的四阶段示意图",
+        "caption": "四个阶段展示一种可能的行为缺口：下跌触发退出，恢复期留在场外，最终结果落后于持续持有的参照。图示不代表所有市场都能恢复。",
+        "steps": [
+          "市场阶段：价格出现大幅下跌。",
+          "行为阶段：投资者因压力退出原有持仓。",
+          "路径阶段：价格恢复时，投资者留在场外。",
+          "结果阶段：实际持有路径与原计划产生差距。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-07T05:01:11.492Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股节假日休市及开市日期判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-07T05:01:11.492Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "A股节假日休市及清算交收安排"
+    },
+    {
+      "label": "美国经济分析局与人口普查局：2026年8月国际贸易",
+      "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "accessedAt": "2026-10-07T05:01:11.492Z",
+      "dataDate": "2026-10-06发布，数据月份为2026-08",
+      "metricDefinition": "经季节调整、未扣除价格变化的美国商品和服务出口、进口与贸易差额"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part I",
+      "url": "https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/",
+      "accessedAt": "2026-10-07T05:01:11.492Z",
+      "dataDate": "2012-04-15发布，2023-10-10更新",
+      "metricDefinition": "市场回撤、投资者恐慌行为与长期持有边界的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
