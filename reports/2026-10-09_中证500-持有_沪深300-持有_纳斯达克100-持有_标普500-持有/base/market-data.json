@@ -1,0 +1,288 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T05:05:09Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月9日为星期五。上交所、深交所公告显示，10月1日至7日休市，10月8日起照常开市，因此当日为A股交易日。四个指数的最近已完成交易日均为2026年10月8日。"
+  },
+  "advice": {
+    "book": "读书记忆：行为纪律与风险承受力",
+    "principle": "纪律不是假装市场不会下跌，而是在平静期写明规则、风险预算和失效条件。能否长期持有，还取决于没有杠杆、没有近期被迫用钱，以及产品与交易通道仍然正常。",
+    "do": "记录四个指数的“持有”信号。我们核对未来现金需求、杠杆和被迫卖出的可能性，并把规则何时失效写在行动记录里。",
+    "dont": "不要因一则崩盘故事或一份会议纪要临时改规则，不把“持有”解释为收益保证，不借钱投资。",
+    "context": "事实：四个指数的PE分位均处于“持有”区间；国家统计局公布9月下旬重要生产资料价格涨跌数量接近；美联储9月会议纪要显示多数与会者认为年内可能仍需再加息。推断：上游成本信号分化，美元贴现率压力仍需观察。不能据此判断：旬度价格样本和一份会议纪要都不能单独预测企业利润、下一次政策决定或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-08",
+      "expectedDataDate": "2026-10-08",
+      "fetchedAt": "2026-10-09T05:02:03.681Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-08"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-08",
+          "pe": 31.2059,
+          "pb": 2.2607,
+          "fetchedAt": "2026-10-09T05:02:03.681Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 31.2059,
+      "pePercentile": 0.7407766990291262,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 2.2607,
+      "pbPercentile": 0.7446601941747573,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.7427184466019418,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 74.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-08",
+      "expectedDataDate": "2026-10-08",
+      "fetchedAt": "2026-10-09T05:02:03.646Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-08"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-08",
+          "pe": 13.1358,
+          "pb": 1.391,
+          "fetchedAt": "2026-10-09T05:02:03.646Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.1358,
+      "pePercentile": 0.5815533980582525,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 1.391,
+      "pbPercentile": 0.33689320388349514,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.4592233009708738,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 58.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-08",
+      "expectedDataDate": "2026-10-08",
+      "fetchedAt": "2026-10-09T05:02:03.612Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-08"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-08",
+          "pe": 31.2654,
+          "pb": 9.6701,
+          "fetchedAt": "2026-10-09T05:02:03.612Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 31.2654,
+      "pePercentile": 0.5038986354775828,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 9.6701,
+      "pbPercentile": 0.8898635477582846,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.6968810916179338,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 50.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-08",
+      "expectedDataDate": "2026-10-08",
+      "fetchedAt": "2026-10-09T05:02:03.576Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-08"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-08",
+          "pe": 25.4655,
+          "pb": 5.6013,
+          "fetchedAt": "2026-10-09T05:02:03.576Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.4655,
+      "pePercentile": 0.579611650485437,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-10",
+      "pb": 5.6013,
+      "pbPercentile": 0.962135922330097,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-10",
+      "temperature": 0.770873786407767,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 58.0% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国生产资料价格",
+      "headline": "9月下旬生产资料价格涨跌数量接近",
+      "implication": "事实：国家统计局10月9日公布，对全国流通领域9大类50种重要生产资料监测，9月下旬较9月中旬22种上涨、23种下降、5种持平。推断：上游价格信号分化，企业成本端没有形成单向变化。不能据此判断：旬度批发价格样本不能单独证明整体通胀、企业利润或指数方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261008_1965465.html"
+    },
+    {
+      "market": "美国货币政策",
+      "headline": "美联储会议纪要显示多数与会者预计年内或再加息",
+      "implication": "事实：10月7日公布的9月15日至16日会议纪要显示，全体与会者支持将联邦基金利率目标区间上调25个基点至3.75%—4.00%；多数认为年内可能仍需再上调，但未来决定取决于数据。推断：美元利率贴现率压力仍需纳入估值观察。不能据此判断：会议纪要不能单独预测下一次决议或股票指数方向。",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-09:69615647",
+    "sourceType": "blog",
+    "title": "崩盘不可预测，行为可以预先设计",
+    "sourceName": "J.L. Collins 官方博客",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2012-04-15，修改于2023-10-10",
+    "sourceUrl": "https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：市场急跌并不罕见，真正可控的是下跌时是否按事先写好的规则行动。作者把长期结果与恐慌退出、迟到重返之间的行为差距联系起来；但其“市场总会恢复”只是一种基于美国宽基历史的强观点，不是对任何市场、产品或期限的保证。",
+    "takeaways": [
+      "市场急跌会反复发生。应在平静期决定风险预算、行动规则和失效条件，而不是在下跌时临场设计。",
+      "恐慌退出之后还要决定何时重返，等于增加第二次择时；行为差距往往来自这两次决定。",
+      "坚持原计划有前提：广泛分散、持有期足够长、没有杠杆或近期现金压力，产品与交易通道仍然正常。"
+    ],
+    "fit": [
+      "行为纪律",
+      "长期指数投资",
+      "风险控制",
+      "资产配置"
+    ],
+    "concept": {
+      "title": "行为护栏",
+      "explanation": "在情绪平稳时预先写下估值规则、风险预算、现金边界和失效条件，把压力状态下的临场决定改成对照清单。它不能消除波动，但能减少恐慌退出和迟到重返造成的行为差距。",
+      "applicability": "适用于长期、广泛分散、无杠杆且没有近期被迫用钱压力的投资计划。A股存在涨跌幅限制、停复牌和不同基金赎回规则，美股历史、退休账户与税务条件不能直接移植；跨境产品还要检查额度、汇率和通道。",
+      "misconception": "把坚持纪律理解为忽略基本面、产品失效或交易通道变化，或把美国宽基历史上的恢复当成任何市场和期限都必然恢复的保证。"
+    },
+    "quote": "Market crashes are to be expected.",
+    "application": "四个指数今天的PE规则均为“持有”。我们不因为预测崩盘而提前交易，先核对现金、杠杆、被迫卖出风险和规则失效条件。",
+    "dont": "不要把作者的美国历史叙事扩展为收益保证，也不要用一则崩盘故事或一份会议纪要取代估值规则和账户约束。",
+    "images": [
+      {
+        "filename": "reading-behavior-guardrails.png",
+        "alt": "从暴雨冲击、恐慌离开、场外等待到迟到返回的连续行为路径插图",
+        "caption": "画面按左至右展开：稳固居所代表事先写好的规则；暴雨代表无法预知的急跌；离开居所代表恐慌退出；场外等待和较晚返回，表现恢复过程中新增的择时决定与行为差距。图中路径是概念示意，不是市场预测或收益数据。",
+        "steps": [
+          "在平静期写下估值规则、现金边界与失效条件。",
+          "波动出现时先判断条件是否变化，再决定是否行动。",
+          "若计划仍有效，记录情绪和信号，不新增临场择时。",
+          "若基本面、产品或账户约束失效，按预先约定重新评估。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml",
+      "accessedAt": "2026-10-09T05:00:45.005Z",
+      "dataDate": "2026-10-09",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-09T05:00:45.005Z",
+      "dataDate": "2026-10-09",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-10-09T05:00:45.005Z",
+      "dataDate": "2026-10-08",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-09T05:00:45.005Z",
+      "dataDate": "2026-10-08",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-09T05:02:03.681Z",
+      "dataDate": "2026-10-08",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年9月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261008_1965465.html",
+      "accessedAt": "2026-10-09T05:04:00Z",
+      "dataDate": "2026年9月下旬数据，2026-10-09发布",
+      "metricDefinition": "全国流通领域9大类50种重要生产资料市场价格变动"
+    },
+    {
+      "label": "美联储：2026年9月15日至16日联邦公开市场委员会会议纪要",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm",
+      "accessedAt": "2026-10-09T05:04:30Z",
+      "dataDate": "2026-09-15至2026-09-16会议，2026-10-07发布",
+      "metricDefinition": "联邦基金利率目标区间、经济判断与未来政策取决于数据的讨论"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part I",
+      "url": "https://jlcollinsnh.com/2012/04/15/stocks-part-1-theres-a-major-market-crash-coming-and-dr-lo-cant-save-you/",
+      "accessedAt": "2026-10-09T05:03:30Z",
+      "dataDate": "官网文章发布于2012-04-15，修改于2023-10-10",
+      "metricDefinition": "完整文章论证单元：市场急跌、恐慌退出、迟到重返与长期行为纪律"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
