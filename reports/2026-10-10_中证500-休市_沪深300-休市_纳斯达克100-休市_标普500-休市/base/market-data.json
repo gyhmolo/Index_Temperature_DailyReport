@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T05:26:20.882Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "上海证券交易所公告明确，2026年10月10日为星期六并按周末休市；深圳证券交易所年度交易日历也说明周末休市。今天不抓取四个指数估值，不创建估值日历或重试状态。对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国资本市场政策沟通",
+      "headline": "证监会召开资本市场和金融形势专家座谈会",
+      "implication": "事实：证监会10月10日召开座谈会，听取上市公司负责人和证券基金机构专家意见。与会专家的建议包括加强稳市机制、拓宽中长期资金来源、完善投资者回报、优化发行上市制度、强化交易监管和跨境风险监测。推断：监管部门正在收集涉及资金来源、市场制度和风险监测的意见。不能据此判断：专家建议不等于已出台政策，也不能据此预测市场方向。",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663814/content.shtml"
+    },
+    {
+      "market": "中国公募基金制度",
+      "headline": "公募基金运作管理办法及配套规则公开征求意见",
+      "implication": "事实：证监会10月9日就公募基金运作管理办法及配套规则公开征求意见，修订内容包括完善投资运作监管要求、压实管理人职责、支持权益类基金发展和优化部分监管指标及机制。推断：若规则经程序发布实施，基金产品注册、投资限制、申购赎回、收益分配和持有人大会等制度约束可能调整。不能据此判断：征求意见稿尚未正式生效，不能当作现行规则或产品收益承诺。",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-10:2435407021",
+    "sourceType": "blog",
+    "title": "债务占用的不只是钱，还有未来选择",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "Stocks—Part XXVIII，官网文章，发布于2015-03-26，更新于2025-05-12",
+    "sourceUrl": "https://jlcollinsnh.com/2015/03/26/stocks-part-xxviii-debt-the-unacceptable-burden/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：债务的影响不只是一笔利息支出。固定偿付会提前占用未来现金流，缩小工作、家庭和生活选择。作者主张优先处理高成本债务，但其对所有债务的强烈否定和旧利率阈值属于特定时期的美国个人观点，不能直接迁移。",
+    "takeaways": [
+      "债务把未来收入的一部分预先锁定为偿付义务，利息会降低可用于储备、消费和长期目标的现金流。",
+      "文章给出的偿债次序是先列出全部债务，在满足各项最低还款后，把额外现金用于利率最高的债务。",
+      "住房、教育和经营负债的合同、抵押物、税务、提前还款费用与违约后果不同，不能只凭“好债务”或“坏债务”标签判断。"
+    ],
+    "fit": [
+      "FIRE",
+      "家庭财务",
+      "风险控制",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "利率优先偿债",
+      "explanation": "原理：在每项债务按约偿付的前提下，将同一笔额外还款用于有效成本最高的债务，可以先停止最昂贵的利息累积；在还款预算相同且不存在额外费用时，这种顺序通常减少总利息。",
+      "applicability": "适用条件：债务合同允许提前还款，已比较名义利率、复利频率、手续费、税务和罚息，并保留必要流动性。它主要解释消费信贷等可比较负债，不自动覆盖经营贷款、住房贷款或法律争议债务。",
+      "misconception": "常见误区：把全部债务视为同一种合同，或为了降低利息而耗尽应急流动性。作者附录中的利率阈值来自旧美国低利率环境；中国的征信、按揭、助学贷款、提前还款和个人破产边界需要按当前合同与法律核验。"
+    },
+    "quote": "Simple, yes. Easy, no.",
+    "application": "今天的监管信息讨论基金运作和市场机制，文章则解释家庭负债如何形成现金流约束。两者共同说明，制度和合同会改变可选动作；这里仅作概念拆解，不生成个人偿债方案。",
+    "dont": "边界：不把作者的美国个人经历、旧金额、旧利率阈值或学生贷款规则当作中国当前制度，也不把所有住房、教育和经营负债归为同一风险。",
+    "images": [
+      {
+        "filename": "reading-debt-choice.png",
+        "alt": "收入水流经过多道利息闸门后只剩较小水流通向多种生活选择的示意图",
+        "caption": "一股收入水流经过多道闸门，每道闸门把一部分水引向固定偿付，剩余水流才进入住房、教育、休息与其他选择的路径。图示表达现金流约束，不代表具体利率、合同或还款方案。",
+        "steps": [
+          "收入首先进入现金流系统。",
+          "债务合同把部分收入锁定为本金、利息和费用。",
+          "固定偿付越重，可用于其他目标的现金流越少。",
+          "不同合同还需分别核对利率、期限、抵押、费用和法律后果。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://www.sse.com.cn/disclosure/announcement/general/c/c_20260915_10832273.shtml",
+      "accessedAt": "2026-10-10T05:26:20.882Z",
+      "dataDate": "2026-09-17发布",
+      "metricDefinition": "2026年10月10日为星期六并按周末休市"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://investor.szse.cn/English/services/trading/calendar/index.html",
+      "accessedAt": "2026-10-10T05:26:20.882Z",
+      "dataDate": "2026年交易日历",
+      "metricDefinition": "周末休市及年度节假日交易安排"
+    },
+    {
+      "label": "中国证监会：资本市场和金融形势专家座谈会",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663814/content.shtml",
+      "accessedAt": "2026-10-10T05:26:20.882Z",
+      "dataDate": "2026-10-10发布",
+      "metricDefinition": "会议参与者、讨论事项及与会专家建议；不等于已出台政策"
+    },
+    {
+      "label": "中国证监会：公募基金运作管理办法及配套规则公开征求意见",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
+      "accessedAt": "2026-10-10T05:26:20.882Z",
+      "dataDate": "2026-10-09发布",
+      "metricDefinition": "征求意见稿的修订目的和主要内容；尚未正式生效"
+    },
+    {
+      "label": "J.L. Collins：Debt – The Unacceptable Burden",
+      "url": "https://jlcollinsnh.com/2015/03/26/stocks-part-xxviii-debt-the-unacceptable-burden/",
+      "accessedAt": "2026-10-10T05:26:20.882Z",
+      "dataDate": "2015-03-26发布，2025-05-12更新",
+      "metricDefinition": "债务、利息、现金流、偿债顺序与住房、教育、经营负债边界的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
