@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T05:05:33Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月13日为星期二。上交所、深交所2026年休市安排显示，国庆节休市后10月8日起照常开市，因此当日为A股交易日。四个指数最近已完成交易日均为2026年10月12日。"
+  },
+  "advice": {
+    "book": "读书记忆：取现率是基线，不是承诺",
+    "principle": "退休取现不能只看长期平均收益，还要考虑开始取现时的收益顺序、费用和支出弹性；固定比例只是情景起点，不是安全承诺。",
+    "do": "记录四个指数的“持有”信号；把家庭支出分为刚性与可调整两类，检查市场下跌初期能否缩减可调整取现，并核对费用、税务和其他现金流来源。",
+    "dont": "不要把书中的4%规则或美国历史成功率直接当作个人安全阈值，也不要根据尚在征求意见或提案阶段的基金规则临时交易。",
+    "context": "事实：四个指数的PE分位均处于“持有”区间；中国证监会的公募基金运作规则修订正在征求意见，美国证监会提出扩大注册基金可交叉交易证券范围。推断：两地监管都在讨论基金运作效率与投资者保护的平衡。不能据此判断：征求意见稿和提案尚未生效，不能据此推断产品费用已经下降或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-12",
+      "expectedDataDate": "2026-10-12",
+      "fetchedAt": "2026-10-13T05:03:07.688Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-12"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-12",
+          "pe": 30.5754,
+          "pb": 2.2154,
+          "fetchedAt": "2026-10-13T05:03:07.688Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.5754,
+      "pePercentile": 0.7310679611650486,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-17",
+      "pb": 2.2154,
+      "pbPercentile": 0.7174757281553398,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-17",
+      "temperature": 0.7242718446601941,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 73.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-12",
+      "expectedDataDate": "2026-10-12",
+      "fetchedAt": "2026-10-13T05:03:07.602Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-12"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-12",
+          "pe": 13.1731,
+          "pb": 1.395,
+          "fetchedAt": "2026-10-13T05:03:07.602Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.1731,
+      "pePercentile": 0.5912621359223301,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-17",
+      "pb": 1.395,
+      "pbPercentile": 0.34757281553398056,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-17",
+      "temperature": 0.46941747572815534,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 59.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-12",
+      "expectedDataDate": "2026-10-12",
+      "fetchedAt": "2026-10-13T05:03:07.559Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-12"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-12",
+          "pe": 30.7803,
+          "pb": 9.7028,
+          "fetchedAt": "2026-10-13T05:03:07.559Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.7803,
+      "pePercentile": 0.4844054580896686,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-10-17",
+      "pb": 9.7028,
+      "pbPercentile": 0.8957115009746589,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-10-17",
+      "temperature": 0.6900584795321638,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 48.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-12",
+      "expectedDataDate": "2026-10-12",
+      "fetchedAt": "2026-10-13T05:03:07.646Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-12"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-12",
+          "pe": 25.3298,
+          "pb": 5.6351,
+          "fetchedAt": "2026-10-13T05:03:07.646Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.3298,
+      "pePercentile": 0.5640776699029126,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-17",
+      "pb": 5.6351,
+      "pbPercentile": 0.9718446601941747,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-17",
+      "temperature": 0.7679611650485436,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 56.4% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国公募基金制度",
+      "headline": "公募基金运作管理办法及配套规则公开征求意见",
+      "implication": "事实：证监会10月9日就修订后的公募基金运作管理办法及配套规则公开征求意见，修订涉及管理人职责、权益类基金发展、产品注册、申购赎回、投资限制、收益分配和持有人大会。推断：若规则经程序发布实施，基金治理和运作约束可能调整。不能据此判断：征求意见稿尚未生效，不能据此推断产品收益或指数方向。",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml"
+    },
+    {
+      "market": "美国注册基金制度",
+      "headline": "美国证监会提出扩大注册基金可交叉交易证券范围",
+      "implication": "事实：美国证监会10月9日提议修订《投资公司法》规则17a-7，拟扩大基金可交叉交易的证券范围，恢复多数固定收益证券，并更新定价、监督和汇总报告要求；意见期为联邦公报发布后60天。推断：若提案采纳，部分交易可能减少公开市场交易成本。不能据此判断：提案尚未生效，也不能据此断言基金费用已下降或投资回报会提高。",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-13:2385074164",
+    "sourceType": "book",
+    "title": "固定取现率不是保险单",
+    "sourceName": "《简单致富》",
+    "author": "J.L. 柯林斯",
+    "locator": "第29章《取现比例：退休后究竟能花多少钱》",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：固定取现率只能作为退休现金流的基线。开始取现的市场时点、资产配置、通胀调整、基金费用和支出弹性会共同决定组合能否支持长期生活。",
+    "takeaways": [
+      "同一取现比例在不同起始年份会出现不同结果；退休初期遇到下跌时继续卖出资产，会削弱后续恢复所依赖的本金。",
+      "历史成功率依赖投资组合、期限、是否随通胀调整、基金费用和数据样本，不能脱离假设只记住一个比例。",
+      "可调整支出、社保或劳动收入等其他现金流能降低对投资组合的固定索取，但具体安排必须服从家庭负债、健康和流动性约束。"
+    ],
+    "fit": [
+      "FIRE",
+      "家庭财务",
+      "资产配置",
+      "风险控制",
+      "生活决策"
+    ],
+    "concept": {
+      "title": "收益顺序风险",
+      "explanation": "原理：积累期只要没有持续取现，收益出现的先后顺序通常不改变期末复合结果；进入取现期后，早期下跌与持续卖出会同时减少本金，使后续即使出现相同平均收益也更难恢复。",
+      "applicability": "适用条件：已经或即将从投资组合持续支付生活费用，需要同时评估取现期限、通胀、费用、税务、资产配置和支出弹性。书中结论来自美国历史样本与退休语境；中国社保、个人养老金、税务、医疗和产品制度不同，不能直接套用美国账户假设。",
+      "misconception": "常见误区：把4%当作适用于所有家庭和所有市场的安全常数，或只比较长期平均收益而忽略退休初期的下跌、基金费率与刚性支出。历史成功率是条件化结果，不是未来保证。"
+    },
+    "quote": "退休后把养老投资账户每年的取现比例定为4%，这只是一个指导方针。",
+    "application": "四个指数今天都由PE分位触发“持有”，这只回答指数规则动作，不回答家庭可以安全花多少钱。我们把投资信号与生活现金流分开，先识别刚性支出和可调整支出，再测试早期市场下跌时的应对空间。",
+    "dont": "不要把美国历史样本、三一研究的成功率、作者个人取现经验或美国产品与税务规则直接当作中国家庭的取现方案，也不要根据一天估值修改长期生活预算。",
+    "images": [
+      {
+        "filename": "reading-sequence-risk.png",
+        "alt": "两组相同天气按不同顺序出现并从投资水库持续取水，最终水位不同的收益顺序风险插图",
+        "caption": "画面分成两条路径：左侧先遇暴雨般的市场冲击，持续取水后水库水位较早下降；右侧先经历晴朗增长，再遇相同冲击时仍保留更高缓冲。两边都向同一所房屋供水，表示生活支出持续发生。图示说明取现期中收益出现的先后顺序会改变结果，不代表具体收益率或取现比例。",
+        "steps": [
+          "把投资组合看作持续为生活支出供水的水库。",
+          "退休初期先遇下跌时，取现会在低水位继续抽走本金。",
+          "先经历增长时，同样的后续下跌发生在更高本金上。",
+          "因此需要把取现比例、支出弹性、费用和其他现金流一起评估。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-13T05:01:51.481Z",
+      "dataDate": "2026-10-13",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年国庆节休市安排",
+      "url": "https://www.szse.cn/www/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-13T05:01:51.481Z",
+      "dataDate": "2026-10-13",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-10-13T05:01:51.481Z",
+      "dataDate": "2026-10-12",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-13T05:01:51.481Z",
+      "dataDate": "2026-10-12",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-13T05:03:07.688Z",
+      "dataDate": "2026-10-12",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "中国证监会：公募基金运作管理办法及配套规则公开征求意见",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
+      "accessedAt": "2026-10-13T05:04:20Z",
+      "dataDate": "2026-10-09发布",
+      "metricDefinition": "征求意见稿的主要修订内容；具体约束以最终生效规则为准"
+    },
+    {
+      "label": "美国证监会：扩大注册基金可交叉交易证券范围的提案",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds",
+      "accessedAt": "2026-10-13T05:04:40Z",
+      "dataDate": "2026-10-09发布",
+      "metricDefinition": "规则提案的范围、定价监督与意见期；尚未生效"
+    },
+    {
+      "label": "J.L. 柯林斯：《简单致富》",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-10-13T05:05:00Z",
+      "dataDate": "第29章",
+      "metricDefinition": "完整论证单元：取现率、收益顺序、通胀、费用与支出弹性"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}

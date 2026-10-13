@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceReport": "daily/2026-10-13_中证500-持有_沪深300-持有_纳斯达克100-持有_标普500-持有/base",
+  "repository": "gyhmolo/Index_Temperature_DailyReport",
+  "branch": "main",
+  "publishedAt": "2026-10-13T05:09:15.627Z",
+  "localPathsRemoved": true,
+  "files": [
+    {
+      "path": "assets/feature-reading.css",
+      "sha256": "3bc2bcb4382728c8619f793422aa87c54c9c1cd066767ad8f786026dec2fb342",
+      "bytes": 2513
+    },
+    {
+      "path": "assets/reading-sequence-risk.png",
+      "sha256": "d292639475d091b35069fb4eb5e12353227ad888ef6f9901222b5ae2b8715d70",
+      "bytes": 2406904
+    },
+    {
+      "path": "assets/report.css",
+      "sha256": "e8ab493b6e8c27622dd300ca8b51eb9749f03a1df49645621078f2be0f7c8adc",
+      "bytes": 5551
+    },
+    {
+      "path": "index.html",
+      "sha256": "d81869bfc0c2efdffb29c5b778023cf252a8eb55d220845c92ee957050581e46",
+      "bytes": 11630
+    },
+    {
+      "path": "market-data.json",
+      "sha256": "98c3c2fb6d2f31f41aef0f1a36bfc1f2fdf5b1b3f836a7d5d113be89c44dd430",
+      "bytes": 14334
+    },
+    {
+      "path": "sources.md",
+      "sha256": "577e96c2a0e5fe449b5d1a3bd46d38e5d4c77e17693e675ae66563fe04237928",
+      "bytes": 2468
+    },
+    {
+      "path": "summary.md",
+      "sha256": "43746423e92a0441c46ad5419878af5b2f9aac805818ee111dc0aab278003eee",
+      "bytes": 1842
+    }
+  ]
+}
