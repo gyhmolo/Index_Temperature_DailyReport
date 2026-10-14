@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T05:08:00Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月14日为星期三。上交所、深交所2026年休市安排显示，国庆节休市后10月8日起照常开市，因此当日为A股交易日。四个指数最近已完成交易日均为2026年10月13日。"
+  },
+  "advice": {
+    "book": "读书记忆：用少数规则减少反复决策",
+    "principle": "简单不是绑定一个产品，而是只保留目标、现金流、资产暴露、成本和失效条件等必要变量；规则用来减少临场判断，同时保留家庭条件、产品与制度变化时的复核入口。",
+    "do": "记录四个指数的“持有”信号；把长期投资规则压缩成一页，核对目标、现金流前提、底层资产、成本、正常动作和失效条件是否写清。",
+    "dont": "不要因一次CPI或PPI发布增加产品、改动长期规则，也不要照搬文章中的美国产品、账户制度、储蓄比例或资产配置。",
+    "context": "事实：9月全国居民消费价格同比上涨0.9%，核心CPI同比上涨1.0%；工业生产者出厂价格同比上涨5.0%、环比上涨1.2%。推断：消费端价格变化温和，上游成本压力增强，企业利润影响可能分化。不能据此判断：单月价格数据不能直接推出货币政策动作、企业定价权或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-13",
+      "expectedDataDate": "2026-10-13",
+      "fetchedAt": "2026-10-14T05:02:30.735Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-13"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-13",
+          "pe": 30.4942,
+          "pb": 2.2111,
+          "fetchedAt": "2026-10-14T05:02:30.735Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.4942,
+      "pePercentile": 0.7310679611650486,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-18",
+      "pb": 2.2111,
+      "pbPercentile": 0.7155339805825243,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-18",
+      "temperature": 0.7233009708737864,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 73.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-13",
+      "expectedDataDate": "2026-10-13",
+      "fetchedAt": "2026-10-14T05:02:30.778Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-13"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-13",
+          "pe": 13.1697,
+          "pb": 1.3946,
+          "fetchedAt": "2026-10-14T05:02:30.778Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.1697,
+      "pePercentile": 0.5912621359223301,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-18",
+      "pb": 1.3946,
+      "pbPercentile": 0.3446601941747573,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-18",
+      "temperature": 0.4679611650485437,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 59.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-13",
+      "expectedDataDate": "2026-10-13",
+      "fetchedAt": "2026-10-14T05:02:30.693Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-13"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-13",
+          "pe": 30.7421,
+          "pb": 9.6908,
+          "fetchedAt": "2026-10-14T05:02:30.693Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.7421,
+      "pePercentile": 0.4824561403508772,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-10-18",
+      "pb": 9.6908,
+      "pbPercentile": 0.8937621832358674,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-10-18",
+      "temperature": 0.6881091617933723,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 48.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-13",
+      "expectedDataDate": "2026-10-13",
+      "fetchedAt": "2026-10-14T05:02:30.823Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-13"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-13",
+          "pe": 25.3172,
+          "pb": 5.6884,
+          "fetchedAt": "2026-10-14T05:02:30.823Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.3172,
+      "pePercentile": 0.5640776699029126,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-18",
+      "pb": 5.6884,
+      "pbPercentile": 0.9796116504854369,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-18",
+      "temperature": 0.7718446601941747,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 56.4% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国居民价格",
+      "headline": "9月CPI同比上涨0.9%，核心CPI同比上涨1.0%",
+      "implication": "事实：国家统计局公布，9月全国居民消费价格同比上涨0.9%、环比上涨0.2%，扣除食品和能源价格的核心CPI同比上涨1.0%。推断：消费端价格变化温和，企业面向居民部门的价格环境仍需结合行业观察。不能据此判断：单月CPI不能直接推出货币政策动作、消费需求趋势或指数方向。",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202610/t20261014_1965477.html"
+    },
+    {
+      "market": "中国工业价格",
+      "headline": "9月PPI同比上涨5.0%、环比上涨1.2%",
+      "implication": "事实：国家统计局公布，9月工业生产者出厂价格同比上涨5.0%、环比上涨1.2%，生产资料价格同比上涨6.5%。推断：上游原材料与生产资料成本压力增强，对企业现金流和利润率的影响可能因行业定价能力而分化。不能据此判断：PPI上涨不等于所有企业都能提价，也不能直接推出企业利润或指数方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261014_1965476.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-14:2368296545",
+    "sourceType": "blog",
+    "title": "少做反复决定：最低可行财务系统",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，2011-06-08发布，2023-09-06更新",
+    "sourceUrl": "https://jlcollinsnh.com/2011/06/08/how-i-failed-my-daughter-and-a-simple-path-to-wealth/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：简单投资的价值不是寻找万能产品，而是把储蓄、债务、成本、资产暴露和下跌时的行为压缩成少数可执行规则，减少持续管理金钱占用的注意力。",
+    "takeaways": [
+      "把目标、现金流边界、成本、分散和市场下跌时的动作预先写清，能够减少临场决策与行为偏差。",
+      "简单系统只有在底层资产适合、成本透明、现金流允许长期持有时成立，并且要保留条件变化后的复核入口。",
+      "文章中的美国产品、账户、储蓄比例与资产配置带有作者经历和制度背景，不能脱离中国市场、税务与家庭约束直接照搬。"
+    ],
+    "fit": [
+      "FIRE",
+      "行为纪律",
+      "家庭财务",
+      "生活决策",
+      "低成本指数"
+    ],
+    "concept": {
+      "title": "决策变量压缩",
+      "explanation": "原理：把反复出现的判断压缩为少数必要变量和预先约定的动作，可以降低注意力消耗与临场偏差；规则的价值来自可理解、可执行和可复核，而不是变量越少越好。",
+      "applicability": "适用条件：目标清楚、收入与应急流动性基本稳定、底层资产和费用可理解，并愿意在家庭负债、产品结构或制度发生变化时复核。文章以美国市场和作者家庭为背景；中国基金费率、交易制度、税务、社保与个人养老金安排不同，不能直接套用美国产品和账户结论。",
+      "misconception": "常见误区：把“简单”等同于永远持有一个指定产品、取消复核，或照搬固定储蓄率和股票比例。最低可行系统仍需要现金流前提、资产边界、成本与失效条件。"
+    },
+    "quote": "So is there a simple way for folks who have better things to do with their time?",
+    "application": "四个指数今天仍由PE分位触发“持有”；同日公布的CPI与PPI提供盈利和成本背景，但没有改变既定规则。我们可以把这次核对变成一页清单，明确正常动作和需要重新评估的条件。",
+    "dont": "不要因单次价格数据增加产品或临时改规则，也不要把作者的美国产品选择、账户制度、储蓄比例和资产配置当作中国家庭的默认答案。",
+    "images": [
+      {
+        "filename": "reading-decision-compression.png",
+        "alt": "纠缠的决策线索经过漏斗变成四条清晰路径，连接家庭、工作、健康与休息的决策变量压缩插图",
+        "caption": "左侧的纠缠线路、空白纸片、开关和齿轮表示需要反复处理的决策；中间漏斗把它们压缩为四条清晰路径；右侧家庭、工作、健康和休息表示被释放的注意力。画面说明简化是减少不必要变量，不代表取消复核或承诺收益。",
+        "steps": [
+          "先写清目标、现金流和需要保护的生活边界。",
+          "只保留底层资产、成本与分散等必要变量。",
+          "预先写下正常动作和触发复核的失效条件。",
+          "把减少的决策负担转回家庭、工作、健康与休息。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-14T05:00:55.985Z",
+      "dataDate": "2026-10-14",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年国庆节休市安排",
+      "url": "https://www.szse.cn/www/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-14T05:00:55.985Z",
+      "dataDate": "2026-10-14",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-10-14T05:00:55.985Z",
+      "dataDate": "2026-10-13",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-14T05:00:55.985Z",
+      "dataDate": "2026-10-13",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-14T05:02:30.823Z",
+      "dataDate": "2026-10-13",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年9月份居民消费价格同比上涨0.9%",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202610/t20261014_1965477.html",
+      "accessedAt": "2026-10-14T05:04:00Z",
+      "dataDate": "2026-10-14发布，数据期2026年9月",
+      "metricDefinition": "全国居民消费价格同比、环比和核心CPI"
+    },
+    {
+      "label": "国家统计局：2026年9月份工业生产者出厂价格同比上涨5.0%",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261014_1965476.html",
+      "accessedAt": "2026-10-14T05:04:20Z",
+      "dataDate": "2026-10-14发布，数据期2026年9月",
+      "metricDefinition": "工业生产者出厂价格与购进价格同比、环比"
+    },
+    {
+      "label": "国家统计局：统计解读2026年9月份CPI和PPI",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261014_1965475.html",
+      "accessedAt": "2026-10-14T05:04:40Z",
+      "dataDate": "2026-10-14发布，数据期2026年9月",
+      "metricDefinition": "CPI、核心CPI与PPI变化的官方解读"
+    },
+    {
+      "label": "J.L. Collins：How I Failed My Daughter and a Simple Path to Wealth",
+      "url": "https://jlcollinsnh.com/2011/06/08/how-i-failed-my-daughter-and-a-simple-path-to-wealth/",
+      "accessedAt": "2026-10-14T05:06:00Z",
+      "dataDate": "2011-06-08发布，2023-09-06更新",
+      "metricDefinition": "完整官网文章：以少数规则减少财务决策负担；美国产品、比例与账户结论不外推"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
