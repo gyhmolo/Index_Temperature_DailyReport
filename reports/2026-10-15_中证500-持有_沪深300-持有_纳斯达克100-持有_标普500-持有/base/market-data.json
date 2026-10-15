@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T05:09:11Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月15日为星期四。上交所、深交所2026年休市安排显示，国庆节休市后10月8日起照常开市，因此当日为A股交易日。四个指数最近已完成交易日均为2026年10月14日。"
+  },
+  "advice": {
+    "book": "读书记忆：先辨认价格变化的原因",
+    "principle": "价格下降不是单一信号：生产率提高带来的降价可能扩大购买力，需求、利润、生产与就业相互收缩才构成危险的通缩螺旋；判断宏观环境要先找传导链，而不是只看一个价格数字。",
+    "do": "记录四个指数的“持有”信号；把价格变化拆成生产率改善、成本冲击和需求收缩三类，再检查它们是否已经影响企业收入、利润、用工与现金流。",
+    "dont": "不要因为某个价格分项下降就判定通缩螺旋，也不要因单月CPI、PPI或一次地区调查改变长期投资规则。",
+    "context": "事实：中国9月CPI同比上涨0.9%、核心CPI同比上涨1.0%，PPI同比上涨5.0%；美联储褐皮书称多数地区消费支出变化不大、就业总体变化不大，价格增长以中等或强劲为主。推断：当前中美价格与需求信号并不支持把局部降价直接解释为全面通缩。不能据此判断：这些数据不能单独推出货币政策、企业利润或指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-14",
+      "expectedDataDate": "2026-10-14",
+      "fetchedAt": "2026-10-15T05:06:05.895Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-14"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-14",
+          "pe": 30.0943,
+          "pb": 2.1822,
+          "fetchedAt": "2026-10-15T05:06:05.895Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.0943,
+      "pePercentile": 0.7218992248062015,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-19",
+      "pb": 2.1822,
+      "pbPercentile": 0.7044573643410853,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-19",
+      "temperature": 0.7131782945736433,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 72.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-14",
+      "expectedDataDate": "2026-10-14",
+      "fetchedAt": "2026-10-15T05:06:05.855Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-14"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-14",
+          "pe": 13.0883,
+          "pb": 1.3862,
+          "fetchedAt": "2026-10-15T05:06:05.855Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.0883,
+      "pePercentile": 0.5668604651162791,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-19",
+      "pb": 1.3862,
+      "pbPercentile": 0.3246124031007752,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-19",
+      "temperature": 0.44573643410852715,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 56.7% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-14",
+      "expectedDataDate": "2026-10-14",
+      "fetchedAt": "2026-10-15T05:06:05.937Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-14"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-14",
+          "pe": 30.0799,
+          "pb": 9.5014,
+          "fetchedAt": "2026-10-15T05:06:05.937Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 30.0799,
+      "pePercentile": 0.4367704280155642,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-10-19",
+      "pb": 9.5014,
+      "pbPercentile": 0.853112840466926,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-10-19",
+      "temperature": 0.6449416342412451,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 43.7% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-14",
+      "expectedDataDate": "2026-10-14",
+      "fetchedAt": "2026-10-15T05:06:05.813Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-14"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-14",
+          "pe": 25.0239,
+          "pb": 5.571,
+          "fetchedAt": "2026-10-15T05:06:05.813Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.0239,
+      "pePercentile": 0.5358527131782945,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-19",
+      "pb": 5.571,
+      "pbPercentile": 0.9505813953488372,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-19",
+      "temperature": 0.7432170542635659,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 53.6% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国居民价格",
+      "headline": "9月CPI同比上涨0.9%，核心CPI同比上涨1.0%",
+      "implication": "事实：国家统计局公布，9月全国居民消费价格同比上涨0.9%、环比上涨0.2%，扣除食品和能源价格的核心CPI同比上涨1.0%。推断：居民消费端价格变化温和，企业面向居民部门的价格环境仍需结合行业和收入观察。不能据此判断：单月CPI不能直接推出货币政策动作、消费趋势或指数方向。",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202610/t20261014_1965477.html"
+    },
+    {
+      "market": "中国工业价格",
+      "headline": "9月PPI同比上涨5.0%、环比上涨1.2%",
+      "implication": "事实：国家统计局公布，9月工业生产者出厂价格同比上涨5.0%、环比上涨1.2%，生产资料价格同比上涨6.5%。推断：上游投入成本压力增强，企业现金流和利润率影响可能因行业定价能力分化。不能据此判断：PPI上涨不等于所有企业都能提价，也不能直接推出利润或指数方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261014_1965476.html"
+    },
+    {
+      "market": "美国经济与价格",
+      "headline": "美联储褐皮书称多数地区消费与就业变化有限，价格压力仍在",
+      "implication": "事实：10月褐皮书显示，十二个联储地区中多数报告消费支出变化不大，就业总体变化不大；八个地区称总体价格增长中等，三个称强劲，四个称涨价速度加快。推断：企业面临的能源、关税、保险和利润率压力仍可能影响现金流与定价。不能据此判断：该调查收集截至10月5日的定性信息，不代表联储官员观点，也不能单独预测政策或市场方向。",
+      "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-15:2351518926",
+    "sourceType": "blog",
+    "title": "降价不等于通缩：先辨认原因",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，2012-12-11发布，2023-11-28更新",
+    "sourceUrl": "https://jlcollinsnh.com/2012/12/11/stocks-part-xiv-deflation-the-ugly-escort-of-depressions/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：价格下降的含义取决于原因。技术和生产率提高带来的降价可以提升购买力；需求、利润、生产和就业相互收缩，才可能形成难以打断的通缩螺旋。",
+    "takeaways": [
+      "先区分生产率推动的成本下降与需求收缩导致的降价，二者对企业利润、就业和现金流的含义不同。",
+      "通缩螺旋不是一个价格数字，而是需求、售价、利润、生产和就业相互强化的反馈链。",
+      "现金、债券和固定收入在通缩中的表现还取决于违约、期限、流动性和制度；文章的美国经验不能直接转成中美市场配置结论。"
+    ],
+    "fit": [
+      "风险控制",
+      "行为纪律",
+      "指数投资",
+      "宏观概念",
+      "家庭财务"
+    ],
+    "concept": {
+      "title": "通缩螺旋",
+      "explanation": "原理：需求走弱压低价格和企业收入，利润下降促使企业减产或减少用工，收入与需求随之更弱，形成自我强化的循环；生产率提高带来的相对价格下降不等于这条循环。",
+      "applicability": "适用条件：需要同时观察需求、收入、企业利润、产量和就业等变量，并确认它们存在持续的负向反馈。A股与美股的行业结构、融资渠道和政策传导不同；美国社会保障、养老金、税收递延账户与中国社保、个人养老金和债券税费规则也不同，现金或债券结论不能直接照搬。",
+      "misconception": "常见误区：把某个商品降价、一次CPI回落或技术进步带来的成本下降都叫作通缩；只看价格水平，不检查就业、利润、产量和违约风险。"
+    },
+    "quote": "deflation is the lowering of prices and the increasing of the value of money.",
+    "application": "今天的中国CPI与PPI、美国褐皮书都提供了价格和需求线索，但没有形成单一宏观结论。四个指数仍按PE分位给出“持有”；我们先核对传导链，再决定是否需要复核长期规则。",
+    "dont": "不要把局部降价或单月数据直接解释为通缩螺旋，也不要照搬文章中围绕美国社会保障、养老金、现金和债券的制度结论。",
+    "images": [
+      {
+        "filename": "reading-deflation-mechanisms.png",
+        "alt": "两栏插图对比生产率提高带来的降价和需求就业利润相互收缩的通缩螺旋",
+        "caption": "左栏把更高效率的生产、更多产出与家庭购买力连接起来；右栏用闭合箭头表现谨慎消费、降价、减产与就业受压的反馈。画面只区分两种机制，不代表任何市场预测。",
+        "steps": [
+          "先问降价是否来自技术、流程或生产率改善。",
+          "再检查需求和企业收入是否持续转弱。",
+          "继续核对利润、产量与就业是否相互强化。",
+          "只有形成持续负反馈时，才讨论通缩螺旋。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-15T05:04:48.067Z",
+      "dataDate": "2026-10-15",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年国庆节休市安排",
+      "url": "https://www.szse.cn/www/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-15T05:04:48.067Z",
+      "dataDate": "2026-10-15",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-10-15T05:04:48.067Z",
+      "dataDate": "2026-10-14",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-15T05:04:48.067Z",
+      "dataDate": "2026-10-14",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-15T05:06:05.937Z",
+      "dataDate": "2026-10-14",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年9月份居民消费价格同比上涨0.9%",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202610/t20261014_1965477.html",
+      "accessedAt": "2026-10-15T05:08:00Z",
+      "dataDate": "2026-10-14发布，数据期2026年9月",
+      "metricDefinition": "全国居民消费价格同比、环比和核心CPI"
+    },
+    {
+      "label": "国家统计局：2026年9月份工业生产者出厂价格同比上涨5.0%",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261014_1965476.html",
+      "accessedAt": "2026-10-15T05:08:00Z",
+      "dataDate": "2026-10-14发布，数据期2026年9月",
+      "metricDefinition": "工业生产者出厂价格、购进价格与生产资料价格"
+    },
+    {
+      "label": "美联储：2026年10月褐皮书全国摘要",
+      "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202610-summary.htm",
+      "accessedAt": "2026-10-15T05:07:00Z",
+      "dataDate": "2026-10-14更新，信息收集截至2026-10-05",
+      "metricDefinition": "十二个联储地区的经济活动、消费、就业与价格定性调查"
+    },
+    {
+      "label": "J.L. Collins：Stocks Part XIV: Deflation, the Ugly Escort of Depressions",
+      "url": "https://jlcollinsnh.com/2012/12/11/stocks-part-xiv-deflation-the-ugly-escort-of-depressions/",
+      "accessedAt": "2026-10-15T05:07:30Z",
+      "dataDate": "2012-12-11发布，2023-11-28更新",
+      "metricDefinition": "完整本地镜像：区分生产率驱动的降价与需求收缩形成的通缩螺旋；美国制度结论不外推"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}

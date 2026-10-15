@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceReport": "daily/2026-10-15_中证500-持有_沪深300-持有_纳斯达克100-持有_标普500-持有/base",
+  "repository": "gyhmolo/Index_Temperature_DailyReport",
+  "branch": "main",
+  "publishedAt": "2026-10-15T05:12:47.320Z",
+  "localPathsRemoved": true,
+  "files": [
+    {
+      "path": "assets/feature-reading.css",
+      "sha256": "3bc2bcb4382728c8619f793422aa87c54c9c1cd066767ad8f786026dec2fb342",
+      "bytes": 2513
+    },
+    {
+      "path": "assets/reading-deflation-mechanisms.png",
+      "sha256": "c2060be3c7a8b8934d69cd5a54ec5304f4d78d2852cb158abe1011e5134492a8",
+      "bytes": 2664309
+    },
+    {
+      "path": "assets/report.css",
+      "sha256": "e8ab493b6e8c27622dd300ca8b51eb9749f03a1df49645621078f2be0f7c8adc",
+      "bytes": 5551
+    },
+    {
+      "path": "index.html",
+      "sha256": "44292301b8593886de9213944a50d992f3591233c8eebf18ebc011c17d5d5cc9",
+      "bytes": 11882
+    },
+    {
+      "path": "market-data.json",
+      "sha256": "3094952b14988c8cec325ae7c989cf8f7caf94fcf751588d63f7bb4bdf27cd4e",
+      "bytes": 15102
+    },
+    {
+      "path": "sources.md",
+      "sha256": "97b0dbd1d378562403d5aa7fde32d66bf9759f35720e72c4d69a865981b4766a",
+      "bytes": 2709
+    },
+    {
+      "path": "summary.md",
+      "sha256": "6bfd424b0764c4c7e65f5117338aea10fc28179d446bbfd9e423e440ecf77e52",
+      "bytes": 1965
+    }
+  ]
+}
