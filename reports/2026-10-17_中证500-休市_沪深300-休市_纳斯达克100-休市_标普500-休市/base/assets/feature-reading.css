@@ -1,0 +1,158 @@
+h1 {
+  font-size: clamp(42px, 6.5vw, 76px);
+  line-height: .96;
+  letter-spacing: -.045em;
+}
+
+.reading-card {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  gap: 28px;
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, .38);
+}
+
+.reading-copy h3 {
+  margin: 7px 0 4px;
+  font: 700 clamp(25px, 3.2vw, 38px)/1.2 Georgia, "Songti SC", serif;
+}
+
+.reading-source,
+.reading-gallery figcaption {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.reading-summary {
+  margin: 22px 0 14px;
+  font-size: 17px;
+}
+
+.reading-fit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.reading-fit strong,
+.reading-fit span {
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.reading-fit strong {
+  padding-left: 0;
+  color: var(--muted);
+}
+
+.reading-fit span {
+  background: rgba(29, 78, 137, .1);
+  color: var(--blue);
+}
+
+.reading-copy ul {
+  margin: 12px 0 20px;
+  padding-left: 1.25em;
+}
+
+.reading-quote {
+  margin: 20px 0;
+  padding-left: 16px;
+  border-left: 3px solid var(--amber);
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.concept-card {
+  margin: 20px 0;
+  padding: 17px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.concept-card h4 {
+  margin: 5px 0 10px;
+  font-size: 18px;
+}
+
+.concept-card p {
+  margin: 7px 0;
+  font-size: 14px;
+}
+
+.reading-actions {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  border-radius: 14px;
+  background: rgba(45, 106, 79, .08);
+}
+
+.reading-actions p,
+.reading-gallery figure {
+  margin: 0;
+}
+
+.reading-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.reading-gallery {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.reading-gallery figure {
+  overflow: hidden;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, .3);
+}
+
+.reading-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.reading-gallery figcaption {
+  padding: 10px 12px 12px;
+}
+
+.reading-steps {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px 18px;
+  margin: 9px 0 0;
+  padding-left: 1.6em;
+  color: var(--ink);
+}
+
+@media (max-width: 720px) {
+  .reading-card {
+    grid-template-columns: 1fr;
+    padding: 18px;
+  }
+
+  .reading-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .reading-card {
+    background: rgba(255, 255, 255, .04);
+  }
+
+  .reading-actions {
+    background: rgba(115, 166, 224, .08);
+  }
+}
