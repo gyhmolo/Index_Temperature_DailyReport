@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T05:06:24Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月20日为星期二。上交所、深交所2026年休市安排显示，国庆节休市后10月8日起照常开市，因此当日为A股交易日。四个指数最近已完成交易日均为2026年10月19日。"
+  },
+  "advice": {
+    "book": "读书记忆：《简单致富》第5章",
+    "principle": "一次市场择时包含两个决定：何时离场，何时重新进入。只做对前一个决定仍可能错过后续上涨；预先写明资金期限、资产配置和复核条件，比临场预测更可执行。",
+    "do": "记录四个指数的“持有”信号；检查纳斯达克100由昨日“定投”转为“持有”只因PE分位跨过规则边界，不改变既定资金期限与资产配置。",
+    "dont": "不要把一天的规则分类变化解读成趋势确认，也不要为了躲避短线波动同时猜高点与低点，更不要借钱放大动作。",
+    "context": "事实：前三季度全国城镇调查失业率平均值为5.2%，城镇30—59岁劳动力失业率平均值为4.1%；高技术产业投资增长4.9%，设备工器具购置投资增长9.7%；规模以上工业增加值增长5.3%。推断：就业、资本开支和工业利润的变化存在行业差异，企业盈利与家庭现金流不会同步。不能据此判断：这些结构数据不能单独预测指数方向，也不能替代家庭资金期限与风险能力检查。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-19",
+      "expectedDataDate": "2026-10-19",
+      "fetchedAt": "2026-10-20T05:04:26.109Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-19",
+          "pe": 29.5123,
+          "pb": 2.1405,
+          "fetchedAt": "2026-10-20T05:04:26.109Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 29.5123,
+      "pePercentile": 0.7116504854368932,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-24",
+      "pb": 2.1405,
+      "pbPercentile": 0.6873786407766991,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-24",
+      "temperature": 0.6995145631067962,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 71.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-19",
+      "expectedDataDate": "2026-10-19",
+      "fetchedAt": "2026-10-20T05:04:26.198Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-19",
+          "pe": 13.0493,
+          "pb": 1.385,
+          "fetchedAt": "2026-10-20T05:04:26.198Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.0493,
+      "pePercentile": 0.5601941747572815,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-24",
+      "pb": 1.385,
+      "pbPercentile": 0.3233009708737864,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-24",
+      "temperature": 0.44174757281553395,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 56.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-19",
+      "expectedDataDate": "2026-10-19",
+      "fetchedAt": "2026-10-20T05:04:26.067Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-19",
+          "pe": 29.7411,
+          "pb": 9.3944,
+          "fetchedAt": "2026-10-20T05:04:26.067Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 29.7411,
+      "pePercentile": 0.4142300194931774,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-10-24",
+      "pb": 9.3944,
+      "pbPercentile": 0.8079922027290448,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-10-24",
+      "temperature": 0.6111111111111112,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 41.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-19",
+      "expectedDataDate": "2026-10-19",
+      "fetchedAt": "2026-10-20T05:04:26.153Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-19",
+          "pe": 24.9047,
+          "pb": 5.5531,
+          "fetchedAt": "2026-10-20T05:04:26.153Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 24.9047,
+      "pePercentile": 0.529126213592233,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-24",
+      "pb": 5.5531,
+      "pbPercentile": 0.9446601941747573,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-24",
+      "temperature": 0.7368932038834952,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 52.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国就业",
+      "headline": "前三季度城镇调查失业率平均值为5.2%",
+      "implication": "事实：国家统计局公布，前三季度全国城镇调查失业率平均值为5.2%，与上年同期持平；9月为5.2%，城镇30—59岁劳动力前三季度平均失业率为4.1%。推断：就业总量保持平稳，但行业与年龄结构仍会影响家庭现金流。不能据此判断：全国平均值不能替代单个家庭的收入稳定性，也不能单独预测消费或指数方向。",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965632.html"
+    },
+    {
+      "market": "中国资本开支",
+      "headline": "高技术产业投资增长4.9%，设备购置投资增长9.7%",
+      "implication": "事实：国家统计局公布，前三季度高技术产业投资同比增长4.9%，知识产权产品投资增长9.3%，设备工器具购置投资增长9.7%。推断：资本开支向技术、设备和知识产权集中，相关行业订单与现金流可能优于总量。不能据此判断：结构增长不能证明所有企业利润同步改善，也不能直接推导市场风格或指数涨跌。",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965634.html"
+    },
+    {
+      "market": "中国工业盈利",
+      "headline": "前三季度工业增加值增长5.3%，1—8月工业利润增长15.7%",
+      "implication": "事实：国家统计局公布，前三季度规模以上工业增加值同比增长5.3%，高技术制造业增加值增长14.3%；1—8月规模以上工业企业利润增长15.7%。推断：生产和利润增长具有行业集中度，指数成份的盈利兑现仍需看公司与行业结构。不能据此判断：工业总量和阶段性利润不能证明估值会继续抬升，也不能替代指数估值规则。",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965645.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-20:1999336022",
+    "sourceType": "book",
+    "title": "择时不是一个决定，而是两个",
+    "sourceName": "《简单致富》",
+    "author": "J.L. 柯林斯",
+    "locator": "第5章：如何在牛市和熊市中投资",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：短期择时不是只判断一次高点，而是必须先在合适时点离场，再在合适时点重新进入；两次决定都要正确，才能避免把一次回撤规避变成长期踏空。",
+    "takeaways": [
+      "牛市中的贪婪和熊市中的恐惧会把同一个问题包装成相反方向，但都会诱导我们临时改动长期计划。",
+      "卖出只是第一步；如果没有事先写明重新进入条件，等待更低价格可能让投资者错过恢复和后续上涨。",
+      "长期持有的前提不是忽略风险，而是资金期限、资产配置和流动缓冲允许我们承受权益波动。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "风险控制",
+      "行为纪律",
+      "资产配置",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "双重择时风险",
+      "explanation": "市场择时由离场与再进入两步组成。第一步避开下跌并不够，第二步若晚于反弹，少亏的部分可能被错过的上涨抵消；连续做对两步比单次判断更难。",
+      "applicability": "适合检查因短期涨跌预测而改变宽基长期计划的决定。前提是底层资产仍适合、资金期限足够、没有杠杆或近期刚性用钱。中国与美国市场的交易制度、税费、时区和跨境通道不同，离场与再进入成本必须按实际账户重新核对。",
+      "misconception": "把成功躲过一次下跌等同于择时策略有效，忽略重新进入的时间、交易成本、税费和踏空风险。"
+    },
+    "quote": "选准卖出、买入的时机，长期来看是根本不可能赢的比赛。",
+    "application": "今天四个指数都是“持有”。纳斯达克100从规则边界的一侧移动到另一侧，说明分类会随数据变化，不等于短期趋势得到确认；我们只记录机械信号，不追加方向预测。",
+    "dont": "不要因为一天的分类变化临时离场或追入，也不要把美国长期市场经验直接外推为中国市场、具体产品或个人账户的收益保证。",
+    "images": [
+      {
+        "filename": "reading-double-timing-risk.png",
+        "alt": "三幅插图展示上涨与下跌中的情绪、离场与再进入两道关口，以及按清单管理三类资金",
+        "caption": "三幅画面依次展示牛市与熊市会触发相反情绪、市场择时必须连续做对离场与再进入两道判断、以及把近期支出、应急流动性和长期投资分开后按书面清单执行。图示只解释决策结构，不预测市场方向或收益。",
+        "steps": [
+          "先识别上涨与下跌中推动临时决策的情绪。",
+          "再把择时拆成离场和重新进入两次独立判断。",
+          "最后用资金分层、资产配置和复核条件替代临场预测。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-20T05:02:14.758Z",
+      "dataDate": "2026-10-20",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-20T05:02:14.758Z",
+      "dataDate": "2026-10-20",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-10-20T05:02:14.758Z",
+      "dataDate": "2026-10-19",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-20T05:02:14.758Z",
+      "dataDate": "2026-10-19",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-20T05:04:26.198Z",
+      "dataDate": "2026-10-19",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：就业形势总体稳定",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965632.html",
+      "accessedAt": "2026-10-20T05:05:40Z",
+      "dataDate": "2026-10-20发布，数据期2026年前三季度",
+      "metricDefinition": "城镇调查失业率与重点群体就业"
+    },
+    {
+      "label": "国家统计局：投资结构持续优化",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965634.html",
+      "accessedAt": "2026-10-20T05:05:40Z",
+      "dataDate": "2026-10-20发布，数据期2026年前三季度",
+      "metricDefinition": "高技术产业、知识产权产品与设备购置投资"
+    },
+    {
+      "label": "国家统计局：工业经济持续向新向优",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965645.html",
+      "accessedAt": "2026-10-20T05:05:40Z",
+      "dataDate": "2026-10-20发布，工业增加值截至2026年9月、利润截至2026年8月",
+      "metricDefinition": "规模以上工业增加值、出口交货值与企业利润"
+    },
+    {
+      "label": "J.L. 柯林斯：《简单致富》第5章",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-10-20T05:05:10Z",
+      "dataDate": "本地原书第5章，2026-10-20完整阅读",
+      "metricDefinition": "牛市与熊市中的情绪、双重择时风险与资产配置边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceReport": "daily/2026-10-20_中证500-持有_沪深300-持有_纳斯达克100-持有_标普500-持有/base",
+  "repository": "gyhmolo/Index_Temperature_DailyReport",
+  "branch": "main",
+  "publishedAt": "2026-10-20T05:10:42.927Z",
+  "localPathsRemoved": true,
+  "files": [
+    {
+      "path": "assets/feature-reading.css",
+      "sha256": "3bc2bcb4382728c8619f793422aa87c54c9c1cd066767ad8f786026dec2fb342",
+      "bytes": 2513
+    },
+    {
+      "path": "assets/reading-double-timing-risk.png",
+      "sha256": "a391b75a5ebcb881dbdf5a1987195d12f79f8de006b66a30f7b0e5f2c67ad9a1",
+      "bytes": 2661425
+    },
+    {
+      "path": "assets/report.css",
+      "sha256": "e8ab493b6e8c27622dd300ca8b51eb9749f03a1df49645621078f2be0f7c8adc",
+      "bytes": 5551
+    },
+    {
+      "path": "index.html",
+      "sha256": "0cb66bece600d9af093aa34575dd1ef4cdcc28092ecca1ea18fa27a9235a8776",
+      "bytes": 11761
+    },
+    {
+      "path": "market-data.json",
+      "sha256": "7bee5ed6a75044c1a081960bbe5094e16331e753482f6b8c81c2f900e5fa77fb",
+      "bytes": 14818
+    },
+    {
+      "path": "sources.md",
+      "sha256": "915767ef57d98e4141eb51357d1fa6ebe76c9a0e8ced95cfcb1ff11b93fd6d7d",
+      "bytes": 2537
+    },
+    {
+      "path": "summary.md",
+      "sha256": "c5398b3b3eb8e075e4320d75095d9812d11adf029a74783553fc008d654d1a6b",
+      "bytes": 1873
+    }
+  ]
+}
