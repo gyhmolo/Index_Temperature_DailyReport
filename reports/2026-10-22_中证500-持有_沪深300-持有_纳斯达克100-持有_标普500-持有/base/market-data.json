@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T05:08:50Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月22日为星期四。上交所、深交所2026年休市安排显示，国庆节休市后10月8日起照常开市，因此当日为A股交易日。四个指数最近已完成交易日均为2026年10月21日。"
+  },
+  "advice": {
+    "book": "读书记忆：估值分位是区域，不是预测",
+    "principle": "估值分位描述当前指标相对历史样本的位置，不是内在价值或短期涨跌预测。机械分类可以减少临场判断，但不能替代盈利质量、指数规则和家庭约束复核。",
+    "do": "记录四个指数的“持有”信号；复核信号使用的日期、口径和资金期限，确认既定计划仍能承受波动。",
+    "dont": "不要把单日分位变化解释为趋势，不要用PB温度替代PE行为规则，也不要借钱投资。",
+    "context": "事实：前三季度国内生产总值同比增长4.6%，三季度增长4.5%；服务零售额增长5.0%，居民消费价格上涨0.9%；规模以上工业增加值增长5.3%，高技术制造业增加值增长14.3%。推断：总量增长、价格变化与行业盈利仍会分化。不能据此判断：宏观数据不能单独预测指数方向，也不能替代估值口径与家庭现金流检查。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-21",
+      "expectedDataDate": "2026-10-21",
+      "fetchedAt": "2026-10-22T05:05:52.697Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-21"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-21",
+          "pe": 29.5277,
+          "pb": 2.1504,
+          "fetchedAt": "2026-10-22T05:05:52.697Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 29.5277,
+      "pePercentile": 0.7141472868217055,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-26",
+      "pb": 2.1504,
+      "pbPercentile": 0.6967054263565892,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-26",
+      "temperature": 0.7054263565891473,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 71.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-21",
+      "expectedDataDate": "2026-10-21",
+      "fetchedAt": "2026-10-22T05:05:52.573Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-21"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-21",
+          "pe": 12.8491,
+          "pb": 1.3656,
+          "fetchedAt": "2026-10-22T05:05:52.573Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 12.8491,
+      "pePercentile": 0.5164728682170543,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-26",
+      "pb": 1.3656,
+      "pbPercentile": 0.2800387596899225,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-26",
+      "temperature": 0.3982558139534884,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 51.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-21",
+      "expectedDataDate": "2026-10-21",
+      "fetchedAt": "2026-10-22T05:05:52.528Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-21"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-21",
+          "pe": 29.7658,
+          "pb": 9.3425,
+          "fetchedAt": "2026-10-22T05:05:52.528Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 29.7658,
+      "pePercentile": 0.4153696498054475,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-10-26",
+      "pb": 9.3425,
+      "pbPercentile": 0.7986381322957199,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-10-26",
+      "temperature": 0.6070038910505837,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 41.5% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-21",
+      "expectedDataDate": "2026-10-21",
+      "fetchedAt": "2026-10-22T05:05:52.616Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-21"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-21",
+          "pe": 24.8816,
+          "pb": 5.5597,
+          "fetchedAt": "2026-10-22T05:05:52.616Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 24.8816,
+      "pePercentile": 0.5281007751937985,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-26",
+      "pb": 5.5597,
+      "pbPercentile": 0.9447674418604651,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-26",
+      "temperature": 0.7364341085271318,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 52.8% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国经济增长",
+      "headline": "前三季度国内生产总值增长4.6%",
+      "implication": "事实：国家统计局公布，前三季度国内生产总值1071071亿元，按不变价格计算同比增长4.6%；三季度增长4.5%，比二季度加快0.2个百分点。第三产业增加值增长5.2%，对经济增长贡献率为66.3%。推断：服务业继续支撑总量增长，但行业盈利弹性仍会不同。不能据此判断：总量增长不能证明所有企业利润同步改善，也不能预测指数短期方向。",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965647.html"
+    },
+    {
+      "market": "中国消费与价格",
+      "headline": "服务零售额增长5.0%，居民消费价格上涨0.9%",
+      "implication": "事实：国家统计局公布，前三季度服务零售额同比增长5.0%，商品和服务零售额合计增长2.6%；居民消费价格上涨0.9%，扣除食品和能源的核心消费价格上涨1.1%。推断：服务需求和价格水平对企业收入提供支撑，但不同品类的量价表现会分化。不能据此判断：消费与价格总量不能直接推导单家公司利润率或市场估值方向。",
+      "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965653.html"
+    },
+    {
+      "market": "中国产业结构",
+      "headline": "三季度信息软件业增长9.8%，房地产业下降0.4%",
+      "implication": "事实：国家统计局初步核算显示，三季度信息传输、软件和信息技术服务业增加值同比增长9.8%，租赁和商务服务业增长12.9%，房地产业下降0.4%。推断：行业景气与现金流继续分化，指数内部盈利贡献不会平均分布。不能据此判断：单季行业增速不能替代公司财务核验，也不能单独解释指数价格变化。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-22:1965780784",
+    "sourceType": "blog",
+    "title": "长期乐观不是忽视风险，而是保留适应力",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2018-06-07",
+    "sourceUrl": "https://jlcollinsnh.com/2018/06/07/stocks-part-xxxiii-optimism/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：耐心让复利有时间展开，乐观让长期投资者愿意把未来纳入计划；真正的安全并非预知每次危机，而是保留面对未知事件的适应力。",
+    "takeaways": [
+      "长期乐观不要求未来一路平稳；它承认战争、衰退与制度变化可能发生，同时把时间留给生产力和企业增长。",
+      "黑天鹅无法提前确定形态和时间，因此无法为每种灾难配置一套精确策略；更可迁移的准备是现金缓冲、技能与选择权。",
+      "文章以美国长期历史和宽基指数为主要语境，作者的市场判断、基金选择与国际配置观点都不是跨市场通用结论。"
+    ],
+    "fit": [
+      "FIRE",
+      "长期指数投资",
+      "风险控制",
+      "行为纪律",
+      "生活决策",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "稳健乐观与适应力",
+      "explanation": "稳健乐观把长期增长当作可以参与的可能性，同时承认路径不可预测。因为具体冲击无法事先列完，安全边界来自可调整支出、流动资金、可迁移技能和分散风险，而不是对灾难剧本的精确押注。",
+      "applicability": "适合在长期投资、职业规划和FIRE路径中检查计划能否跨过衰退或收入中断。原文基于美国市场、税务与账户制度；中国投资者还要核验本地产品、税务、资本流动与账户规则，美股投资也要考虑跨境、汇率和遗产税等边界。",
+      "misconception": "把乐观理解为忽略风险，或把一次历史长期上涨当成未来保证；另一种误区是为无法预测的黑天鹅集中押注，反而失去日常现金流和调整空间。"
+    },
+    "quote": "Patience and optimism are also keys to investing success.",
+    "application": "今天四个指数都是“持有”。机械信号可以帮助我们避免因单日噪声改计划，但长期执行还要依赖现金缓冲、可调整支出和持续工作的能力。",
+    "dont": "不要把作者对美国长期前景的乐观直接移植为单一市场或单一指数的收益保证，也不要用灾难预测替代分散和流动性准备。",
+    "images": [
+      {
+        "filename": "reading-optimism-flexibility.png",
+        "alt": "树木经历不同天气并由现金、支出弹性和技能构成根系支撑",
+        "caption": "画面用一棵经历晴雨和强风仍持续生长的树表示长期参与；树根连接现金缓冲、可调整生活和可迁移技能，旁边的人检查背包与路线图。它强调乐观不是预知天气，而是在不可预测的路径中保留选择权。",
+        "steps": [
+          "先接受长期增长并不等于过程平稳。",
+          "再承认黑天鹅的形态与时间无法精确预测。",
+          "最后用流动资金、支出弹性、技能和分散构造可调整的安全边界。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-22T05:04:22.473Z",
+      "dataDate": "2026-10-22",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年中秋节、国庆节休市安排",
+      "url": "https://investor.szse.cn/disclosure/notice/general/t20260917_622911.html",
+      "accessedAt": "2026-10-22T05:04:22.473Z",
+      "dataDate": "2026-10-22",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-10-22T05:04:22.473Z",
+      "dataDate": "2026-10-21",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-22T05:04:22.473Z",
+      "dataDate": "2026-10-21",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-22T05:05:52.697Z",
+      "dataDate": "2026-10-21",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：前三季度经济运行延续稳中有进发展态势",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965647.html",
+      "accessedAt": "2026-10-22T05:08:50Z",
+      "dataDate": "2026-10-20发布，数据期2026年前三季度",
+      "metricDefinition": "国内生产总值、产业结构与增长贡献"
+    },
+    {
+      "label": "国家统计局：前三季度国民经济运行延续稳中有进发展态势答记者问",
+      "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261019_1965653.html",
+      "accessedAt": "2026-10-22T05:08:50Z",
+      "dataDate": "2026-10-20发布，数据期2026年前三季度",
+      "metricDefinition": "服务零售额与居民消费价格"
+    },
+    {
+      "label": "国家统计局：2026年三季度国内生产总值初步核算结果",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html",
+      "accessedAt": "2026-10-22T05:08:50Z",
+      "dataDate": "2026-10-20发布，数据期2026年三季度",
+      "metricDefinition": "国内生产总值及分行业增加值"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XXXIII: Optimism",
+      "url": "https://jlcollinsnh.com/2018/06/07/stocks-part-xxxiii-optimism/",
+      "accessedAt": "2026-10-22T05:08:50Z",
+      "dataDate": "2018-06-07发布，2026-10-22完整阅读",
+      "metricDefinition": "耐心、长期乐观与面对未知风险的适应力"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
