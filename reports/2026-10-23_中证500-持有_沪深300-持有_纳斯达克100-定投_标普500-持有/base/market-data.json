@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T05:08:00Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月23日为星期五。上交所、深交所2026年休市安排显示，国庆节休市后10月8日起照常开市，因此当日为A股交易日。四个指数最近已完成交易日均为2026年10月22日。"
+  },
+  "advice": {
+    "book": "读书记忆：机会成本与生活价值",
+    "principle": "机会成本提醒我们，每笔支出都会放弃其他选择；但被放弃的投资回报不是保证，消费也可能购买时间、健康和关系价值。决策要比较同期限、同风险和同流动性的替代方案。",
+    "do": "记录纳斯达克100的“定投”和其余指数“持有”信号；若今天有计划内新增现金，先确认近期支出和应急资金不受影响，再按既定规则执行。",
+    "dont": "不要把“定投”解释为大额存量现金一次入场，不要用假设收益贬低必要消费，也不要借钱投资。",
+    "context": "事实：前三季度国内生产总值同比增长4.6%，三季度增长4.5%；前三季度居民消费价格上涨0.9%，部分上游行业出厂价格同比上涨；三季度信息软件业增长9.8%，房地产业下降0.4%。推断：总量增长、价格传导和行业盈利仍会分化。不能据此判断：这些宏观数据不能单独预测指数方向，也不能替代家庭现金流和资金期限检查。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-22",
+      "expectedDataDate": "2026-10-22",
+      "fetchedAt": "2026-10-23T05:00:10.364Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-22"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-22",
+          "pe": 28.6951,
+          "pb": 2.0915,
+          "fetchedAt": "2026-10-23T05:00:10.364Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 28.6951,
+      "pePercentile": 0.6618217054263565,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-24",
+      "pb": 2.0915,
+      "pbPercentile": 0.6482558139534884,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-24",
+      "temperature": 0.6550387596899225,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 66.2% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-22",
+      "expectedDataDate": "2026-10-22",
+      "fetchedAt": "2026-10-23T05:00:10.273Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-22"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-22",
+          "pe": 12.7291,
+          "pb": 1.3525,
+          "fetchedAt": "2026-10-23T05:00:10.273Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 12.7291,
+      "pePercentile": 0.49709302325581395,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-24",
+      "pb": 1.3525,
+      "pbPercentile": 0.2451550387596899,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-24",
+      "temperature": 0.37112403100775193,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 49.7% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-10-22",
+      "expectedDataDate": "2026-10-22",
+      "fetchedAt": "2026-10-23T05:00:10.319Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-22"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-22",
+          "pe": 28.7417,
+          "pb": 9.0366,
+          "fetchedAt": "2026-10-23T05:00:10.319Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 28.7417,
+      "pePercentile": 0.36284046692607,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-10-24",
+      "pb": 9.0366,
+      "pbPercentile": 0.730544747081712,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-10-24",
+      "temperature": 0.546692607003891,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 36.3% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-22",
+      "expectedDataDate": "2026-10-22",
+      "fetchedAt": "2026-10-23T05:00:10.408Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-22"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-22",
+          "pe": 24.6449,
+          "pb": 5.5078,
+          "fetchedAt": "2026-10-23T05:00:10.408Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 24.6449,
+      "pePercentile": 0.499031007751938,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-10-24",
+      "pb": 5.5078,
+      "pbPercentile": 0.9234496124031008,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-10-24",
+      "temperature": 0.7112403100775194,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 49.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国经济增长",
+      "headline": "前三季度国内生产总值增长4.6%",
+      "implication": "事实：国家统计局公布，前三季度国内生产总值1071071亿元，按不变价格计算同比增长4.6%；三季度增长4.5%。第三产业增加值增长5.2%，对经济增长贡献率为66.3%。推断：服务业继续支撑总量增长，但行业盈利弹性仍会不同。不能据此判断：总量增长不能证明所有企业利润同步改善，也不能预测指数短期方向。",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965647.html"
+    },
+    {
+      "market": "中国价格传导",
+      "headline": "前三季度居民消费价格上涨0.9%",
+      "implication": "事实：国家统计局公布，前三季度居民消费价格同比上涨0.9%；石油和天然气开采业、石油煤炭加工、化学原料行业出厂价格分别上涨9.9%、6.5%和5.9%。推断：上游价格变化可能影响部分企业成本与现金流，传导强度会因行业而异。不能据此判断：价格总量不能直接推导单家公司利润率或指数方向。",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965630.html"
+    },
+    {
+      "market": "中国产业结构",
+      "headline": "三季度信息软件业增长9.8%，房地产业下降0.4%",
+      "implication": "事实：国家统计局初步核算显示，三季度信息传输、软件和信息技术服务业增加值同比增长9.8%，租赁和商务服务业增长12.9%，房地产业下降0.4%，制造业增长5.9%，建筑业下降4.4%。推断：行业景气与现金流继续分化，指数内部盈利贡献不会平均分布。不能据此判断：单季行业增速不能替代公司财务核验，也不能单独解释指数价格变化。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-23:1982558403",
+    "sourceType": "blog",
+    "title": "花钱之前，先看放弃了什么",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2013-06-14，修订于2025-05-12",
+    "sourceUrl": "https://jlcollinsnh.com/2013/06/14/stocks-part-ixx-how-to-think-about-money/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：钱同时承担消费、未来选择权和资产所有权三种角色。做支出或投资决定时，应比较真实效用与被放弃的未来选择，而不是把消费一律视为错误或把假设收益当成保证。",
+    "takeaways": [
+      "借债消费会叠加利息和固定偿付义务；现金消费虽没有利息，也存在放弃其他用途的机会成本。",
+      "复利与机会成本是一体两面，但未来收益并不确定，因此应比较不同情景，而不是把历史回报写成承诺。",
+      "把投资理解为持有企业所有权，有助于减少对价格噪声的反应；宽基指数仍有市场、国家和产品规则风险。"
+    ],
+    "fit": [
+      "FIRE",
+      "长期指数投资",
+      "行为纪律",
+      "家庭财务",
+      "生活决策",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "机会成本",
+      "explanation": "选择一种资金用途，就会放弃当时可得的最佳替代方案。比较时需要把期限、风险和流动性放在同一口径，并把时间、健康、安全与关系等非金融价值纳入。",
+      "applicability": "适合检查大额或持续支出、债务、学习投入、职业间歇和新增现金安排。原文以美国市场和VTSAX为主要语境；中国与跨境投资还需核验当前产品费率、税务、汇率、流动性和账户制度。",
+      "misconception": "把假设的指数收益当成保证，或把所有消费都视为浪费；另一种误区是只计算未来金额，不计算消费带来的真实效用和不确定性。"
+    },
+    "quote": "Stop thinking about what your money can buy. Start thinking about what your money can earn.",
+    "application": "今天纳斯达克100给出机械“定投”信号，它适用于计划内、持续现金流的规则执行，不代表大额存量现金的择时结论。机会成本检查先保护近期支出和应急资金，再比较同期限、同风险的替代方案。",
+    "dont": "不要把文章中的历史收益、固定回报假设或提取比例当成当前保证，也不要用机会成本羞辱必要消费或具有长期生活价值的支出。",
+    "images": [
+      {
+        "filename": "reading-opportunity-cost.png",
+        "alt": "三幅图展示即时消费、未来选项与一篮子企业所有权",
+        "caption": "三幅画依次展示：先在即时消费与保留资金之间识别选择；再把消费获得的真实生活价值与被放弃的未来选项放进同一比较；最后把指数份额理解为一篮子企业所有权，避免只盯价格波动。图示不假设固定收益。",
+        "steps": [
+          "先识别支出的真实效用与全部成本。",
+          "再用相同期限、风险和流动性比较替代方案。",
+          "投资后关注底层资产、费用和规则，不用单日价格替代长期判断。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-23T04:58:52.171Z",
+      "dataDate": "2026-10-23",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://investor.szse.cn/English/services/trading/calendar/index.html",
+      "accessedAt": "2026-10-23T04:58:52.171Z",
+      "dataDate": "2026-10-23",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年美国股票市场日历",
+      "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-10-23T04:58:52.171Z",
+      "dataDate": "2026-10-22",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-23T04:58:52.171Z",
+      "dataDate": "2026-10-22",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-23T05:00:10.408Z",
+      "dataDate": "2026-10-22",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：前三季度经济运行延续稳中有进发展态势",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965647.html",
+      "accessedAt": "2026-10-23T05:08:00Z",
+      "dataDate": "2026-10-20发布，数据期2026年前三季度",
+      "metricDefinition": "国内生产总值、产业结构与增长贡献"
+    },
+    {
+      "label": "国家统计局：前三季度CPI和PPI解读",
+      "url": "https://www.stats.gov.cn/xxgk/jd/sjjd2020/202610/t20261019_1965630.html",
+      "accessedAt": "2026-10-23T05:08:00Z",
+      "dataDate": "2026-10-19发布，数据期2026年前三季度",
+      "metricDefinition": "居民消费价格与工业生产者出厂价格"
+    },
+    {
+      "label": "国家统计局：2026年三季度国内生产总值初步核算结果",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html",
+      "accessedAt": "2026-10-23T05:08:00Z",
+      "dataDate": "2026-10-20发布，数据期2026年三季度",
+      "metricDefinition": "国内生产总值及分行业增加值"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XIX: How to Think About Money",
+      "url": "https://jlcollinsnh.com/2013/06/14/stocks-part-ixx-how-to-think-about-money/",
+      "accessedAt": "2026-10-23T05:08:00Z",
+      "dataDate": "2013-06-14发布，2025-05-12修订，2026-10-23完整阅读",
+      "metricDefinition": "机会成本、复利与企业所有权视角"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
