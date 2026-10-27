@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T05:10:00Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月27日为星期二。上交所、深交所2026年休市安排显示，国庆节休市后10月8日起照常开市，因此当日为A股交易日。四个指数最近已完成交易日均为2026年10月26日。"
+  },
+  "advice": {
+    "book": "读书记忆：风险承受力不是一句口号",
+    "principle": "风险承受力同时包含面对回撤时不恐慌的意愿，以及损失不破坏生活的客观能力。后者取决于近期支出、流动资金、债务、家庭责任和职业现金流，不能只用年龄或一份问卷代替。",
+    "do": "记录纳斯达克100的“定投”和其余指数的“持有”信号；若今天有计划内新增现金，先确认近期支出、应急资金和收入稳定性，再按既定金额执行。",
+    "dont": "不要把纳斯达克100的“定投”解释为大额存量现金一次投入，不要根据尚未公布的美联储会议结果押注方向，也不要借钱或加杠杆追逐上涨。",
+    "context": "事实：前三季度国内生产总值同比增长4.6%，规模以上工业增加值增长5.3%，固定资产投资下降7.2%；美联储于10月27日至28日召开议息会议，决议尚未发布。推断：国内盈利与现金流仍会分化，美元贴现率预期在决议前仍有不确定性。不能据此判断：这些事实不能单独预测指数短期方向，也不能替代家庭风险能力检查。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-26",
+      "expectedDataDate": "2026-10-26",
+      "fetchedAt": "2026-10-27T05:04:54.409Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-26"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-26",
+          "pe": 28.8522,
+          "pb": 2.1013,
+          "fetchedAt": "2026-10-27T05:04:54.409Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 28.8522,
+      "pePercentile": 0.6747572815533981,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-31",
+      "pb": 2.1013,
+      "pbPercentile": 0.6592233009708738,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-31",
+      "temperature": 0.6669902912621359,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 67.5% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-26",
+      "expectedDataDate": "2026-10-26",
+      "fetchedAt": "2026-10-27T05:04:54.314Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-26"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-26",
+          "pe": 12.9085,
+          "pb": 1.3728,
+          "fetchedAt": "2026-10-27T05:04:54.314Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 12.9085,
+      "pePercentile": 0.5310679611650485,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-31",
+      "pb": 1.3728,
+      "pbPercentile": 0.2961165048543689,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-31",
+      "temperature": 0.4135922330097087,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 53.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-10-26",
+      "expectedDataDate": "2026-10-26",
+      "fetchedAt": "2026-10-27T05:04:54.452Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-26"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-26",
+          "pe": 28.89,
+          "pb": 9.0833,
+          "fetchedAt": "2026-10-27T05:04:54.452Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 28.89,
+      "pePercentile": 0.36939571150097467,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-10-31",
+      "pb": 9.0833,
+      "pbPercentile": 0.7436647173489279,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-10-31",
+      "temperature": 0.5565302144249513,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 36.9% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-26",
+      "expectedDataDate": "2026-10-26",
+      "fetchedAt": "2026-10-27T05:04:54.365Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-26"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-26",
+          "pe": 24.5864,
+          "pb": 5.5005,
+          "fetchedAt": "2026-10-27T05:04:54.365Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 24.5864,
+      "pePercentile": 0.4980582524271845,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-10-31",
+      "pb": 5.5005,
+      "pbPercentile": 0.9213592233009709,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-10-31",
+      "temperature": 0.7097087378640776,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 49.8% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国经济增长",
+      "headline": "前三季度国内生产总值增长4.6%，三季度增长4.5%",
+      "implication": "事实：国家统计局初步核算显示，前三季度国内生产总值1071071亿元，按不变价格计算同比增长4.6%；三季度同比增长4.5%。推断：经济总量继续增长，但不同产业对企业收入和利润的传导并不一致。不能据此判断：总量增速不能证明所有成份公司盈利同步改善，也不能预测指数短期方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html"
+    },
+    {
+      "market": "中国盈利与现金流",
+      "headline": "前三季度工业增加值增长5.3%，固定资产投资下降7.2%",
+      "implication": "事实：国家统计局公布，前三季度规模以上工业增加值同比增长5.3%，制造业增长5.7%；固定资产投资（不含农户）下降7.2%，房地产开发投资下降20.6%，社会消费品零售总额增长1.1%。推断：生产、投资和消费表现分化，企业订单、回款和资本开支压力会因行业而异。不能据此判断：宏观分类数据不能替代公司财务核验，也不能单独解释指数估值变化。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html"
+    },
+    {
+      "market": "美国贴现率",
+      "headline": "美联储10月27日至28日召开议息会议，决议尚未发布",
+      "implication": "事实：美联储日历显示，联邦公开市场委员会于10月27日至28日召开两日会议，声明与新闻发布会安排在28日。推断：政策利率预期会影响美元资产贴现率和风险偏好，但会议开始不等于政策方向已确定。不能据此判断：在正式声明发布前，不能把市场猜测当作利率决定，也不能据此提前改写长期计划。",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm?view=calendar"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-27:2049668879",
+    "sourceType": "blog",
+    "title": "牛市里，先回答能否承受回撤",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2013-05-22，修订于2023-11-14",
+    "sourceUrl": "https://jlcollinsnh.com/2013/05/22/stocks-part-xviii-investing-in-a-raging-bull/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：市场处于强势阶段时，等待回调看似谨慎，但择时要求先判断何时离场或不买，再判断何时重新进入。更可迁移的做法，是先确认资金期限和回撤承受力，再选择能够持续执行的资产配置，而不是预测下一次高点和低点。",
+    "takeaways": [
+      "择时不是一次判断。即使正确避开下跌，也必须在市场恢复前后再次决定进入时点；第二个决定同样可能失败。",
+      "权益投资的长期理由不能消除短期回撤。是否投入取决于资金期限、流动性和面对大幅波动时能否继续持有。",
+      "现金、债券和股票承担不同风险。现金有购买力风险，债券有利率与信用风险，股票有价格与盈利风险；没有脱离目标和期限的绝对安全。"
+    ],
+    "fit": [
+      "FIRE",
+      "长期指数投资",
+      "资产配置",
+      "风险控制",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "双重择时难题",
+      "explanation": "原理：试图避开市场下跌，需要先正确判断何时离场或推迟买入，再正确判断何时重新进入。只做对一次仍可能错过恢复，长期结果取决于两个相互关联的决定。",
+      "applicability": "适用条件：用于检查我们是否正因为短期价格或新闻偏离既定长期计划。近期刚性支出、应急资金和已知负债的现金安排属于期限匹配，不应误称为择时。原文基于美国长期宽基市场；中国和跨境投资还需核验交易制度、基金申赎、折溢价、汇率、税务与账户流动性。",
+      "misconception": "常见误区：把估值区间当成精确高低点，把暂缓投入视为没有成本，或把所有现金储备都归为看空。另一误区是只考虑卖出，不预先写明资金去向和再进入规则。"
+    },
+    "quote": "There is no such thing as a risk free investment.",
+    "application": "今天只有纳斯达克100触发机械“定投”，其余指数为“持有”。这组信号用于约束计划内现金流的执行，不证明短期底部，也不替我们决定大额存量现金、家庭资产配置或美联储会议前后的方向押注。",
+    "dont": "不要把文章中的美国基金、配置比例、退休倍数和历史回报当作当前通用方案；不要因为担心回撤就临时离场，却不写资金去向、再进入条件和税费流动性。",
+    "images": [
+      {
+        "filename": "reading-bull-market-risk-capacity.png",
+        "alt": "三幅连续画面展示牛市入场担忧、双重择时与风险能力检查",
+        "caption": "第一幅把强势上涨与潜在回撤并置，说明入场焦虑来自我们无法确定当前处于周期何处；第二幅用两道门表示择时必须分别判断离场与再进入，任何一道判断失误都可能改变结果；第三幅先区分近期现金、稳定资产和长期权益，再用清单复核期限、债务、家庭责任和收入韧性。图示不代表具体产品、比例或收益。",
+        "steps": [
+          "先区分价格焦虑与真实的近期用钱约束。",
+          "再写下离场后的资金去向和重新进入条件，识别双重择时难题。",
+          "最后按期限、流动性和风险能力选择可持续的规则。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-27T05:03:45.179Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-10-27T05:03:45.179Z",
+      "dataDate": "2025-12-22发布",
+      "metricDefinition": "2026年年度节假日及周末休市安排"
+    },
+    {
+      "label": "Nasdaq：2026年美国股票市场休市安排",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "accessedAt": "2026-10-27T05:03:45.179Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-27T05:03:45.179Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-27T05:04:54.452Z",
+      "dataDate": "2026-10-26",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：前三季度经济运行总体平稳，高质量发展取得新成效",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html",
+      "accessedAt": "2026-10-27T05:10:00Z",
+      "dataDate": "2026-10-19发布，数据期为2026年前三季度",
+      "metricDefinition": "国内生产总值、工业增加值、固定资产投资、房地产投资和社会消费品零售总额"
+    },
+    {
+      "label": "美联储：2026年10月活动日历",
+      "url": "https://www.federalreserve.gov/newsevents/2026-october.htm?view=calendar",
+      "accessedAt": "2026-10-27T05:10:00Z",
+      "dataDate": "2026-10-27至28日会议安排",
+      "metricDefinition": "联邦公开市场委员会会议日期、声明与新闻发布会安排"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XVIII: Investing in a Raging Bull",
+      "url": "https://jlcollinsnh.com/2013/05/22/stocks-part-xviii-investing-in-a-raging-bull/",
+      "accessedAt": "2026-10-27T05:10:00Z",
+      "dataDate": "2013-05-22发布，2023-11-14修订，2026-10-27完整阅读",
+      "metricDefinition": "强势市场中的择时、风险承受力与资产配置论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
