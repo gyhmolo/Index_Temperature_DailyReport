@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T05:05:47Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年10月29日为星期四。上交所、深交所2026年休市安排显示，国庆节休市后10月8日起照常开市，因此当日为A股交易日。四个指数最近已完成交易日均为2026年10月28日。"
+  },
+  "advice": {
+    "book": "读书记忆：先按资金用途分层，再自动执行",
+    "principle": "简单的长期计划先区分近期必须可用的资金、受账户规则约束的长期资金和可灵活支取的长期资金，再决定各层承担什么风险。分层解决的是期限、流动性和制度约束，自动执行解决的是行为摩擦；账户数量本身不等于资产分散。",
+    "do": "记录纳斯达克100的“定投”和其余指数的“持有”信号；若今天有计划内新增现金，先确认近期支出与应急资金不受影响，再核对账户的税务、支取和跨境规则，按既定流程执行。",
+    "dont": "不要照搬美国退休账户的排序，不要把多个账户误认为风险已经分散，不要把纳斯达克100的“定投”扩展为大额存量现金一次投入，也不要借钱投资。",
+    "context": "事实：美联储维持联邦基金利率目标区间在3.75%至4%，两名委员主张加息25个基点；前三季度规模以上工业企业利润增长15.5%，但应收账款和产成品存货增速高于营业收入。推断：美元资产贴现率仍受通胀与政策分歧约束，中国企业盈利改善也需结合回款和库存分行业核验。不能据此判断：这些事实不能单独预测指数短期方向，也不能替代家庭现金流、税务和账户规则检查。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-28",
+      "expectedDataDate": "2026-10-28",
+      "fetchedAt": "2026-10-29T05:04:43.467Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-28"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-28",
+          "pe": 28.0737,
+          "pb": 2.068,
+          "fetchedAt": "2026-10-29T05:04:43.467Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 28.0737,
+      "pePercentile": 0.626937984496124,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-02",
+      "pb": 2.068,
+      "pbPercentile": 0.6327519379844961,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-02",
+      "temperature": 0.6298449612403101,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 62.7% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-28",
+      "expectedDataDate": "2026-10-28",
+      "fetchedAt": "2026-10-29T05:04:42.489Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-28"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-28",
+          "pe": 12.8607,
+          "pb": 1.3666,
+          "fetchedAt": "2026-10-29T05:04:42.489Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 12.8607,
+      "pePercentile": 0.5184108527131783,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-02",
+      "pb": 1.3666,
+      "pbPercentile": 0.2800387596899225,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-02",
+      "temperature": 0.39922480620155043,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 51.8% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-10-28",
+      "expectedDataDate": "2026-10-28",
+      "fetchedAt": "2026-10-29T05:04:42.573Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-28"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-28",
+          "pe": 29.4296,
+          "pb": 9.0302,
+          "fetchedAt": "2026-10-29T05:04:42.573Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 29.4296,
+      "pePercentile": 0.39980544747081714,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-11-02",
+      "pb": 9.0302,
+      "pbPercentile": 0.7266536964980544,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-11-02",
+      "temperature": 0.5632295719844358,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 40.0% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-10-28",
+      "expectedDataDate": "2026-10-28",
+      "fetchedAt": "2026-10-29T05:04:42.529Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-10-28"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-10-28",
+          "pe": 24.7116,
+          "pb": 5.5128,
+          "fetchedAt": "2026-10-29T05:04:42.529Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 24.7116,
+      "pePercentile": 0.5067829457364341,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-02",
+      "pb": 5.5128,
+      "pbPercentile": 0.9253875968992248,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-02",
+      "temperature": 0.7160852713178294,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 50.7% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国贴现率",
+      "headline": "美联储维持政策利率区间不变，两名委员主张加息",
+      "implication": "事实：美联储10月28日以10票赞成、2票反对维持联邦基金利率目标区间在3.75%至4%；两名反对者主张加息25个基点。推断：政策未收紧，但通胀约束和委员会内部的加息倾向仍会影响美元资产贴现率。不能据此判断：一次会议结果不能单独决定美股指数短期方向，也不能替代长期资产配置。",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "market": "中国企业盈利",
+      "headline": "前三季度规模以上工业企业利润增长15.5%",
+      "implication": "事实：国家统计局公布，前三季度规模以上工业企业利润总额同比增长15.5%，营业收入增长6.6%，营业收入利润率同比提高0.44个百分点。推断：工业企业总体利润增速快于收入，部分企业盈利能力改善。不能据此判断：总量增长不能证明所有行业和指数成份公司的利润同步改善。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261027_1965697.html"
+    },
+    {
+      "market": "中国现金流与库存",
+      "headline": "应收账款和产成品存货增速高于营业收入",
+      "implication": "事实：9月末规模以上工业企业应收账款增长10.0%，产成品存货增长11.6%，均高于前三季度营业收入6.6%的增速；行业利润增速差异明显。推断：回款和库存占用会削弱部分企业利润向自由现金流的转化。不能据此判断：宏观行业数据不能替代公司财务核验，也不能单独解释指数估值变化。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261027_1965697.html"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-29:2150334593",
+    "sourceType": "blog",
+    "title": "把简单财富路径真正跑起来",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2012-09-17，修订于2023-07-10",
+    "sourceUrl": "https://jlcollinsnh.com/2012/09/17/putting-the-simple-path-to-wealth-into-action/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：简单的长期投资不是把所有钱塞进同一个产品，而是先保护近期流动性，再按用途和账户规则安放长期资金，最后把持续投入自动化。系统越容易执行，越能减少择时、遗漏和情绪造成的摩擦。",
+    "takeaways": [
+      "先处理债务、必要支出和应急资金，再把真正长期的资金暴露于权益波动；期限错配会把市场波动变成被迫卖出。",
+      "账户分层用于处理税务、支取和用途差异，不等于资产已经分散；多个账户持有相同暴露，风险仍然集中。",
+      "定期投入工资现金流与把现有大额资金分批入场是两件事；前者可以自动执行，后者需要单独评估机会成本、期限和承受力。"
+    ],
+    "fit": [
+      "FIRE",
+      "长期指数投资",
+      "资产配置",
+      "行为纪律",
+      "家庭财务",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "资金用途分层",
+      "explanation": "先按用钱时间、支取限制和税务规则把资金分层，再为每一层匹配风险资产。这样能把近期刚性支出与长期波动隔开，并通过自动投入降低反复择时和漏执行的行为成本。",
+      "applicability": "适用于有稳定现金流、能明确近期支出并愿意长期执行的人。原文中的403(b)、Roth IRA和SRP属于美国制度；中国个人养老金、普通证券账户及跨境账户的税务、额度、支取和汇率规则必须按现行官方规定另行核验。",
+      "misconception": "资金分层不是账户越多越安全，也不是所有长期资金都应承受同样风险。若多个账户持有同一类资产，底层暴露仍可能集中；若忽略应急资金、负债和短期支出，自动投入反而会放大期限错配。"
+    },
+    "quote": "the correct minimal effort actually produces better results than labor intensive strategies.",
+    "application": "今天只有纳斯达克100触发机械“定投”，其余指数为“持有”。这组信号只约束计划内新增现金流；先把近期资金与长期资金分开，再核对账户边界，才能让自动执行服务于计划而不是掩盖期限错配。",
+    "dont": "不要照搬作者给美国年轻投资者的账户顺序、基金选择或高储蓄率建议；不要把持续工资投入与大额存量资金决策混为一谈，也不要因为设置了自动投入就停止复核家庭现金流和制度变化。",
+    "images": [
+      {
+        "filename": "reading-money-buckets-automation.png",
+        "alt": "三段画面展示流动性缓冲、资金用途分层与自动执行",
+        "caption": "第一段用蓄水池和日历表示先保留近期刚性支出与应急流动性；第二段把长期资金导入用途不同的容器，表示账户分层解决税务、支取和期限约束，而不是制造虚假的资产分散；第三段用固定节点连接长期道路，表示把计划内现金流自动投入，并沿可复核的长期路径执行。图示不代表具体产品、账户排序、比例或收益。",
+        "steps": [
+          "先列出近期支出、应急资金和负债，确认哪些钱不能承受权益波动。",
+          "再按用途、支取和税务规则分层，并核验中美及跨境账户边界。",
+          "最后只对计划内新增现金流设置自动执行，并保留复核触发器。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-29T05:03:22.347Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-10-29T05:03:22.347Z",
+      "dataDate": "2025-12-22发布",
+      "metricDefinition": "2026年年度节假日及周末休市安排"
+    },
+    {
+      "label": "Nasdaq：2026年美国股票市场休市安排",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "accessedAt": "2026-10-29T05:03:22.347Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-10-29T05:03:22.347Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-10-29T05:04:43.467Z",
+      "dataDate": "2026-10-28",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美联储：2026年10月28日联邦公开市场委员会声明",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "accessedAt": "2026-10-29T05:05:47Z",
+      "dataDate": "2026-10-28发布",
+      "metricDefinition": "联邦基金利率目标区间、投票结果与经济判断"
+    },
+    {
+      "label": "国家统计局：2026年1—9月份全国规模以上工业企业利润增长15.5%",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261027_1965697.html",
+      "accessedAt": "2026-10-29T05:05:47Z",
+      "dataDate": "2026-10-27发布，数据期为2026年前三季度",
+      "metricDefinition": "规模以上工业企业利润、营业收入、行业利润、应收账款和产成品存货"
+    },
+    {
+      "label": "J.L. Collins：Case Study #I: Putting the Simple Path to Wealth into Action",
+      "url": "https://jlcollinsnh.com/2012/09/17/putting-the-simple-path-to-wealth-into-action/",
+      "accessedAt": "2026-10-29T05:05:47Z",
+      "dataDate": "2012-09-17发布，2023-07-10修订，2026-10-29完整阅读",
+      "metricDefinition": "资金用途分层、账户边界、定期投入与自动执行论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
