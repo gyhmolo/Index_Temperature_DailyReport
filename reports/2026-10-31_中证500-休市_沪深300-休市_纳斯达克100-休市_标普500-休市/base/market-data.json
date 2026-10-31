@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T05:37:33.757Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年10月31日为星期六。上海证券交易所和深圳证券交易所交易日均为每周一至周五，周末休市。今天不抓取四个指数估值，不创建估值日历或重试状态；对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易日与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易日与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国企业景气",
+      "headline": "十月制造业、非制造业与综合景气指标均回落至临界点以下",
+      "implication": "事实：国家统计局公布，2026年10月制造业PMI为49.3%，比上月下降0.8个百分点；生产指数和新订单指数分别为49.8%和49.4%。非制造业商务活动指数为49.7%，综合PMI产出指数为49.7%。推断：调查样本中的生产与需求扩张动能较上月放缓，企业订单、库存和用工环境可能继续分化。不能据此判断：PMI是环比扩散指数，不能直接替代上市公司收入、利润或证券价格。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
+    },
+    {
+      "market": "美国用工成本",
+      "headline": "三季度美国民间雇员补偿成本环比增长百分之零点八",
+      "implication": "事实：美国劳工统计局公布，截至2026年9月的三个月，民间雇员补偿成本经季节调整后增长0.8%，其中工资薪金增长0.7%、福利成本增长0.9%；过去十二个月补偿成本增长3.4%，私营部门实际工资薪金同比下降0.6%。推断：名义用工成本仍在上升，但实际工资表现和行业议价能力并不一致，企业利润率与居民消费能力受到不同方向影响。不能据此判断：单项用工成本数据不能单独决定利率路径、企业盈利或市场方向。",
+      "url": "https://www.bls.gov/news.release/archives/eci_10302026.htm"
+    },
+    {
+      "market": "美国经济与价格",
+      "headline": "三季度美国实际国内生产总值年化增长百分之三点四",
+      "implication": "事实：美国经济分析局初步估计，2026年三季度实际GDP按年率增长3.4%，二季度为2.2%；私人国内最终销售增长4.9%，PCE价格指数与核心PCE价格指数分别增长2.1%和2.5%。推断：投资和消费共同支持了当季增长，价格增速较二季度放缓，但企业收入与贴现率仍取决于后续需求和政策。不能据此判断：这是初值且采用季调年率，不能直接外推未来季度、公司利润或证券回报。",
+      "url": "https://www.bea.gov/index.php/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-10-31:2083371212",
+    "sourceType": "book",
+    "title": "收入突然中断时，缓冲金买到的是决策时间",
+    "sourceName": "《简单致富》",
+    "author": "J.L. 柯林斯",
+    "locator": "第2章",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：独立自由保证金的价值不是展示财富，而是在工资突然中断时把生活支出与下一份工作暂时解耦，让家庭保留思考、照护和选择工作的时间。作者的经历说明一种可能路径，但不能证明统一金额或期限适合所有家庭。",
+    "takeaways": [
+      "一份曾经表现良好、收入可观的工作也可能在外部冲击后迅速消失。职业现金流有中断风险，不能按永续收入处理。",
+      "可立即动用的缓冲把失业从即时生存压力转为可管理的时间问题。它购买的是选择空间，不是更高消费或投资回报。",
+      "债务与刚性支出会缩短缓冲可以覆盖的时间；账面资产若波动大、锁定或到账慢，也不能等同于需要时可用的流动资金。"
+    ],
+    "fit": [
+      "FIRE",
+      "家庭财务",
+      "风险控制",
+      "生活决策",
+      "现金流",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "现金流跑道",
+      "explanation": "原理：现金流跑道衡量收入停止后，家庭现有可立即动用资金能够覆盖必要净支出的时间。概念上可写成“可用流动资金 ÷ 每月必要净流出”。分子要排除短期不能变现或可能大幅波动的资产，分母要扣除仍可靠的收入，并保留真实刚性支出。",
+      "applicability": "适用条件：用于识别失业、健康中断或职业转换时的时间缓冲，前提是已区分已知支出、突发事项和长期投资资金。中国语境还要核对银行转账、基金赎回、限额与节假日到账；美国失业保险、退休账户取款和税务规则不能直接迁移。",
+      "misconception": "常见误区：把作者三年不工作的个人经历当作统一标准，把房产或高波动投资的账面市值全部计入即时流动性，或只看金额而忽略债务、家庭责任和收入恢复难度。个案能揭示变量，不能估计其他家庭的安全期限。"
+    },
+    "quote": "金钱可以买到很多东西，其中最宝贵的就是自由。",
+    "application": "今天公布的中国景气、美国用工成本和经济增长数据都描述了宏观环境，但家庭面对的是离散的收入中断。阅读这一章的价值，是把宏观预测与家庭能否获得决策时间分开。",
+    "dont": "边界：不应从作者个案推出统一储备月数，也不把高波动资产、退休账户或尚未到账的资金当作随时可用现金；具体税务、账户和失业保障需按所在地当期制度核验。",
+    "images": [
+      {
+        "filename": "reading-cashflow-runway.png",
+        "alt": "失业冲击、流动缓冲与家庭决策时间的连续场景",
+        "caption": "画面左侧以关闭的办公室门和放下的工牌表示收入突然中断；中间以承载日常必需品的透明桥梁表示可立即动用的流动缓冲，它把眼前冲击转换为一段可管理的时间；右侧以陪伴家人和比较多条工作路径表示选择空间。图示解释因果关系，不代表任何金额、期限、产品或收益。",
+        "steps": [
+          "先识别工资或经营收入突然停止的情景，并列出仍需按期支付的必要支出。",
+          "再区分可立即动用的流动资金与高波动、受限或到账较慢的资产。",
+          "最后用可覆盖的时间评估家庭是否拥有照护、休整和选择下一步工作的空间。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排与交易时间",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-10-31T05:37:33.757Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "交易日为每周一至周五，周末及公告休市日休市"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://www.szse.cn/English/services/trading/calendar/",
+      "accessedAt": "2026-10-31T05:37:33.757Z",
+      "dataDate": "2026年年度交易日历",
+      "metricDefinition": "周末休市及年度节假日交易安排"
+    },
+    {
+      "label": "国家统计局：2026年10月中国采购经理指数运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+      "accessedAt": "2026-10-31T05:37:33.757Z",
+      "dataDate": "2026-10-31发布，数据期为2026年10月",
+      "metricDefinition": "制造业PMI、非制造业商务活动指数与综合PMI产出指数；经季节调整的月度扩散指数"
+    },
+    {
+      "label": "美国劳工统计局：2026年三季度就业成本指数",
+      "url": "https://www.bls.gov/news.release/archives/eci_10302026.htm",
+      "accessedAt": "2026-10-31T05:37:33.757Z",
+      "dataDate": "2026-10-30发布，数据截至2026年9月",
+      "metricDefinition": "民间、私营与州及地方政府雇员补偿、工资薪金和福利成本变化"
+    },
+    {
+      "label": "美国经济分析局：2026年三季度国内生产总值初值",
+      "url": "https://www.bea.gov/index.php/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "accessedAt": "2026-10-31T05:37:33.757Z",
+      "dataDate": "2026-10-29发布，数据期为2026年三季度",
+      "metricDefinition": "实际GDP、私人国内最终销售和PCE价格指数的季调年率初步估计"
+    },
+    {
+      "label": "《简单致富》：你为什么需要独立自由保证金",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-10-31T05:37:33.757Z",
+      "dataDate": "第2章，2026-10-31完整阅读",
+      "metricDefinition": "失业冲击、流动缓冲与选择权的完整论证单元；作者经历按个案证据处理"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}

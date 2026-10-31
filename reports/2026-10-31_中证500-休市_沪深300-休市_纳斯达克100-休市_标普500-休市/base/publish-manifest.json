@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceReport": "daily/2026-10-31_中证500-休市_沪深300-休市_纳斯达克100-休市_标普500-休市/base",
+  "repository": "gyhmolo/Index_Temperature_DailyReport",
+  "branch": "main",
+  "publishedAt": "2026-10-31T08:54:10.968Z",
+  "localPathsRemoved": true,
+  "files": [
+    {
+      "path": "assets/feature-reading.css",
+      "sha256": "3bc2bcb4382728c8619f793422aa87c54c9c1cd066767ad8f786026dec2fb342",
+      "bytes": 2513
+    },
+    {
+      "path": "assets/reading-cashflow-runway.png",
+      "sha256": "326fe6f5f13e26b9d5e5fc2cc2d3e042dd222fff367619f13ae3c42616272fc2",
+      "bytes": 2670338
+    },
+    {
+      "path": "assets/report.css",
+      "sha256": "e8ab493b6e8c27622dd300ca8b51eb9749f03a1df49645621078f2be0f7c8adc",
+      "bytes": 5551
+    },
+    {
+      "path": "index.html",
+      "sha256": "68623305d1f96e0da8534c7f0e6defe60a1cd2dc2eddce8364809159d595b8f4",
+      "bytes": 7768
+    },
+    {
+      "path": "market-data.json",
+      "sha256": "c0dbb581fc5867044675151e4c377df0a8b834f4ae7427439b0eeb62f24c6191",
+      "bytes": 12169
+    },
+    {
+      "path": "sources.md",
+      "sha256": "7c95ec19a169d20dfe0dde21ec1537d8eb2f4c7ec33bd95844a31e88ae8bf9d1",
+      "bytes": 2060
+    },
+    {
+      "path": "summary.md",
+      "sha256": "ead289514170698f88b51176b42136c63067a7327acca86a5dac664a66851bd7",
+      "bytes": 2516
+    }
+  ]
+}
