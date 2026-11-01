@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T04:59:15.005Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年11月1日为星期日。上海证券交易所和深圳证券交易所交易日均为每周一至周五，周末休市。今天不抓取四个指数估值，不创建估值日历或重试状态；对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日报告不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易日与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易日与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国企业景气",
+      "headline": "十月制造业、非制造业与综合景气指标均回落至临界点以下",
+      "implication": "事实：国家统计局公布，2026年10月制造业PMI为49.3%，比上月下降0.8个百分点；生产指数和新订单指数分别为49.8%和49.4%。非制造业商务活动指数为49.7%，综合PMI产出指数为49.7%。推断：调查样本中的生产与需求扩张动能较上月放缓，企业订单、库存和用工环境可能继续分化。不能据此判断：PMI是环比扩散指数，不能直接替代上市公司收入、利润或证券价格。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html"
+    },
+    {
+      "market": "美国用工成本",
+      "headline": "三季度美国民间雇员补偿成本环比增长百分之零点八",
+      "implication": "事实：美国劳工统计局公布，截至2026年9月的三个月，民间雇员补偿成本经季节调整后增长0.8%，其中工资薪金增长0.7%、福利成本增长0.9%；过去十二个月补偿成本增长3.4%，私营部门实际工资薪金同比下降0.6%。推断：名义用工成本仍在上升，但实际工资表现和行业议价能力并不一致，企业利润率与居民消费能力受到不同方向影响。不能据此判断：单项用工成本数据不能单独决定利率路径、企业盈利或市场方向。",
+      "url": "https://www.bls.gov/news.release/eci.htm"
+    },
+    {
+      "market": "美国经济与价格",
+      "headline": "三季度美国实际国内生产总值年化增长百分之三点四",
+      "implication": "事实：美国经济分析局初步估计，2026年三季度实际GDP按年率增长3.4%，二季度为2.2%；私人国内最终销售增长4.9%，PCE价格指数与核心PCE价格指数分别增长2.1%和2.5%。推断：投资和消费共同支持了当季增长，价格增速较二季度放缓，但企业收入与贴现率仍取决于后续需求和政策。不能据此判断：这是初值且采用季调年率，不能直接外推未来季度、公司利润或证券回报。",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-01:740514062",
+    "sourceType": "book",
+    "title": "先看指数装了什么，再看基金怎么装",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第3章，PDF 55-159页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：指数基金的名称、净值和交易渠道不是第一层问题。先识别指数覆盖哪些市场、行业和规模，怎样选股与加权，再比较基金的费用、跟踪、流动性和可访问性，才不会把相同底层暴露误当成不同资产。书中产品清单和制度数字以2017年为界，当前使用前必须另行核验。",
+    "takeaways": [
+      "宽基指数跨行业选样，行业指数集中于特定行业。集中度改变盈利驱动和风险来源，基金数量本身不能证明分散。",
+      "追踪同一指数的基金净值单价不同，不代表更便宜或收益空间更大；更关键的是费用、规模、跟踪偏离、流动性与申赎条件。",
+      "增强指数、QDII、联接基金和场内基金加入主动操作、额度、交易与账户边界，不能只凭“指数基金”四个字视为同一种实现。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "资产配置",
+      "风险控制",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "暴露与载体分层",
+      "explanation": "底层暴露由指数的样本空间、选样、加权和调整规则决定，回答资金实际承担哪些企业、行业、国家与汇率风险；产品载体回答用什么基金、账户和交易方式承载这些风险。先定暴露，再看载体，能把资产选择与执行成本分开。",
+      "applicability": "适合比较追踪同一指数的普通基金，也适合检查组合是否因不同名称而重复持有同一批公司。增强指数含主动偏离，行业指数与宽基指数的暴露不同，不能直接套用。中国场内、场外、联接与QDII有申赎、额度和到账差异；美国共同基金、ETF及退休账户的税务和交易规则不能直接移植。",
+      "misconception": "常见误区是把基金净值较低当作估值较低，把持有多只基金当作更分散，或认为同名指数产品的全部成本与税务都一样。书中列示的产品、门槛与监管安排来自旧版本，当前事实需查基金合同、交易所与监管文件。"
+    },
+    "quote": "行业指数的投资风险更高一些。",
+    "application": "今天的中国景气、美国增长和用工成本数据会让人联想到行业机会，但宏观事实只有映射到指数的成份、权重和盈利来源，才说明某个指数实际承受了什么影响。",
+    "dont": "边界：不从单月宏观数据推出行业或指数方向，不把书中截至2017年的基金规模、门槛、产品清单和制度描述当成当前事实，也不把美国账户与税务规则直接套到中国市场。",
+    "images": [
+      {
+        "filename": "reading-exposure-before-wrapper.png",
+        "alt": "从企业篮子、指数规则到基金载体的连续流程图",
+        "caption": "画面左侧用跨行业企业篮子表示底层市场暴露；中间用放大镜和规则册表示先检查样本范围、选样、加权与行业集中；右侧用多个容器表示ETF、联接基金等载体，它们可以承载相近暴露，却在费用、流动性、跟踪、额度、账户与税务上不同。图示说明分析顺序，不代表具体产品、数据或收益。",
+        "steps": [
+          "先列出指数覆盖的市场、公司规模、行业和国家，并确认选样与加权规则。",
+          "再检查这些规则形成的集中度、盈利驱动、汇率和制度风险。",
+          "最后比较基金载体的费用、跟踪、流动性、申赎、额度、账户与税务边界。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排与交易时间",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-01T04:59:15.005Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "交易日为每周一至周五，周末及公告休市日休市"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://www.szse.cn/English/services/trading/calendar/",
+      "accessedAt": "2026-11-01T04:59:15.005Z",
+      "dataDate": "2026年年度交易日历",
+      "metricDefinition": "周末休市及年度节假日交易安排"
+    },
+    {
+      "label": "国家统计局：2026年10月中国采购经理指数运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+      "accessedAt": "2026-11-01T04:59:15.005Z",
+      "dataDate": "2026-10-31发布，数据期为2026年10月",
+      "metricDefinition": "制造业PMI、非制造业商务活动指数与综合PMI产出指数；经季节调整的月度扩散指数"
+    },
+    {
+      "label": "美国劳工统计局：2026年三季度就业成本指数",
+      "url": "https://www.bls.gov/news.release/eci.htm",
+      "accessedAt": "2026-11-01T04:59:15.005Z",
+      "dataDate": "2026-10-30发布，数据截至2026年9月",
+      "metricDefinition": "民间、私营与州及地方政府雇员补偿、工资薪金和福利成本变化"
+    },
+    {
+      "label": "美国经济分析局：2026年三季度国内生产总值初值",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "accessedAt": "2026-11-01T04:59:15.005Z",
+      "dataDate": "2026-10-29发布，数据期为2026年三季度",
+      "metricDefinition": "实际GDP、私人国内最终销售和PCE价格指数的季调年率初步估计"
+    },
+    {
+      "label": "《指数基金投资指南》：常见指数基金品种",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-11-01T04:59:15.005Z",
+      "dataDate": "第3章，PDF 55-159页，2026-11-01完整阅读",
+      "metricDefinition": "宽基与行业指数、指数规则、基金载体和制度边界的完整论证单元；旧版产品与制度数字按历史材料处理"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
