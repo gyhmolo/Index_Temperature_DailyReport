@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T05:08:02Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年11月5日为星期四。上交所、深交所2026年休市安排显示，当日不在节假日休市区间，因此为A股交易日。报告生成时A股尚未收盘，美国市场尚未开盘，四个指数最近已完成交易日均为2026年11月4日。"
+  },
+  "advice": {
+    "book": "读书记忆：支取率看整个组合",
+    "principle": "退休支取率的分母应是整个投资组合，而不是当前提款的单个账户。账户提款顺序受流动性、税务和制度约束，日报估值信号只决定机械行为，不能代替家庭支取计划。",
+    "do": "若家庭已有支取计划，今天只记录年度净现金需要、投资外收入、整个投资组合基数，并分开必需与可调支出；指数动作仍按既定估值规则独立执行。",
+    "dont": "不要因为单个账户的提款比例较高就断言整个组合失衡，不要用四个指数的估值信号推导生活费，也不要把美国IRA、Roth和RMD顺序直接移植到中国账户。",
+    "context": "事实：国家统计局监测的50种重要生产资料中，10月下旬17种上涨、28种下降、5种持平；美国9月出口和进口均增长，名义贸易逆差小幅收窄。推断：企业成本与外需链路继续分化。不能据此判断：旬度价格和单月贸易数据不能单独预测宽基指数短期涨跌，也不能决定家庭支取金额。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-04",
+      "expectedDataDate": "2026-11-04",
+      "fetchedAt": "2026-11-05T05:06:03.028Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-04"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-04",
+          "pe": 28.1681,
+          "pb": 2.0473,
+          "fetchedAt": "2026-11-05T05:06:03.028Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 28.1681,
+      "pePercentile": 0.6308139534883721,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-09",
+      "pb": 2.0473,
+      "pbPercentile": 0.6114341085271318,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-09",
+      "temperature": 0.6211240310077519,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 63.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-04",
+      "expectedDataDate": "2026-11-04",
+      "fetchedAt": "2026-11-05T05:06:03.159Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-04"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-04",
+          "pe": 13.6029,
+          "pb": 1.3501,
+          "fetchedAt": "2026-11-05T05:06:03.159Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.6029,
+      "pePercentile": 0.685077519379845,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-09",
+      "pb": 1.3501,
+      "pbPercentile": 0.24321705426356588,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-09",
+      "temperature": 0.4641472868217054,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 68.5% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-04",
+      "expectedDataDate": "2026-11-04",
+      "fetchedAt": "2026-11-05T05:06:03.073Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-04"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-04",
+          "pe": 27.4824,
+          "pb": 8.4035,
+          "fetchedAt": "2026-11-05T05:06:03.073Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 27.4824,
+      "pePercentile": 0.25583657587548636,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-11-09",
+      "pb": 8.4035,
+      "pbPercentile": 0.607976653696498,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-11-09",
+      "temperature": 0.4319066147859922,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 25.6% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-04",
+      "expectedDataDate": "2026-11-04",
+      "fetchedAt": "2026-11-05T05:06:03.116Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-04"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-04",
+          "pe": 23.9273,
+          "pb": 5.3872,
+          "fetchedAt": "2026-11-05T05:06:03.116Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 23.9273,
+      "pePercentile": 0.438953488372093,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-09",
+      "pb": 5.3872,
+      "pbPercentile": 0.8982558139534884,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-09",
+      "temperature": 0.6686046511627908,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 43.9% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国企业成本",
+      "headline": "10月下旬生产资料价格呈现17涨28降5平",
+      "implication": "事实：国家统计局监测显示，10月下旬与10月中旬相比，50种重要生产资料中17种上涨、28种下降、5种持平；液化天然气上涨10.9%，多项钢材价格下降。推断：不同行业的投入成本压力继续分化。不能据此判断：该旬度流通价格监测不同于PPI，也不能证明全部上市公司利润同步改善或恶化。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261103_1965738.html"
+    },
+    {
+      "market": "美国企业收入与需求",
+      "headline": "美国9月出口增长1.9%，进口增长1.2%",
+      "implication": "事实：美国经济分析局与人口普查局公布，9月出口为3215亿美元，进口为4266亿美元，货物和服务逆差降至1050亿美元；资本品进口增加116亿美元。推断：贸易流量与设备相关需求仍有支撑，但行业受益不同。不能据此判断：名义逆差收窄不等于实际净出口一定拉动GDP，单月数据也不能单独预测美股盈利或估值。",
+      "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-05:807624538",
+    "sourceType": "blog",
+    "title": "支取率的分母，是整个组合",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2014-08-25，修订于2025-05-12",
+    "sourceUrl": "https://jlcollinsnh.com/2014/08/25/stocks-part-xxvi-pulling-the-4/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：退休后的提款应放在整个投资组合、投资外收入和实际支出中一起评估，不能只看当前提款账户，也不能把一个固定支取比例设好后永久不复核。文章中的账户顺序与税务细节属于美国个人案例，不能直接成为中国家庭方案。",
+    "takeaways": [
+      "所有账户合并后再判断资产配置与总支取率，单个账户只是现金来源路径，不是风险分母。",
+      "投资外收入先抵减现金需要，支出按类别记录，并在市场和生活条件变化时复核可调空间。",
+      "股息、利息和卖出份额都是总回报的不同兑现方式；只花分红不能消除本金波动、税费或序列风险。"
+    ],
+    "fit": [
+      "FIRE",
+      "资产配置",
+      "风险控制",
+      "家庭财务",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "全组合支取分母",
+      "explanation": "一笔提款占某个账户的比例可能很高，但家庭承担风险的是全部投资资产与全部现金流。先用整个投资组合做分母，再扣除可靠的投资外收入，并把税费、交易成本和必要支出纳入净现金需要，才能判断支取压力。",
+      "applicability": "适用于已经进入支取期或计划阶段、能盘点全部账户和年度支出的家庭。美国IRA、Roth IRA、RMD与资本利得税决定了原文的提款顺序；中国账户、个人养老金、社保、基金结算与税务规则不同，必须按当前制度和合同重算。",
+      "misconception": "常见误区是把单个账户提款比例当作全组合支取率，或把历史4%结果当成未来保证。经典研究依赖美国历史样本、资产配置、三十年窗口和通胀调整方法，不能从今日指数分位反推家庭生活费。"
+    },
+    "quote": "we look at all of our funds combined",
+    "application": "今天四个指数仍按PE分位输出机械动作；若家庭涉及支取，另开一张全组合现金流表，不把市场信号和生活费规则混在一起。",
+    "dont": "不要照搬原文的账户、税率、年龄门槛和提款顺序，不要把4%写成确定安全线，也不要把今日“持有”或“定投”转译为退休支取金额。",
+    "images": [
+      {
+        "filename": "reading-whole-portfolio-withdrawal.png",
+        "alt": "多个账户容器汇入一个带总量仪表的组合托盘，并从整体流向家庭支出容器",
+        "caption": "图中多个容器代表不同账户，全部放在同一个组合托盘内；仪表只属于整个组合，表示支取压力应以全部投资资产为分母；从组合流向家庭容器的水流代表扣除投资外收入后仍需由资产承担的净支出。图示不代表支取比例、收益或账户顺序。",
+        "steps": [
+          "先合并全部投资账户，确认整个组合的可用资产与配置。",
+          "再列出投资外收入、必要支出、可调支出、税费和交易成本。",
+          "用净现金需要除以整个组合并定期复核，不用单个提款账户替代总分母。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-05T05:03:56.304Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年部分节假日休市安排",
+      "url": "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-11-05T05:03:56.304Z",
+      "dataDate": "2025-12-22发布",
+      "metricDefinition": "2026年年度节假日及周末休市安排"
+    },
+    {
+      "label": "Nasdaq：2026年美国股票市场休市安排",
+      "url": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "accessedAt": "2026-11-05T05:03:56.304Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-11-05T05:03:56.304Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-11-05T05:06:03.159Z",
+      "dataDate": "2026-11-04",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年10月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261103_1965738.html",
+      "accessedAt": "2026-11-05T05:08:02Z",
+      "dataDate": "2026-11-04发布，比较2026年10月下旬与10月中旬",
+      "metricDefinition": "全国流通领域9大类50种重要生产资料的市场价格旬度变动"
+    },
+    {
+      "label": "美国经济分析局：2026年9月国际货物和服务贸易",
+      "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
+      "accessedAt": "2026-11-05T05:08:02Z",
+      "dataDate": "2026-11-04发布，数据期为2026年9月",
+      "metricDefinition": "季调名义出口、进口和贸易差额；实际货物口径另列"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XXVI: Pulling the 4%",
+      "url": "https://jlcollinsnh.com/2014/08/25/stocks-part-xxvi-pulling-the-4/",
+      "accessedAt": "2026-11-05T05:08:02Z",
+      "dataDate": "2014-08-25发布，2025-05-12修订，2026-11-05完整阅读",
+      "metricDefinition": "退休支取机制、全组合分母、支出复核与美国账户顺序的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
