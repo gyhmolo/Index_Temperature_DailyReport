@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-08T18:08:30Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年11月9日为星期一。上交所、深交所2026年休市安排显示，当日不在节假日休市区间，因此为A股交易日。报告生成时A股尚未开盘，美国市场已完成11月6日交易，四个指数最近已完成交易日均为2026年11月6日。"
+  },
+  "advice": {
+    "book": "J.L. Collins Stock Series",
+    "principle": "简化不是只看产品名称，而是把再平衡、资产配置和随时间降低风险的规则写进一个可检查的容器。自动调整能减少操作负担，但只有在目标日期、风险承受力、费用和账户制度匹配时，才真正简化决策。",
+    "do": "今天按四个指数的PE分位执行既定机械规则；若考虑一站式养老配置，另行核对底层资产、风险下滑路径、总费用和账户约束，再判断它是否符合家庭用钱时间。",
+    "dont": "不要只凭退休年份选择产品，不要把自动调仓理解为风险消失，也不要直接照搬美国401k、403b和税务账户中的目标日期基金结论。",
+    "context": "事实：国务院常务会议部署扩大设备更新和无形资产投资、政策性资金拨付、金融风险化解与资本市场稳市机制；美国十月非农就业增加16.5万人，失业率为4.1%。推断：政策落实可能影响企业订单、现金流与融资条件，美国就业和工资仍会进入需求与贴现率判断。不能据此判断：会议部署和单月就业数据不能单独预测指数方向，也不能替代家庭资产配置。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-06",
+      "expectedDataDate": "2026-11-06",
+      "fetchedAt": "2026-11-08T18:07:18.411Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-06"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-06",
+          "pe": 27.9701,
+          "pb": 2.0457,
+          "fetchedAt": "2026-11-08T18:07:18.411Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 27.9701,
+      "pePercentile": 0.625,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-07",
+      "pb": 2.0457,
+      "pbPercentile": 0.6094961240310077,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-07",
+      "temperature": 0.6172480620155039,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 62.5% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-06",
+      "expectedDataDate": "2026-11-06",
+      "fetchedAt": "2026-11-08T18:07:18.056Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-06"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-06",
+          "pe": 13.4802,
+          "pb": 1.3382,
+          "fetchedAt": "2026-11-08T18:07:18.056Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4802,
+      "pePercentile": 0.6560077519379846,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-07",
+      "pb": 1.3382,
+      "pbPercentile": 0.20445736434108527,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-07",
+      "temperature": 0.4302325581395349,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 65.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-06",
+      "expectedDataDate": "2026-11-06",
+      "fetchedAt": "2026-11-08T18:07:18.108Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-06"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-06",
+          "pe": 26.283,
+          "pb": 8.0398,
+          "fetchedAt": "2026-11-08T18:07:18.108Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 26.283,
+      "pePercentile": 0.1877431906614786,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-11-07",
+      "pb": 8.0398,
+      "pbPercentile": 0.5651750972762646,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-11-07",
+      "temperature": 0.3764591439688716,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 18.8% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-06",
+      "expectedDataDate": "2026-11-06",
+      "fetchedAt": "2026-11-08T18:07:18.159Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-06"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-06",
+          "pe": 22.9573,
+          "pb": 5.1649,
+          "fetchedAt": "2026-11-08T18:07:18.159Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 22.9573,
+      "pePercentile": 0.2567829457364341,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-07",
+      "pb": 5.1649,
+      "pbPercentile": 0.8439922480620154,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-07",
+      "temperature": 0.5503875968992248,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 25.7% 分位，命中“定投”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国宏观政策",
+      "headline": "国务院常务会议部署促内需、风险化解与资本市场稳市机制",
+      "implication": "事实：11月6日召开的国务院常务会议提出，加快重大项目建设，支持企业扩大设备更新和无形资产投资，用好政策性资金并及时足额拨付涉及基层和企业的款项，同时持续化解地方政府债务和中小金融机构风险，完善资本市场稳市机制。推断：若资金拨付和项目投资落实，可能影响企业订单、现金流与融资条件。不能据此判断：会议部署不等于已形成具体投资规模、利润增量或证券价格方向。",
+      "url": "https://www.mofcom.gov.cn/xwfb/ldrhd/art/2026/art_d530d620020d485496d642c211131a1d.html"
+    },
+    {
+      "market": "美国就业与工资",
+      "headline": "十月美国非农就业增加十六万五千人，失业率为百分之四点一",
+      "implication": "事实：美国劳工统计局公布，2026年10月非农就业增加16.5万人，失业率为4.1%；私营非农平均时薪环比增长0.4%、同比增长3.1%，8月与9月就业合计上修8.4万人。推断：就业与工资仍支持居民收入，也会进入通胀和贴现率评估。不能据此判断：单月就业报告不能单独决定美联储政策、企业利润或市场方向。",
+      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-09:606293110",
+    "sourceType": "blog",
+    "title": "一只基金，也要看清内部规则",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2012-12-18，修订于2023-11-28",
+    "sourceUrl": "https://jlcollinsnh.com/2012/12/18/stocks-part-xv-target-retirement-funds-the-simplest-path-to-wealth-of-all/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：目标日期基金把多类低成本基金、再平衡和随退休临近降低风险的路径装进一个产品，可以减少维护负担；但简单不等于无需判断，底层资产、费用、风险下滑速度和账户税务仍要匹配个人条件。",
+    "takeaways": [
+      "基金中的基金把股票、债券和国际资产组合在一个容器内，由产品按规则维护配置。",
+      "临近目标日期时，组合通常逐步降低风险；若默认路径与实际风险承受力不匹配，年份标签本身不能解决问题。",
+      "作者偏好更低费用和可在税收优惠账户中放置债券的独立基金方案，但也承认一站式方案适合重视简单执行的人。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "资产配置",
+      "FIRE",
+      "风险控制",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "目标日期基金与风险下滑路径",
+      "explanation": "目标日期基金是一种基金中的基金。它把多类资产放在同一产品里，并沿预设路径随时间调整股债比例。价值不在预测市场，而在把再平衡和风险降低流程自动化，从而减少遗漏与临时决策。",
+      "applicability": "适合目标时间较清楚、愿意接受产品默认配置、希望降低维护负担且已核对费用与底层资产的人。原文基于美国401k、403b及税收优惠账户；中国养老目标基金、个人养老金账户、基金费用、投资范围与税务规则不同，应以当前招募说明书、合同和监管制度为准。",
+      "misconception": "常见误区是只按退休年份选择产品，把自动调仓当作风险消失，或忽略同一目标年份产品的底层资产、风险下滑速度和费用差异。自动化只能执行预设规则，不能保证收益，也不能替代现金流规划。"
+    },
+    "quote": "a Fund of Funds",
+    "application": "今天的指数动作继续由PE分位机械触发；若希望把资产配置简化为一个产品，先检查它内部如何配置、何时调整以及费用和账户边界，再决定是否采用。",
+    "dont": "不要把美国目标日期基金的配置、费用、国际资产比例和税务结论直接移植到中国账户，不要因产品名称带有退休年份就跳过底层核查。",
+    "images": [
+      {
+        "filename": "reading-target-date-glide-path.png",
+        "alt": "一个透明容器中的三类资产沿时间自动调整比例",
+        "caption": "透明容器代表一只基金中的基金：深蓝、绿色和赭色区域分别示意权益、债券与现金类资产；从幼苗到大树的时间线表示接近目标日期，权益区域收窄，债券与现金类区域扩大。图中没有真实比例或收益数据，只说明风险下滑路径会把再平衡写入产品规则。",
+        "steps": [
+          "先查看产品持有哪些底层资产，以及各类资产承担的功能。",
+          "再核对风险下滑路径，确认配置随目标日期如何变化。",
+          "最后检查总费用、账户制度和家庭用钱时间，判断自动规则是否匹配实际约束。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-08T18:04:53.577Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://www.szse.cn/English/services/trading/calendar/",
+      "accessedAt": "2026-11-08T18:04:53.577Z",
+      "dataDate": "2026年交易日历",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年市场日历",
+      "url": "https://nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-11-08T18:04:53.577Z",
+      "dataDate": "2026年市场日历",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-11-08T18:04:53.577Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-11-08T18:07:18.411Z",
+      "dataDate": "2026-11-06",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国务院常务会议：促内需、风险化解与资本市场稳市机制部署",
+      "url": "https://www.mofcom.gov.cn/xwfb/ldrhd/art/2026/art_d530d620020d485496d642c211131a1d.html",
+      "accessedAt": "2026-11-08T18:08:30Z",
+      "dataDate": "2026-11-06会议，2026-11-07发布",
+      "metricDefinition": "国务院常务会议部署事项；政策表述不等于已实施规模或企业结果"
+    },
+    {
+      "label": "美国劳工统计局：2026年10月就业形势",
+      "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+      "accessedAt": "2026-11-08T18:08:30Z",
+      "dataDate": "2026-11-06发布，数据期为2026年10月",
+      "metricDefinition": "住户调查失业率与机构调查非农就业、工时和时薪；经季节调整，初值可修订"
+    },
+    {
+      "label": "J.L. Collins：Target Retirement Funds, the Simplest Path to Wealth of All",
+      "url": "https://jlcollinsnh.com/2012/12/18/stocks-part-xv-target-retirement-funds-the-simplest-path-to-wealth-of-all/",
+      "accessedAt": "2026-11-08T18:08:30Z",
+      "dataDate": "2012-12-18发布，2023-11-28修订，2026-11-09完整阅读",
+      "metricDefinition": "目标日期基金、基金中的基金、风险下滑路径、费用与美国账户边界的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
