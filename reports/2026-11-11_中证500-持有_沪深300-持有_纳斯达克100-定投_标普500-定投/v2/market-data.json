@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T05:09:44Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年11月11日为星期三。上交所、深交所2026年休市安排显示，当日不在节假日休市区间，因此为A股交易日。报告生成时A股尚未收盘；美国退伍军人节不属于NYSE与Nasdaq股票市场休市日，但11月11日美国交易尚未开始，四个指数最近已完成交易日均为2026年11月10日。"
+  },
+  "advice": {
+    "book": "读书记忆：基金数量不是分散程度",
+    "principle": "分散要看底层公司、国家、货币、行业、指数规则和产品结构等风险来源，不能只数基金或指数。海外收入暴露不等于直接持有境外公司；多只产品也可能持仓重叠。",
+    "do": "今天按四个指数的PE分位记录并执行既定机械规则；若复核跨市场配置，另行列出底层公司、国家、货币、行业、指数规则和产品层费用，先确认新增暴露是否真的减少原有集中风险。",
+    "dont": "不要把四条独立估值信号直接换算成配置比例，不要把美国公司的海外收入当作完整的境外市场持有，也不要借钱放大今天的指数信号。",
+    "context": "事实：美国十月CPI环比上涨0.4%，核心CPI环比上涨0.3%，全体私营非农员工实际平均时薪和周薪环比均持平；中加经济财金战略对话同意深化金融服务业市场准入合作，并签署财政、金融监管和金融工作组安排。推断：美国价格与实际工资变化会进入消费和美元贴现率评估，制度合作可能影响跨境金融服务的可预期性。不能据此判断：这些数据和安排不能单独预测指数方向、政策利率、跨境资金流或家庭配置比例。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-10",
+      "expectedDataDate": "2026-11-10",
+      "fetchedAt": "2026-11-11T05:05:46.471Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-10"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-10",
+          "pe": 28.12,
+          "pb": 2.0569,
+          "fetchedAt": "2026-11-11T05:05:46.471Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 28.12,
+      "pePercentile": 0.6308139534883721,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-15",
+      "pb": 2.0569,
+      "pbPercentile": 0.623062015503876,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-15",
+      "temperature": 0.626937984496124,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 63.1% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-10",
+      "expectedDataDate": "2026-11-10",
+      "fetchedAt": "2026-11-11T05:05:46.556Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-10"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-10",
+          "pe": 13.4575,
+          "pb": 1.336,
+          "fetchedAt": "2026-11-11T05:05:46.556Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4575,
+      "pePercentile": 0.6501937984496124,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-15",
+      "pb": 1.336,
+      "pbPercentile": 0.1996124031007752,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-15",
+      "temperature": 0.42490310077519383,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 65.0% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-10",
+      "expectedDataDate": "2026-11-10",
+      "fetchedAt": "2026-11-11T05:05:46.513Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-10"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-10",
+          "pe": 26.7863,
+          "pb": 8.193,
+          "fetchedAt": "2026-11-11T05:05:46.513Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 26.7863,
+      "pePercentile": 0.20330739299610895,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-11-15",
+      "pb": 8.193,
+      "pbPercentile": 0.5729571984435797,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-11-15",
+      "temperature": 0.3881322957198443,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 20.3% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-10",
+      "expectedDataDate": "2026-11-10",
+      "fetchedAt": "2026-11-11T05:05:46.428Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-10"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-10",
+          "pe": 23.4769,
+          "pb": 5.252,
+          "fetchedAt": "2026-11-11T05:05:46.428Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 23.4769,
+      "pePercentile": 0.3536821705426357,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-15",
+      "pb": 5.252,
+      "pbPercentile": 0.8711240310077519,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-15",
+      "temperature": 0.6124031007751938,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 35.4% 分位，命中“定投”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国消费价格",
+      "headline": "十月美国CPI环比上涨百分之零点四，核心CPI环比上涨百分之零点三",
+      "implication": "事实：美国劳工统计局公布，2026年10月CPI经季节调整后环比上涨0.4%，食品和能源以外指数环比上涨0.3%；住房指数上涨0.3%，贡献了当月总体涨幅的三成以上。因2025年10月拨款中断期间缺少调查数据，多数项目无法发布2026年10月同比变化。推断：价格变化会进入居民购买力、企业成本和美元贴现率评估。不能据此判断：单月CPI不能单独决定美联储政策、企业利润或指数方向，也不能用缺失的同比数据补写趋势。",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "market": "美国实际工资",
+      "headline": "十月美国全体私营非农员工实际平均时薪和周薪环比持平",
+      "implication": "事实：美国劳工统计局公布，2026年10月全体私营非农员工名义平均时薪环比上涨0.4%，CPI-U环比上涨0.4%，因此实际平均时薪环比持平；平均工时未变，实际平均周薪也环比持平。生产和非管理岗位员工实际平均时薪环比上涨0.1%，实际平均周薪因工时下降而环比下降0.3%。推断：当月总体实际工资购买力没有增长，会进入消费现金流判断。不能据此判断：一个月的实际工资不能单独证明消费总量、企业收入或市场方向。",
+      "url": "https://www.bls.gov/news.release/realer.htm"
+    },
+    {
+      "market": "中加经济财金合作",
+      "headline": "中加同意深化金融服务业市场准入合作并建立财金工作安排",
+      "implication": "事实：财政部公布，第二次中加经济财金战略对话同意深化金融服务业市场准入合作，促进资本市场和金融监管机构交流；两国相关部门和央行签署财政合作谅解备忘录、金融监管对话合作协议和金融工作组工作规程，并欢迎落实双边本币互换安排。推断：这些安排可能提高双边金融合作与监管沟通的可预期性。不能据此判断：联合说明没有给出企业盈利、跨境资金流或汇率的量化结果，不能直接推出指数上涨。",
+      "url": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202611/t20261110_4004337.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-11:2820688555",
+    "sourceType": "blog",
+    "title": "基金多，不等于分散更多",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2012-09-26，修订于2023-10-04",
+    "sourceUrl": "https://jlcollinsnh.com/2012/09/26/stocks-part-xi-international-funds-2/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：作者在美国投资者语境下认为，美国全市场基金所持跨国公司已带来海外收入暴露，额外国际基金还会增加货币、会计、监管和费用维度，因此简单组合可能更适合部分投资者；但文章也承认，不同世界观和非美国投资者的本国集中风险可能导向不同结论。可迁移的不是拒绝国际资产，而是穿透底层风险后再判断新增产品是否真正分散。",
+    "takeaways": [
+      "公司的海外收入能提供全球业务暴露，但不等同于直接持有其他国家的公司；两者的国家、货币、行业和估值权重不同。",
+      "增加国际基金可能降低单一国家集中，也会引入汇率、会计、监管、费用和交易通道等额外变量，需要一起比较。",
+      "基金数量不是分散程度。多只基金可能高度重叠，少数产品也可能覆盖多个市场；应穿透检查底层成份与风险来源。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "资产配置",
+      "风险控制",
+      "行为纪律",
+      "FIRE",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "穿透式风险暴露",
+      "explanation": "把基金名称拆到底层公司、国家、货币、行业、指数规则和产品结构，再判断每一层风险是否与现有资产相同。只有新增暴露减少了原有集中，且成本和执行约束可接受，才构成有效分散。",
+      "applicability": "比较对象的持仓、权重、收入来源、费用、税务、流动性和交易通道能够核验，并且先定义要降低的是公司、行业、国家还是货币风险。原文以美国基金、美元资产和美国税务账户为背景；中国投资者还需核对境内跨境产品的额度、折溢价、汇率、申赎到账、跟踪偏离和税务。",
+      "misconception": "把基金数量当作分散程度，把美国公司的海外收入等同于直接持有非美国公司，或因为新增产品覆盖更多国家就忽略行业重叠、产品费用和账户限制。本项目四条指数信号是独立估值观察，不是一份家庭资产配置。"
+    },
+    "quote": "It all depends on how much of the world you want.",
+    "application": "今天四个指数继续按各自PE分位执行机械规则。若评估跨市场配置，先画出底层公司、国家、货币、行业和指数规则的暴露图，再判断新增产品解决了哪一种集中风险。",
+    "dont": "不要因基金或指数数量增加就认定分散改善，不要把本文的美国市场结论直接移植到中国账户，也不要从四条独立信号推导个人配置比例。",
+    "images": [
+      {
+        "filename": "reading-international-diversification.png",
+        "alt": "三幅插图展示海外收入、直接境外持有与基金重叠",
+        "caption": "左图让一个本土市场篮子通过贸易路线连接全球，表示公司海外收入能形成国际业务暴露；中图让两个司法辖区的市场篮子隔着地球相连，并放置货币、文件、监管和行业图标，表示直接境外持有增加了不同风险维度；右图让三只透明基金篮子重叠在同一组企业上，再列出国家、货币、行业和指数规则图标，表示应按底层风险来源判断分散，而不是数基金。图中没有真实持仓、收益率或资产数据。",
+        "steps": [
+          "先核对每个产品的底层公司、权重和收入来源，识别已经存在的海外业务暴露。",
+          "再按国家、货币、行业、指数规则和产品结构整理风险，标出与现有资产的重叠。",
+          "最后计入费用、税务、流动性和交易通道，确认新增暴露是否真的降低目标集中风险。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-11T05:03:31.892Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://www.szse.cn/English/services/trading/calendar/",
+      "accessedAt": "2026-11-11T05:03:31.892Z",
+      "dataDate": "2026年交易日历",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年市场日历",
+      "url": "https://nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-11-11T05:03:31.892Z",
+      "dataDate": "2026年市场日历",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-11-11T05:03:31.892Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-11-11T05:05:46.556Z",
+      "dataDate": "2026-11-10",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美国劳工统计局：2026年10月消费者价格指数",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "accessedAt": "2026-11-11T05:09:44Z",
+      "dataDate": "2026-11-10发布，数据期为2026年10月",
+      "metricDefinition": "CPI-U总体与分类环比，经季节调整；2025年10月调查缺失导致多数同比不可得"
+    },
+    {
+      "label": "美国劳工统计局：2026年10月实际工资",
+      "url": "https://www.bls.gov/news.release/realer.htm",
+      "accessedAt": "2026-11-11T05:09:44Z",
+      "dataDate": "2026-11-10发布，数据期为2026年10月",
+      "metricDefinition": "私营非农员工实际平均时薪与周薪环比，经季节调整；部分数据为初值"
+    },
+    {
+      "label": "财政部：第二次中加经济财金战略对话联合情况说明",
+      "url": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202611/t20261110_4004337.htm",
+      "accessedAt": "2026-11-11T05:09:44Z",
+      "dataDate": "2026-11-10发布，对话日期为2026年11月8日至9日",
+      "metricDefinition": "联合情况说明中的金融服务业市场准入、监管交流、工作机制与本币互换安排"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XI: International Funds",
+      "url": "https://jlcollinsnh.com/2012/09/26/stocks-part-xi-international-funds-2/",
+      "accessedAt": "2026-11-11T05:09:44Z",
+      "dataDate": "2012-09-26发布，2023-10-04修订，2026-11-11完整阅读",
+      "metricDefinition": "国际基金、海外收入暴露、货币与会计风险、费用和组合简化的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
