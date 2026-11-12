@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T05:06:37Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年11月12日为星期四。上交所、深交所2026年休市安排显示，当日不在节假日休市区间，因此为A股交易日。报告生成时A股尚未收盘；NYSE与Nasdaq休市日历显示11月11日不属于股票市场休市日，四个指数最近已完成交易日均为2026年11月11日。"
+  },
+  "advice": {
+    "book": "读书记忆：低成本要看全部成本",
+    "principle": "低成本不只是一项管理费。持续管理与托管费用、交易与账户费用、买卖价差、税费、换汇、跟踪偏离和行为摩擦都会侵蚀可支取现金；历史压力测试若忽略这些流出，就不能直接代表家庭能够使用的净现金。",
+    "do": "今天按四个指数的PE分位记录并执行既定机械规则；若已有退休现金流计划，另行列出持续费用、交易税费、换汇和产品跟踪偏离，再用整个组合和净支出重做压力测试。",
+    "dont": "不要把历史百分之四结论写成个人保证，不要只比较名义管理费，也不要用一条宏观或监管信息替代家庭期限、支出弹性和账户规则。",
+    "context": "事实：美联储两位理事在十一月十日分别表示美国经济保持增长、劳动力市场接近稳定，但通胀仍高于目标；这些是个人政策观点，不是新的委员会决定。中国证监会的衍生品交易监管办法将于十一月十六日施行，明确适当性、实名制、经营机构净资本与风险管理等要求。推断：美国通胀与金融条件会影响贴现率，衍生品规则会改变相关机构的合规约束。不能据此判断：讲话和制度生效不能单独预测指数方向、利率路径或家庭支取比例。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-11",
+      "expectedDataDate": "2026-11-11",
+      "fetchedAt": "2026-11-12T05:04:04.668Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-11"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-11",
+          "pe": 28.3843,
+          "pb": 2.0763,
+          "fetchedAt": "2026-11-12T05:04:04.668Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 28.3843,
+      "pePercentile": 0.6443798449612403,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-16",
+      "pb": 2.0763,
+      "pbPercentile": 0.6414728682170543,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-16",
+      "temperature": 0.6429263565891473,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 64.4% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-11",
+      "expectedDataDate": "2026-11-11",
+      "fetchedAt": "2026-11-12T05:04:04.712Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-11"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-11",
+          "pe": 13.4477,
+          "pb": 1.335,
+          "fetchedAt": "2026-11-12T05:04:04.712Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4477,
+      "pePercentile": 0.6472868217054264,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-16",
+      "pb": 1.335,
+      "pbPercentile": 0.19864341085271317,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-16",
+      "temperature": 0.4229651162790698,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 64.7% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-11",
+      "expectedDataDate": "2026-11-11",
+      "fetchedAt": "2026-11-12T05:04:04.572Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-11"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-11",
+          "pe": 27.2261,
+          "pb": 8.3275,
+          "fetchedAt": "2026-11-12T05:04:04.572Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 27.2261,
+      "pePercentile": 0.24221789883268482,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-11-16",
+      "pb": 8.3275,
+      "pbPercentile": 0.6021400778210116,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-11-16",
+      "temperature": 0.42217898832684825,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 24.2% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-11",
+      "expectedDataDate": "2026-11-11",
+      "fetchedAt": "2026-11-12T05:04:04.624Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-11"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-11",
+          "pe": 23.7966,
+          "pb": 5.3235,
+          "fetchedAt": "2026-11-12T05:04:04.624Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 23.7966,
+      "pePercentile": 0.40988372093023256,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-16",
+      "pb": 5.3235,
+      "pbPercentile": 0.8924418604651163,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-16",
+      "temperature": 0.6511627906976745,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 41.0% 分位，命中“持有”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "美国增长、通胀与金融条件",
+      "headline": "美联储官员认为增长和就业保持韧性，但通胀仍高于目标",
+      "implication": "事实：十一月十日，美联储副主席Bowman表示经济增长受投资和消费支持，劳动力市场趋稳，但通胀压力持续且金融条件有所收紧；理事Waller表示经济和就业保持增长，同时认为通胀仍过高，并支持在十二月加息二十五个基点。这些表述是个人政策观点，不是新的FOMC决定。推断：通胀、私人利率和融资条件会进入企业现金流与美元资产贴现率评估。不能据此判断：两位官员的讲话不能单独确定委员会下一次决定，也不能直接预测指数方向。",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm"
+    },
+    {
+      "market": "中国衍生品监管",
+      "headline": "衍生品交易监管办法将于十一月十六日施行",
+      "implication": "事实：中国证监会发布的《衍生品交易监督管理办法（试行）》将自二〇二六年十一月十六日起施行，涵盖交易与结算、适当性、账户实名制、机构内控和风险管理；证券公司、期货公司申请开展相关业务需满足最近六个月净资本持续不低于人民币五亿元等条件，不符合规定的主体不得新增业务，存量业务到期了结。推断：新规会提高相关业务的合规、资本与风控约束。不能据此判断：制度生效不能单独说明市场成交、企业盈利或宽基指数方向。",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7632835/content.shtml"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-12:2837466174",
+    "sourceType": "blog",
+    "title": "百分之四不是一张保单",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2012-12-07，修订于2023-10-15",
+    "sourceUrl": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：百分之四规则是基于特定美国历史窗口、股债配置和通胀调整方式的压力测试，不是退休现金流保证。作者强调低费用和支出弹性，但文章中的历史样本、账户环境与个人判断都不能直接变成中国家庭的成功概率。",
+    "takeaways": [
+      "经典研究先按退休起点的组合价值确定首年支出，随后按通胀调整金额；这与每年按当前市值重新取固定比例不是同一种方法。",
+      "结果依赖退休期限、股债配置、回报出现顺序和持续费用；早期回撤与提款同时发生，会减少以后参与恢复的本金。",
+      "支出弹性、其他收入和定期复核可以改变压力测试路径，但只有在必需支出与可调支出已经分开时，灵活性才可执行。"
+    ],
+    "fit": [
+      "FIRE与现金流",
+      "资产配置",
+      "风险控制",
+      "行为纪律",
+      "家庭财务",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "条件式支取压力测试",
+      "explanation": "先固定退休起点、组合结构、支出规则、期限与费用，再沿不同历史回报路径检查资产是否耗尽。它回答的是特定条件下的历史存续，不是个人未来成功概率；改变费用、通胀调整、资产配置或支出方式，就已经换了问题。",
+      "applicability": "适合已有全组合资产、年度净支出、其他收入、期限与配置假设的家庭做情景比较。原文使用美国股债历史和美国退休账户语境；中国家庭还需按人民币支出、社保与个人养老金、基金费率、税务、流动性和可能更长的退休期限重算。",
+      "misconception": "把历史未耗尽比例当成个人成功概率，把期末有余额等同于购买力稳定，或忽略费用、税费和换汇后的净现金。百分之四也不能由今日指数分位反推出家庭生活费。"
+    },
+    "quote": "Sensible flexibility is what provides security.",
+    "application": "今天四个指数继续按各自PE分位执行机械规则；支取计划另开一张全组合现金流表，把持续费用、税费、通胀调整与可调支出加入压力测试。",
+    "dont": "不要把美国历史样本的结果写成未来保证，不混用首年固定比例与每年按市值取现，也不要忽略持续费用对长期现金流的侵蚀。",
+    "images": [
+      {
+        "filename": "reading-conditional-withdrawal-test.png",
+        "alt": "三幅连续插图展示组合水库、早期风暴和可调支出",
+        "caption": "左图把整个投资组合画成水库，稳定水流代表持续生活支出；中图让早期风暴降低水位，同时支出水流继续，表示回报顺序会在提款期改变组合路径，侧面漏水代表持续费用；右图加入可调阀门和辅助水源，表示支出弹性与其他收入可以改变压力测试。图中不包含真实比例、收益或恢复承诺。",
+        "steps": [
+          "先用整个组合、首年净支出、其他收入和期限定义压力测试起点。",
+          "再加入通胀、持续费用、税费和早期回撤，逐年检查现金流与资产余额。",
+          "最后分开必需支出与可调支出，明确何时复核和收缩，不把历史存续率当作个人保证。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-12T05:01:20.955Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://www.szse.cn/English/services/trading/calendar/",
+      "accessedAt": "2026-11-12T05:01:20.955Z",
+      "dataDate": "2026年交易日历",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年市场日历",
+      "url": "https://nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-11-12T05:01:20.955Z",
+      "dataDate": "2026年市场日历",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-11-12T05:01:20.955Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-11-12T05:04:04.712Z",
+      "dataDate": "2026-11-11",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "美联储：美国经济与货币政策考量",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+      "accessedAt": "2026-11-12T05:06:37Z",
+      "dataDate": "2026-11-10发布",
+      "metricDefinition": "美联储副主席Bowman关于增长、通胀、金融条件与政策路径的个人讲话"
+    },
+    {
+      "label": "美联储：经济展望与劳动力市场活力",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+      "accessedAt": "2026-11-12T05:06:37Z",
+      "dataDate": "2026-11-10发布",
+      "metricDefinition": "美联储理事Waller关于增长、就业、通胀与政策路径的个人讲话"
+    },
+    {
+      "label": "中国证监会：衍生品交易监督管理办法（试行）",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7632835/content.shtml",
+      "accessedAt": "2026-11-12T05:06:37Z",
+      "dataDate": "2026-05-15发布，2026-11-16施行",
+      "metricDefinition": "衍生品交易范围、适当性、实名制、经营机构资本与风险管理要求"
+    },
+    {
+      "label": "J.L. Collins：Stocks — Part XIII: The 4% Rule, Withdrawal Rates and How Much Can I Spend Anyway?",
+      "url": "https://jlcollinsnh.com/2012/12/07/stocks-part-xiii-withdrawal-rates-how-much-can-i-spend-anyway/",
+      "accessedAt": "2026-11-12T05:06:37Z",
+      "dataDate": "2012-12-07发布，2023-10-15修订，2026-11-12完整阅读",
+      "metricDefinition": "百分之四规则、历史压力测试、费用、支出弹性与适用边界的完整论证单元"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
