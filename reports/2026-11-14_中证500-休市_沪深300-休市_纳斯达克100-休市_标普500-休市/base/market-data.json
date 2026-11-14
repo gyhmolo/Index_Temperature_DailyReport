@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T05:04:37.252Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年11月14日为星期六。上海证券交易所和深圳证券交易所的交易日均为每周一至周五，周末休市。今天不抓取四个指数估值，不创建估值日历或重试状态；对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日日报不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易规则与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易规则与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国资本市场制度",
+      "headline": "证监会衍生品交易监管规章11月16日起施行",
+      "implication": "事实：《衍生品交易监督管理办法（试行）》将于2026年11月16日施行，覆盖互换、远期和非标准化期权及其组合，并对交易、结算、适当性、实名账户、经营机构内控和市场基础设施作出规定。不符合规定的主体不得新增业务，存量业务到期了结。推断：这会改变相关机构的合规、资本和风险管理约束。不能据此判断：规则生效不能单独推导指数价格或单家公司利润方向。",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7632835/content.shtml"
+    },
+    {
+      "market": "美国金融稳定",
+      "headline": "美联储报告指出资产估值与金融杠杆压力",
+      "implication": "事实：美联储于11月13日发布金融稳定报告，信息截至10月28日。报告称股票远期市盈率仍明显高于历史中位数，美债收益率与期限溢价上升，对冲基金杠杆达到2013年数据起点以来最高水平；同时银行体系总体保持稳健和较高资本水平。推断：高估值、长端利率和集中杠杆可能放大风险资产调整时的传导。不能据此判断：风险监测不是市场转折时点预测，也不证明调整必然发生。",
+      "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-14:2871021412",
+    "sourceType": "book",
+    "title": "一笔缓冲，换来选择时间",
+    "sourceName": "《简单致富》",
+    "author": "J.L. 柯林斯",
+    "locator": "第2章「你为什么需要独立自由保证金」",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：流动缓冲的价值不只是覆盖支出，还在于当职业或家庭遭遇冲击时延长决策时间，让人不必因短期现金压力接受唯一选项。章节用作者失业与家庭经历说明选择权，但个人案例不能证明通用金额、通用月数或收益结果。",
+    "takeaways": [
+      "缓冲把「必须立即找到收入」改变为「有时间比较选择」，它购买的是决策余地。",
+      "债务和高固定支出会缩短可选时间；账面资产只有在需要时能使用，才能成为真实缓冲。",
+      "应急资金、职业选择权缓冲与长期财务独立资产的目标不同，不能用一个数字互相代替。"
+    ],
+    "fit": [
+      "FIRE与现金流",
+      "家庭财务",
+      "风险控制",
+      "生活决策"
+    ],
+    "concept": {
+      "title": "选择权缓冲",
+      "explanation": "可及时动用的资源与较低的固定承诺共同延长家庭在收入中断后的可决策时间。这个时间窗口降低被迫接受单一方案的压力，但不会消除未来收入、通胀或资产波动风险。",
+      "applicability": "适合分析收入中断、职业转换或照护等需要时间的情景。缓冲长度取决于必需支出、收入恢复难度、家庭责任和资金可用时点，不存在由本章证明的统一月数。作者处于美国制度环境；中国语境下的存款、基金赎回、社保、保险与税务需按当期规则核对。",
+      "misconception": "常见误区是把作者个人的三年经历当成标准，把任何账面资产都当成随时可用的缓冲，或把选择权缓冲等同于已经达到永久财务独立。"
+    },
+    "quote": "金钱可以买到很多东西，其中最宝贵的就是自由。",
+    "application": "中国衍生品监管规章和美联储金融稳定报告都描述了制度或市场约束；本章则转向家庭层面，说明流动缓冲如何改变冲击来临时的可选集合。两者属于不同分析层级，不能相互代替。",
+    "dont": "边界：不把个人故事当成统一现金月数的证据，不假定账面资产在任何时点都能赎回，也不从美国个案直接导出中国账户、保险或税务结论。",
+    "images": [
+      {
+        "filename": "reading-choice-buffer.png",
+        "alt": "流动缓冲连接突发失业与多种生活选择的单幅插图",
+        "caption": "画面左侧的空工牌和合上的电脑代表收入突然中断；中部的储水容器代表可及时动用的缓冲，桥梁代表它延长的决策时间；右侧三条路分别表示家庭时间、学习和新工作路径。画面表达选择权，不代表任何收益承诺。",
+        "steps": [
+          "突发失业先改变家庭的现金流来源。",
+          "可用缓冲承接必需支出，延长不必立即决定的时间。",
+          "延长后的时间窗口让家庭能够比较多种路径，但不保证任何路径的结果。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-14T05:04:37.252Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "交易日为每周一至周五，周末及公告休市日休市"
+    },
+    {
+      "label": "深圳证券交易所：2026年修订交易规则",
+      "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+      "accessedAt": "2026-11-14T05:04:37.252Z",
+      "dataDate": "2026年修订交易规则",
+      "metricDefinition": "2.3.1条：交易日为每周一至周五，国家法定假日和本所公告休市日休市"
+    },
+    {
+      "label": "中国证监会：《衍生品交易监督管理办法（试行）》发布说明",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7632835/content.shtml",
+      "accessedAt": "2026-11-14T05:04:37.252Z",
+      "dataDate": "2026-05-15发布，2026-11-16施行",
+      "metricDefinition": "衍生品交易、结算、适当性、机构内控与市场基础设施的部门规章；制度事实不等于价格方向判断"
+    },
+    {
+      "label": "美联储：2026年11月《金融稳定报告》",
+      "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+      "accessedAt": "2026-11-14T05:04:37.252Z",
+      "dataDate": "2026-11-13发布，信息截至2026-10-28",
+      "metricDefinition": "金融系统脆弱性评估，覆盖资产估值、企业和家庭债务、金融机构杠杆与融资风险；不是市场择时预测"
+    },
+    {
+      "label": "《简单致富》：你为什么需要独立自由保证金",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-11-14T05:04:37.252Z",
+      "dataDate": "第2章，2026-11-14完整阅读",
+      "metricDefinition": "作者以失业、家庭和职业选择权说明流动缓冲价值的完整论证单元；个人经历不升级为通用因果或比例证据"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
