@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T04:55:21.585Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年11月15日为星期日。上海证券交易所和深圳证券交易所的交易日均为每周一至周五，周末休市。今天不抓取四个指数估值，不创建估值日历或重试状态；对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日日报不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易规则与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易规则与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国生产资料价格",
+      "headline": "十一月上旬生产资料价格多数回落",
+      "implication": "事实：国家统计局对全国流通领域九大类五十种重要生产资料的监测显示，二〇二六年十一月上旬与十月下旬相比，十六种产品价格上涨，三十二种下降，两种持平。推断：原料价格分化可能让不同行业的成本与毛利率承受不同压力。不能据此判断：这组旬度流通价格不是全部工业品价格，也不能单独证明企业利润或股票价格的方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261113_1965820.html"
+    },
+    {
+      "market": "美国上市公司披露",
+      "headline": "美国证监会提议改革高管薪酬披露",
+      "implication": "事实：美国证券交易委员会于十一月十三日提出规则修订，拟让高管及董事薪酬披露更侧重重要性，并重组主要表格、聚焦首席执行官和首席财务官及股权奖励全周期；提案仍需公开征求意见。推断：若最终采用，上市公司的披露成本、信息结构和跨公司可比性可能改变。不能据此判断：提案不是最终规则，也不能单独推导公司利润、治理质量或市场价格方向。",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-15:2887799031",
+    "sourceType": "blog",
+    "title": "资产配置先看现金流阶段",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2014-06-10，2025-05-12修订",
+    "sourceUrl": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：资产配置不是由年龄或收益目标单独决定，而要同时看现金流阶段、支出弹性、主观风险意愿与客观承受能力。作者用积累期和保全期解释股票、债券与再平衡的角色，但其个人比例和美国基金、账户示例不能直接成为通用方案。",
+    "takeaways": [
+      "积累期有工资和新增储蓄，市场波动可以由后续现金流逐步承接；停止领取工资后，组合还要承担生活支取。",
+      "配置越复杂，越依赖持续再平衡与执行；微小的模型差异未必足以补偿管理成本和行为错误。",
+      "风险承受力不仅是面对下跌的情绪，还包括支出能否调整、是否能恢复工作及现有资产是否足以覆盖需要。"
+    ],
+    "fit": [
+      "FIRE与现金流",
+      "资产配置",
+      "风险控制",
+      "行为纪律"
+    ],
+    "concept": {
+      "title": "风险意愿与风险能力",
+      "explanation": "风险意愿是面对账面回撤时仍能执行计划的心理接受度；风险能力是发生损失后，家庭现金流、支出和未来收入仍不被破坏的客观余地。配置必须同时受两者中更紧的一项约束。",
+      "applicability": "适合在工资中断、退休支取、职业转换或刚性支出改变时重新检查配置。文章使用美国全市场基金、债券基金以及IRA和401(k)账户举例；中国市场的产品、税务、交易与赎回安排必须依据当期规则单独核验。",
+      "misconception": "常见误区是只凭年龄或问卷判断风险，把作者的个人配置当成普遍最优，或把持有债券误解为消除波动和损失。"
+    },
+    "quote": "Life is balance and choice.",
+    "application": "生产资料价格的分化和披露规则的提案都说明企业经营环境与信息边界会变化；文章讨论的是家庭如何按现金流阶段承受这些变化。两者属于不同层级，不能从宏观或监管消息直接跳到个人配置结论。",
+    "dont": "边界：不照搬作者的基金代码、股债比例、再平衡阈值或美国税务账户安排，也不把模型回测当作未来收益保证。",
+    "images": [
+      {
+        "filename": "reading-allocation-stages.png",
+        "alt": "积累期与保全期的现金流和资产配置差异插图",
+        "caption": "左侧表示积累期：工资与新增储蓄持续进入组合，现金缓冲承接近期需要；中间的桥表示工资、支出或工作能力改变时需要重评；右侧表示保全期：组合同时承担增长、稳定与生活支取，滑块表示支出弹性会改变客观风险能力。画面不表示任何固定配置或收益承诺。",
+        "steps": [
+          "积累期先识别工资和新增储蓄能否持续进入组合。",
+          "现金流、工作状态或刚性支出变化时，重新评估风险意愿与风险能力。",
+          "保全期把增长资产、稳定资产和生活支取放在同一现金流框架中观察。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-15T04:55:21.585Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "交易日为每周一至周五，周末及公告休市日休市"
+    },
+    {
+      "label": "深圳证券交易所：2026年修订交易规则",
+      "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+      "accessedAt": "2026-11-15T04:55:21.585Z",
+      "dataDate": "2026年修订交易规则",
+      "metricDefinition": "2.3.1条：交易日为每周一至周五，国家法定假日和本所公告休市日休市"
+    },
+    {
+      "label": "国家统计局：2026年11月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261113_1965820.html",
+      "accessedAt": "2026-11-15T04:55:21.585Z",
+      "dataDate": "2026-11-14发布，比较2026年11月上旬与10月下旬",
+      "metricDefinition": "全国流通领域九大类五十种重要生产资料市场价格监测；旬度环比不等于全部工业品价格或企业利润"
+    },
+    {
+      "label": "美国证券交易委员会：高管及董事薪酬披露改革提案",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "accessedAt": "2026-11-15T04:55:21.585Z",
+      "dataDate": "2026-11-13发布",
+      "metricDefinition": "高管及董事薪酬披露规则修订提案，仍处公开征求意见阶段；提案不等于最终规则"
+    },
+    {
+      "label": "J.L. Collins：Selecting Your Asset Allocation",
+      "url": "https://jlcollinsnh.com/2014/06/10/stocks-part-xxiii-selecting-your-asset-allocation/",
+      "accessedAt": "2026-11-15T04:55:21.585Z",
+      "dataDate": "2014-06-10发布，2025-05-12修订，2026-11-15完整阅读",
+      "metricDefinition": "以现金流阶段、执行成本和风险承受力讨论资产配置的完整论证单元；个人比例和美国账户示例不作为通用方案"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}

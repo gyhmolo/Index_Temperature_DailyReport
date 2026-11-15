@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "sourceReport": "daily/2026-11-15_中证500-休市_沪深300-休市_纳斯达克100-休市_标普500-休市/base",
+  "repository": "gyhmolo/Index_Temperature_DailyReport",
+  "branch": "main",
+  "publishedAt": "2026-11-15T05:01:46.974Z",
+  "localPathsRemoved": true,
+  "files": [
+    {
+      "path": "assets/feature-reading.css",
+      "sha256": "3bc2bcb4382728c8619f793422aa87c54c9c1cd066767ad8f786026dec2fb342",
+      "bytes": 2513
+    },
+    {
+      "path": "assets/reading-allocation-stages.png",
+      "sha256": "603467578a28e79c914b277dc2ce55928d6d32821999951be7a5bf7f9ac3be25",
+      "bytes": 2652969
+    },
+    {
+      "path": "assets/report.css",
+      "sha256": "e8ab493b6e8c27622dd300ca8b51eb9749f03a1df49645621078f2be0f7c8adc",
+      "bytes": 5551
+    },
+    {
+      "path": "index.html",
+      "sha256": "6a8d456114eb535d470ce7c50374f399883ace4392be73046875b78209cfda8b",
+      "bytes": 6585
+    },
+    {
+      "path": "market-data.json",
+      "sha256": "21d2d43e12368e6ab965d4cb4e920f44c92100ca673e6e0eadab31a1d6a4d442",
+      "bytes": 10893
+    },
+    {
+      "path": "sources.md",
+      "sha256": "4ec8aa0a29cc3f3b76bcf7db94dfb4bdf098faae5531839b3924caed1c6e6deb",
+      "bytes": 2072
+    },
+    {
+      "path": "summary.md",
+      "sha256": "0ff5fd4d1e3302758e77802c9d8c2cd1f0b7570ab838267716168e56bcf1f64f",
+      "bytes": 1827
+    }
+  ]
+}
