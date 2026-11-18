@@ -1,0 +1,301 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T05:07:21Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年11月18日为星期三。上交所、深交所2026年休市安排显示，当日不在节假日休市区间，因此为A股交易日。报告生成时A股尚未收盘；NYSE与Nasdaq休市日历显示11月17日不属于股票市场休市日，且美股常规交易已于北京时间11月18日05:00结束，四个指数最近已完成交易日均为2026年11月17日。"
+  },
+  "advice": {
+    "book": "读书记忆：持有、再平衡和新增投入是三个决策",
+    "principle": "继续持有是在检查原有资产暴露是否仍适合；再平衡是在恢复既定风险预算；投入新增现金还要核对资金期限、流动性和风险能力。避免情绪化卖出不自动要求增加风险。",
+    "do": "今天分别记录三类决定：原有持仓是否仍符合期限和风险预算、组合是否偏离既定配置、可用于长期目标的新增现金是否满足流动性条件。只按既定金额处理纳斯达克一百和标普五百的定投信号，中证五百和沪深三百维持持有记录。",
+    "dont": "不要因为美国工业产出下降、进口价格上涨或中国投资数据偏弱，就同时改变持有、再平衡和新增投入三类决定；也不要把定投信号解释为提高金额、借钱投入或押注短期反弹。",
+    "context": "事实：中国一至十月份固定资产投资同比下降百分之八点一，社会消费品零售总额增长百分之一；美国十月工业产出环比下降百分之零点四，进口价格上涨百分之一点一。推断：企业需求、产能利用和成本压力可能继续分化。不能据此判断：这些总量数据不能单独预测四个宽基指数方向，也不改写预先设定的PE分位规则。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-17",
+      "expectedDataDate": "2026-11-17",
+      "fetchedAt": "2026-11-18T05:05:06.629Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-17"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-17",
+          "pe": 26.7504,
+          "pb": 1.9573,
+          "fetchedAt": "2026-11-18T05:05:06.629Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 26.7504,
+      "pePercentile": 0.5687984496124031,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-22",
+      "pb": 1.9573,
+      "pbPercentile": 0.5348837209302325,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-22",
+      "temperature": 0.5518410852713178,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 56.9% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-17",
+      "expectedDataDate": "2026-11-17",
+      "fetchedAt": "2026-11-18T05:05:07.279Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-17"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-17",
+          "pe": 13.4313,
+          "pb": 1.3338,
+          "fetchedAt": "2026-11-18T05:05:07.279Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4313,
+      "pePercentile": 0.6463178294573644,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-22",
+      "pb": 1.3338,
+      "pbPercentile": 0.19864341085271317,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-22",
+      "temperature": 0.4224806201550388,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 64.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-17",
+      "expectedDataDate": "2026-11-17",
+      "fetchedAt": "2026-11-18T05:05:07.228Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-17"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-17",
+          "pe": 25.4871,
+          "pb": 7.9078,
+          "fetchedAt": "2026-11-18T05:05:07.228Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.4871,
+      "pePercentile": 0.14688715953307394,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-11-22",
+      "pb": 7.9078,
+      "pbPercentile": 0.5301556420233463,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-11-22",
+      "temperature": 0.33852140077821014,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 14.7% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-17",
+      "expectedDataDate": "2026-11-17",
+      "fetchedAt": "2026-11-18T05:05:07.176Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-17"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-17",
+          "pe": 22.648,
+          "pb": 5.1123,
+          "fetchedAt": "2026-11-18T05:05:07.176Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 22.648,
+      "pePercentile": 0.2374031007751938,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-22",
+      "pb": 5.1123,
+      "pbPercentile": 0.8284883720930233,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-22",
+      "temperature": 0.5329457364341086,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 23.7% 分位，命中“定投”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国消费与资本开支",
+      "headline": "投资下降，消费保持低速增长",
+      "implication": "事实：国家统计局公布，一至十月份固定资产投资同比下降百分之八点一，民间投资下降百分之十一点四；同期社会消费品零售总额同比增长百分之一，十月份增长百分之零点四。推断：投资与消费对企业订单、收入和现金流的支持仍有分化，行业盈利修复可能不同步。不能据此判断：总量增速不能替代公司基本面核验，也不能单独预测宽基指数方向。",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965841.html"
+    },
+    {
+      "market": "美国产出与贸易价格",
+      "headline": "工业产出下降，进出口价格同时上涨",
+      "implication": "事实：美联储公布，美国十月工业产出环比下降百分之零点四，产能利用率降至百分之七十六点四；美国劳工统计局公布，十月进口价格和出口价格均环比上涨百分之一点一。推断：产出放缓与价格压力并存，企业销量、利润率和贴现率预期可能受到不同方向影响。不能据此判断：单月数据不能确定美联储后续路径，也不能直接推出美国宽基指数涨跌。",
+      "url": "https://www.federalreserve.gov/releases/g17/Current/"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-18:2669689984",
+    "sourceType": "blog",
+    "title": "把理财复杂度放在开始，而不是每天",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2011-06-08，2023-09-06修订",
+    "sourceUrl": "https://jlcollinsnh.com/2011/06/08/how-i-failed-my-daughter-and-a-simple-path-to-wealth/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：多数人不愿每天研究和管理投资，因此可持续的系统应先处理债务、储蓄、资金期限和资产暴露，再把日常选择压缩成少数能够复核的默认规则。简单路径的价值在于减少持续决策与情绪干扰，不是用一个产品替代风险判断。",
+    "takeaways": [
+      "先让每笔收入的一部分进入储蓄，并避免高成本债务侵蚀现金流和选择权。",
+      "用低成本、广泛分散且能理解的资产承接长期资金，减少选股、择时和频繁切换。",
+      "预先接受市场会大幅波动；是否持有、再平衡或投入新增资金，仍要分别检查期限、流动性和风险预算。"
+    ],
+    "fit": [
+      "FIRE与现金流",
+      "长期指数投资",
+      "行为纪律",
+      "家庭财务"
+    ],
+    "concept": {
+      "title": "决策摩擦",
+      "explanation": "每个反复出现的投资选择都会消耗注意力，并增加追涨杀跌、忽略成本或临时改规则的机会。把债务、储蓄、资产暴露和复核条件预先写成少数默认规则，可以降低持续决策次数，同时保留必要的审计与暂停条件。",
+      "applicability": "适用于资金期限、应急流动性、风险预算和底层资产已经明确，且默认规则能够定期复核的长期系统。原文以美国全市场基金、美国账户和作者家庭为背景；中国投资者仍要按当前基金结构、费率、税务、申赎、汇率和跨境额度核验工具。",
+      "misconception": "把简单理解成只买一个代码、永不复核，或照搬作者提出的具体储蓄率、基金、分红和住房判断。简单减少的是不必要的重复决策，不是取消产品风险、家庭约束和制度边界。"
+    },
+    "quote": "I just don't want to have to think about it and manage it.",
+    "application": "今天中国投资、美国工业产出和贸易价格给出方向不同的事实，四个指数也产生两种机械信号。把新闻解释、原有持仓、再平衡和新增投入分开处理，正是降低决策摩擦的做法。",
+    "dont": "不要把作者面向女儿的个人方案直接复制到中国账户，也不要因为追求简单就忽略费用、流动性、税务、汇率、产品结构或家庭风险能力。",
+    "images": [
+      {
+        "filename": "reading-rules-reduce-friction.png",
+        "alt": "从整理现金流、建立分散资产篮子到在波动中按规则行动的三阶段插图",
+        "caption": "三格依次表示建立财务底座、减少投资决策和在波动中执行规则。第一格先把必要支出、流动缓冲与长期储蓄分开，并让债务负担下降；第二格只让长期资金进入低成本、广泛分散且能理解的资产篮子；第三格面对市场起伏时，按事先写好的检查清单区分持有、再平衡和新增投入。画面不包含真实收益、估值或产品数据。",
+        "steps": [
+          "先整理收入、必要支出、债务和可用缓冲，确认长期资金的边界。",
+          "再选择可解释、低成本、广泛分散的资产暴露，把反复选择压缩成默认规则。",
+          "最后在市场波动时读取同一份规则清单，按条件复核，而不是跟随新闻临时改向。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-18T05:03:44.795Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://www.szse.cn/English/services/trading/calendar/",
+      "accessedAt": "2026-11-18T05:03:44.795Z",
+      "dataDate": "2026年交易日历",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年市场日历",
+      "url": "https://nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-11-18T05:03:44.795Z",
+      "dataDate": "2026年市场日历",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-11-18T05:03:44.795Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-11-18T05:05:07.279Z",
+      "dataDate": "2026-11-17",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年1至10月份全国固定资产投资基本情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965841.html",
+      "accessedAt": "2026-11-18T05:06:00Z",
+      "dataDate": "2026-11-16发布，数据对应2026年1至10月及10月",
+      "metricDefinition": "固定资产投资、民间投资与分行业投资同比和环比；可比口径总量不代表单家公司资本开支"
+    },
+    {
+      "label": "国家统计局：2026年1至10月份社会消费品零售总额",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965839.html",
+      "accessedAt": "2026-11-18T05:06:00Z",
+      "dataDate": "2026-11-16发布，数据对应2026年1至10月及10月",
+      "metricDefinition": "社会消费品零售总额名义同比与分类数据；统计范围调整和价格因素影响需结合附注理解"
+    },
+    {
+      "label": "美联储：2026年10月工业生产和产能利用率",
+      "url": "https://www.federalreserve.gov/releases/g17/Current/",
+      "accessedAt": "2026-11-18T05:06:00Z",
+      "dataDate": "2026-11-17发布，数据对应2026年10月",
+      "metricDefinition": "季节调整后的工业产出环比、同比和产能利用率；总量不等于单家公司产出"
+    },
+    {
+      "label": "美国劳工统计局：2026年10月进出口价格指数",
+      "url": "https://www.bls.gov/news.release/archives/ximpim_11172026.htm",
+      "accessedAt": "2026-11-18T05:06:00Z",
+      "dataDate": "2026-11-17发布，数据对应2026年10月",
+      "metricDefinition": "进口与出口价格指数环比；不直接等同于消费者价格、企业利润率或货币政策路径"
+    },
+    {
+      "label": "J.L. Collins：How I Failed My Daughter and a Simple Path to Wealth",
+      "url": "https://jlcollinsnh.com/2011/06/08/how-i-failed-my-daughter-and-a-simple-path-to-wealth/",
+      "accessedAt": "2026-11-18T05:05:30Z",
+      "dataDate": "2011-06-08发布，2023-09-06修订，2026-11-18完整阅读",
+      "metricDefinition": "面向不愿频繁管理投资者的简化路径；具体储蓄率、美国基金、住房、分红和取现判断属于作者个人语境"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
