@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T05:07:10Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年11月20日为星期五。上交所、深交所2026年休市安排显示，当日不在节假日休市区间，因此为A股交易日。报告生成时A股尚未收盘；NYSE与Nasdaq休市日历显示11月19日不属于股票市场休市日，且美股常规交易已于北京时间11月20日05:00结束，四个指数最近已完成交易日均为2026年11月19日。"
+  },
+  "advice": {
+    "book": "读书记忆：资金期限决定资产角色",
+    "principle": "资产的安全性只能相对于资金何时要用、到期时能否取出和可承受的损失来判断。近期刚性支出、过渡资金与长期权益资金应分开；期限匹配比追逐单项收益更接近家庭资产配置的根因。",
+    "do": "今天把未来已知支出按实际需要日期和可延后程度列成清单，先确认短期资金不会被占用。只有满足长期期限、流动性和风险能力的新增现金，才按既定金额处理纳斯达克一百与标普五百定投信号；中证五百与沪深三百维持持有记录。",
+    "dont": "不要因为纳斯达克一百和标普五百进入定投区间，就把近期房租、医疗、教育或其他刚性支出移入权益资产；也不要把中国贷款市场报价利率不变或美联储会议纪要单独解释为指数短期方向。",
+    "context": "事实：中国一年期和五年期以上贷款市场报价利率分别维持百分之三和百分之三点五；美联储十月会议维持联邦基金利率目标区间在百分之三点七五至百分之四，多数与会者支持等待更多信息，几乎所有与会者判断基准情形下进一步加息可能适当。推断：中美贴现率环境仍有差异，美国利率上行风险尚未消失。不能据此判断：政策基准不能替代家庭资金期限、企业实际融资成本或宽基指数方向。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-19",
+      "expectedDataDate": "2026-11-19",
+      "fetchedAt": "2026-11-20T05:04:33.579Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-19",
+          "pe": 26.6859,
+          "pb": 1.9527,
+          "fetchedAt": "2026-11-20T05:04:33.579Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 26.6859,
+      "pePercentile": 0.5687984496124031,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-21",
+      "pb": 1.9527,
+      "pbPercentile": 0.5339147286821705,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-21",
+      "temperature": 0.5513565891472868,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 56.9% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-19",
+      "expectedDataDate": "2026-11-19",
+      "fetchedAt": "2026-11-20T05:04:33.535Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-19",
+          "pe": 13.4867,
+          "pb": 1.3393,
+          "fetchedAt": "2026-11-20T05:04:33.535Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.4867,
+      "pePercentile": 0.6579457364341085,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-21",
+      "pb": 1.3393,
+      "pbPercentile": 0.20833333333333334,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-21",
+      "temperature": 0.4331395348837209,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 65.8% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-19",
+      "expectedDataDate": "2026-11-19",
+      "fetchedAt": "2026-11-20T05:04:33.782Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-19",
+          "pe": 25.0024,
+          "pb": 7.7438,
+          "fetchedAt": "2026-11-20T05:04:33.782Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.0024,
+      "pePercentile": 0.12354085603112841,
+      "peSampleCount": 514,
+      "peHistoryStartDate": "2016-11-21",
+      "pb": 7.7438,
+      "pbPercentile": 0.5068093385214008,
+      "pbSampleCount": 514,
+      "pbHistoryStartDate": "2016-11-21",
+      "temperature": 0.3151750972762646,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 12.4% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-19",
+      "expectedDataDate": "2026-11-19",
+      "fetchedAt": "2026-11-20T05:04:33.623Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-19"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-19",
+          "pe": 22.136,
+          "pb": 4.9952,
+          "fetchedAt": "2026-11-20T05:04:33.623Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 22.136,
+      "pePercentile": 0.21414728682170542,
+      "peSampleCount": 516,
+      "peHistoryStartDate": "2016-11-21",
+      "pb": 4.9952,
+      "pbPercentile": 0.8052325581395349,
+      "pbSampleCount": 516,
+      "pbHistoryStartDate": "2016-11-21",
+      "temperature": 0.5096899224806202,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 21.4% 分位，命中“定投”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国贷款定价基准",
+      "headline": "一年期与五年期以上LPR保持不变",
+      "implication": "事实：全国银行间同业拆借中心公布，十一月二十日一年期贷款市场报价利率为百分之三，五年期以上为百分之三点五，均与十月相同。推断：本月LPR没有向企业和居民贷款定价增加新的基准重定价。不能据此判断：实际贷款利率仍取决于银行加点、借款人信用和期限，LPR不变不能单独证明企业融资成本或A股盈利将保持不变。",
+      "url": "https://www.chinamoney.com.cn/chinese/bklpr/"
+    },
+    {
+      "market": "美国货币政策",
+      "headline": "美联储会议纪要保留进一步加息倾向",
+      "implication": "事实：十月二十七日至二十八日会议以十票对两票维持联邦基金利率目标区间在百分之三点七五至百分之四；纪要显示多数与会者支持等待更多信息，几乎所有与会者判断基准情形下进一步加息可能适当。推断：美国企业融资与权益估值面临的贴现率压力尚未消失。不能据此判断：会议纪要基于当时信息，不能确定十二月行动，也不能直接预测纳斯达克一百或标普五百方向。",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-20:422033491",
+    "sourceType": "book",
+    "title": "先看用钱时间，再决定资产角色",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第7章，PDF 297-321页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：家庭资产配置应先按资金何时需要使用来区分角色，再选择工具。原文把随时要用、中短期与长期资金分别交给不同类型资产；可迁移的重点不是旧产品清单或固定比例，而是让资产可用时点、波动和家庭负债期限相匹配。",
+    "takeaways": [
+      "近期确定支出先保证实际可取，不以短期收益替代到账时间和本金波动检查。",
+      "中期资金与长期权益资金承担的风险不同，不能因为某类资产估值较低就混用。",
+      "原文的年龄公式、历史收益、产品门槛和到账速度是成书时快照，今天需要按现行披露重新核验。"
+    ],
+    "fit": [
+      "家庭财务",
+      "资产配置",
+      "风险控制",
+      "长期指数投资"
+    ],
+    "concept": {
+      "title": "资产负债期限匹配",
+      "explanation": "先把未来支出按必须用钱的日期排列，再让承接它的资产在相同或更早时点能够变现，并控制到期前可能出现的价格、信用和流动性损失。期限越短，越不能依赖权益资产的长期平均回报来覆盖刚性支出。",
+      "applicability": "适用于金额、用途、到期日和可延后程度能够列清的家庭资金。中国账户要核对货币基金快速赎回限额、债券基金久期和信用、银行理财净值波动、节假日到账及费用；持有美国资产还要增加交易时差、汇率、跨境额度、税务与账户制度边界。",
+      "misconception": "把货币基金当作保本现金、把债券基金当作有确定到期日的存款，或认为资金只要计划持有数年就一定适合股票。工具名称不能替代对到账时点、净值波动和家庭风险能力的检查。"
+    },
+    "quote": "需要根据资金的不同使用时间来投资不同的投资品种。",
+    "application": "今天两个美国指数触发定投，而中证五百和沪深三百维持持有；同时中美利率信息给出不同约束。先把近期支出与长期新增现金分开，能够防止机械信号越过家庭资金期限。",
+    "dont": "不要照搬书中的年龄公式、历史收益率、具体产品、到账速度或牛市卖出安排，也不要把债券与货币工具视为无风险。",
+    "images": [
+      {
+        "filename": "reading-match-money-to-time.png",
+        "alt": "把近期、中期与长期资金分成三个用途池的三阶段插图",
+        "caption": "三格按用钱时间展开。左侧把近期账单与随时可用的资金放在一起，先保证到账和流动性；中间用桥梁与利率跷跷板表示中期资金仍要承受期限、利率和信用变化；右侧用多行业资产篮子与长期生长的树林表示长期资金可以承受更长波动，但仍需分散和定期复核。画面不包含真实产品、收益或估值数据。",
+        "steps": [
+          "先列出近期刚性支出的金额、日期和可延后程度，确认资金到期前能够使用。",
+          "再把中期资金与长期资金分开，分别检查利率、信用、流动性和价格波动。",
+          "最后只让真正长期且能承受回撤的资金承担权益风险，并保留复核条件。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-20T05:03:11.313Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年交易日历",
+      "url": "https://www.szse.cn/English/services/trading/calendar/",
+      "accessedAt": "2026-11-20T05:03:11.313Z",
+      "dataDate": "2026年交易日历",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "Nasdaq Trader：2026年市场日历",
+      "url": "https://nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-11-20T05:03:11.313Z",
+      "dataDate": "2026年市场日历",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-11-20T05:03:11.313Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-11-20T05:04:33.782Z",
+      "dataDate": "2026-11-19",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "中国货币网：2026年11月贷款市场报价利率",
+      "url": "https://www.chinamoney.com.cn/chinese/bklpr/",
+      "accessedAt": "2026-11-20T05:06:00Z",
+      "dataDate": "2026-11-20 09:00发布",
+      "metricDefinition": "全国银行间同业拆借中心计算发布的一年期与五年期以上LPR；贷款实际利率仍包含银行加点"
+    },
+    {
+      "label": "美联储：2026年10月27至28日FOMC会议纪要",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+      "accessedAt": "2026-11-20T05:06:00Z",
+      "dataDate": "2026-11-18发布，会议日期为2026-10-27至2026-10-28",
+      "metricDefinition": "会议参与者当时掌握信息下的政策讨论与投票；不等同于未来行动承诺"
+    },
+    {
+      "label": "《指数基金投资指南》：做好家庭资产配置",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-11-20T05:06:40Z",
+      "dataDate": "第7章，PDF 297-321页，2026-11-20完整阅读",
+      "metricDefinition": "中国市场旧版家庭资产配置论证；产品、费率、收益、到账与比例数字均为历史材料，当前应用需重新核验"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
