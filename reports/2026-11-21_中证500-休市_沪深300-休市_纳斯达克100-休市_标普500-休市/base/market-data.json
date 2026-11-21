@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T04:58:54.814Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": false,
+    "description": "2026年11月21日为星期六。上海证券交易所和深圳证券交易所的交易日均为每周一至周五，周末休市。今天不抓取四个指数估值，不创建估值日历或重试状态；对外内容只保留可核验的重要新闻和好文精读。"
+  },
+  "advice": {
+    "book": "非交易日结构兼容字段",
+    "principle": "非交易日正文不渲染建议区。",
+    "do": "非交易日正文不渲染建议区。",
+    "dont": "非交易日正文不渲染建议区。",
+    "context": "该字段仅用于结构兼容，非交易日日报不渲染投资建议或生活建议。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易规则与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "上海证券交易所、深圳证券交易所2026年交易规则与休市安排",
+      "metricDefinition": "周末休市，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "A股周末休市，不生成新的指数行为。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "closed",
+      "action": "休市",
+      "dataDate": null,
+      "expectedDataDate": null,
+      "source": "A股非交易日日报规则；美国市场亦为周末",
+      "metricDefinition": "A股非交易日不抓取四指数估值，不计算PE、PB及历史分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [],
+      "observations": [],
+      "pe": null,
+      "pePercentile": null,
+      "pb": null,
+      "pbPercentile": null,
+      "temperature": null,
+      "reason": "今天为A股非交易日日报，不生成新的指数行为。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国贷款市场报价利率",
+      "headline": "中国货币网公布十一月贷款市场报价利率",
+      "implication": "事实：中国货币网于十一月二十日公布，一年期贷款市场报价利率为百分之三，五年期以上为百分之三点五。推断：这两个报价继续为银行贷款定价与企业、家庭融资成本提供参考。不能据此判断：报价利率不等于每笔实际贷款利率，也不能单独证明后续货币政策或资产价格方向。",
+      "url": "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/bk-lpr.json"
+    },
+    {
+      "market": "美国通胀与货币政策",
+      "headline": "美联储理事库克强调通胀压力并主张进一步加息",
+      "implication": "事实：美联储理事库克于十一月二十日表示，十月个人消费支出价格指数同比估算为百分之三点八、核心指标为百分之三点二；她披露自己在十月会议中倾向加息四分之一个百分点。推断：这体现一名决策者对通胀和金融条件的偏鹰判断，贴现率不确定性仍在。不能据此判断：讲话代表个人观点，不等于联邦公开市场委员会已经决定下一步利率路径。",
+      "url": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-21:405255872",
+    "sourceType": "book",
+    "title": "先把规则写下，再面对波动",
+    "sourceName": "《指数基金投资指南》",
+    "author": "银行螺丝钉",
+    "locator": "第8章「长期投资的心理建设」，PDF 322-362页",
+    "sourceUrl": "#local-source-not-published",
+    "sourceLabel": "打开本地原书",
+    "summary": "核心主张：长期决策的难点常在执行而非口号；把时间、条件、动作和退出标准写成可复核规则，可以减少恐慌与贪婪对当下选择的干扰。章节用估值定投、市场暴跌和长期持有说明这一点，但书中的历史收益、周期长度和普适性表述属于旧样本或作者主张，不能当成当前预测。",
+    "takeaways": [
+      "一份可执行计划要写清判断条件与对应动作，让其他人依据同一信息也能得到接近的结果。",
+      "短期涨跌更多反映交易供求，低估或高估标签不能自动给出短期方向和时间点。",
+      "纪律只在前提仍成立时有意义；收入、流动性、产品结构和市场制度变化都可能要求重新核验。"
+    ],
+    "fit": [
+      "长期指数投资",
+      "行为纪律",
+      "风险控制",
+      "证据边界"
+    ],
+    "concept": {
+      "title": "预先承诺机制",
+      "explanation": "人在平静状态下先写明事实口径、触发条件、动作与失效条件，波动出现时只核对规则是否满足，从而减少情绪状态对决策标准的临时改写。",
+      "applicability": "适合有重复判断、可核验数据和明确失效条件的决策。中国与美国市场的交易制度、税务、账户和产品流动性不同，书面规则必须分别依据当期制度校验，不能把一地历史经验直接迁移到另一地。",
+      "misconception": "常见误区是把写下来的规则当成已经验证有效，或因强调纪律而忽略数据口径、家庭现金流与底层工具发生的变化。"
+    },
+    "quote": "低估是一个区域，不是一个点。",
+    "application": "贷款市场报价利率与美联储理事讲话提供的是不同层级的事实：前者是当日公开报价，后者是一名决策者的政策判断。章节的连接在于先分开事实、推断和规则，再判断旧前提是否仍成立；它不把任何单条消息直接转换为行动。",
+    "dont": "边界：书面计划不能替代数据口径、失效条件或账户制度核验；章节中的历史收益和周期长度不作为当前预测。",
+    "images": [
+      {
+        "filename": "reading-written-rules.png",
+        "alt": "市场波动中用书面规则隔离情绪与行动的三阶段插图",
+        "caption": "左侧表示抽象市场波动引发紧张；中间表示把事实口径、触发条件与动作写成清单；右侧表示市场仍在波动，但执行标准没有随情绪临时改变。画面不包含真实行情、产品或收益承诺。",
+        "steps": [
+          "先识别波动触发的情绪和临时冲动。",
+          "再核对预先写明的事实口径、触发条件与失效条件。",
+          "最后按仍然有效的规则执行，并把结果留待复核。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-21T04:58:54.814Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "交易日为每周一至周五，周末及公告休市日休市"
+    },
+    {
+      "label": "深圳证券交易所：2026年修订交易规则",
+      "url": "https://docs.static.szse.cn/www/lawrules/rule/trade/W020260424690713155663.pdf",
+      "accessedAt": "2026-11-21T04:58:54.814Z",
+      "dataDate": "2026年修订交易规则",
+      "metricDefinition": "2.3.1条：交易日为每周一至周五，国家法定假日和本所公告休市日休市"
+    },
+    {
+      "label": "中国货币网：2026年11月贷款市场报价利率",
+      "url": "https://www.chinamoney.com.cn/r/cms/www/chinamoney/data/currency/bk-lpr.json",
+      "accessedAt": "2026-11-21T04:58:54.814Z",
+      "dataDate": "2026-11-20 09:00发布",
+      "metricDefinition": "一年期和五年期以上贷款市场报价利率；公开报价不等于每笔实际贷款利率"
+    },
+    {
+      "label": "美联储：库克理事谈美国经济与货币政策",
+      "url": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+      "accessedAt": "2026-11-21T04:58:54.814Z",
+      "dataDate": "2026-11-20发布",
+      "metricDefinition": "美联储理事个人讲话；通胀数据为讲话中的当时估算，政策倾向不等于委员会决定"
+    },
+    {
+      "label": "《指数基金投资指南》：长期投资的心理建设",
+      "url": "#local-source-not-published",
+      "accessedAt": "2026-11-21T04:58:54.814Z",
+      "dataDate": "第8章，PDF 322-362页，2026-11-21完整阅读",
+      "metricDefinition": "以书面计划、市场波动与持有心理讨论长期执行的完整论证单元；历史收益、周期与普适性表述保留时点和证据边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
