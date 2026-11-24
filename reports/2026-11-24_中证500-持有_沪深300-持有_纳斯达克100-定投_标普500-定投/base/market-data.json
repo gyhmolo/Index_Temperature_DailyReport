@@ -1,0 +1,288 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T05:04:11Z",
+  "title": "每日指数估值与行动提醒",
+  "marketDay": {
+    "aShare": true,
+    "description": "2026年11月24日为星期二。上交所和深交所2026年休市安排显示，当日不在节假日休市区间，因此为A股交易日。报告生成时A股尚未收盘；NYSE与Nasdaq休市日历显示11月23日不属于美国股票市场休市日，四个指数最近已完成交易日均为2026年11月23日。"
+  },
+  "advice": {
+    "book": "读书记忆：先稳住固定承诺，再积累选择权",
+    "principle": "财务自由不是由一个固定储蓄比例或截止日保证，而是把收入、支出、债务和职业能力逐步转成选择权。长期固定支出同时压缩当期现金流并抬高未来所需资产，因此先辨认不可逆承诺，再决定新增资金承担多少权益风险。",
+    "do": "今天选一项持续性支出，写下年度金额、能否取消以及它是否换来真实使用价值。中证五百与沪深三百维持持有记录；纳斯达克一百与标普五百的定投信号只作用于满足长期期限、流动性和风险能力条件的既定新增资金。",
+    "dont": "不要照搬作者的储蓄比例、十年期限、二十五倍支出或美国账户安排，也不要因为两个指数进入定投区间就借钱、动用近期刚性支出资金或追买不熟悉的承载产品。",
+    "context": "事实：国家统计局披露，一至十月房地产开发投资同比下降百分之二十一点六，开发企业到位资金下降百分之二十一点九；美联储十月会议维持联邦基金利率目标区间在百分之三点七五至百分之四，十一月公布的会议纪要显示，几乎所有与会者认为基线情景下进一步加息可能适当。推断：国内地产链现金流仍承压，美国贴现率约束仍强。不能据此判断：这些宏观事实不能单独决定四个指数的短期方向，也不能替代家庭现金流和产品层核验。"
+  },
+  "indices": [
+    {
+      "code": "SH000905",
+      "name": "中证500",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-23",
+      "expectedDataDate": "2026-11-23",
+      "fetchedAt": "2026-11-24T05:02:00.431Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-23"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-23",
+          "pe": 26.18,
+          "pb": 1.9159,
+          "fetchedAt": "2026-11-24T05:02:00.431Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 26.18,
+      "pePercentile": 0.529126213592233,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-11-28",
+      "pb": 1.9159,
+      "pbPercentile": 0.49902912621359224,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-11-28",
+      "temperature": 0.5140776699029126,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 52.9% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "SH000300",
+      "name": "沪深300",
+      "status": "valid",
+      "delayed": false,
+      "action": "持有",
+      "dataDate": "2026-11-23",
+      "expectedDataDate": "2026-11-23",
+      "fetchedAt": "2026-11-24T05:02:00.323Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-23"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-23",
+          "pe": 13.43,
+          "pb": 1.334,
+          "fetchedAt": "2026-11-24T05:02:00.323Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 13.43,
+      "pePercentile": 0.6456310679611651,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-11-28",
+      "pb": 1.334,
+      "pbPercentile": 0.20097087378640777,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-11-28",
+      "temperature": 0.42330097087378643,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 64.6% 分位，命中“持有”区间。"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克100",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-23",
+      "expectedDataDate": "2026-11-23",
+      "fetchedAt": "2026-11-24T05:02:00.378Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-23"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-23",
+          "pe": 25.312,
+          "pb": 7.839,
+          "fetchedAt": "2026-11-24T05:02:00.378Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 25.312,
+      "pePercentile": 0.14132553606237816,
+      "peSampleCount": 513,
+      "peHistoryStartDate": "2016-11-28",
+      "pb": 7.839,
+      "pbPercentile": 0.5194931773879142,
+      "pbSampleCount": 513,
+      "pbHistoryStartDate": "2016-11-28",
+      "temperature": 0.3304093567251462,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 14.1% 分位，命中“定投”区间。"
+    },
+    {
+      "code": "SP500",
+      "name": "标普500",
+      "status": "valid",
+      "delayed": false,
+      "action": "定投",
+      "dataDate": "2026-11-23",
+      "expectedDataDate": "2026-11-23",
+      "fetchedAt": "2026-11-24T05:02:00.484Z",
+      "source": "雪球基金（近10年历史样本，项目本地重算分位）",
+      "metricDefinition": "静态 PE/PB；近10年历史样本本地重算分位",
+      "calculationMethod": "latest_completed_day",
+      "sourceDelayedAtCutoff": false,
+      "retryCount": 0,
+      "observationDates": [
+        "2026-11-23"
+      ],
+      "observations": [
+        {
+          "dataDate": "2026-11-23",
+          "pe": 22.3535,
+          "pb": 5.0446,
+          "fetchedAt": "2026-11-24T05:02:00.484Z",
+          "source": "雪球基金"
+        }
+      ],
+      "pe": 22.3535,
+      "pePercentile": 0.22233009708737864,
+      "peSampleCount": 515,
+      "peHistoryStartDate": "2016-11-28",
+      "pb": 5.0446,
+      "pbPercentile": 0.8145631067961165,
+      "pbSampleCount": 515,
+      "pbHistoryStartDate": "2016-11-28",
+      "temperature": 0.5184466019417476,
+      "delayReasons": [],
+      "reason": "当前 PE 位于近10年历史的 22.2% 分位，命中“定投”区间。"
+    }
+  ],
+  "events": [
+    {
+      "market": "中国盈利与现金流",
+      "headline": "房地产开发投资和到位资金仍同比下降",
+      "implication": "事实：国家统计局披露，一至十月全国房地产开发投资五万七千二百一十五亿元，同比下降百分之二十一点六；开发企业到位资金六万一千五百三十亿元，下降百分之二十一点九。推断：地产开发及其上下游的订单与现金流约束仍在。不能据此判断：总量数据不能证明所有行业或指数成份企业盈利同步下降，也不能单独给出指数买卖结论。",
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261116_1965840.html"
+    },
+    {
+      "market": "美国贴现率",
+      "headline": "美联储纪要显示多数与会者仍偏向进一步收紧",
+      "implication": "事实：美联储十月会议维持联邦基金利率目标区间在百分之三点七五至百分之四；十一月十八日公布的会议纪要称，几乎所有与会者认为在基线通胀和就业前景下，进一步提高目标区间可能适当。推断：较高无风险利率继续抬高美股估值的贴现率门槛。不能据此判断：会议纪要不是下一次决议承诺，也不能证明纳斯达克一百或标普五百会短期下跌。",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+    }
+  ],
+  "reading": {
+    "status": "live",
+    "selectionId": "2026-11-24:489143967",
+    "sourceType": "blog",
+    "title": "十年计划的核心，是增加选择权",
+    "sourceName": "J.L. Collins Stock Series",
+    "author": "J.L. Collins",
+    "locator": "官网文章，发布于2013年6月4日，2023年7月21日修订",
+    "sourceUrl": "https://jlcollinsnh.com/2013/06/04/my-path-for-my-kid-the-first-10-years/",
+    "sourceLabel": "阅读官网原文",
+    "summary": "核心主张：职业早期先避开高成本债务和难以撤销的生活方式承诺，同时建设职业能力、储蓄与长期投资，让资产增长服务于未来的工作、休息、学习和家庭选择。作者给出的比例与年限是强烈的个人方案，不是普适保证。",
+    "takeaways": [
+      "职业能力、声誉和储蓄率是早期可控变量；市场回报会影响速度，但不应被写成确定时间表。",
+      "生活方式膨胀会形成持续支出，它既减少当期可投入现金，也抬高未来维持同一生活水平所需的资产。",
+      "财务独立的价值在于增加选择，不是自动停止工作；继续工作、转换方向或照护家庭都应由个人目标决定。"
+    ],
+    "fit": [
+      "FIRE",
+      "家庭财务",
+      "行为纪律",
+      "专业知识讲解"
+    ],
+    "concept": {
+      "title": "固定支出的目标放大效应",
+      "explanation": "作者用年度支出的二十五倍作为财务独立启发式。按这项简化假设，每增加一元长期年度支出，目标资产会增加二十五元；持续支出既影响今天的储蓄，也通过目标支出放大未来资金需求。这个关系是规划工具，不是收益或安全承诺。",
+      "applicability": "适合比较可持续、可重复的生活方式承诺，例如住房、车辆、订阅和长期照护安排。前提是先区分必要支出与可调支出，并承认投资回报、通胀、职业现金流和支取期限会变化。中国家庭还要核对社保、医疗、住房与税务；美国的四零一计划、个人退休账户和支取税制不能直接移植。",
+      "misconception": "把储蓄一半、十年达成或二十五倍支出当成适用于所有人的公式。作者自己也说明回报假设和四百分比支取只是指引；目标年限会随收入、支出、市场路径、费用和家庭责任改变。"
+    },
+    "quote": "It is your future that matters.",
+    "application": "今天的国内地产现金流压力与美国利率约束方向不同，却共同提醒我们：宏观变量会变。更稳健的连接是先控制长期固定承诺、保留流动性，再让既定新增资金按指数规则执行。",
+    "dont": "不要复制作者为女儿设定的储蓄比例、账户顺序、单一基金、支取率或人生时间表，也不要把市场下跌自动解释成所有人都应增加风险。",
+    "images": [
+      {
+        "filename": "reading-ten-year-optionality.png",
+        "alt": "从避开债务到获得多种人生选择的四阶段插图",
+        "caption": "四格对应文章的四个论证单元。第一格先隔离债务陷阱并建立流动缓冲；第二格建设职业能力，同时保持生活承诺可逆；第三格把持续储蓄投入简单、分散的长期资产；第四格展示工作、休息、学习与照护家庭等多条路径，强调资产的用途是扩大选择。画面不包含真实产品、收益或估值数据。",
+        "steps": [
+          "先识别高成本债务和会锁死现金流的固定承诺。",
+          "再把时间投入职业能力、健康和可迁移声誉。",
+          "让储蓄和长期投资规则稳定运行，不用短期市场预测替代纪律。",
+          "定期复核新增选择是否来自真实现金流与资产，而不是新的不可逆支出。"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "上海证券交易所：2026年休市安排",
+      "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+      "accessedAt": "2026-11-24T05:00:00.859Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定"
+    },
+    {
+      "label": "深圳证券交易所：2026年休市安排及交易规则",
+      "url": "https://www.szse.cn/disclosure/notice/general/t20251222_618087.html",
+      "accessedAt": "2026-11-24T05:00:00.859Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "A股交易日判定；周一至周五为交易日，公告休市日除外"
+    },
+    {
+      "label": "Nasdaq Trader：2026年市场日历",
+      "url": "https://nasdaqtrader.com/Trader.aspx?id=Calendar",
+      "accessedAt": "2026-11-24T05:00:00.859Z",
+      "dataDate": "2026年市场日历",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "NYSE：2026年休市与交易时间",
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "accessedAt": "2026-11-24T05:00:00.859Z",
+      "dataDate": "2026年年度休市安排",
+      "metricDefinition": "美国交易日与最近已完成交易日判定"
+    },
+    {
+      "label": "雪球基金指数估值中心",
+      "url": "https://danjuanapp.com/djmodule/value-center",
+      "accessedAt": "2026-11-24T05:02:00.484Z",
+      "dataDate": "2026-11-23",
+      "metricDefinition": "静态PE/PB，近10年历史样本本地重算分位"
+    },
+    {
+      "label": "国家统计局：2026年1—10月份全国房地产市场基本情况",
+      "url": "https://www.stats.gov.cn/zwfwck/sjfb/202611/t20261116_1965840.html",
+      "accessedAt": "2026-11-24T05:04:11Z",
+      "dataDate": "2026-11-16发布，统计期为2026年1—10月",
+      "metricDefinition": "房地产开发投资、销售、到位资金及同比口径"
+    },
+    {
+      "label": "美联储：2026年10月27—28日FOMC会议纪要",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+      "accessedAt": "2026-11-24T05:04:11Z",
+      "dataDate": "2026-11-18发布，会议日期为2026-10-27至2026-10-28",
+      "metricDefinition": "联邦基金利率目标区间和与会者政策判断；不是未来决议承诺"
+    },
+    {
+      "label": "J.L. Collins：Financial Independence Checklist for College Graduates",
+      "url": "https://jlcollinsnh.com/2013/06/04/my-path-for-my-kid-the-first-10-years/",
+      "accessedAt": "2026-11-24T05:03:10Z",
+      "dataDate": "2013-06-04发布，2023-07-21修订，2026-11-24完整阅读",
+      "metricDefinition": "职业早期财务独立路径的作者主张；比例、回报、支取率与美国账户均有条件边界"
+    }
+  ],
+  "disclaimer": "规则结果不构成个性化投资建议。"
+}
